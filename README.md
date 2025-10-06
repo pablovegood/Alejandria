@@ -3,6 +3,9 @@
 **Alejandría** es una propuesta que busca emular el uso de una biblioteca pública convencional, 
 pero adaptada al entorno digital y con algunas modificaciones.
 
+El nombre es un homenaje a la biblioteca de Alejandría, que por desgracia se incendió y todo el 
+conocimiento allí almacenado se perdió.
+
 ---
 
 ## 🌐 Descripción general
