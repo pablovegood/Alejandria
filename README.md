@@ -45,11 +45,10 @@ Alejandría cuenta con **tres tipos de roles de usuario**, cada uno con permisos
 - Puede **actualizar los roles de los usuarios** según corresponda.  
 - Atiende **incidencias técnicas** o de gestión.
   
----
-
 Independientemente del rol que tengan los usuarios, todos podrán editar la mayoría 
 de datos de su perfil y comunicarse entre usuarios a través de mensajes internos. 
 
+---
 
 ## ☁️ Despliegue en la nube
 
