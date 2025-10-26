@@ -1,6 +1,6 @@
 import os
 import pytest
-from src.models.book import Book
+from models.book import Book
 
 
 @pytest.fixture

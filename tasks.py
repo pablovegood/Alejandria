@@ -1,4 +1,6 @@
 # pytest: skip-file
+import platform
+
 from invoke import task
 
 @task
@@ -13,5 +15,8 @@ def lint(c):
 
 @task(name="test")
 def run_tests(c):
-    """Ejecuta pytest."""
-    c.run("pytest -v --maxfail=1 --disable-warnings")
+    """Ejecuta pytest con soporte para imports de src/."""
+    import os
+    env = os.environ.copy()
+    env["PYTHONPATH"] = "src"
+    c.run("pytest -v --maxfail=1 --disable-warnings", env=env)
