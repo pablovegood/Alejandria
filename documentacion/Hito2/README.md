@@ -12,7 +12,17 @@ Finalmente, y sin querer adelantarme mucho, ni hacer demasiados *spoilers*, este
 
 ## Elección y uso de la biblioteca de aserciones
 
+He decidido usar **pytest** como biblioteca de aserciones para la verificación de resultados en los tests unitarios. ¿Por qué he usado **pytest**? Pues por su simplicidad y amplia adopción en el ecosistema Python y su compatibilidad con GitHub Actions e Invoke.
+
+No tiene perdida, se hacen uso de los métodos ya incluidos en la biblioteca para comprobar que dos resultados son iguales gracias a *self.assertEqual* lo cual facilita la legibilidad de código y mejora la mantenibilidad. Esta biblioteca sigue la filosofía de Test-Driven Development (TDD).
+
 ## Elección y uso del marco de pruebas
+
+El marco de pruebas elegido también ha sido pytest y las motivaciones detrás de esta elección no varían demasiado de las explicadas en el apartado anterior.
+
+**pytest** ofrece una sintaxis clara y directa, eliminando la necesidad de crear clases o heredar de estructuras complejas como, por ejemplo, en **unittest**. Esta curva de aprendizaje reducida permite al desarrollador centrarse en la lógica de verificación sin depender de configuraciones extensas. Además, no existe *boilerplate code* (código repetitivo).
+
+Por otro lado,  otra de las ventajas de **pytest**, es su sistema de *fixtures*, que oermite definir entornos de prueba reutilizables para inicializar objetos, cargar datos o configurar estados antes de cada test.
 
 ## Elección y funcionamiento del sistema de Integración Continua (CI)
 
