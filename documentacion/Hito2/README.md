@@ -1,2 +1,29 @@
-# HITO  2: 
+# HITO  2: Integración continua
 
+## Elección y configuración de un Gestor de Tareas
+
+Para el gestor de tareas he utilizado **invoke**, que es una biblioteca de Python que te permite ejecutar una serie de tareas definidas en un archivo **tasks.py** similar a como sucedería con un Makefile, pero en lugar de hacer uso de *make* como comando en el terminal para ejecutar las diferentes instrucciones, se hace uso de *invoke + nombre_de_la_tarea*. Pero, ¿por qué **Invoke**?
+
+Básicamente, el lenguaje de programación que estoy usando para **Alejandría** es Python con el IDE PyCharm, por lo que me parecía bastante lógico e intuitivo hacer uso de una biblioteca pensada para el caso de Python, en lugar de hacer uso por ejemplo de un Makefile. Además, en primero de carrera ya usé y programé Makefiles, por lo que me apetecía atreverme con algo que no hubiera usado antes, para así enriquecerme aún más durante este proyecto.
+
+Por otro lado, a diferencia de otros gestores como **GNU Make** que dependen del entorno Unix y por tanto no presenta portabilidad multiplataforma de forma nativa en Windows o macOS. Si bien había otros gestores de tareas como Tox, Nox o Doit tienen una mayor complejidad, lo cual podría no ser del todo ideal en un proyecto de complejidad media-baja como viene siendo esta biblioteca virtual.
+
+Finalmente, y sin querer adelantarme mucho, ni hacer demasiados *spoilers*, este gestor de tareas es totalmente compatible con el sitema de Integración Continua (CI) elegido para el caso: GitHub Actions.
+
+## Elección y uso de la biblioteca de aserciones
+
+He decidido usar **pytest** como biblioteca de aserciones para la verificación de resultados en los tests unitarios. ¿Por qué he usado **pytest**? Pues por su simplicidad y amplia adopción en el ecosistema Python y su compatibilidad con GitHub Actions e Invoke.
+
+No tiene perdida, se hacen uso de los métodos ya incluidos en la biblioteca para comprobar que dos resultados son iguales gracias a *self.assertEqual* lo cual facilita la legibilidad de código y mejora la mantenibilidad. Esta biblioteca sigue la filosofía de Test-Driven Development (TDD).
+
+## Elección y uso del marco de pruebas
+
+El marco de pruebas elegido también ha sido pytest y las motivaciones detrás de esta elección no varían demasiado de las explicadas en el apartado anterior.
+
+**pytest** ofrece una sintaxis clara y directa, eliminando la necesidad de crear clases o heredar de estructuras complejas como, por ejemplo, en **unittest**. Esta curva de aprendizaje reducida permite al desarrollador centrarse en la lógica de verificación sin depender de configuraciones extensas. Además, no existe *boilerplate code* (código repetitivo).
+
+Por otro lado,  otra de las ventajas de **pytest**, es su sistema de *fixtures*, que oermite definir entornos de prueba reutilizables para inicializar objetos, cargar datos o configurar estados antes de cada test.
+
+## Elección y funcionamiento del sistema de Integración Continua (CI)
+
+## Funcionalidad implementada y que será testeada de Alejandría
