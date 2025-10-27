@@ -42,7 +42,7 @@ Para el código mostrado, por ejemplo, se definen las instrucciones para ejecuta
 
 He decidido usar **pytest** como biblioteca de aserciones para la verificación de resultados en los tests unitarios. ¿Por qué he usado **pytest**? Pues por su simplicidad y amplia adopción en el ecosistema Python y su compatibilidad con GitHub Actions e Invoke.
 
-No tiene pérdida, se hacen uso de los métodos ya incluidos en la biblioteca para comprobar que dos resultados son iguales gracias a *self.assertEqual* lo cual facilita la legibilidad de código y mejora la mantenibilidad. Esta biblioteca sigue la filosofía de Test-Driven Development (TDD).
+No tiene pérdida, se hacen uso de los métodos ya incluidos en la biblioteca para comprobar que dos resultados son iguales gracias a *assert* lo cual facilita la legibilidad de código y mejora la mantenibilidad. Esta biblioteca sigue la filosofía de Test-Driven Development.
 
 
 ```
