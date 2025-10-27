@@ -24,6 +24,14 @@ suba sus obras para que otras personas puedan disfrutarlas  de forma totalmente 
 puede **ayudar a autores** que estén empezando en el mundo editorial a usar la biblioteca como 
 **escaparate al mundo** y darse a conocer.
 
+---
+
+## 📑 Índice General
+
+| Nº | Hito | Descripción | Enlace |
+|----|------|--------------|---------|
+| 1️⃣ | **Hito 1** | Configuración de Git, selección de licencia y planteamiento del servicio a desplegar. | [Ver Hito 1](https://github.com/pablovegood/Alejandria/tree/main/documentacion/Hito1) |
+| 2️⃣ | **Hito 2** | Implementación de Integración Continua (CI) con pytest, Invoke y GitHub Actions. | [Ver Hito 2](https://github.com/pablovegood/Alejandria/tree/main/documentacion/Hito2) |
 
 ---
 
