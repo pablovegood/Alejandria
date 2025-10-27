@@ -1,9 +1,7 @@
 # 🧩 HITO 2: Integración Continua
 
-![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
 ![Pytest](https://img.shields.io/badge/tests-passing-brightgreen?logo=pytest)
 [![GitHub Actions](https://github.com/pablovegood/Alejandria/actions/workflows/ci.yml/badge.svg)](https://github.com/PabloGA/Alejandria/actions)
-![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ## Elección y configuración de un Gestor de Tareas
 
