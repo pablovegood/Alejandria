@@ -2,7 +2,6 @@
 
 ## Elección y configuración de un Gestor de Tareas
 
-<p align="justify">
 Para el gestor de tareas he utilizado **invoke**, que es una biblioteca de Python que te permite ejecutar una serie de tareas definidas en un archivo **tasks.py** similar a como sucedería con un Makefile, pero en lugar de hacer uso de *make* como comando en el terminal para ejecutar las diferentes instrucciones, se hace uso de *invoke + nombre_de_la_tarea*. Pero, ¿por qué **Invoke**?
 
 Básicamente, el lenguaje de programación que estoy usando para **Alejandría** es Python con el IDE PyCharm, por lo que me parecía bastante lógico e intuitivo hacer uso de una biblioteca pensada para el caso de Python, en lugar de hacer uso por ejemplo de un Makefile. Además, en primero de carrera ya usé y programé Makefiles, por lo que me apetecía atreverme con algo que no hubiera usado antes, para así enriquecerme aún más durante este proyecto.
@@ -10,7 +9,6 @@ Básicamente, el lenguaje de programación que estoy usando para **Alejandría**
 Por otro lado, a diferencia de otros gestores como **GNU Make** que dependen del entorno Unix, **Invoke** sí que presenta portabilidad multiplataforma de forma nativa en Windows y/o macOS. Si bien había otros gestores de tareas como Tox, Nox o Doit, estos tienen una mayor complejidad, lo cual podría no ser del todo ideal en un proyecto de complejidad media-baja como viene siendo esta biblioteca virtual.
 
 Finalmente, y sin querer adelantarme mucho, ni hacer demasiados *spoilers*, este gestor de tareas es totalmente compatible con el sitema de Integración Continua (CI) elegido para el caso: **GitHub Actions**.
-</p>
 
 ```
 # Ejemplo de uso de ivoke:
@@ -33,19 +31,17 @@ def run_tests(c):
     
 ```
 
-<p align="justify">
+
 Para el código mostrado, por ejemplo, se definen las instrucciones para ejecutar los tests definidos dentro del directorio test, solo bastaría con ejecutar *invoke test* en el terminal y dentro del directorio raíz del proyecto.
-</p>
 
 ---
 
 ## Elección y uso de la biblioteca de aserciones
 
-<p align="justify">
 He decidido usar **pytest** como biblioteca de aserciones para la verificación de resultados en los tests unitarios. ¿Por qué he usado **pytest**? Pues por su simplicidad y amplia adopción en el ecosistema Python y su compatibilidad con GitHub Actions e Invoke.
 
 No tiene pérdida, se hacen uso de los métodos ya incluidos en la biblioteca para comprobar que dos resultados son iguales gracias a *self.assertEqual* lo cual facilita la legibilidad de código y mejora la mantenibilidad. Esta biblioteca sigue la filosofía de Test-Driven Development (TDD).
-</p>
+
 
 ```
 # Ejemplo de uso de assert:
