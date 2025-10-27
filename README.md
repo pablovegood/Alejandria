@@ -13,8 +13,6 @@ conocimiento allí almacenado se perdió.
 En **Alejandría**, los usuarios podrán acceder, compartir y disfrutar de obras literarias de 
 **dominio público** o **autopublicadas** por autores noveles.  
 
----
-
 ### 📖 Reglas principales
 
 En primer lugar, sólo se permitirá la subida de documentos, textos y cualquier artículo 
