@@ -18,7 +18,6 @@ class Book:
             self.attach_file(file_path)
 
     def attach_file(self, file_path):
-        """Asocia un archivo PDF o EPUB al libro."""
         if not os.path.exists(file_path):
             raise FileNotFoundError(f"El archivo '{file_path}' no existe.")
         if not file_path.lower().endswith(self.VALID_FORMATS):

@@ -2,7 +2,6 @@ import os
 from invoke import task
 
 def _run_pytest(c, cov=False):
-    """Función interna reutilizable para ejecutar pytest."""
     env = os.environ.copy()
     env["PYTHONPATH"] = "src"
     cmd = "pytest -v --maxfail=1 --disable-warnings"
