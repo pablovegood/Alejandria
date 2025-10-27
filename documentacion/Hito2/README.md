@@ -16,7 +16,7 @@ He decidido usar **pytest** como biblioteca de aserciones para la verificación 
 
 No tiene pérdida, se hacen uso de los métodos ya incluidos en la biblioteca para comprobar que dos resultados son iguales gracias a *self.assertEqual* lo cual facilita la legibilidad de código y mejora la mantenibilidad. Esta biblioteca sigue la filosofía de Test-Driven Development (TDD).
 
-<code>
+
 ```
 def test_avg_rating_rounding(library):
     library.review_book("Pablo", "Frankenstein", "Top", 5)
@@ -24,7 +24,6 @@ def test_avg_rating_rounding(library):
     book = library.find_book("Frankenstein")
     assert book.average_rating() == 4.5 
 ```
-</code>
 
 ## Elección y uso del marco de pruebas
 
