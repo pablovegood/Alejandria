@@ -1,4 +1,6 @@
-# HITO  2: Integración continua
+# 🧩 HITO 2: Integración Continua
+
+[![GitHub Actions](https://github.com/pablovegood/Alejandria/actions/workflows/ci.yml/badge.svg)](https://github.com/pablovegood/Alejandria/actions)
 
 ## Elección y configuración de un Gestor de Tareas
 
@@ -31,6 +33,7 @@ def run_tests(c):
     
 ```
 
+
 Para el código mostrado, por ejemplo, se definen las instrucciones para ejecutar los tests definidos dentro del directorio test, solo bastaría con ejecutar *invoke test* en el terminal y dentro del directorio raíz del proyecto.
 
 ---
@@ -39,7 +42,7 @@ Para el código mostrado, por ejemplo, se definen las instrucciones para ejecuta
 
 He decidido usar **pytest** como biblioteca de aserciones para la verificación de resultados en los tests unitarios. ¿Por qué he usado **pytest**? Pues por su simplicidad y amplia adopción en el ecosistema Python y su compatibilidad con GitHub Actions e Invoke.
 
-No tiene pérdida, se hacen uso de los métodos ya incluidos en la biblioteca para comprobar que dos resultados son iguales gracias a *self.assertEqual* lo cual facilita la legibilidad de código y mejora la mantenibilidad. Esta biblioteca sigue la filosofía de Test-Driven Development (TDD).
+No tiene pérdida, se hacen uso de los métodos ya incluidos en la biblioteca para comprobar que dos resultados son iguales gracias a *assert* lo cual facilita la legibilidad de código y mejora la mantenibilidad. Esta biblioteca sigue la filosofía de Test-Driven Development.
 
 
 ```
@@ -78,3 +81,5 @@ Cada vez que se realiza un commit y un push, GitHub Actions ejecuta las instrucc
 ## Funcionalidad implementada y que será testeada de Alejandría
 
 Como ya se explicó, en este hito no he implementado funcionalidades de autenticación de usuarios, sino que por el contrario todos los usuarios puede hacer un poco de todo. Actualmente se pueden crear usuarios, pedir libros en préstamos, escribir reseñas, abrir los libros (abrir un visor de pdf), devolver libros, etc.
+
+Finalmente, para este hito y para comprobar todas las funcionalidades implementadas, he hecho 23 tests.
