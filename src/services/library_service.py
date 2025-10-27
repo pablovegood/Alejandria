@@ -59,6 +59,9 @@ class LibraryService:
     # ---------------------- LIBROS ----------------------
 
     def upload_book(self, title, author, public_domain=True, file_path=None):
+        existing = self.find_book(title)
+        if existing:
+            return f"⚠️ El libro '{title}' ya está registrado."
         book = Book(title, author, public_domain, file_path)
         self.books.append(book)
         self._save()
