@@ -12,9 +12,12 @@ from services.library_service import LibraryService
 
 
 @pytest.fixture
-def library():
+def library(tmp_path):
+    from services import storage
+    storage.DATA_FILE = tmp_path / "test_data.json"
+
     lib = LibraryService()
     lib.register_user("Pablo")
-    lib.upload_book("El Quijote", "Miguel de Cervantes")
-    lib.upload_book("Frankenstein", "Mary Shelley")
+    lib.upload_book("El Quijote", "Cervantes")
+    lib.upload_book("Frankenstein", "Mary Shelley")   # 👈 Añadido
     return lib

@@ -55,14 +55,26 @@ def main():
 
         # Subir libro con archivo
         elif opcion == "3":
-            titulo = input("Título del libro: ")
-            autor = input("Autor: ")
-            ruta = input("Ruta al archivo PDF/EPUB: ")
-            try:
-                library.upload_book(titulo, autor, file_path=ruta)
-                print(f"📗 Libro '{titulo}' con archivo '{Path(ruta).name}' subido correctamente.")
-            except Exception as e:
-                print(f"⚠️ Error al subir el libro: {e}")
+            from tkinter import Tk, filedialog
+
+            title = input("Título del libro: ")
+            author = input("Autor: ")
+
+            # Ocultar ventana principal de Tk
+            root = Tk()
+            root.withdraw()
+
+            print("📂 Selecciona el archivo del libro (PDF o EPUB)...")
+            file_path = filedialog.askopenfilename(
+                title="Selecciona el archivo del libro",
+                filetypes=[("Ebooks", "*.pdf *.epub"), ("Todos los archivos", "*.*")]
+            )
+
+            if not file_path:
+                print("❌ No se seleccionó ningún archivo.")
+            else:
+                book = library.upload_book(title, author, True, file_path)
+                print(f"📚 Libro '{book.title}' subido correctamente con: {book.file_path}")
 
         # Listar libros
         elif opcion == "4":

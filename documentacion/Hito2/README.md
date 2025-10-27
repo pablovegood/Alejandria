@@ -51,6 +51,8 @@ def test_avg_rating_rounding(library):
     assert book.average_rating() == 4.5 
 ```
 
+Alejandría hace uso de TDD (Test-Driven Development), es decir, primero se desarrollan unos tests y luego se desarrolla el código que deberá pasarlos en contraste al BDD (Behavior-Driven Development) que se enfoca en imaginar escenarios para desarrollar el código. Como lo veo yo, gracias al TDD se pueden llevar a cabo proyectos en los que haya involucrados varios programadores ya que si un programador quiere añadir o modificar código debe pasar los tests, cerciorandose así de que no se rompe nada y se garantiza siempre la funcionalidad del programa.
+
 ---
 
 ## Elección y uso del marco de pruebas

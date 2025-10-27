@@ -1,5 +1,3 @@
-import pytest
-
 def test_borrow_and_return(library):
     rb = library.borrow_book("Pablo", "El Quijote")
     assert "ha tomado prestado" in rb
