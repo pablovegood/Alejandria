@@ -78,3 +78,5 @@ Cada vez que se realiza un commit y un push, GitHub Actions ejecuta las instrucc
 ## Funcionalidad implementada y que será testeada de Alejandría
 
 Como ya se explicó, en este hito no he implementado funcionalidades de autenticación de usuarios, sino que por el contrario todos los usuarios puede hacer un poco de todo. Actualmente se pueden crear usuarios, pedir libros en préstamos, escribir reseñas, abrir los libros (abrir un visor de pdf), devolver libros, etc.
+
+Finalmente, para este hito y para comprobar todas las funcionalidades implementadas, he hecho 23 tests.
