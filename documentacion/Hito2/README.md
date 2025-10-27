@@ -14,7 +14,17 @@ Finalmente, y sin querer adelantarme mucho, ni hacer demasiados *spoilers*, este
 
 He decidido usar **pytest** como biblioteca de aserciones para la verificación de resultados en los tests unitarios. ¿Por qué he usado **pytest**? Pues por su simplicidad y amplia adopción en el ecosistema Python y su compatibilidad con GitHub Actions e Invoke.
 
-No tiene perdida, se hacen uso de los métodos ya incluidos en la biblioteca para comprobar que dos resultados son iguales gracias a *self.assertEqual* lo cual facilita la legibilidad de código y mejora la mantenibilidad. Esta biblioteca sigue la filosofía de Test-Driven Development (TDD).
+No tiene pérdida, se hacen uso de los métodos ya incluidos en la biblioteca para comprobar que dos resultados son iguales gracias a *self.assertEqual* lo cual facilita la legibilidad de código y mejora la mantenibilidad. Esta biblioteca sigue la filosofía de Test-Driven Development (TDD).
+
+<code>
+```
+def test_avg_rating_rounding(library):
+    library.review_book("Pablo", "Frankenstein", "Top", 5)
+    library.review_book("Pablo", "Frankenstein", "Bien", 4)
+    book = library.find_book("Frankenstein")
+    assert book.average_rating() == 4.5 
+```
+</code>
 
 ## Elección y uso del marco de pruebas
 
@@ -22,8 +32,12 @@ El marco de pruebas elegido también ha sido pytest y las motivaciones detrás d
 
 **pytest** ofrece una sintaxis clara y directa, eliminando la necesidad de crear clases o heredar de estructuras complejas como, por ejemplo, en **unittest**. Esta curva de aprendizaje reducida permite al desarrollador centrarse en la lógica de verificación sin depender de configuraciones extensas. Además, no existe *boilerplate code* (código repetitivo).
 
-Por otro lado,  otra de las ventajas de **pytest**, es su sistema de *fixtures*, que oermite definir entornos de prueba reutilizables para inicializar objetos, cargar datos o configurar estados antes de cada test.
+Por otro lado,  otra de las ventajas de **pytest**, es su sistema de *fixtures*, que permite definir entornos de prueba reutilizables para inicializar objetos, cargar datos o configurar estados antes de cada test.
 
 ## Elección y funcionamiento del sistema de Integración Continua (CI)
 
+Para el sistema de integración continua (CI), como ya mencioné antes, elegí GitHub Actions, el motivo detrás de esto viene ya tiempo atrás en el Hito 1 donde intentábamos sacar el máximo potencial de GitHub con el uso de issues, milestones, doble factor de autenticación, funcionalidades que nunca había usado antes en mis proyectos, por lo que me parecía el siguiente paso lógico seguir profundizando en las funcionalidades que GitHub tiene que ofrecer, en este caso haciendo uso de su sistema de integración continua gratuito: **GitHub Actions**.
+
 ## Funcionalidad implementada y que será testeada de Alejandría
+
+Como ya se explicó, en este hito no he implementado funcionalidades de autenticación de usuarios, sino que por el contrario todos los usuarios puede hacer un poco de todo. Actualmente se pueden crear usuarios, pedir libros en préstamos, escribir reseñas, abrir los libros (abrir un visor de pdf), devolver libros, etc.
