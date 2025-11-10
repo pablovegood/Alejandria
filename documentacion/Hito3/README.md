@@ -114,7 +114,7 @@ Aunque en este hito no haya implementado las funcionalidades de bibliotecarios y
 
 ## Single Source of Truth (SSoT)
 
-Cada microservicio de Alejandría mantiene su propia ***Single Source of Truth***, centralizando la gestión de datos y la lógica de negocio en una capa de servicio (`*Service`).  
+Cada microservicio de Alejandría mantiene su propia ***Single Source of Truth***, centralizando la gestión de datos y la lógica de negocio en una capa de servicio (***Service***).  
 Los routers de la API nunca acceden directamente a los datos, sino que delegan las operaciones a estos servicios especializados.  
 De este modo, se evita la duplicación de código, se garantiza la coherencia de la información y se facilita el mantenimiento del sistema. EL microservicio de autenticación gestiona la BBDD de usuarios, el de catalogo la de libros, etc.
 
