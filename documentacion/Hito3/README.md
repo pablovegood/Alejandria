@@ -2,7 +2,7 @@
 
 ## FastAPI como framework elegido para crear microservcios
 
-En un principio pensé en utilizar Django para crear los microservicios de mi aplciación Alejandría, pero la curva de aprendizaje resultó ser algo más elevada de lo que estimé en un primer momento.Es por eso que buscando en internet, encontré este foro de Reddit donde este usuario hablaba maravillas sobre FastAPI https://www.reddit.com/r/FastAPI/comments/1bs889k/why_i_chose_fastapi_how_was_my_experience_and/
+En un principio pensé en utilizar Django para crear los microservicios de mi aplicación Alejandría, pero la curva de aprendizaje resultó ser algo más elevada de lo que estimé en un primer momento.Es por eso que buscando en internet, encontré este foro de Reddit donde este usuario hablaba maravillas sobre FastAPI: [fuente]( https://www.reddit.com/r/FastAPI/comments/1bs889k/why_i_chose_fastapi_how_was_my_experience_and/)
 Los motivos por los que FastAPI es un framework tan querido es porque permite llevar a cabo APIs de forma rápida y efectiva al estar montada por encima de bibliotecas de Python bien diseñadas como Starlette and Pydantic. Por otro lado, he aprovechado la documentación automática generada por Swagger UI (/docs) y ReDoc (/redoc), que permite probar y validar los endpoints de cada microservicio sin necesidad de herramientas externas.
 
 ![img.png](img.png)
@@ -51,7 +51,7 @@ def create_loan(req: LoanRequest):
 
 ## Uso de logs para registrar la actividad de la API
 
-He implementado un sistema de logs dentro del archivo alejandria.log en el directorio logs que muestra información acerca de las operaciones efectuadas por la API, además de los diferentes WARNINGS y ERRORS que pudiesen aparecen. Esto es muy útil para detectar errores ya que aumenta la trazabilidad de la aplicación.
+He implementado un sistema de logs dentro del archivo alejandria.log en el directorio logs que muestra información acerca de las operaciones efectuadas por la API, además de los diferentes WARNINGS y ERRORS que pudiesen aparecer. Esto es muy útil para detectar errores ya que aumenta la trazabilidad de la aplicación.
 
 ```
 import logging
@@ -69,7 +69,7 @@ logger.error("❌ Error al devolver libro 12: préstamo no encontrado")
 
 ## Correcta ejecución de los tests
 
-He diseñado nuevos tests, ya que al haber realizado cambios a nivel de arquitectura del proyecto y cambios de funcionalidad, los tests del Hito 2 ya no me servían, por lo que he desarrollado un test_api para testear el funcionamiento de la API y y otros tests para testear la funcionalidad de los servicios de los microservicios.
+He diseñado nuevos tests, ya que al haber realizado cambios a nivel de arquitectura del proyecto y cambios de funcionalidad, los tests del Hito 2 ya no me servían, por lo que he desarrollado un test_api para testear el funcionamiento de la API y otros tests para testear la funcionalidad de los servicios de los microservicios.
 
 ``` 
 # Uno de los nuevos tests: 
@@ -85,6 +85,10 @@ def test_03_search_catalog():
 ```
 
 Seguimos haciendo uso de **GitHub Actions** y de ***invoke test*** como venía sucediendo en el Hito 2.
+
+## Otros aspectos a tener en cuenta
+
+Se han descargado los libros de la biblioteca Gutenberg que es un proyecto sin ánimo de lucro donde se almacenan libros sin derechos de autor que pertenecen al dominio público. En un principio mi intención era que Aljandría fuese un visor de Gutendex, la API del proyecto Gutenberg, pero no se podía hacer de forma directa sin que descargara los libros antes, por lo que importé una gran cantidad de libros (se pueden importar más sin problema alguno) y ya desde local mi aplicación permite a los usuarios tomar prestados los libros y abrirlos. Tengo que limitar todavía que solo puedan tener 5 usuarios (se podría aumentar en caso de que más usuarios usen mi aplicación de forma simultánea) un libro al mismo tiempo. Esto en realidad no hace falta, pero creo que es un detalle gracioso, simular el funcionamiento de una biblioteca real.
 
 ## Ejecución y testeo de la aplicación
 
