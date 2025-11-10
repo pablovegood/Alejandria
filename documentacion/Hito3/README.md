@@ -115,3 +115,7 @@ Para poder probar la versión actual de la aplicación, he implementado un humil
 ![img_5.png](img_5.png)
 
 Aunque en este hito no haya implementado las funcionalidades de bibliotecarios y admins, los usuarios ya tienen un campo que dictamina su rol dentro del sistema.
+
+## Conclusión
+
+Poco más que decir para este hito, la verdad es que está siendo satisfactorio ver como va tomando forma el proyecto y como cada vez se ve más claro la forma final que tendrá Alejandría cuando la aplicación vaya a ser desplegada en la nube. Para el próximo Hito, además de integrar correctamente los contenedores con Docker, espero tener toda la funcionalidad base imprescindible acabada.
