@@ -49,6 +49,19 @@ def create_loan(req: LoanRequest):
         raise HTTPException(status_code=500, detail="Error interno del servidor")
 ```
 
+```
+    # Fragmento de /loan/service.py
+    def list_loans(self, username: str):
+        cur = self.db.execute("""
+            SELECT * FROM loans
+            WHERE user_id=?
+            ORDER BY created_at DESC;
+        """, (username,))
+        loans = [dict(row) for row in cur.fetchall()]
+        logger.info(f"📚 {len(loans)} préstamos encontrados para {username}")
+        return loans
+```
+
 ## Uso de logs para registrar la actividad de la API
 
 He implementado un sistema de logs dentro del archivo alejandria.log en el directorio logs que muestra información acerca de las operaciones efectuadas por la API, además de los diferentes WARNINGS y ERRORS que pudiesen aparecer. Esto es muy útil para detectar errores ya que aumenta la trazabilidad de la aplicación.
