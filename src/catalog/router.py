@@ -16,7 +16,7 @@ TEXT_DIR = Path(__file__).resolve().parents[2] / "data" / "texts"
 
 
 # -------------------------------------------------------------------------
-# 🔍 Búsqueda de libros
+# Búsqueda de libros
 # -------------------------------------------------------------------------
 @router.get("/search")
 def search_books(q: str = Query("", alias="q")):
@@ -29,7 +29,7 @@ def search_books(q: str = Query("", alias="q")):
 
 
 # -------------------------------------------------------------------------
-# 📘 Obtener un libro
+# Obtener un libro
 # -------------------------------------------------------------------------
 @router.get("/{guten_id}")
 def get_book(guten_id: int):
@@ -40,11 +40,10 @@ def get_book(guten_id: int):
 
 
 # -------------------------------------------------------------------------
-# 📖 Leer texto de libro
+# Leer texto de libro
 # -------------------------------------------------------------------------
 @router.get("/read/{guten_id}")
 def read_book(guten_id: int):
-    """Devuelve el contenido del libro local si está disponible."""
     from pathlib import Path
     import os
 
@@ -62,7 +61,7 @@ def read_book(guten_id: int):
         raise HTTPException(status_code=500, detail=f"Error al leer archivo: {str(e)}")
 
 # -------------------------------------------------------------------------
-# ✏️ Actualizar libro
+# Actualizar libro
 # -------------------------------------------------------------------------
 @router.put("/{guten_id}")
 def update_book(guten_id: int, title: str = None, author: str = None, language: str = None):
@@ -73,7 +72,7 @@ def update_book(guten_id: int, title: str = None, author: str = None, language: 
 
 
 # -------------------------------------------------------------------------
-# 🗑️ Eliminar libro
+# Eliminar libro
 # -------------------------------------------------------------------------
 @router.delete("/{guten_id}")
 def delete_book(guten_id: int):

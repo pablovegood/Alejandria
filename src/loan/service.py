@@ -10,7 +10,6 @@ DB_PATH = Path(__file__).parent / "loan.db"
 
 
 class LoanService:
-    """Gestiona los préstamos locales en su propia base de datos."""
 
     def __init__(self):
         self.db = sqlite3.connect(DB_PATH, check_same_thread=False)
@@ -33,10 +32,9 @@ class LoanService:
         self.db.commit()
 
     # -------------------------------------------------------------------------
-    # 🆕 CREAR PRÉSTAMO
+    # CREAR PRÉSTAMO
     # -------------------------------------------------------------------------
     def create_loan(self, username: str, guten_id: int, title: str, author: str):
-        """Registra un préstamo nuevo en la base de datos."""
         # Verificar si el usuario ya tiene ese libro
         cur = self.db.execute("""
             SELECT 1 FROM loans WHERE user_id=? AND guten_id=?;
@@ -64,10 +62,9 @@ class LoanService:
         }
 
     # -------------------------------------------------------------------------
-    # 📚 LISTAR PRÉSTAMOS
+    # LISTAR PRÉSTAMOS
     # -------------------------------------------------------------------------
     def list_loans(self, username: str):
-        """Devuelve todos los préstamos de un usuario."""
         cur = self.db.execute("""
             SELECT * FROM loans
             WHERE user_id=?
@@ -78,10 +75,9 @@ class LoanService:
         return loans
 
     # -------------------------------------------------------------------------
-    # ↩️ DEVOLVER LIBRO
+    # DEVOLVER LIBRO
     # -------------------------------------------------------------------------
     def delete_loan(self, username: str, guten_id: int):
-        """Elimina un préstamo por usuario e ID del libro."""
         cur = self.db.execute("""
             SELECT * FROM loans
             WHERE user_id=? AND guten_id=?;

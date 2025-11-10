@@ -10,11 +10,10 @@ router = APIRouter(prefix="/loans", tags=["loans"])
 service = LoanService()
 
 # -------------------------------------------------------------------------
-# 🆕 CREAR PRÉSTAMO
+# CREAR PRÉSTAMO
 # -------------------------------------------------------------------------
 @router.post("/")
 def create_loan(req: LoanRequest):
-    """Crea un nuevo préstamo."""
     try:
         result = service.create_loan(req.username, req.guten_id, req.title, req.author)
         if not result.get("ok", True):
@@ -27,11 +26,10 @@ def create_loan(req: LoanRequest):
         raise HTTPException(status_code=500, detail="Error interno del servidor")
 
 # -------------------------------------------------------------------------
-# 📚 LISTAR PRÉSTAMOS
+# LISTAR PRÉSTAMOS
 # -------------------------------------------------------------------------
 @router.get("/")
 def list_loans(username: str = Query(...)):
-    """Lista los préstamos de un usuario."""
     try:
         loans = service.list_loans(username)
         return {"loans": loans}
@@ -40,11 +38,10 @@ def list_loans(username: str = Query(...)):
         raise HTTPException(status_code=500, detail=str(e))
 
 # -------------------------------------------------------------------------
-# ↩️ DEVOLVER LIBRO
+# DEVOLVER LIBRO
 # -------------------------------------------------------------------------
 @router.delete("/{username}/{guten_id}")
 def delete_loan(username: str, guten_id: int):
-    """Elimina un préstamo (devolver libro)."""
     try:
         result = service.delete_loan(username, guten_id)
         if not result.get("ok", True):

@@ -13,7 +13,6 @@ service = AuthService()  # Instancia global del servicio
 
 @router.post("/signup")
 def signup(req: SignupReq):
-    """Crea un nuevo usuario en auth.db"""
     try:
         return service.signup(req)
     except HTTPException as e:
@@ -25,7 +24,6 @@ def signup(req: SignupReq):
 
 @router.post("/login")
 def login(req: LoginReq):
-    """Verifica las credenciales de un usuario."""
     try:
         return service.login(req)
     except HTTPException as e:

@@ -11,7 +11,6 @@ DB_PATH = Path(__file__).parent / "book.db"
 
 
 class CatalogService:
-    """Microservicio de catálogo que maneja la base de datos local de libros."""
 
     def __init__(self):
         self.db = sqlite3.connect(DB_PATH, check_same_thread=False)
@@ -20,10 +19,9 @@ class CatalogService:
         logger.info(f"📘 Base de datos de catálogo inicializada en {DB_PATH}")
 
     # -------------------------------------------------------------------------
-    # 🔧 Inicialización
+    # Inicialización
     # -------------------------------------------------------------------------
     def _init_db(self):
-        """Crea la tabla de libros si no existe."""
         self.db.execute("""
         CREATE TABLE IF NOT EXISTS books (
             id INTEGER PRIMARY KEY,
@@ -38,11 +36,10 @@ class CatalogService:
         self.db.commit()
 
     # -------------------------------------------------------------------------
-    # 📥 Inserción
+    # Inserción
     # -------------------------------------------------------------------------
     def add_book(self, book_id: int, title: str, author: str,
                  language: str = "es", text_url: str = None, has_text: int = 1):
-        """Añade un libro localmente al catálogo."""
         now = datetime.utcnow().isoformat()
         self.db.execute("""
             INSERT OR IGNORE INTO books
@@ -53,10 +50,9 @@ class CatalogService:
         logger.info(f"✅ Libro añadido: {title} ({author})")
 
     # -------------------------------------------------------------------------
-    # 🔍 Búsqueda
+    # Búsqueda
     # -------------------------------------------------------------------------
     def search_books(self, query: str = "", limit: int = 20):
-        """Busca libros por título o autor."""
         q = f"%{query.strip()}%" if query else "%"
         cur = self.db.execute("""
             SELECT id AS guten_id, title, author, language, text_url, has_text, downloaded_at
@@ -70,10 +66,9 @@ class CatalogService:
         return results
 
     # -------------------------------------------------------------------------
-    # 📖 Lectura individual
+    # Lectura individual
     # -------------------------------------------------------------------------
     def get_book(self, guten_id: int):
-        """Obtiene un libro por su ID."""
         cur = self.db.execute("""
             SELECT id AS guten_id, title, author, language, text_url, has_text, downloaded_at
             FROM books WHERE id=?;
@@ -85,10 +80,9 @@ class CatalogService:
         return BookDTO(**dict(row))
 
     # -------------------------------------------------------------------------
-    # ✏️ Actualización
+    # Actualización
     # -------------------------------------------------------------------------
     def update_book(self, guten_id: int, **fields):
-        """Actualiza los campos de un libro existente."""
         if not fields:
             return None
         set_clause = ", ".join(f"{k}=?" for k in fields.keys())
@@ -99,17 +93,15 @@ class CatalogService:
         return self.get_book(guten_id)
 
     # -------------------------------------------------------------------------
-    # 🗑️ Eliminación
+    # Eliminación
     # -------------------------------------------------------------------------
     def delete_book(self, guten_id: int):
-        """Elimina un libro del catálogo."""
         self.db.execute("DELETE FROM books WHERE id=?", (guten_id,))
         self.db.commit()
         logger.info(f"❌ Libro {guten_id} eliminado del catálogo.")
 
     # -------------------------------------------------------------------------
-    # 🧹 Cierre
+    # Cierre
     # -------------------------------------------------------------------------
     def close(self):
-        """Cierra la conexión con la base de datos."""
         self.db.close()

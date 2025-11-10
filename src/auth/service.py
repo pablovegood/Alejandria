@@ -12,8 +12,6 @@ DB_PATH = Path(__file__).parent / "auth.db"
 
 
 class AuthService:
-    """Microservicio de autenticación independiente."""
-
     def __init__(self):
         self.db = sqlite3.connect(DB_PATH, check_same_thread=False)
         self.db.row_factory = sqlite3.Row
@@ -21,7 +19,7 @@ class AuthService:
         logger.info(f"🔐 Base de datos de usuarios inicializada en {DB_PATH}")
 
     # -------------------------------------------------------------------------
-    # 🧱 Inicialización
+    # Inicialización
     # -------------------------------------------------------------------------
     def _init_db(self):
         self.db.execute("""
@@ -33,7 +31,7 @@ class AuthService:
         self.db.commit()
 
     # -------------------------------------------------------------------------
-    # 🆕 Registro (Signup)
+    # Registro (Signup)
     # -------------------------------------------------------------------------
     def signup(self, req: SignupReq):
         username = req.username.strip()
@@ -56,7 +54,7 @@ class AuthService:
         return {"ok": True, "username": username}
 
     # -------------------------------------------------------------------------
-    # 🔑 Inicio de sesión (Login)
+    # Inicio de sesión (Login)
     # -------------------------------------------------------------------------
     def login(self, req: LoginReq):
         username = req.username.strip()
@@ -75,7 +73,7 @@ class AuthService:
         return {"ok": True, "username": username}
 
     # -------------------------------------------------------------------------
-    # 🧹 Cierre
+    # Cierre
     # -------------------------------------------------------------------------
     def close(self):
         self.db.close()

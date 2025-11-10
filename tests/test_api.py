@@ -11,16 +11,15 @@ BOOK_TITLE = "Test Book"
 BOOK_AUTHOR = "Anon Author"
 
 # ----------------------------
-# 🔐 AUTH TESTS
+# AUTH TESTS
 # ----------------------------
 
 def test_01_signup_user():
-    """Debe registrar un nuevo usuario correctamente o indicar que ya existe."""
     res = client.post("/auth/signup", json={
         "username": USERNAME,
         "password": PASSWORD
     })
-    assert res.status_code in (200, 409)  # ambos son válidos
+    assert res.status_code in (200, 409)
     data = res.json()
     if res.status_code == 200:
         assert "username" in data
@@ -29,7 +28,6 @@ def test_01_signup_user():
 
 
 def test_02_login_user():
-    """Debe iniciar sesión con el usuario registrado."""
     res = client.post("/auth/login", json={
         "username": USERNAME,
         "password": PASSWORD
@@ -39,11 +37,10 @@ def test_02_login_user():
     assert data["username"] == USERNAME
 
 # ----------------------------
-# 📚 CATALOG TESTS
+# CATALOG TESTS
 # ----------------------------
 
 def test_03_search_catalog():
-    """Debe devolver resultados de búsqueda de libros."""
     res = client.get("/catalog/search?q=test")
     assert res.status_code == 200
     data = res.json()
@@ -54,16 +51,14 @@ def test_03_search_catalog():
         assert "title" in first
 
 def test_04_read_catalog_book():
-    """Debe permitir acceder al texto del libro si existe localmente."""
     res = client.get(f"/catalog/read/{BOOK_ID}")
     assert res.status_code in (200, 404, 422)
 
 # ----------------------------
-# 📘 LOAN TESTS
+# LOAN TESTS
 # ----------------------------
 
 def test_05_create_loan():
-    """Debe permitir crear un préstamo nuevo."""
     res = client.post("/loans/", json={
         "username": USERNAME,
         "guten_id": BOOK_ID,
@@ -75,7 +70,6 @@ def test_05_create_loan():
     assert "book" in data or "detail" in data
 
 def test_06_list_loans():
-    """Debe listar los préstamos del usuario."""
     res = client.get(f"/loans/?username={USERNAME}")
     assert res.status_code == 200
     data = res.json()
@@ -83,18 +77,16 @@ def test_06_list_loans():
     assert isinstance(data["loans"], list)
 
 def test_07_delete_loan():
-    """Debe permitir devolver (eliminar) un préstamo existente."""
     res = client.delete(f"/loans/{USERNAME}/{BOOK_ID}")
     assert res.status_code in (200, 404)
     data = res.json()
     assert isinstance(data, dict)
 
 # ----------------------------
-# 📝 REVIEW TESTS
+# REVIEW TESTS
 # ----------------------------
 
 def test_08_add_review():
-    """Debe permitir enviar una reseña para un libro."""
     res = client.post(f"/reviews/{BOOK_ID}", json={
         "username": USERNAME,
         "rating": 5,
@@ -106,7 +98,6 @@ def test_08_add_review():
     assert "text" in data
 
 def test_09_list_reviews():
-    """Debe listar reseñas existentes para un libro."""
     res = client.get(f"/reviews/{BOOK_ID}")
     assert res.status_code == 200
     data = res.json()
