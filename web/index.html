@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <title>Alejandría · Biblioteca remota</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+  <header>
+    <h1>Alejandría</h1>
+    <nav>
+      <button id="logoutBtn" class="logout" title="Cerrar sesión">Cerrar sesión</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 🔹 Panel de usuario -->
+    <section class="user-panel">
+      <div id="userInfo">👤 Usuario: <span id="usernameSpan">anon</span></div>
+      <div id="message" class="message"></div>
+    </section>
+
+    <!-- 🔹 Tus préstamos -->
+    <section id="loansSection">
+      <h2>📚 Tus préstamos</h2>
+      <div id="userLoans" class="user-loans"></div>
+      <p id="noLoansMsg" class="empty-msg">Aún no tienes préstamos activos.</p>
+    </section>
+
+    <!-- 🔹 Buscador -->
+    <section>
+      <form id="searchForm" class="search">
+        <input id="q" name="q" placeholder="Buscar por título o autor..." autofocus />
+        <button type="submit">Buscar</button>
+      </form>
+    </section>
+
+    <!-- 🔹 Resultados -->
+    <section id="resultsSection">
+      <h2>🔎 Resultados</h2>
+      <div id="results" class="results"></div>
+      <div id="pagination" class="pagination"></div>
+    </section>
+  </main>
+
+  <footer>
+    <small>Catálogo vía Gutendex · Préstamos y reseñas locales</small>
+  </footer>
+
+  <script>
+  document.addEventListener("DOMContentLoaded", async () => {
+    const username = localStorage.getItem("username");
+    const usernameSpan = document.getElementById("usernameSpan");
+    const messageDiv = document.getElementById("message");
+
+    if (!username) {
+      alert("⚠️ No hay sesión activa. Inicia sesión.");
+      window.location.href = "/static/login.html";
+      return;
+    }
+
+    usernameSpan.textContent = username;
+
+    // --- Logout ---
+    document.getElementById("logoutBtn").addEventListener("click", () => {
+      localStorage.removeItem("username");
+      window.location.href = "/static/login.html";
+    });
+
+    // ===========================
+    // 📚 Préstamos
+    // ===========================
+    async function loadUserLoans() {
+  const container = document.getElementById("userLoans");
+  const noLoansMsg = document.getElementById("noLoansMsg");
+  container.innerHTML = "";
+  try {
+    const res = await fetch(`/loans/?username=${encodeURIComponent(username)}`);
+    const data = await res.json();
+
+    if (!data.loans || data.loans.length === 0) {
+      noLoansMsg.style.display = "block";
+      return;
+    }
+
+    noLoansMsg.style.display = "none";
+    data.loans.forEach(loan => {
+      const div = document.createElement("div");
+      div.className = "loan-item";
+      div.innerHTML = `
+        <div class="loan-info">
+          <strong>${loan.title}</strong><br/>
+          <em>${loan.author}</em><br/>
+          <small>📅 ${new Date(loan.created_at).toLocaleDateString()}</small>
+        </div>
+        <div class="loan-actions">
+          <button class="read-btn" data-id="${loan.guten_id}" data-title="${loan.title}">📖 Leer</button>
+          <button class="return-btn" data-id="${loan.guten_id}">↩ Devolver</button>
+        </div>
+      `;
+      container.appendChild(div);
+    });
+
+    // --- Botón LEER ---
+    document.querySelectorAll(".read-btn").forEach(btn => {
+      btn.addEventListener("click", e => {
+        const id = e.target.dataset.id;
+        const title = e.target.dataset.title;
+        window.location.href = `/static/visor.html?id=${id}&title=${encodeURIComponent(title)}`;
+      });
+    });
+
+    // --- Botón DEVOLVER ---
+    document.querySelectorAll(".return-btn").forEach(btn => {
+      btn.addEventListener("click", async e => {
+        const id = e.target.dataset.id;
+        const res = await fetch(`/loans/${username}/${id}`, { method: "DELETE" });
+        if (!res.ok) return showMessage("❌ Error al devolver el libro.", true);
+        showMessage("↩ Libro devuelto correctamente.");
+        loadUserLoans();
+      });
+    });
+  } catch (err) {
+    console.error("Error cargando préstamos:", err);
+  }
+}
+
+
+    // ===========================
+    // 🔍 Búsqueda y resultados
+    // ===========================
+    const form = document.getElementById("searchForm");
+    const resultsDiv = document.getElementById("results");
+    const paginationDiv = document.getElementById("pagination");
+    let currentPage = 1;
+    const pageSize = 5;
+
+    async function loadBooks(query = "", page = 1) {
+      resultsDiv.innerHTML = "<p>🔍 Buscando...</p>";
+      try {
+        const res = await fetch(`/catalog/search?q=${encodeURIComponent(query)}`);
+        const data = await res.json();
+        const books = data.results || data;
+        renderResults(books, page);
+      } catch {
+        resultsDiv.innerHTML = "<p>⚠️ Error al buscar libros.</p>";
+      }
+    }
+
+    function renderResults(books, page = 1) {
+      resultsDiv.innerHTML = "";
+      paginationDiv.innerHTML = "";
+      if (!books.length) {
+        resultsDiv.innerHTML = "<p>No se encontraron resultados.</p>";
+        return;
+      }
+
+      const start = (page - 1) * pageSize;
+      const end = start + pageSize;
+      const pageBooks = books.slice(start, end);
+
+      pageBooks.forEach(book => {
+        const div = document.createElement("div");
+        div.className = "book-card";
+        div.innerHTML = `
+          <h3>${book.title}</h3>
+          <p><em>${book.author}</em></p>
+          <p>🌐 ${book.language || "?"}</p>
+          <div class="actions">
+            <button class="loan-btn" data-id="${book.guten_id}" data-title="${book.title}" data-author="${book.author}">📚 Tomar en préstamo</button>
+            <button class="review-btn" data-id="${book.guten_id}" data-title="${book.title}">📝 Reseñar</button>
+          </div>
+          <div class="reviews-container" id="reviews-${book.guten_id}"></div>
+        `;
+        resultsDiv.appendChild(div);
+        loadReviews(book.guten_id);
+      });
+
+      // Paginación
+      const totalPages = Math.ceil(books.length / pageSize);
+      if (totalPages > 1) {
+        const prev = document.createElement("button");
+        prev.textContent = "⬅ Anterior";
+        prev.disabled = page === 1;
+        prev.onclick = () => renderResults(books, page - 1);
+
+        const next = document.createElement("button");
+        next.textContent = "Siguiente ➡";
+        next.disabled = page === totalPages;
+        next.onclick = () => renderResults(books, page + 1);
+
+        paginationDiv.append(prev);
+        paginationDiv.append(` Página ${page} de ${totalPages} `);
+        paginationDiv.append(next);
+      }
+
+      // Botón préstamo
+      document.querySelectorAll(".loan-btn").forEach(btn => {
+        btn.addEventListener("click", async e => {
+          const id = e.target.dataset.id;
+          const title = e.target.dataset.title;
+          const author = e.target.dataset.author;
+
+          const res = await fetch("/loans/", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ username, guten_id: id, title, author }),
+          });
+          if (res.status === 409) return showMessage("⚠️ Ya tienes este libro en préstamo.");
+          if (!res.ok) return showMessage("❌ Error al tomar el préstamo.", true);
+          showMessage(`✅ "${title}" añadido a tus préstamos.`);
+          loadUserLoans();
+        });
+      });
+
+      // Botón reseña
+      document.querySelectorAll(".review-btn").forEach(btn => {
+        btn.addEventListener("click", e => {
+          const id = e.target.dataset.id;
+          const title = e.target.dataset.title;
+          writeReview(id, title);
+        });
+      });
+    }
+
+    form.addEventListener("submit", e => {
+      e.preventDefault();
+      const q = document.getElementById("q").value.trim();
+      loadBooks(q);
+    });
+
+    // ===========================
+    // 📝 Reseñas (microservicio)
+    // ===========================
+    async function writeReview(guten_id, title) {
+      const rating = prompt(`Puntuación (1–5 estrellas) para "${title}":`);
+      if (!rating || isNaN(rating) || rating < 1 || rating > 5) return;
+      const text = prompt("Escribe tu reseña:") || "";
+
+      const res = await fetch(`/reviews/${guten_id}`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ username, rating: parseInt(rating), text }),
+      });
+      if (!res.ok) return showMessage("❌ Error al enviar reseña.", true);
+      showMessage("📝 Reseña enviada.");
+      loadReviews(guten_id);
+    }
+
+    async function loadReviews(guten_id) {
+      const container = document.getElementById(`reviews-${guten_id}`);
+      try {
+        const res = await fetch(`/reviews/${guten_id}`);
+        if (!res.ok) throw new Error("Error al cargar reseñas");
+        const data = await res.json();
+        const reviews = data || [];
+        container.innerHTML = reviews.length
+          ? reviews.map(r => `
+            <div class="review-item">
+              <p class="review-meta">⭐${r.rating} — ${r.username} (${new Date(r.created_at).toLocaleDateString()})</p>
+              <p class="review-text">${r.text}</p>
+            </div>`).join("")
+          : "<p class='no-reviews'>Sin reseñas aún.</p>";
+      } catch {
+        container.innerHTML = "<p class='no-reviews'>No se pudieron cargar las reseñas.</p>";
+      }
+    }
+
+    // ===========================
+    // 💬 Utilidad
+    // ===========================
+    function showMessage(text, error = false) {
+      messageDiv.textContent = text;
+      messageDiv.className = error ? "message error" : "message success";
+      setTimeout(() => { messageDiv.textContent = ""; }, 3000);
+    }
+
+    // Inicialización
+    loadUserLoans();
+    loadBooks();
+  });
+  </script>
+</body>
+</html>

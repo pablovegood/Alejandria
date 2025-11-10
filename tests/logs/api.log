@@ -1,0 +1,4 @@
+2025-11-08 20:39:01,293 - INFO - alejandria_api - ➡️ POST /users | body={'username': 'pablo'}
+2025-11-08 20:39:01,294 - INFO - alejandria_api - ⬅️ POST /users | status=200
+2025-11-08 20:39:01,296 - INFO - alejandria_api - ➡️ GET /books | body=None
+2025-11-08 20:39:01,296 - INFO - alejandria_api - ⬅️ GET /books | status=200

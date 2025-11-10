@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Visor de libro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root {
+      --fondo-oscuro: #1a0e08;
+      --fondo-sepia: #f4ecd8;
+      --texto-oscuro: #fdf6e3;
+      --texto-sepia: #1a1205;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background: var(--fondo-oscuro);
+      color: var(--texto-oscuro);
+      transition: background 0.4s, color 0.4s;
+    }
+
+    header {
+      background: rgba(20, 15, 10, 0.95);
+      border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      color: #facc15;
+      text-shadow: 0 0 8px rgba(250, 204, 21, 0.3);
+    }
+
+    #controls {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    #controls select,
+    #controls button {
+      background: rgba(250, 204, 21, 0.1);
+      border: 1px solid rgba(250, 204, 21, 0.4);
+      color: #facc15;
+      border-radius: 6px;
+      padding: 4px 8px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    #controls button:hover,
+    #controls select:hover {
+      background: rgba(250, 204, 21, 0.2);
+    }
+
+    main {
+      padding: 2rem 8vw;
+      line-height: 1.7;
+      font-size: 1.2rem;
+      white-space: pre-wrap;
+      word-break: break-word;
+      transition: font-size 0.2s ease, font-family 0.2s ease;
+    }
+
+    #volver {
+      background: linear-gradient(90deg, #facc15, #f59e0b);
+      color: #1a1205;
+      border: none;
+      border-radius: 8px;
+      padding: 0.4rem 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    #volver:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 18px rgba(250, 204, 21, 0.25);
+    }
+
+    /* Tema sepia */
+    body.sepia {
+      background: var(--fondo-sepia);
+      color: var(--texto-sepia);
+    }
+    body.sepia header {
+      background: rgba(244, 236, 216, 0.9);
+      border-bottom: 1px solid rgba(100, 80, 50, 0.2);
+    }
+    body.sepia h1 {
+      color: #8b6b1b;
+    }
+    body.sepia #controls select,
+    body.sepia #controls button {
+      color: #8b6b1b;
+      border-color: rgba(120, 90, 40, 0.4);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="bookTitle">Cargando...</h1>
+    <div id="controls">
+      <button id="decreaseFont">A-</button>
+      <button id="increaseFont">A+</button>
+      <select id="fontSelect">
+        <option value="'Georgia', serif">Serif</option>
+        <option value="'Segoe UI', sans-serif">Sans</option>
+        <option value="'Courier New', monospace">Mono</option>
+      </select>
+      <button id="toggleTheme">🌗</button>
+      <button id="volver">↩ Volver</button>
+    </div>
+  </header>
+
+  <main id="bookContent">
+    <p>Cargando texto...</p>
+  </main>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get("id");
+    const title = params.get("title") || "Libro";
+    const contentDiv = document.getElementById("bookContent");
+    const titleEl = document.getElementById("bookTitle");
+
+    // Ajustes guardados
+    let fontSize = parseFloat(localStorage.getItem("fontSize")) || 1.2;
+    let fontFamily = localStorage.getItem("fontFamily") || "'Georgia', serif";
+    let theme = localStorage.getItem("theme") || "dark";
+
+    const applySettings = () => {
+      document.body.classList.toggle("sepia", theme === "sepia");
+      contentDiv.style.fontSize = fontSize + "rem";
+      contentDiv.style.fontFamily = fontFamily;
+    };
+
+    titleEl.textContent = title;
+    applySettings();
+
+    // Botones de control
+    document.getElementById("increaseFont").onclick = () => {
+      fontSize = Math.min(fontSize + 0.1, 2.5);
+      localStorage.setItem("fontSize", fontSize);
+      applySettings();
+    };
+    document.getElementById("decreaseFont").onclick = () => {
+      fontSize = Math.max(fontSize - 0.1, 0.8);
+      localStorage.setItem("fontSize", fontSize);
+      applySettings();
+    };
+    document.getElementById("fontSelect").onchange = (e) => {
+      fontFamily = e.target.value;
+      localStorage.setItem("fontFamily", fontFamily);
+      applySettings();
+    };
+    document.getElementById("toggleTheme").onclick = () => {
+      theme = theme === "dark" ? "sepia" : "dark";
+      localStorage.setItem("theme", theme);
+      applySettings();
+    };
+
+    document.getElementById("volver").onclick = () => {
+      window.location.href = "/static/index.html";
+    };
+
+    // Cargar texto del servidor
+    async function loadBook() {
+      try {
+        const res = await fetch(`/catalog/read/${id}`);
+        if (!res.ok) throw new Error("Texto no disponible");
+        const text = await res.text();
+        contentDiv.textContent = text;
+      } catch {
+        contentDiv.innerHTML = "<p style='text-align:center;color:#ffcc00;'>⚠️ Error: Texto no disponible</p>";
+      }
+    }
+
+    loadBook();
+  </script>
+</body>
+</html>

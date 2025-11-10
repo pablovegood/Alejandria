@@ -1,0 +1,309 @@
+2025-11-10 13:28:09,742 - alejandria_api - INFO - ➡️  GET /
+2025-11-10 13:28:09,744 - alejandria_api - INFO - 🏁 Redirigiendo al login del frontend (static/login.html)
+2025-11-10 13:28:09,744 - alejandria_api - INFO - ⬅️  GET / | status=302 | 0.003s
+2025-11-10 13:28:09,789 - alejandria_api - INFO - ➡️  GET /static/login.html
+2025-11-10 13:28:09,913 - alejandria_api - INFO - ⬅️  GET /static/login.html | status=200 | 0.124s
+2025-11-10 13:28:10,037 - alejandria_api - INFO - ➡️  GET /static/login.css
+2025-11-10 13:28:10,039 - alejandria_api - INFO - ⬅️  GET /static/login.css | status=200 | 0.003s
+2025-11-10 13:28:10,100 - alejandria_api - INFO - ➡️  GET /favicon.ico
+2025-11-10 13:28:10,100 - alejandria_api - INFO - ⬅️  GET /favicon.ico | status=404 | 0.001s
+2025-11-10 13:28:41,997 - alejandria_api - INFO - ➡️  GET /static/signup.html
+2025-11-10 13:28:41,998 - alejandria_api - INFO - ⬅️  GET /static/signup.html | status=200 | 0.001s
+2025-11-10 13:28:42,065 - alejandria_api - INFO - ➡️  GET /static/signup.css
+2025-11-10 13:28:42,067 - alejandria_api - INFO - ⬅️  GET /static/signup.css | status=200 | 0.002s
+2025-11-10 13:28:42,125 - alejandria_api - INFO - ➡️  GET /favicon.ico
+2025-11-10 13:28:42,126 - alejandria_api - INFO - ⬅️  GET /favicon.ico | status=404 | 0.001s
+2025-11-10 13:28:50,803 - alejandria_api - INFO - ➡️  POST /auth/signup
+2025-11-10 13:28:50,814 - alejandria_api - INFO - ⬅️  POST /auth/signup | status=200 | 0.01s
+2025-11-10 13:28:51,980 - alejandria_api - INFO - ➡️  GET /static/index.html
+2025-11-10 13:28:51,982 - alejandria_api - INFO - ⬅️  GET /static/index.html | status=304 | 0.002s
+2025-11-10 13:28:52,091 - alejandria_api - INFO - ➡️  GET /catalog/search
+2025-11-10 13:28:52,093 - alejandria_api - INFO - ⬅️  GET /catalog/search | status=200 | 0.002s
+2025-11-10 13:28:52,177 - alejandria_api - INFO - ➡️  GET /loans
+2025-11-10 13:28:52,177 - alejandria_api - INFO - ⬅️  GET /loans | status=307 | 0.0s
+2025-11-10 13:28:52,227 - alejandria_api - INFO - ➡️  GET /loans/
+2025-11-10 13:28:52,231 - alejandria_api - INFO - ⬅️  GET /loans/ | status=200 | 0.003s
+2025-11-10 13:28:57,644 - alejandria_api - INFO - ➡️  GET /catalog/search
+2025-11-10 13:28:57,646 - alejandria_api - INFO - ⬅️  GET /catalog/search | status=200 | 0.002s
+2025-11-10 13:36:47,427 - alejandria_api - INFO - ➡️  GET /
+2025-11-10 13:36:47,428 - alejandria_api - INFO - 🏁 Redirigiendo al login del frontend (static/login.html)
+2025-11-10 13:36:47,429 - alejandria_api - INFO - ⬅️  GET / | status=302 | 0.002s
+2025-11-10 13:36:47,465 - alejandria_api - INFO - ➡️  GET /static/login.html
+2025-11-10 13:36:47,511 - alejandria_api - INFO - ⬅️  GET /static/login.html | status=200 | 0.046s
+2025-11-10 13:36:47,541 - alejandria_api - INFO - ➡️  GET /static/login.css
+2025-11-10 13:36:47,543 - alejandria_api - INFO - ⬅️  GET /static/login.css | status=200 | 0.002s
+2025-11-10 13:36:47,592 - alejandria_api - INFO - ➡️  GET /favicon.ico
+2025-11-10 13:36:47,593 - alejandria_api - INFO - ⬅️  GET /favicon.ico | status=404 | 0.001s
+2025-11-10 13:36:51,841 - alejandria_api - INFO - ➡️  POST /auth/login
+2025-11-10 13:36:51,843 - alejandria_api - INFO - ⬅️  POST /auth/login | status=401 | 0.002s
+2025-11-10 13:36:54,359 - alejandria_api - INFO - ➡️  POST /auth/login
+2025-11-10 13:36:54,361 - alejandria_api - INFO - ⬅️  POST /auth/login | status=401 | 0.002s
+2025-11-10 13:37:04,417 - alejandria_api - INFO - ➡️  GET /static/signup.html
+2025-11-10 13:37:04,418 - alejandria_api - INFO - ⬅️  GET /static/signup.html | status=200 | 0.001s
+2025-11-10 13:37:04,494 - alejandria_api - INFO - ➡️  GET /static/signup.css
+2025-11-10 13:37:04,496 - alejandria_api - INFO - ⬅️  GET /static/signup.css | status=200 | 0.001s
+2025-11-10 13:37:10,080 - alejandria_api - INFO - ➡️  POST /auth/signup
+2025-11-10 13:37:10,090 - alejandria_api - INFO - ⬅️  POST /auth/signup | status=200 | 0.011s
+2025-11-10 13:37:11,466 - alejandria_api - INFO - ➡️  GET /static/index.html
+2025-11-10 13:37:11,468 - alejandria_api - INFO - ⬅️  GET /static/index.html | status=304 | 0.002s
+2025-11-10 13:37:11,627 - alejandria_api - INFO - ➡️  GET /catalog/search
+2025-11-10 13:37:11,631 - alejandria_api - ERROR - ❌ Error en /catalog/search: src.catalog.schemas.BookDTO() argument after ** must be a mapping, not BookDTO
+Traceback (most recent call last):
+  File "C:\Users\pablo\PycharmProjects\Alejandria\src\api\main.py", line 38, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\middleware\base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\fastapi\routing.py", line 125, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\fastapi\routing.py", line 111, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\fastapi\routing.py", line 391, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\fastapi\routing.py", line 292, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\concurrency.py", line 38, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\src\catalog\router.py", line 14, in search_books
+    results = service.search_books(query=q)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\src\catalog\service.py", line 52, in search_books
+    return [BookDTO(**b) for b in books]
+            ~~~~~~~^^^^^
+TypeError: src.catalog.schemas.BookDTO() argument after ** must be a mapping, not BookDTO
+2025-11-10 13:37:11,663 - alejandria_api - INFO - ➡️  GET /loans
+2025-11-10 13:37:11,664 - alejandria_api - INFO - ⬅️  GET /loans | status=307 | 0.001s
+2025-11-10 13:37:11,683 - alejandria_api - INFO - ➡️  GET /loans/
+2025-11-10 13:37:11,686 - alejandria_api - INFO - ⬅️  GET /loans/ | status=200 | 0.003s
+2025-11-10 13:37:18,932 - alejandria_api - INFO - ➡️  POST /auth/login
+2025-11-10 13:37:18,934 - alejandria_api - INFO - ⬅️  POST /auth/login | status=200 | 0.002s
+2025-11-10 13:37:20,310 - alejandria_api - INFO - ➡️  GET /catalog/search
+2025-11-10 13:37:20,312 - alejandria_api - ERROR - ❌ Error en /catalog/search: src.catalog.schemas.BookDTO() argument after ** must be a mapping, not BookDTO
+Traceback (most recent call last):
+  File "C:\Users\pablo\PycharmProjects\Alejandria\src\api\main.py", line 38, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\middleware\base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\fastapi\routing.py", line 125, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\fastapi\routing.py", line 111, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\fastapi\routing.py", line 391, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\fastapi\routing.py", line 292, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\concurrency.py", line 38, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\src\catalog\router.py", line 14, in search_books
+    results = service.search_books(query=q)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\src\catalog\service.py", line 52, in search_books
+    return [BookDTO(**b) for b in books]
+            ~~~~~~~^^^^^
+TypeError: src.catalog.schemas.BookDTO() argument after ** must be a mapping, not BookDTO
+2025-11-10 13:37:20,346 - alejandria_api - INFO - ➡️  GET /loans
+2025-11-10 13:37:20,347 - alejandria_api - INFO - ⬅️  GET /loans | status=307 | 0.001s
+2025-11-10 13:37:20,368 - alejandria_api - INFO - ➡️  GET /loans/
+2025-11-10 13:37:20,371 - alejandria_api - INFO - ⬅️  GET /loans/ | status=200 | 0.002s
+2025-11-10 13:37:22,234 - alejandria_api - INFO - ➡️  GET /static/index.html
+2025-11-10 13:37:22,237 - alejandria_api - INFO - ⬅️  GET /static/index.html | status=200 | 0.002s
+2025-11-10 13:37:22,313 - alejandria_api - INFO - ➡️  GET /static/index.css
+2025-11-10 13:37:22,314 - alejandria_api - INFO - ⬅️  GET /static/index.css | status=200 | 0.001s
+2025-11-10 13:37:22,344 - alejandria_api - INFO - ➡️  GET /favicon.ico
+2025-11-10 13:37:22,344 - alejandria_api - INFO - ⬅️  GET /favicon.ico | status=404 | 0.0s
+2025-11-10 13:37:22,409 - alejandria_api - INFO - ➡️  GET /catalog/search
+2025-11-10 13:37:22,410 - alejandria_api - ERROR - ❌ Error en /catalog/search: src.catalog.schemas.BookDTO() argument after ** must be a mapping, not BookDTO
+Traceback (most recent call last):
+  File "C:\Users\pablo\PycharmProjects\Alejandria\src\api\main.py", line 38, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\middleware\base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\fastapi\routing.py", line 125, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\fastapi\routing.py", line 111, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\fastapi\routing.py", line 391, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\fastapi\routing.py", line 292, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\starlette\concurrency.py", line 38, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\pablo\PycharmProjects\Alejandria\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\src\catalog\router.py", line 14, in search_books
+    results = service.search_books(query=q)
+  File "C:\Users\pablo\PycharmProjects\Alejandria\src\catalog\service.py", line 52, in search_books
+    return [BookDTO(**b) for b in books]
+            ~~~~~~~^^^^^
+TypeError: src.catalog.schemas.BookDTO() argument after ** must be a mapping, not BookDTO
+2025-11-10 13:37:22,432 - alejandria_api - INFO - ➡️  GET /loans
+2025-11-10 13:37:22,433 - alejandria_api - INFO - ⬅️  GET /loans | status=307 | 0.001s
+2025-11-10 13:37:22,443 - alejandria_api - INFO - ➡️  GET /loans/
+2025-11-10 13:37:22,445 - alejandria_api - INFO - ⬅️  GET /loans/ | status=200 | 0.002s
+2025-11-10 18:08:28,337 - alejandria_api - INFO - 📁 Base de datos ya existente: alejandria.db
+2025-11-10 18:08:31,493 - alejandria_api - INFO - ➡️  GET /
+2025-11-10 18:08:31,494 - alejandria_api - INFO - 🏁 Redirigiendo al login del frontend (static/login.html)
+2025-11-10 18:08:31,496 - alejandria_api - INFO - ⬅️  GET / | status=302 | 0.002s
+2025-11-10 18:08:31,501 - alejandria_api - INFO - ➡️  GET /static/login.html
+2025-11-10 18:08:31,586 - alejandria_api - INFO - ⬅️  GET /static/login.html | status=304 | 0.084s
+2025-11-10 18:08:39,975 - alejandria_api - INFO - ➡️  POST /auth/login
+2025-11-10 18:08:40,291 - alejandria_api - INFO - 🔓 Login correcto para 'pablo'
+2025-11-10 18:08:40,292 - alejandria_api - INFO - ⬅️  POST /auth/login | status=200 | 0.317s
+2025-11-10 18:08:41,303 - alejandria_api - INFO - ➡️  GET /static/index.html
+2025-11-10 18:08:41,304 - alejandria_api - INFO - ⬅️  GET /static/index.html | status=304 | 0.002s
+2025-11-10 18:08:41,349 - alejandria_api - INFO - ➡️  GET /static/index.css
+2025-11-10 18:08:41,351 - alejandria_api - INFO - ⬅️  GET /static/index.css | status=304 | 0.002s
+2025-11-10 18:08:41,363 - alejandria_api - INFO - ➡️  GET /loans/
+2025-11-10 18:08:41,364 - alejandria_api - INFO - ➡️  GET /catalog/search
+2025-11-10 18:08:41,368 - alejandria_api - INFO - 📚 6 préstamos encontrados para pablo
+2025-11-10 18:08:41,369 - alejandria_api - INFO - ⬅️  GET /loans/ | status=200 | 0.006s
+2025-11-10 18:08:41,371 - alejandria_api - INFO - 🔎 Búsqueda '' → 20 resultados
+2025-11-10 18:08:41,374 - alejandria_api - INFO - ⬅️  GET /catalog/search | status=200 | 0.01s
+2025-11-10 18:08:41,415 - alejandria_api - INFO - ➡️  GET /reviews/1
+2025-11-10 18:08:41,416 - alejandria_api - INFO - ➡️  GET /reviews/5
+2025-11-10 18:08:41,419 - alejandria_api - INFO - ➡️  GET /reviews/10
+2025-11-10 18:08:41,421 - alejandria_api - INFO - ➡️  GET /reviews/11
+2025-11-10 18:08:41,423 - alejandria_api - INFO - ➡️  GET /reviews/12
+2025-11-10 18:08:41,423 - alejandria_api - INFO - ⬅️  GET /reviews/1 | status=200 | 0.008s
+2025-11-10 18:08:41,424 - alejandria_api - INFO - ⬅️  GET /reviews/5 | status=200 | 0.008s
+2025-11-10 18:08:41,426 - alejandria_api - INFO - ⬅️  GET /reviews/10 | status=200 | 0.007s
+2025-11-10 18:08:41,428 - alejandria_api - INFO - ⬅️  GET /reviews/12 | status=200 | 0.006s
+2025-11-10 18:08:41,429 - alejandria_api - INFO - ⬅️  GET /reviews/11 | status=200 | 0.008s
+2025-11-10 18:08:44,324 - alejandria_api - INFO - ➡️  DELETE /loans/pablo/10
+2025-11-10 18:08:44,330 - alejandria_api - INFO - ↩️ Préstamo devuelto: pablo ← 10
+2025-11-10 18:08:44,331 - alejandria_api - INFO - ⬅️  DELETE /loans/pablo/10 | status=200 | 0.007s
+2025-11-10 18:08:44,334 - alejandria_api - INFO - ➡️  GET /loans/
+2025-11-10 18:08:44,335 - alejandria_api - INFO - 📚 5 préstamos encontrados para pablo
+2025-11-10 18:08:44,335 - alejandria_api - INFO - ⬅️  GET /loans/ | status=200 | 0.001s
+2025-11-10 18:08:45,109 - alejandria_api - INFO - ➡️  DELETE /loans/pablo/12
+2025-11-10 18:08:45,113 - alejandria_api - INFO - ↩️ Préstamo devuelto: pablo ← 12
+2025-11-10 18:08:45,114 - alejandria_api - INFO - ⬅️  DELETE /loans/pablo/12 | status=200 | 0.005s
+2025-11-10 18:08:45,119 - alejandria_api - INFO - ➡️  GET /loans/
+2025-11-10 18:08:45,120 - alejandria_api - INFO - 📚 4 préstamos encontrados para pablo
+2025-11-10 18:08:45,120 - alejandria_api - INFO - ⬅️  GET /loans/ | status=200 | 0.001s
+2025-11-10 18:12:34,236 - alejandria_api - INFO - 📁 Base de datos ya existente: alejandria.db
+2025-11-10 18:12:41,678 - alejandria_api - INFO - ➡️  GET /docs/
+2025-11-10 18:12:41,683 - alejandria_api - INFO - ⬅️  GET /docs/ | status=307 | 0.004s
+2025-11-10 18:12:41,690 - alejandria_api - INFO - ➡️  GET /docs
+2025-11-10 18:12:41,691 - alejandria_api - INFO - ⬅️  GET /docs | status=200 | 0.001s
+2025-11-10 18:12:41,840 - alejandria_api - INFO - ➡️  GET /openapi.json
+2025-11-10 18:12:41,914 - alejandria_api - INFO - ⬅️  GET /openapi.json | status=200 | 0.074s
+2025-11-10 18:13:22,162 - alejandria_api - INFO - ➡️  GET /redoc
+2025-11-10 18:13:22,163 - alejandria_api - INFO - ⬅️  GET /redoc | status=200 | 0.001s
+2025-11-10 18:13:22,386 - alejandria_api - INFO - ➡️  GET /openapi.json
+2025-11-10 18:13:22,386 - alejandria_api - INFO - ⬅️  GET /openapi.json | status=200 | 0.001s

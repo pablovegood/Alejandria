@@ -1,0 +1,2989 @@
+﻿The Project Gutenberg eBook of An ice cream laboratory guide
+    
+This ebook is for the use of anyone anywhere in the United States and
+most other parts of the world at no cost and with almost no restrictions
+whatsoever. You may copy it, give it away or re-use it under the terms
+of the Project Gutenberg License included with this ebook or online
+at www.gutenberg.org. If you are not located in the United States,
+you will have to check the laws of the country where you are located
+before using this eBook.
+
+Title: An ice cream laboratory guide
+
+Author: W. W. Fisk
+        H. B. Ellenberger
+
+Release date: October 23, 2025 [eBook #77115]
+
+Language: English
+
+Original publication: New York: Orange Judd Company, 1917
+
+Credits: Charlene Taylor and the Online Distributed Proofreading Team at https://www.pgdp.net (This file was produced from images generously made available by The Internet Archive/American Libraries.)
+
+
+*** START OF THE PROJECT GUTENBERG EBOOK AN ICE CREAM LABORATORY GUIDE ***
+
+
+
+
+
+Transcriber’s Notes:
+
+Underscores “_” before and after a word or phrase indicate _italics_
+in the original text. Small capitals have been converted to SOLID
+capitals. Illustrations have been moved so they do not break up
+paragraphs. Typographical and punctuation errors have been silently
+corrected.
+
+
+
+
+                          An Ice Cream
+                        Laboratory Guide
+
+                               BY
+                           W. W. FISK
+
+           _Assistant Professor of Dairy Industry at
+                     Cornell University_
+
+                               and
+                        H. B. ELLENBERGER
+
+    _Instructor of Dairy Industry at Cornell University_
+
+                            NEW YORK
+                       ORANGE JUDD COMPANY
+                              1917
+
+                       Copyright, 1917, by
+                       ORANGE JUDD COMPANY
+                   _All Rights Reserved_
+
+                       Printed in U. S. A.
+
+
+
+
+TABLE OF CONTENTS
+
+
+                                                            PAGE
+    PREFACE                                                   1
+    DISCUSSION OF LABORATORY EQUIPMENT                        3
+
+              EXERCISE I
+    Inspection and Study of Ice Cream Machinery               6
+    DISCUSSION OF STANDARDIZATION                             8
+
+              EXERCISE II
+    Standardization                                          12
+
+              EXERCISE III
+    Testing Ice Cream for Fat                                14
+
+              EXERCISE IV
+    Effect of the Salt and Ice Mixture on Temperature        16
+    CLASSIFICATION OF ICE CREAM                              18
+    THE USE OF STABILIZERS                                   21
+
+              EXERCISE V
+    Freezing Plain Ice Creams                                24
+
+              EXERCISE VI
+    Methods of Measuring Swell                               26
+    HARDENING ICE CREAM                                      28
+
+              EXERCISE VII
+    Freezing Fruit Ice Cream. Hardening in Salt and Ice      30
+
+              EXERCISE VIII
+    Freezing Nut Ice Cream                                   32
+
+              EXERCISE IX
+    Freezing Bisque Ice Cream                                34
+
+              EXERCISE X
+    Making Bricks and Fancy Moulded Ice Creams               37
+
+              EXERCISE XI
+    Freezing Custard Ice Cream                               41
+
+              EXERCISE XII
+    Freezing Parfait or French Ice Creams                    45
+
+              EXERCISE XIII
+    Freezing Puddings                                        49
+
+              EXERCISE XIV
+    Freezing Ices                                            52
+
+              EXERCISE XV
+    Freezing Water Sherbets                                  54
+
+              EXERCISE XVI
+    Freezing Milk Sherbets                                   56
+
+              EXERCISE XVII
+    Freezing Punches and Lacto                               58
+
+              EXERCISE XVIII
+    Freezing Mousse                                          60
+
+              EXERCISE XIX
+    Standardize Mix to a Given Percentage of Fat             62
+    SCORE CARD FOR JUDGING ICE CREAM                         64
+
+              EXERCISE XX
+    Judging Plain Ice Creams                                 66
+
+              EXERCISE XXI
+    The Effect of Fat Content on Ice Cream                   68
+
+              EXERCISE XXII
+    The Effect of Different Binders on Ice Cream             70
+
+              EXERCISE XXIII
+    The Effect of Varying Percentages of Milk Solids Not
+        Fat on Ice Cream                                     72
+
+              EXERCISE XXIV
+    Freezing Ice Cream from Raw, Pasteurized, Emulsified
+        and Homogenized Cream                                74
+
+              EXERCISE XXV
+    The Effect of Aging Cream on the Viscosity and Swell     76
+
+              EXERCISE XXVI
+    The Effect of the Temperature of the Mix as It Enters
+        the Freezer on the Swell                             78
+
+              EXERCISE XXVII
+    Effect of the Time of Freezing on the Swell and Quality
+        of the Ice Cream                                     80
+
+              EXERCISE XXVIII
+    Bacterial Counts of Ice Cream                            82
+
+              EXERCISE XXIX
+    Testing Samples of Gelatin                               84
+
+              EXERCISE XXX
+    Trip to Commercial Plants                                86
+
+              EXERCISE XXXI
+    Students’ Receipts                                       88
+
+
+
+
+PREFACE
+
+
+The manufacture of ice cream is based on certain scientific principles.
+It is the purpose of this laboratory manual to help the student to
+better understand the application of these principles. This manual,
+which is the result of several years’ experience in teaching, is
+not intended as a textbook, but as a brief and concise outline of
+laboratory exercises. It will also serve as a suitable place for the
+student to record observations. The exercises have been prepared, so
+that each instructor may make selections and combinations suitable for
+the equipment and the needs of his course.
+
+Because this is comparatively a new subject and the ideas regarding ice
+cream production and manufacture are constantly changing, the authors
+recognize that this manual will need frequent revisions. An effort will
+be made to keep it thoroughly up to date.
+
+          _Dairy Laboratories,
+    New York State College of Agriculture,
+           at Cornell University,
+              Ithaca, New York,
+               February, 1917._
+
+
+
+
+An Ice Cream Laboratory Guide
+
+
+
+
+LABORATORY EQUIPMENT
+
+
+The exercises in this manual may be selected or easily modified, so
+that they will be suitable for any laboratory equipment. For example,
+the receipts have been prepared with the expectation that a 10-gallon
+freezer would be used; if a smaller freezer is used, the receipts may
+be reduced proportionally.
+
+Much better instruction can be given if the equipment includes an
+artificial refrigerating plant for freezing and hardening the ice
+cream. If the equipment does not include an artificial refrigerating
+plant, a tub and can freezer, using an ice and salt mixture for
+freezing, and a wooden box for packing and hardening the ice cream, in
+ice and salt, may be used. The hardening box should be made of 2 inch
+matched lumber so that it will not leak. The size of the box will be
+determined by the amount of ice cream manufactured. It should be built
+in compartments which will hold six five gallon cans. This will require
+a box 26 inches wide by 32 inches deep by 36 inches long, outside
+measurement, with a hinged cover for each compartment.
+
+If much ice cream is to be made an ice cream mixer is a necessity, but
+if a small amount is made each batch may be mixed in a 40 quart milk
+can. A homogenizer and emulsor may be included in the equipment.
+
+With whatever type of freezer is used, there should be one or two
+small hand freezers, to freeze small batches and to try new receipts.
+An ice crusher should be included for crushing ice.
+
+The equipment should include the necessary small utensils, such as
+pails, dippers, ladles, spoons, thermometers, scales, measures, pack
+cans, etc.
+
+There should be a suitable sink connected with hot and cold water and
+steam, for washing and scalding the utensils. A suitable rack should be
+provided for drying and holding the utensils and pack cans. Because of
+the salt used, care must be exercised, as it is liable to get on the
+utensils and cause them to rust.
+
+All belts and gears on machines should be protected, so that persons
+cannot be caught and injured in them.
+
+
+
+
+EXERCISE NUMBER I
+
+INSPECTION AND STUDY OF ICE CREAM MACHINERY
+
+
+_Artificial refrigerating systems._
+
+      I. State briefly the principles involved in an
+         artificial refrigerating plant.
+
+     II. Make drawings showing the working principles of the
+         refrigerating system.
+
+    III. Tell how to start and stop the compressor.
+
+_Ice cream freezers._
+
+     I. Tell the principles on which the various types of
+        freezers work.
+
+    II. How can the temperature in the different types of
+        freezers be regulated?
+
+_Cleaning utensils._
+
+     I. How should utensils be washed? Why?
+
+    II. Are all utensils so constructed that they may be
+        easily and thoroughly cleaned? What provisions
+        have been made to make cleaning easy?
+
+EXERCISE I REPORT
+
+
+STANDARDIZATION
+
+One of the main requirements for a successful ice cream business is
+uniformity of quality. In order to obtain this, it is necessary to
+have cream each time containing the same percentage of fat. As it is
+impossible to always get cream of a uniform fat content, the cream
+must be standardized. That is, the percentage of fat must be either
+increased or decreased to the desired amount. It is the usual practice
+to have richer cream than is to be used and reduce it by the addition
+of less rich cream, whole milk, or skim milk. If the cream was lower in
+percentage of fat than was desired, it could be standardized only by
+the addition of richer cream.
+
+Prof. R. A. Pearson has devised a very simple method, known as the
+rectangular method of standardization. This method is as follows: draw
+a rectangle and place in the center the percentage of fat desired. At
+the left hand corners place the percentages of fat in the materials to
+be mixed. It is customary to place the larger figure at the top, thus:
+
+[Illustration]
+
+Then subtract diagonally, placing the remainders at the right hand
+corners, as shown above. These show the proportions by weight in which
+the materials must be mixed to give the desired percentage of fat.
+
+A problem may serve to illustrate the method.
+
+How many pounds each of 30% cream and 4% milk are necessary to make 260
+lbs. of 20% cream?
+
+[Illustration]
+
+This shows 16 lbs. 30% cream and 10 lbs. 4% milk make 26 lbs. of
+20% cream, but 260 lbs. is required. This is best solved by simple
+proportion:
+
+10 lbs. milk∶ 26 lbs. 20% cream∷ x lbs. milk∶ 260 lbs. 20% cream.
+
+Solving x = 100 lbs. 4% milk required and 260-100 lbs. milk = 160 lbs.
+30% cream required which may also be determined by proportion.
+
+To be sure no mistakes are made in figuring, it is best to prove all
+standardizations. The proof is simple.
+
+    260 lbs. 20% cream contains 52 lbs. fat (required).
+    160 lbs. 30%   ”      ”     48 lbs.  ”
+    100 lbs.  4% milk     ”      4 lbs.  ”
+                                —
+              Making a total of 52 lbs. fat, the amount required.
+
+In the above problem a definite amount of the mixture was required.
+There is another class of standardization problems in which the amount
+of one of the materials is given, to find the quantity of the other
+required to standardize it:
+
+How much 4% milk must be mixed with 420 lbs. of 40% cream to make a
+mixture testing 25% fat?
+
+[Illustration]
+
+This shows that 15 lbs. of 4% milk will standardize 21 lbs. of 40%
+cream to a cream tasting 25% fat. But there are 420 lbs. of 40% cream
+to standardize. By simple proportion,
+
+15 lbs. 4% milk∶ 21 lbs. 40% cream∷ x lbs. 4% milk∶ 420 lbs. 40% cream.
+
+Solving x = 300 lbs. 4% milk
+
+420 lbs. cream + 300 lbs. milk = 720 lbs. 25% cream.
+
+Proof:
+
+    720 lbs. of 25% cream contains 180 lbs. fat.
+    300 lbs. of  4% milk     ”      12 lbs.  ”
+    420 lbs. of 40% cream    ”     168 lbs.  ”
+                                   ———
+                 Making a total of 180 lbs. fat.
+
+
+
+
+EXERCISE NUMBER II
+
+STANDARDIZATION
+
+
+Cream and milk to standardize will be furnished.
+
+Test both by the Babcock method and report the result to the
+instructor, who will assign a definite percentage of fat for the
+standardized mixture.
+
+After standardizing, test a sample of the standardized mixture by the
+Babcock method to test the accuracy of your work.
+
+Report all calculations and results on opposite page.
+
+EXERCISE II REPORT
+
+
+
+
+EXERCISE NUMBER III
+
+TESTING ICE CREAM FOR FAT
+
+
+Ice cream cannot be tested for fat, by the Babcock test, as milk,
+because the acid chars the sugar, which interferes with the reading.
+Various methods of testing ice cream, so as to overcome this
+disadvantage have been devised. A few of the simpler ones follow.
+
+Test a sample of ice cream by each of the following methods and report
+results on the opposite page.
+
+Method of Prof. H. E. Ross: Mix equal parts by weight of melted ice
+cream and water. Weigh into a 9 gram 50% cream bottle 9 grams of the
+mixture. Add 17.5 cc. of glacial acetic acid. Shake for two to three
+minutes. Next add 15 cc. of sulphuric acid such as is used for the
+Babcock test. Shake for one minute and proceed as in the ordinary
+Babcock test. Multiply the reading by two.
+
+Method of J. P. Dawson: Weigh 18 grams of melted ice cream at a
+temperature of 70 degrees F. into a 30%, 9 inch cream test bottle. Add
+8 cc. of glacial acetic acid, agitate gently for 2 minutes and add 10
+cc. of Babcock sulphuric acid. Shake and centrifuge in the usual manner.
+
+Note: There appears to be no reason why one half the quantities of ice
+cream and acids may not be used in a 6 inch 9 gram 50% cream bottle.
+
+Method often used by the authors: Weigh 9 grams of melted ice cream
+into a 6 inch 50%, 9 gram cream bottle and add about 9 cc. of water.
+Add three quarters of an acid measure of glacial acetic acid and mix
+thoroughly. Next add two thirds of an acid measure of Babcock sulphuric
+acid. Shake till well mixed and centrifuge in the usual manner.
+
+EXERCISE III REPORT
+
+
+
+
+EXERCISE NUMBER IV
+
+EFFECT OF THE SALT AND ICE MIXTURE ON TEMPERATURE
+
+
+Make a brine one part salt to ten parts of water by weight. With part
+of this fill the can of a hand freezer two thirds full just as though
+it were an ice cream mix which you were going to freeze. Record the
+temperature of this brine.
+
+_Trial_ 1. Using a mixture of one pound of salt to 10 lbs. of crushed
+ice, try freezing the brine in the freezer can. Turn 10 minutes,
+keeping the freezer can well covered with the ice and salt mixture.
+Open and record the temperature of the brine in the can.
+
+_Trial_ 2. Empty the freezer can and tub and refill the can with more
+of the brine used in Trial 1. Be sure to have it the same temperature.
+Using a salt and ice mixture of the same proportions, pack the tub
+again and in addition add enough cold water so that it starts to
+run from the overflow hole in the tub. Turn the freezer 10 minutes,
+recording the temperature of the brine flowing from the overflow hole
+every 2 minutes. Be sure to keep the ice-salt-water mixture in the tub
+well mixed by punching with a stick such as a sawed-off broom handle.
+Again record the temperature of the brine in the can. Why does it
+differ from what it was in Trial 1?
+
+_Trial_ 3. Repeat Trial 2, except use a mixture of salt and ice one to
+six instead of one to 10. Record results.
+
+_Trial_ 4. Repeat Trial 3 but do not mix the ice, salt, and water in
+the tub. Explain the difference in the results obtained in Trials 3 and
+4.
+
+Tabulate and report all the data which you have recorded.
+
+EXERCISE IV REPORT
+
+
+
+
+CLASSIFICATION OF ICE CREAM
+
+
+In the absence of the adoption of any uniform standard classification
+of ice cream, the following classification in use by the authors is
+given. It is simple, yet comprehensive, and is arranged according to
+fundamental differences in composition. This seems to be the most
+logical basis for classifying ice cream and is very satisfactory from
+a laboratory standpoint. Exercises and representative formulas will be
+given for each of these classes.
+
+I. Plain or uncooked ice cream, often known as Philadelphia ice cream,
+is made from cream, sugar, and flavoring, with or without condensed
+milk or some stabilizer. It may be subdivided as follows:
+
+    1. Plain—Flavors such as Vanilla, Chocolate, Caramel,
+       Coffee, Mint, etc.
+
+    2. Fruit—Flavored with fresh or canned fruits such as
+       Peach, Pineapple, Strawberry, Cherry, etc.
+
+    3. Nut—Flavored with such nuts as Walnut, Almond,
+       Filbert, Chestnut, Pistachio, etc.
+
+    4. Bisque—Flavored with Marshmallows, Macaroons,
+       Sponge Cake, Nabisco Wafers, Grape-nuts, etc.
+
+II. Cooked ice cream, often known as French or Neapolitan ice cream, is
+made from cream, sugar, flavoring, and eggs. As custards they sometimes
+contain flour or cornstarch. The following subdivisions are recognized:
+
+    1. Parfaits or French—Flavors such as Vanilla,
+       Chocolate, etc., are most common, but various
+       fruits are sometimes used.
+
+    2. Puddings—These are highly flavored with various
+       dried and candied fruits, nuts, and spices.
+       Examples are Nesselrode, Roman, and English Plum.
+
+    3. Custards—These contain flour, cornstarch, tapioca,
+       or other similar ingredients, and are almost always
+       flavored with vanilla.
+
+III. Sherbets and Ices are made from water or milk, sugar, often egg
+albumen and a stabilizer, and flavored with fruit juices or other
+natural flavoring. The most prominent classes are the following:
+
+    1. Ices—Made from water, sugar and some natural
+       flavoring without eggs or a stabilizer. This may
+       include granites and frappés. Granites are frozen
+       with little agitation, while frappés are only
+       semi-frozen to a slushy consistency.
+
+    2. Water Sherbets—are made the same as ices with the
+       addition of egg whites and sometimes a stabilizer.
+       If the whole egg is used, they are sometimes called
+       souffles.
+
+    3. Punches—are ices or water sherbets flavored with
+       liquors or highly flavored with fruit juices and
+       spices.
+
+    4. Milk Sherbets—Made from skimmed or whole milk,
+       sugar, and egg whites, with or without a stabilizer
+       and flavored with some natural flavoring.
+
+    5. Lacto—Made from skimmed or whole sour milk instead
+       of sweet milk but in other respects they resemble
+       milk sherbets.
+
+IV. Mousse is a rich cream, sweetened and whipped to a stiff froth,
+flavored and frozen in moulds or cans.
+
+In the laboratories at the New York state agricultural college 20%
+cream is used in making all plain or uncooked ice creams. Therefore
+in the following exercises and formulas a 20% cream is used as a base
+in most cases. This, however, may be reduced to 18% or 16% if it is
+thought desirable.
+
+It must be remembered that the formulas given are for laboratory use
+and are not especially recommended as ideal formulas for commercial
+use. Many of them have given good results in commercial plants but
+there are so many variations and combinations possible that no single
+formula or group of formulas can be given as ideal for all commercial
+plants.
+
+If the use of condensed milk is desired eight pounds of whole condensed
+milk may be substituted for the same amount of cream with excellent
+results in any of the formulas given for plain ice cream. Most
+commercial plants use condensed milk to give the ice cream more body
+and better standing quality.
+
+
+
+
+THE USE OF STABILIZERS
+
+
+A stabilizer of some kind is generally admitted to be necessary in
+commercial ice cream. The three most commonly used are gelatin, ice
+cream powders and gum tragacanth.
+
+Gelatin may be prepared in any of the three following ways, using
+either milk or water for dissolving it. However, if milk is used, one
+of the first two methods should be used, so as to avoid any cooked
+flavor from boiled milk.
+
+1. Using one pint to one quart of water or milk to each two ounces of
+gelatin, soak the gelatin in the cold liquid for fifteen to thirty
+minutes. Then heat the mixture up to a temperature of 160 degrees to
+170 degrees F. and add to the cream with rapid agitation.
+
+2. The same as number one, except heat the mixture only to a
+temperature of 125 degrees to 130 degrees F. for a sufficient time to
+thoroughly dissolve all of the gelatin.
+
+3. Heat the necessary amount of water to boiling, dump the gelatin into
+it and stir till dissolved. Then add to the cream with rapid stirring.
+
+Ice cream powders should be used according to the directions given with
+them.
+
+Gum tragacanth stock is made in the following manner. Place the dry gum
+in cold water, using one ounce of gum to four pounds of water. Heat
+slowly and uniformly over a low flame or better in a double boiler
+to a temperature of about 110 degrees F. Hold at this temperature
+for several hours or until the dry gum has absorbed all the water it
+will hold. It does not go into true solution in water but will absorb
+about fifty times its own weight of the water. Strain through a coarse
+strainer and cool. It is then ready for immediate use. Sometimes enough
+is made at one time to last for several days, in which case it is best
+to add sufficient sugar to keep it from spoiling.
+
+
+
+
+EXERCISE NUMBER V
+
+FREEZING PLAIN ICE CREAM
+
+
+Freeze ice creams after the following formulas, which may be reduced to
+suit the capacity of the freezer used. Eight pounds of whole condensed
+milk may be substituted for eight pounds of the cream if desired. Fill
+out the record blank on opposite page.
+
+No. 1.
+
+    40 pounds of 20% cream
+     8 pounds of sugar
+     4 ounces of vanilla extract
+     4 ounces of gelatin if desired (See page 21)
+
+No. 2.
+
+    40  pounds of 20% cream
+     8  pounds of sugar
+     2  ounces of vanilla extract
+     4  ounces of gelatin if desired (See page 21)
+     1¼ pounds cocoa dissolved in four pounds of
+        boiling water with one pound of sugar.
+          (Chocolate may be used.)
+        Cinnamon to taste if desired.
+
+No. 3.
+
+    40 pounds of 20% cream
+     8 pounds of sugar
+     2 ounces of vanilla extract
+     2 pounds of coffee
+         (boil, strain and use enough to flavor to taste)
+     4 ounces of gelatin if desired (See page 21)
+
+No. 4.
+
+    40 pounds of 20% cream
+     8 pounds of sugar
+     1 pint of creme de menth syrup
+     4 ounces of gelatin if desired (See page 21)
+       Color pale green.
+
+EXERCISE V REPORT
+
+    Date_________________________  Receipt Number___________________
+
+    CREAM:                         ICE CREAM:
+     Age______________                Gallons_______________________
+     Acidity_______                   Weight per gallon_____________
+     Temperature_______
+                                    SWELL:
+    STANDARDIZATION:                 Gallons________ Per cent.____
+     Per cent_ fat in cream______
+     Per cent_ fat in milk_______   FREEZING:
+     Standardize_______ pounds of     Freezer used_________
+     cream testing___________ per     Pounds ice used _____
+      cent fat.                       Pounds salt used_______
+
+     [Illustration]                 TIME:
+                                      Of starting freezer___________
+                                      That mix reaches 30° F________
+                                      Required to reach 30° F_______
+                                      That freezing is completed____
+                                    Total time required to freeze___
+    Give proportion.
+     x = the pounds______________
+     Pounds of cream used________   TEMPERATURE:
+     Pounds of milk used_________     Of mix entering freezer_______
+                                      Of brine when mix reaches 30° F___
+    MIX:                              Of ice cream when removed_____
+     Pounds_______ Gallons_______     Of brine at this time_________
+     Weight per gallon___________
+     Per cent fat it
+              should test________
+
+     Was gelatin used?_______       By method 1, 2 or 3?_______
+     In milk or water?_______
+
+     Remarks:
+
+     Comments on ice cream after it is hardened:
+
+
+
+
+EXERCISE NUMBER VI
+
+METHODS OF MEASURING SWELL
+
+
+Freeze one or more batches of plain ice cream as assigned and measure
+the per cent. of swell in each of the following ways. Record results on
+the opposite page.
+
+_Receipt:_
+
+    40 pounds of 20% cream
+     8 pounds of sugar
+     4 ounces of vanilla extract
+     4 ounces of gelatin if desired (See page 21)
+
+1. Measure the gallons of mix used. Then measure in packing cans the
+gallons of ice cream obtained and calculate the per cent. of swell.
+
+2. Weigh one gallon of the mix. Weigh the first gallon and the last
+gallon of ice cream removed from the freezer and calculate the per
+cent. of swell in each case.
+
+3. Take two samples, preferably from different packing cans of ice
+cream from the same freezer, and determine the per cent. of swell by
+the method given in Bulletin 241 of the Wisconsin Station as follows:
+Take a 50 cc. sample of ice cream with the sampler furnished you and
+transfer to a 300 cc. beaker, using exactly 200 cc. of hot water to
+melt it. Then transfer all of this to a 250 cc. Florence flask and add
+1 or 2 cc. of ether (measured) to reduce the foam. Next add enough
+water measured from a burette to fill the flask to the mark. The ether
+and water required represent the swell. Calculate the per cent. in each
+case.
+
+Which method do you consider the most accurate for commercial use and
+why? For experimental use and why? Give special advantages of each
+test.
+
+EXERCISE VI REPORT
+
+    Date_________________________  Receipt Number___________________
+
+    CREAM:                         ICE CREAM:
+     Age______________                Gallons_______________________
+     Acidity_______                   Weight per gallon_____________
+     Temperature_______
+                                    SWELL:
+    STANDARDIZATION:                 Gallons________ Per cent.____
+     Per cent_ fat in cream______
+     Per cent_ fat in milk_______   FREEZING:
+     Standardize_______ pounds of     Freezer used_________
+     cream testing___________ per     Pounds ice used _____
+      cent fat.                       Pounds salt used_______
+
+     [Illustration]                 TIME:
+                                      Of starting freezer___________
+                                      That mix reaches 30° F________
+                                      Required to reach 30° F_______
+                                      That freezing is completed____
+                                    Total time required to freeze___
+    Give proportion.
+     x = the pounds______________
+     Pounds of cream used________   TEMPERATURE:
+     Pounds of milk used_________     Of mix entering freezer_______
+                                      Of brine when mix reaches 30° F___
+    MIX:                              Of ice cream when removed_____
+     Pounds_______ Gallons_______     Of brine at this time_________
+     Weight per gallon___________
+     Per cent fat it
+              should test________
+
+     Was gelatin used?_______       By method 1, 2 or 3?_______
+     In milk or water?_______
+
+     Remarks:
+
+     Comments on ice cream after it is hardened:
+
+
+HARDENING ICE CREAM
+
+Ice cream may be of the highest quality when removed from the freezer
+and yet be ruined before it becomes hard enough to ship unless the
+hardening is properly accomplished. The two principal methods in use
+are the salt and ice method and the artificially cooled dry hardening
+room where the cans of ice cream are simply set in a very cold room
+and hardened by still or circulating cold air. The temperature of
+such a room should be maintained at near zero F. With either method
+the hardening process should not require more than twelve hours. The
+packing cans should always be cold before they are filled with ice
+cream, so as to prevent melting in the bottom.
+
+_Directions for hardening in salt and ice._ Either ordinary packing
+tubs or a large box may be used for this purpose. If tubs are used,
+simply pack well with salt and ice mixed in the proportion of one to
+eight. It is necessary to repack these tubs two or three times a day in
+order to keep the ice cream hard. When several cans of ice cream are
+to be hardened at a time a better method, more economical in labor and
+material, is to pack the empty cans up to the covers in a large box,
+using salt and ice, one to eight. The soft ice cream is poured into
+these partly packed cans and when full they are completely covered with
+the ice and salt mixture. With such a box it is not necessary to repack
+oftener than twice a day.
+
+
+
+
+EXERCISE NUMBER VII
+
+FREEZING FRUIT ICE CREAM—HARDENING IN SALT AND ICE
+
+
+Freeze fruit ice creams after the following formula, using such of the
+flavors as are assigned. Fill out record blank on opposite page.
+
+    _Receipt_:
+       40 pounds of 20% cream
+        8 pounds of sugar
+        4 ounces of gelatin in 4 pounds water
+        3 quarts pulped fruit
+          Color, if desired.
+
+Flavors: Pineapple, raspberry, peach, cherry, strawberry. Either fresh
+or canned fruit may be used.
+
+If a perpendicular freezer is used, the fruit should not be added until
+the ice cream begins to thicken, which will prevent the fruit settling
+to the bottom of the freezer.
+
+Harden this ice cream in a salt and ice mixture.
+
+EXERCISE VII REPORT
+
+    Date_________________________  Receipt Number___________________
+
+    CREAM:                         ICE CREAM:
+     Age______________                Gallons_______________________
+     Acidity_______                   Weight per gallon_____________
+     Temperature_______
+                                    SWELL:
+    STANDARDIZATION:                 Gallons________ Per cent.____
+     Per cent_ fat in cream______
+     Per cent_ fat in milk_______   FREEZING:
+     Standardize_______ pounds of     Freezer used_________
+     cream testing___________ per     Pounds ice used _____
+      cent fat.                       Pounds salt used_______
+
+     [Illustration]                 TIME:
+                                      Of starting freezer___________
+                                      That mix reaches 30° F________
+                                      Required to reach 30° F_______
+                                      That freezing is completed____
+                                    Total time required to freeze___
+    Give proportion.
+     x = the pounds______________
+     Pounds of cream used________   TEMPERATURE:
+     Pounds of milk used_________     Of mix entering freezer_______
+                                      Of brine when mix reaches 30° F___
+    MIX:                              Of ice cream when removed_____
+     Pounds_______ Gallons_______     Of brine at this time_________
+     Weight per gallon___________
+     Per cent fat it
+              should test________
+
+     Was gelatin used?_______       By method 1, 2 or 3?_______
+     In milk or water?_______
+
+     Remarks:
+
+     Comments on ice cream after it is hardened:
+
+
+
+
+EXERCISE NUMBER VIII
+
+NUT ICE CREAM
+
+
+Freeze nut ice creams as assigned, using the formula given below. Fill
+out the record blank on opposite page.
+
+Flavors: Walnut, filbert, almond and pistachio.
+
+It is better if all of these, except the walnuts, are blanched before
+using by scalding with boiling water and removing the skins.
+
+Prepare the nuts by running them through a meat chopper and add to the
+ice cream after it freezes enough to begin to thicken.
+
+    _Receipt_:
+       40 pounds of 20% cream
+        8 pounds of sugar
+        2 ounces of vanilla extract
+        4 ounces of gelatin in 4 pounds water
+        3 pounds of nut meats
+
+If pistachio nuts are used, color the ice cream a pale green.
+
+EXERCISE VIII REPORT
+
+    Date_________________________  Receipt Number___________________
+
+    CREAM:                         ICE CREAM:
+     Age______________                Gallons_______________________
+     Acidity_______                   Weight per gallon_____________
+     Temperature_______
+                                    SWELL:
+    STANDARDIZATION:                 Gallons________ Per cent.____
+     Per cent_ fat in cream______
+     Per cent_ fat in milk_______   FREEZING:
+     Standardize_______ pounds of     Freezer used_________
+     cream testing___________ per     Pounds ice used _____
+      cent fat.                       Pounds salt used_______
+
+     [Illustration]                 TIME:
+                                      Of starting freezer___________
+                                      That mix reaches 30° F________
+                                      Required to reach 30° F_______
+                                      That freezing is completed____
+                                    Total time required to freeze___
+    Give proportion.
+     x = the pounds______________
+     Pounds of cream used________   TEMPERATURE:
+     Pounds of milk used_________     Of mix entering freezer_______
+                                      Of brine when mix reaches 30° F___
+    MIX:                              Of ice cream when removed_____
+     Pounds_______ Gallons_______     Of brine at this time_________
+     Weight per gallon___________
+     Per cent fat it
+              should test________
+
+     Was gelatin used?_______       By method 1, 2 or 3?_______
+     In milk or water?_______
+
+     Remarks:
+
+     Comments on ice cream after it is hardened:
+
+
+
+
+EXERCISE NUMBER IX
+
+BISQUE ICE CREAM
+
+
+Freeze bisque ice cream after the base formula given below, using such
+of the following flavors as are assigned. Fill out the record blank on
+opposite page.
+
+Flavors: Macaroons, sponge cake, grapenuts, and Nabisco wafers.
+
+    _Receipt_:
+      40 pounds of 20% cream
+       8 pounds of sugar
+       3 ounces of vanilla extract
+       4 ounces of gelatin in 4 pounds water
+       5 pounds pulverized bread product.
+
+Any bread product used should be dried sufficiently so that it may be
+easily crushed into fine crumbs. If perpendicular freezer is used,
+do not add the crumbs until the ice cream freezes enough to begin to
+thicken.
+
+EXERCISE IX REPORT
+
+    Date_________________________  Receipt Number___________________
+
+    CREAM:                         ICE CREAM:
+     Age______________                Gallons_______________________
+     Acidity_______                   Weight per gallon_____________
+     Temperature_______
+                                    SWELL:
+    STANDARDIZATION:                 Gallons________ Per cent.____
+     Per cent_ fat in cream______
+     Per cent_ fat in milk_______   FREEZING:
+     Standardize_______ pounds of     Freezer used_________
+     cream testing___________ per     Pounds ice used _____
+      cent fat.                       Pounds salt used_______
+
+     [Illustration]                 TIME:
+                                      Of starting freezer___________
+                                      That mix reaches 30° F________
+                                      Required to reach 30° F_______
+                                      That freezing is completed____
+                                    Total time required to freeze___
+    Give proportion.
+     x = the pounds______________
+     Pounds of cream used________   TEMPERATURE:
+     Pounds of milk used_________     Of mix entering freezer_______
+                                      Of brine when mix reaches 30° F___
+    MIX:                              Of ice cream when removed_____
+     Pounds_______ Gallons_______     Of brine at this time_________
+     Weight per gallon___________
+     Per cent fat it
+              should test________
+
+     Was gelatin used?_______       By method 1, 2 or 3?_______
+     In milk or water?_______
+
+     Remarks:
+
+     Comments on ice cream after it is hardened:
+
+
+
+
+EXERCISE NUMBER X
+
+MAKING BRICKS AND FANCY MOULDED ICE CREAMS
+
+
+Freeze the following plain ice creams as assigned. Freeze in the order
+given. Fill out record blank on the opposite page and make bricks and
+molds of the ice cream as directed below.
+
+_Receipts_:
+
+    No. 1.
+      40 pounds of 20% cream
+       8 pounds of sugar
+       5 ounces of gelatin in 4 pounds water
+       4 ounces of vanilla extract
+
+    No. 2.
+      40 pounds of 20% cream
+       8 pounds of sugar
+       5 ounces of gelatin in 4 pounds water
+       1 quart pulped strawberries
+       4 ounces strawberry extract
+         Color pink
+
+    No. 3.
+      40  pounds of 20% cream
+       8  pounds of sugar
+       5  ounces of gelatin in 4 pounds water
+       3  ounces of vanilla extract
+       1¼ pounds chocolate with 4 pounds of water and one pound of sugar
+             (cocoa may be used if desired).
+
+Fill the outside of a few center mold bricks with vanilla ice cream.
+Harden in a salt and ice mixture one part salt to two parts of ice.
+When hard withdraw the center mold and fill with the strawberry or
+chocolate ice cream. Again pack in salt and ice to harden.
+
+Fill a few fancy individual molds and pack in the salt and ice mixture
+till hard.
+
+Each student should make a 3 layer tri-colored brick. First prepare the
+molds, attach your name and pack in salt and ice to become thoroughly
+cold. As the vanilla ice cream is drawn from the freezer fill each mold
+one third full and pack in the salt and ice mixture, so that it will be
+hardened by the time the strawberry ice cream is ready to be drawn off.
+Then fill another one third with the strawberry. Finish filling with
+the chocolate, being sure to have the brick so full of soft cream that
+no brine can enter under the lid. Care should be taken each time to
+have the bricks set level in the salt and ice.
+
+EXERCISE X REPORT
+
+    Date_________________________  Receipt Number___________________
+
+    CREAM:                         ICE CREAM:
+     Age______________                Gallons_______________________
+     Acidity_______                   Weight per gallon_____________
+     Temperature_______
+                                    SWELL:
+    STANDARDIZATION:                 Gallons________ Per cent.____
+     Per cent_ fat in cream______
+     Per cent_ fat in milk_______   FREEZING:
+     Standardize_______ pounds of     Freezer used_________
+     cream testing___________ per     Pounds ice used _____
+      cent fat.                       Pounds salt used_______
+
+     [Illustration]                 TIME:
+                                      Of starting freezer___________
+                                      That mix reaches 30° F________
+                                      Required to reach 30° F_______
+                                      That freezing is completed____
+                                    Total time required to freeze___
+    Give proportion.
+     x = the pounds______________
+     Pounds of cream used________   TEMPERATURE:
+     Pounds of milk used_________     Of mix entering freezer_______
+                                      Of brine when mix reaches 30° F____
+    MIX:                              Of ice cream when removed_____
+     Pounds_______ Gallons_______     Of brine at this time_________
+     Weight per gallon___________
+     Per cent fat it
+              should test________
+
+     Was gelatin used?_______       By method 1, 2 or 3?_______
+     In milk or water?_______
+
+     Remarks:
+
+     Comments on ice cream after it is hardened:
+
+
+
+
+EXERCISE NUMBER XI
+
+CUSTARD ICE CREAM
+
+
+Freeze custard ice creams after the following receipts as assigned and
+fill out report blank on opposite page. Quantities given are for hand
+freezers.
+
+_Receipts_:
+
+    No. 1.
+       6 quarts of milk
+       3 pounds of sugar
+      24 eggs
+      12 tablespoonfuls of cornstarch
+       6 tablespoonfuls of vanilla or to taste.
+
+Put the milk over the fire in a farina or double water boiler. Moisten
+the cornstarch with a little cold milk so that it can be added to milk
+without lumping. When the milk is hot, add the cornstarch and stir
+until it begins to thicken. Beat the eggs and sugar together until
+light and then add them to the hot milk. Cook a few minutes, take from
+fire, flavor and cool and freeze same as ice cream.
+
+Other flavors as coffee or chocolate may be made by substituting these
+flavors for the vanilla.
+
+    No. 2.
+      5  quarts milk
+      1  quart 30% cream
+      8  eggs
+      2½ pounds sugar
+      6  tablespoonfuls flour
+      1½ ounces of vanilla or to taste
+
+Follow directions given for No. 1.
+
+    No. 3.
+      2  quarts 30% cream
+      4  quarts of milk
+      3  pounds of sugar
+      1½ quarts Minute Tapioca
+         yolks of 4 eggs
+      1  teaspoonful salt
+      4  teaspoonfuls lemon extract
+      2  teaspoonfuls rose extract
+
+Cook the tapioca in two quarts of milk for 10 minutes, then add the
+rest of the milk, the sugar and salt. Cook ten minutes longer. Remove
+from fire and add the egg yolks well beaten. Then add the extract,
+cool, and freeze. When nearly done, add the cream previously beaten to
+stiff froth and finish freezing.
+
+EXERCISE XI REPORT
+
+    Date_________________________  Receipt Number___________________
+
+    CREAM:                         ICE CREAM:
+     Age______________                Gallons_______________________
+     Acidity_______                   Weight per gallon_____________
+     Temperature_______
+                                    SWELL:
+    STANDARDIZATION:                 Gallons________ Per cent.____
+     Per cent_ fat in cream______
+     Per cent_ fat in milk_______   FREEZING:
+     Standardize_______ pounds of     Freezer used_________
+     cream testing___________ per     Pounds ice used _____
+      cent fat.                       Pounds salt used_______
+
+     [Illustration]                 TIME:
+                                      Of starting freezer___________
+                                      That mix reaches 30° F________
+                                      Required to reach 30° F_______
+                                      That freezing is completed____
+                                    Total time required to freeze___
+    Give proportion.
+     x = the pounds______________
+     Pounds of cream used________   TEMPERATURE:
+     Pounds of milk used_________     Of mix entering freezer_______
+                                      Of brine when mix reaches 30° F____
+    MIX:                              Of ice cream when removed_____
+     Pounds_______ Gallons_______     Of brine at this time_________
+     Weight per gallon___________
+     Per cent fat it
+              should test________
+
+     Was gelatin used?_______       By method 1, 2 or 3?_______
+     In milk or water?_______
+
+     Remarks:
+
+     Comments on ice cream after it is hardened:
+
+
+
+
+EXERCISE NUMBER XII
+
+PARFAIT OR FRENCH ICE CREAM
+
+
+Freeze the following receipts as assigned and fill out report blank on
+opposite page.
+
+_Receipts_:
+
+    No. 1.
+      40 pounds of 20% cream
+      10 pounds of sugar
+       4 ounces of vanilla extract
+       8 dozen eggs well beaten
+
+Beat the egg yolks till smooth, add the sugar, and beat again till it
+is dissolved. Beat the whites to a stiff froth and stir into the yolks
+and sugar. Mix all with the cream and cook in a double boiler to a
+temperature of 180 degrees F. for 15 minutes. Cool to 40 degrees F.,
+add vanilla and freeze.
+
+    No. 2.
+      40 pounds of 28% cream
+      10 pounds of sugar
+       4 ounces of vanilla extract
+       8 dozen eggs well beaten
+       2 quarts crushed strawberries
+
+Beat whole eggs together, add to the mix and freeze, or the whites
+may be beaten separately if desired and added after the mix is partly
+frozen.
+
+    No. 3.
+      40 pounds of 25% cream
+      12 pounds of sugar
+       4 ounces of vanilla extract
+       4 pounds chopped walnut meats
+         yolks of 8 dozen eggs
+
+Beat the egg yolks till smooth, add the sugar and beat again. Then
+add to the cream and cook in double boiler to 180 degrees F. for 15
+minutes. Cool, add the balance of the mix and freeze.
+
+EXERCISE XII REPORT
+
+    Date_________________________  Receipt Number___________________
+
+    CREAM:                         ICE CREAM:
+     Age______________                Gallons_______________________
+     Acidity_______                   Weight per gallon_____________
+     Temperature_______
+                                    SWELL:
+    STANDARDIZATION:                 Gallons________ Per cent.____
+     Per cent_ fat in cream______
+     Per cent_ fat in milk_______   FREEZING:
+     Standardize_______ pounds of     Freezer used_________
+     cream testing___________ per     Pounds ice used _____
+      cent fat.                       Pounds salt used_______
+
+     [Illustration]                 TIME:
+                                      Of starting freezer___________
+                                      That mix reaches 30° F________
+                                      Required to reach 30° F_______
+                                      That freezing is completed____
+                                    Total time required to freeze___
+    Give proportion.
+     x = the pounds______________
+     Pounds of cream used________   TEMPERATURE:
+     Pounds of milk used_________     Of mix entering freezer_______
+                                      Of brine when mix reaches 30° F____
+    MIX:                              Of ice cream when removed_____
+     Pounds_______ Gallons_______     Of brine at this time_________
+     Weight per gallon___________
+     Per cent fat it
+              should test________
+
+     Was gelatin used?_______       By method 1, 2 or 3?_______
+     In milk or water?_______
+
+     Remarks:
+
+     Comments on ice cream after it is hardened:
+
+
+
+
+EXERCISE NUMBER XIII
+
+PUDDINGS
+
+
+Freeze the following puddings as assigned and fill out report blank on
+opposite page.
+
+_Receipts_:
+
+    No. 1.—Nesselrode.
+      32 pounds 28% cream
+      10 dozen eggs
+      10 pounds of sugar
+       6 ounces vanilla
+       4 pounds chopped walnut meats
+       3 pounds chopped candied cherries
+       3 pounds chopped candied fruits
+       4 pounds chopped raisins
+
+Cook the egg yolks with the cream. Beat the whites and add when partly
+frozen.
+
+    No. 2—English Plum.
+      32 pounds 25% cream
+       8 dozen eggs
+      12 pounds sugar
+       3 pounds cocoa or chocolate
+       5 pounds assorted fruits that do not pulp
+       2 pounds seeded raisins
+       3 pounds dates
+       4 pounds walnut meats
+       4 tablespoonfuls ground cinnamon
+       1 tablespoonful ginger
+       1 tablespoonful ground cloves
+
+Use the eggs as directed under receipt number one. Chop the fruits and
+nuts fine.
+
+    No. 3.—Fruit Pudding
+      32  pounds 10% cream
+       8  pounds whole condensed milk
+       8  pounds of sugar
+       5  ounces of gelatin dissolved in part of cream
+       2  pounds chopped cherries
+       2  pounds chopped raisins
+       2  pounds chopped nuts
+       1½ quarts sherry wine
+
+Soak the fruit over night in the sherry wine.
+
+EXERCISE XIII REPORT
+
+    Date_________________________  Receipt Number___________________
+
+    CREAM:                         ICE CREAM:
+     Age______________                Gallons_______________________
+     Acidity_______                   Weight per gallon_____________
+     Temperature_______
+                                    SWELL:
+    STANDARDIZATION:                 Gallons________ Per cent.____
+     Per cent_ fat in cream______
+     Per cent_ fat in milk_______   FREEZING:
+     Standardize_______ pounds of     Freezer used_________
+     cream testing___________ per     Pounds ice used _____
+      cent fat.                       Pounds salt used_______
+
+     [Illustration]                 TIME:
+                                      Of starting freezer___________
+                                      That mix reaches 30° F________
+                                      Required to reach 30° F_______
+                                      That freezing is completed____
+                                    Total time required to freeze___
+    Give proportion.
+     x = the pounds______________
+     Pounds of cream used________   TEMPERATURE:
+     Pounds of milk used_________     Of mix entering freezer_______
+                                      Of brine when mix reaches 30° F____
+    MIX:                              Of ice cream when removed_____
+     Pounds_______ Gallons_______     Of brine at this time_________
+     Weight per gallon___________
+     Per cent fat it
+              should test________
+
+     Was gelatin used?_______       By method 1, 2 or 3?_______
+     In milk or water?_______
+
+     Remarks:
+
+     Comments on ice cream after it is hardened:
+
+
+
+
+EXERCISE NUMBER XIV
+
+ICES
+
+
+Freeze the following water ices as assigned and fill out record blank
+on opposite page.
+
+_Receipts_:
+
+    No. 1.
+      48 pounds of water
+      20 pounds of sugar
+       6 pounds of lemon juice
+
+    No. 2.
+      48 pounds of water
+      20 pounds of sugar
+       2 pounds of lemon juice
+       4 quarts pineapple juice
+
+    No. 3.
+      48 pounds of water
+      20 pounds of sugar
+       2 pounds of lemon juice
+       4 quarts finely pulped strawberries
+
+    No. 4. Same as number two, except freeze very
+           rapidly with little agitation. This is
+           often called a granite.
+
+EXERCISE XIV REPORT
+
+    Date_________________________  Receipt Number___________________
+
+    CREAM:                         ICE CREAM:
+     Age______________                Gallons_______________________
+     Acidity_______                   Weight per gallon_____________
+     Temperature_______
+                                    SWELL:
+    STANDARDIZATION:                 Gallons________ Per cent.____
+     Per cent_ fat in cream______
+     Per cent_ fat in milk_______   FREEZING:
+     Standardize_______ pounds of     Freezer used_________
+     cream testing___________ per     Pounds ice used _____
+      cent fat.                       Pounds salt used_______
+
+     [Illustration]                 TIME:
+                                      Of starting freezer___________
+                                      That mix reaches 30° F________
+                                      Required to reach 30° F_______
+                                      That freezing is completed____
+                                    Total time required to freeze___
+    Give proportion.
+     x = the pounds______________
+     Pounds of cream used________   TEMPERATURE:
+     Pounds of milk used_________     Of mix entering freezer_______
+                                      Of brine when mix reaches 30° F____
+    MIX:                              Of ice cream when removed_____
+     Pounds_______ Gallons_______     Of brine at this time_________
+     Weight per gallon___________
+     Per cent fat it
+              should test________
+
+     Was gelatin used?_______       By method 1, 2 or 3?_______
+     In milk or water?_______
+
+     Remarks:
+
+     Comments on ice cream after it is hardened:
+
+
+
+
+EXERCISE NUMBER XV
+
+WATER SHERBETS
+
+
+Freeze the following sherbets as assigned and fill out record blank on
+opposite page.
+
+_Receipts_:
+
+    No. 1.
+      48 pounds water
+      16 pounds sugar
+       1 pound lemon juice
+       4 quarts grated pineapple (or pineapple juice)
+       6 ounces of gelatin in 4 pounds of water, if desired
+      24 egg whites beaten stiff and added when mixture is partly frozen
+
+    No. 2. Same as number one except replace the pineapple
+           with grape juice.
+
+    No. 3. Use same mix as number one except replace the
+           pineapple with orange juice. Boil the water and
+           sugar to a clear syrup, then strain and cool before
+           freezing.
+
+EXERCISE XV REPORT
+
+    Date_________________________  Receipt Number___________________
+
+    CREAM:                         ICE CREAM:
+     Age______________                Gallons_______________________
+     Acidity_______                   Weight per gallon_____________
+     Temperature_______
+                                    SWELL:
+    STANDARDIZATION:                 Gallons________ Per cent.____
+     Per cent_ fat in cream______
+     Per cent_ fat in milk_______   FREEZING:
+     Standardize_______ pounds of     Freezer used_________
+     cream testing___________ per     Pounds ice used _____
+      cent fat.                       Pounds salt used_______
+
+     [Illustration]                 TIME:
+                                      Of starting freezer___________
+                                      That mix reaches 30° F________
+                                      Required to reach 30° F_______
+                                      That freezing is completed____
+                                    Total time required to freeze___
+    Give proportion.
+     x = the pounds______________
+     Pounds of cream used________   TEMPERATURE:
+     Pounds of milk used_________     Of mix entering freezer_______
+                                      Of brine when mix reaches 30° F____
+    MIX:                              Of ice cream when removed_____
+     Pounds_______ Gallons_______     Of brine at this time_________
+     Weight per gallon___________
+     Per cent fat it
+              should test________
+
+     Was gelatin used?_______       By method 1, 2 or 3?_______
+     In milk or water?_______
+
+     Remarks:
+
+     Comments on ice cream after it is hardened:
+
+
+
+
+EXERCISE NUMBER XVI
+
+MILK SHERBETS
+
+
+Freeze milk sherbets after the following base formula, using such
+of the flavorings as are assigned. Fill out the record blank on the
+opposite page.
+
+Flavors: Orange, grape, cherry, pineapple, and strawberry. If lemon
+is desired, use only two quarts of lemon juice with a quart of orange
+juice.
+
+    _Receipt_:
+     48 pounds of milk
+     16 pounds of sugar
+      5 ounces of gelatin in 2 quarts water
+      1 pound lemon juice
+      4 quarts fruit flavoring
+     12 egg whites beaten stiff and added after mixture is partly frozen.
+
+EXERCISE XVI REPORT
+
+    Date_________________________  Receipt Number___________________
+
+    CREAM:                         ICE CREAM:
+     Age______________                Gallons_______________________
+     Acidity_______                   Weight per gallon_____________
+     Temperature_______
+                                    SWELL:
+    STANDARDIZATION:                 Gallons________ Per cent.____
+     Per cent_ fat in cream______
+     Per cent_ fat in milk_______   FREEZING:
+     Standardize_______ pounds of     Freezer used_________
+     cream testing___________ per     Pounds ice used _____
+      cent fat.                       Pounds salt used_______
+
+     [Illustration]                 TIME:
+                                      Of starting freezer___________
+                                      That mix reaches 30° F________
+                                      Required to reach 30° F_______
+                                      That freezing is completed____
+                                    Total time required to freeze___
+    Give proportion.
+     x = the pounds______________
+     Pounds of cream used________   TEMPERATURE:
+     Pounds of milk used_________     Of mix entering freezer_______
+                                      Of brine when mix reaches 30° F____
+    MIX:                              Of ice cream when removed_____
+     Pounds_______ Gallons_______     Of brine at this time_________
+     Weight per gallon___________
+     Per cent fat it
+              should test________
+
+     Was gelatin used?_______       By method 1, 2 or 3?_______
+     In milk or water?_______
+
+     Remarks:
+
+     Comments on ice cream after it is hardened:
+
+
+
+
+EXERCISE NUMBER XVII
+
+PUNCHES AND LACTO
+
+
+Freeze the following formulas as assigned and fill out the record blank
+on opposite page:
+
+_Punches_:
+
+    No. 1.
+      48 pounds water
+      20 pounds sugar
+       1 pound lemon juice
+       1 quart brandy and rum mixed
+
+    No. 2.
+      48 pounds water
+      20 pounds sugar
+       1 pound lemon juice
+       1 quart orange juice
+       2 quarts wine
+       4 ounces gelatin in part of the water
+
+    No. 3.
+      48 pounds water
+      20 pounds sugar
+       1 quart lemon juice
+       1 quart raspberry juice
+       1 quart grape juice
+         cloves, cinnamon, allspice and nutmeg to taste.
+
+    Lacto (From Iowa Station Bulletin 140)
+      48  pounds good starter just nicely coagulated
+      18  pounds sugar
+      24  eggs, whites and yolks beaten separately
+       2  quarts of grape juice
+       1½ quarts lemon juice
+
+Mix in the order given in the formula. Other flavors may be substituted
+for the grape juice.
+
+EXERCISE XVII REPORT
+
+    Date_________________________  Receipt Number___________________
+
+    CREAM:                         ICE CREAM:
+     Age______________                Gallons_______________________
+     Acidity_______                   Weight per gallon_____________
+     Temperature_______
+                                    SWELL:
+    STANDARDIZATION:                 Gallons________ Per cent.____
+     Per cent_ fat in cream______
+     Per cent_ fat in milk_______   FREEZING:
+     Standardize_______ pounds of     Freezer used_________
+     cream testing___________ per     Pounds ice used _____
+      cent fat.                       Pounds salt used_______
+
+     [Illustration]                 TIME:
+                                      Of starting freezer___________
+                                      That mix reaches 30° F________
+                                      Required to reach 30° F_______
+                                      That freezing is completed____
+                                    Total time required to freeze___
+    Give proportion.
+     x = the pounds______________
+     Pounds of cream used________   TEMPERATURE:
+     Pounds of milk used_________     Of mix entering freezer_______
+                                      Of brine when mix reaches 30° F____
+    MIX:                              Of ice cream when removed_____
+     Pounds_______ Gallons_______     Of brine at this time_________
+     Weight per gallon___________
+     Per cent fat it
+              should test________
+
+     Was gelatin used?_______       By method 1, 2 or 3?_______
+     In milk or water?_______
+
+     Remarks:
+
+     Comments on ice cream after it is hardened:
+
+
+
+
+EXERCISE NUMBER XVIII
+
+MOUSSE
+
+
+Prepare and freeze mousse after the following formulas as assigned.
+
+    No. 1.—For five gallons
+      20 pounds aged sweet cream, at least 40% fat
+       5 pounds sugar
+       6 ounces of gelatin
+         juice of three lemons
+       3 quarts strained strawberry juice
+
+Dissolve the sugar in the fruit juice, then stir in the gelatin
+dissolved in a very little water. Chill this mixture but not enough
+to form a jelly. Whip the cold cream till stiff and then fold in the
+gelatin-sugar-fruit mixture.
+
+Pack into molds or cans and harden in a salt and ice mixture one to
+two. Other flavors may be substituted.
+
+    No. 2.—For five gallons
+      20  pounds of aged sweet cream, 35% fat
+       4  pounds of sugar
+       5  ounces of gelatin
+       2½ ounces of vanilla
+
+Dissolve the gelatin and stir into the cream. Whip till stiff, then
+fold in the sugar and vanilla and pack in cans, hardening in salt and
+ice mixed one to two.
+
+Report results on opposite page.
+
+EXERCISE XVIII REPORT
+
+
+
+
+EXERCISE NUMBER XIX
+
+STANDARDIZE MIX TO A GIVEN PERCENTAGE OF FAT
+
+
+The following materials will be furnished: cream, milk, sugar,
+chocolate, fruit, vanilla and gelatin. From them make up a receipt and
+freeze a batch of ice cream to contain a given per cent. of fat as
+assigned.
+
+Test the frozen ice cream for fat and report the result to the
+instructor at time of testing.
+
+Include your receipt and all calculations and tests on opposite page.
+
+Mark plainly each can of ice cream with the receipt number, your name,
+and the date.
+
+No. 1. Vanilla ice cream to test 14% fat.
+
+No. 2. Vanilla ice cream to test 12% fat.
+
+No. 3. Vanilla ice cream to test 9½% fat.
+
+No. 4. Fruit ice cream to test 11% fat.
+
+No. 5. Chocolate ice cream to test 12% fat.
+
+EXERCISE XIX REPORT
+
+    Date_________________________  Receipt Number___________________
+
+    CREAM:                         ICE CREAM:
+     Age______________                Gallons_______________________
+     Acidity_______                   Weight per gallon_____________
+     Temperature_______
+                                    SWELL:
+    STANDARDIZATION:                 Gallons________ Per cent.____
+     Per cent_ fat in cream______
+     Per cent_ fat in milk_______   FREEZING:
+     Standardize_______ pounds of     Freezer used_________
+     cream testing___________ per     Pounds ice used _____
+      cent fat.                       Pounds salt used_______
+
+     [Illustration]                 TIME:
+                                      Of starting freezer___________
+                                      That mix reaches 30° F________
+                                      Required to reach 30° F_______
+                                      That freezing is completed____
+                                    Total time required to freeze___
+    Give proportion.
+     x = the pounds______________
+     Pounds of cream used________   TEMPERATURE:
+     Pounds of milk used_________     Of mix entering freezer_______
+                                      Of brine when mix reaches 30° F____
+    MIX:                              Of ice cream when removed_____
+     Pounds_______ Gallons_______     Of brine at this time_________
+     Weight per gallon___________
+     Per cent fat it
+              should test________
+
+     Was gelatin used?_______       By method 1, 2 or 3?_______
+     In milk or water?_______
+
+     Remarks:
+
+     Comments on ice cream after it is hardened:
+
+
+
+
+SCORE CARD FOR ICE CREAM
+
+
+The comparison of ice creams is accomplished best by reducing their
+quality to a numerical basis. This is done by use of a score card. Two
+score cards are suggested as follows:
+
+                              _Modification of the_
+    _Cornell Score Card        Wisconsin Score Card_
+
+    Flavor             45    Flavor             40
+    Body and texture   35    Body and texture   25
+    Richness           10    Bacterial count    15
+    Appearance          5    Richness           10
+    Package             5    Appearance          5
+                      ———     Package            5
+                                               ———
+                      100                      100
+
+It may be more advantageous to use the Cornell score card in the
+Laboratory because immediate results can be obtained, while with the
+modified Wisconsin score card bacterial counts must be made of the ice
+cream, so that it would be two to three days before the final score of
+the ice cream could be obtained.
+
+
+DISCUSSION OF QUALITIES OF ICE CREAM
+
+_Flavor._ The ice cream should have a pronounced flavor which will
+blend with the flavor of the cream to give a clean, desirable typical
+flavor.
+
+_Body and Texture._ The body should be firm and mellow. It should not
+be tough or rubbery neither soft or mushy. The texture should be smooth
+and velvety and entirely free from graininess and lumpiness.
+
+_Richness._ If the ice cream meets the legal requirements, it should
+be given a perfect score. If it falls below the legal requirement, it
+should be scored zero.
+
+_Appearance._ The ice cream should have an attractive appearance and be
+of the characteristic uniform color.
+
+_Package._ The package should be neat and clean and, if for long
+shipment, some provision should be made to protect the ice on top of
+the packing tub.
+
+_Bacterial count._ An ice cream which has a count of 20,000 should be
+considered perfect. For each increase of 20,000 above this one point
+should be deducted from the score.
+
+_Application of score card._ When judging samples of ice cream, it is
+best to try some of them to obtain some idea of the qualities of the
+samples to be scored. This is necessary so that the score will not run
+above 100 and to set a standard. Then with a definite standard in mind,
+the samples may be carefully scored. The cuts in score should be made
+in proportion to the quality of the ice cream and the definite standard
+in mind.
+
+
+
+
+EXERCISE NUMBER XX
+
+JUDGING PLAIN ICE CREAM
+
+
+Score and criticize the samples of plain ice cream recording the scores
+on the opposite page. (For score card see page 64.)
+
+One sample will first be scored by the instructor as an example and
+guide to the severeness of the cut for different defects. After the
+students have finished, he will score the remaining samples with them.
+
+Three of the samples are ice cream made in the college laboratory. The
+others are purchased and represent well known commercial ice creams.
+
+After scoring on all other points make a fat test of each sample. (See
+page 14.)
+
+
+EXERCISE XX REPORT
+
+    LEGEND:
+          A = Student’s Score
+          B = Corrected Score
+          C = Body and Texture
+          D = Color and Appearance
+          E = CRITICISMS
+    Score card used______________________  Date_________________________
+
+    ===+=====+==========================================================
+       |     |                                 SCORE
+       |     +------+-----+-----+--------+-----+-------+-----+-----+----
+       |     |      |     |     |        |     |       |     |     |
+       |Rec’t|Flavor|  C  |Rich-|Bacteria|  D  |Package|Total|Place|  E
+       |  #  |      |     | ness|        |     |       |Score|     |
+    ---+-----+------+-----+-----+--------+-----+-------+-----+-----+----
+     A |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+     +------+-----+-----+--------+-----+-------+-----+-----+
+     B |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+-----+------+-----+-----+--------+-----+-------+-----+-----+----
+     A |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+     +------+-----+-----+--------+-----+-------+-----+-----+
+     B |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+-----+------+-----+-----+--------+-----+-------+-----+-----+----
+     A |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+     +------+-----+-----+--------+-----+-------+-----+-----+
+     B |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+-----+------+-----+-----+--------+-----+-------+-----+-----+----
+     A |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+     +------+-----+-----+--------+-----+-------+-----+-----+
+     B |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+-----+------+-----+-----+--------+-----+-------+-----+-----+----
+     A |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+     +------+-----+-----+--------+-----+-------+-----+-----+
+     B |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+-----+------+-----+-----+--------+-----+-------+-----+-----+----
+     A |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+     +------+-----+-----+--------+-----+-------+-----+-----+
+     B |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+-----+------+-----+-----+--------+-----+-------+-----+-----+----
+
+
+
+
+EXERCISE NUMBER XXI
+
+THE EFFECT OF FAT CONTENT ON ICE CREAM
+
+
+_Part I._ Freeze ice creams after the following formulas as assigned.
+Each has a different percentage of fat. Fill out the record blank on
+opposite page and mark plainly each can of ice cream with the receipt
+number, your name and the date.
+
+_Receipts_:
+
+    No. 1.
+      40 pounds of 10% cream
+       8 pounds of sugar
+       4 ounces of vanilla extract
+       4 ounces gelatin in 4 pounds water.
+
+    No. 2. Same as No. 1 except use 15% cream.
+    No. 3. Same as No. 1 except use 20% cream.
+    No. 4. Same as No. 1 except use 30% cream.
+    No. 5. Same as No. 1 except use 40% cream.
+
+_Part II._ After hardening or next laboratory period score and
+criticize the ice cream made in Part I. Fill in the score blank on page
+90.
+
+EXERCISE XXI REPORT
+
+PART I
+
+    Date_________________________  Receipt Number___________________
+
+    CREAM:                         ICE CREAM:
+     Age______________                Gallons_______________________
+     Acidity_______                   Weight per gallon_____________
+     Temperature_______
+                                    SWELL:
+    STANDARDIZATION:                 Gallons________ Per cent.____
+     Per cent_ fat in cream______
+     Per cent_ fat in milk_______   FREEZING:
+     Standardize_______ pounds of     Freezer used_________
+     cream testing___________ per     Pounds ice used _____
+      cent fat.                       Pounds salt used_______
+
+     [Illustration]                 TIME:
+                                      Of starting freezer___________
+                                      That mix reaches 30° F________
+                                      Required to reach 30° F_______
+                                      That freezing is completed____
+                                    Total time required to freeze___
+    Give proportion.
+     x = the pounds______________
+     Pounds of cream used________   TEMPERATURE:
+     Pounds of milk used_________     Of mix entering freezer_______
+                                      Of brine when mix reaches 30° F____
+    MIX:                              Of ice cream when removed_____
+     Pounds_______ Gallons_______     Of brine at this time_________
+     Weight per gallon___________
+     Per cent fat it
+              should test________
+
+     Was gelatin used?_______       By method 1, 2 or 3?_______
+     In milk or water?_______
+
+     Remarks:
+
+     Comments on ice cream after it is hardened:
+
+
+
+
+EXERCISE NUMBER XXII
+
+THE EFFECT OF DIFFERENT BINDERS ON ICE CREAM
+
+
+_Part I._ Freeze the following mixes as assigned. Fill out record blank
+on opposite page, and mark each can of ice cream plainly with receipt
+number, your name and date.
+
+_Receipts_:
+
+    No. 1.
+      40 pounds 16% cream
+       8 pounds sugar
+       4 ounces vanilla
+       2 quarts of gum stock (See page 21)
+
+    No. 2. Same as No. 1 except use 4 ounces of gelatin in
+           3½ pounds of water as a binder.
+
+    Nos. 3, 4, 5. In these use different ice cream powders
+          as binders, following the directions given with
+          each powder as to quantities to use and method of
+          mixing. Use a formula which will give the same per
+          cent. of fat and solids not fat as No. 1.
+
+_Part II._ After hardening or at the next laboratory period score and
+criticize the ice creams made in Part I. Fill out the score blank on
+page 91.
+
+EXERCISE XXII REPORT
+
+PART I
+
+    Date_________________________  Receipt Number___________________
+
+    CREAM:                         ICE CREAM:
+     Age______________                Gallons_______________________
+     Acidity_______                   Weight per gallon_____________
+     Temperature_______
+                                    SWELL:
+    STANDARDIZATION:                 Gallons________ Per cent.____
+     Per cent_ fat in cream______
+     Per cent_ fat in milk_______   FREEZING:
+     Standardize_______ pounds of     Freezer used_________
+     cream testing___________ per     Pounds ice used _____
+      cent fat.                       Pounds salt used_______
+
+     [Illustration]                 TIME:
+                                      Of starting freezer___________
+                                      That mix reaches 30° F________
+                                      Required to reach 30° F_______
+                                      That freezing is completed____
+                                    Total time required to freeze___
+    Give proportion.
+     x = the pounds______________
+     Pounds of cream used________   TEMPERATURE:
+     Pounds of milk used_________     Of mix entering freezer_______
+                                      Of brine when mix reaches 30° F____
+    MIX:                              Of ice cream when removed_____
+     Pounds_______ Gallons_______     Of brine at this time_________
+     Weight per gallon___________
+     Per cent fat it
+              should test________
+
+     Was gelatin used?_______       By method 1, 2 or 3?_______
+     In milk or water?_______
+
+     Remarks:
+
+     Comments on ice cream after it is hardened:
+
+
+
+
+EXERCISE NUMBER XXIII
+
+THE EFFECT OF VARYING PERCENTAGES OF MILK SOLIDS NOT FAT ON ICE CREAM
+
+
+_Part I._ Freeze the following mixes as assigned. Fill out record blank
+on opposite page. Mark each can of ice cream you freeze with receipt
+number, your name and date. Calculate and record the approximate per
+cent of fat and of milk solids not fat in each mix.
+
+         _Receipts       No. 1    No. 2    No. 3   No. 4_
+    Cream                 40 lbs.  35 lbs.  30 lbs.  25 lbs.
+                            15%     15½%    16⅔%     18%
+    Whole Condensed Milk            5 lbs.  10 lbs.  15 lbs.
+    Sugar                  8 lbs.   8 lbs.   8 lbs.   8 lbs.
+    Vanilla                4 oz.    4 oz.    4 oz.    4 oz.
+    Gelatin                4 oz.    4 oz.    4 oz.    4 oz.
+    Water                  4 lbs.   4 lbs.   4 lbs.   4 lbs.
+    Per cent Fat
+    Per cent Milk S. N. F.
+
+_Part II._ After hardening or at next laboratory period score the ice
+creams as made above. Fill out the score blank on page 92.
+
+EXERCISE XXIII REPORT
+
+PART I
+
+    Date_________________________  Receipt Number___________________
+
+    CREAM:                         ICE CREAM:
+     Age______________                Gallons_______________________
+     Acidity_______                   Weight per gallon_____________
+     Temperature_______
+                                    SWELL:
+    STANDARDIZATION:                 Gallons________ Per cent.____
+     Per cent_ fat in cream______
+     Per cent_ fat in milk_______   FREEZING:
+     Standardize_______ pounds of     Freezer used_________
+     cream testing___________ per     Pounds ice used _____
+      cent fat.                       Pounds salt used_______
+
+     [Illustration]                 TIME:
+                                      Of starting freezer___________
+                                      That mix reaches 30° F________
+                                      Required to reach 30° F_______
+                                      That freezing is completed____
+                                    Total time required to freeze___
+    Give proportion.
+     x = the pounds______________
+     Pounds of cream used________   TEMPERATURE:
+     Pounds of milk used_________     Of mix entering freezer_______
+                                      Of brine when mix reaches 30° F____
+    MIX:                              Of ice cream when removed_____
+     Pounds_______ Gallons_______     Of brine at this time_________
+     Weight per gallon___________
+     Per cent fat it
+              should test________
+
+     Was gelatin used?_______       By method 1, 2 or 3?_______
+     In milk or water?_______
+
+     Remarks:
+
+     Comments on ice cream after it is hardened:
+
+
+
+
+EXERCISE NUMBER XXIV
+
+FREEZE ICE CREAM FROM RAW, PASTEURIZED, EMULSIFIED AND HOMOGENIZED CREAM
+
+
+Note effect on swell and quality of ice cream.
+
+In order to have the ice cream in condition to make easy comparison, it
+should all be made after the same receipt.
+
+    40 pounds 20% cream
+     8 pounds sugar
+     4 ounces vanilla extract
+     4 ounces gelatin in 4 pounds water
+
+With sufficient fresh cream to make four batches of ice cream, divide
+the cream into four equal parts.
+
+      I. Freeze one part directly.
+     II. Pasteurize one part and freeze.
+    III. Emulsify one part and freeze.
+     IV. Homogenize one part and freeze.
+
+If desired all may be aged before freezing.
+
+Fill out record blank on opposite page.
+
+EXERCISE XXIV REPORT
+
+    =========================+=====+=====+=====+====
+    Batch Number             |  1  |  2  |  3  |  4
+    -------------------------+-----+-----+-----+-----
+    Pounds of Mix            |     |     |     |
+    -------------------------+-----+-----+-----+-----
+    Gallons of Mix           |     |     |     |
+    -------------------------+-----+-----+-----+-----
+    Temperature of Mix       |     |     |     |
+    -------------------------+-----+-----+-----+-----
+    Time of Starting Freezer |     |     |     |
+    -------------------------+-----+-----+-----+-----
+    Time of Stopping Freezer |     |     |     |
+    -------------------------+-----+-----+-----+-----
+    Temperature of Ice Cream |     |     |     |
+    -------------------------+-----+-----+-----+-----
+    Gallons of Ice Cream     |     |     |     |
+    -------------------------+-----+-----+-----+-----
+    Gallons of Swell         |     |     |     |
+    -------------------------+-----+-----+-----+-----
+    Per Cent of Swell        |     |     |     |
+    -------------------------+-----+-----+-----+-----
+
+    Comments:
+
+
+
+
+EXERCISE NUMBER XXV
+
+THE EFFECT OF AGING CREAM ON THE VISCOSITY AND SWELL
+
+
+Twenty per cent. cream of nearly uniform quality will be furnished you,
+of the following ages from the separator: three to four hours, one
+day, two days, three days, and five days. Freeze a batch of each as
+assigned, using the following formula, and pay special attention to the
+swell obtained.
+
+Also test each cream for viscosity by dropping from a pipette on an
+inclined glass, taking care to have the glass and pipette of even
+temperature for each trial.
+
+Fill out blank report on opposite page.
+
+_Receipt_:
+
+    40 pounds 20% cream
+     8 pounds sugar
+     4 ounces vanilla extract
+     4 ounces gelatin in 4 pounds water.
+
+EXERCISE XXV REPORT
+
+    Date_________________________  Receipt Number___________________
+
+    CREAM:                         ICE CREAM:
+     Age______________                Gallons_______________________
+     Acidity_______                   Weight per gallon_____________
+     Temperature_______
+                                    SWELL:
+    STANDARDIZATION:                 Gallons________ Per cent.____
+     Per cent_ fat in cream______
+     Per cent_ fat in milk_______   FREEZING:
+     Standardize_______ pounds of     Freezer used_________
+     cream testing___________ per     Pounds ice used _____
+      cent fat.                       Pounds salt used_______
+
+     [Illustration]                 TIME:
+                                      Of starting freezer___________
+                                      That mix reaches 30° F________
+                                      Required to reach 30° F_______
+                                      That freezing is completed____
+                                    Total time required to freeze___
+    Give proportion.
+     x = the pounds______________
+     Pounds of cream used________   TEMPERATURE:
+     Pounds of milk used_________     Of mix entering freezer_______
+                                      Of brine when mix reaches 30° F____
+    MIX:                              Of ice cream when removed_____
+     Pounds_______ Gallons_______     Of brine at this time_________
+     Weight per gallon___________
+     Per cent fat it
+              should test________
+
+     Was gelatin used?_______       By method 1, 2 or 3?_______
+     In milk or water?_______
+
+     Remarks:
+
+     Comments on ice cream after it is hardened:
+
+
+
+
+EXERCISE NUMBER XXVI
+
+THE EFFECT OF THE TEMPERATURE OF THE MIX AS IT ENTERS THE FREEZER ON
+THE SWELL
+
+
+Make enough mix for four 10 gallon batches of ice cream, using the
+following formula:
+
+    40 pounds of 20% cream
+     8 pounds of sugar
+     4 ounces of vanilla extract
+     4 ounces of gelatin in 4 pounds water.
+
+Freeze the first batch as a preliminary one. Have the second at a
+temperature of 40 degrees F., when it enters the freezer, the third
+at 50 degrees F., and the fourth at 60 degrees F. Warm to these
+temperatures before placing mix in freezer. Note swell obtained.
+Explain.
+
+Fill out record blank on opposite page.
+
+EXERCISE XXVI REPORT
+
+    =========================+=====+=====+=====+====
+    Batch Number             |  1  |  2  |  3  |  4
+    -------------------------+-----+-----+-----+-----
+    Pounds of Mix            |     |     |     |
+    -------------------------+-----+-----+-----+-----
+    Gallons of Mix           |     |     |     |
+    -------------------------+-----+-----+-----+-----
+    Temperature of Mix       |     |     |     |
+    -------------------------+-----+-----+-----+-----
+    Time of Starting Freezer |     |     |     |
+    -------------------------+-----+-----+-----+-----
+    Time of Stopping Freezer |     |     |     |
+    -------------------------+-----+-----+-----+-----
+    Temperature of Ice Cream |     |     |     |
+    -------------------------+-----+-----+-----+-----
+    Gallons of Ice Cream     |     |     |     |
+    -------------------------+-----+-----+-----+-----
+    Gallons of Swell         |     |     |     |
+    -------------------------+-----+-----+-----+-----
+    Per Cent of Swell        |     |     |     |
+    -------------------------+-----+-----+-----+-----
+
+    Comments:
+
+
+
+
+EXERCISE NUMBER XXVII
+
+EFFECT OF THE TIME OF FREEZING ON THE SWELL AND QUALITY OF ICE CREAM
+
+
+Make enough mix for four 10 gallon batches of ice cream, using the
+following formula:
+
+    40 pounds of 20% cream
+     8 pounds of sugar
+     4 ounces of vanilla extract
+     4 ounces of gelatin in 4 pounds water
+
+Freeze the first batch as a preliminary one. Regulate either the
+temperature or quantity of brine so that the second batch will freeze
+in four minutes, the third in fifteen minutes, and the fourth in thirty
+minutes.
+
+Note particularly the effect on the swell and quality.
+
+Fill out the record blank on opposite page.
+
+EXERCISE XXVII REPORT
+
+    =========================+=====+=====+=====+=====
+    Batch Number             |  1  |  2  |  3  |  4
+    -------------------------+-----+-----+-----+-----
+    Pounds of Mix            |     |     |     |
+    -------------------------+-----+-----+-----+-----
+    Gallons of Mix           |     |     |     |
+    -------------------------+-----+-----+-----+-----
+    Temperature of Mix       |     |     |     |
+    -------------------------+-----+-----+-----+-----
+    Time of Starting Freezer |     |     |     |
+    -------------------------+-----+-----+-----+-----
+    Time of Stopping Freezer |     |     |     |
+    -------------------------+-----+-----+-----+-----
+    Temperature of Ice Cream |     |     |     |
+    -------------------------+-----+-----+-----+-----
+    Gallons of Ice Cream     |     |     |     |
+    -------------------------+-----+-----+-----+-----
+    Gallons of Swell         |     |     |     |
+    -------------------------+-----+-----+-----+-----
+    Per Cent of Swell        |     |     |     |
+    -------------------------+-----+-----+-----+-----
+
+    Comments:
+
+
+
+
+EXERCISE NUMBER XXVIII
+
+BACTERIAL COUNTS OF ICE CREAM
+
+
+This exercise is to be performed once during the course by each student
+as assigned.
+
+Sterile glassware and media will be furnished you. Weigh or measure the
+samples for dilution as instructed.
+
+Take samples as indicated below in sterile bottles and plate on plain
+lactose agar. Incubate at 37 degrees C., for 48 hours.
+
+    Sample of cream. Dilutions ¹/₁₀,₀₀₀ and ¹/₁₀₀,₀₀₀.
+    Sample of gelatin. Dilutions ¹/₁₀ and ¹/₁₀₀.
+    Sample of vanilla. Dilutions ¹/₁₀.
+    Sample of sugar. Dilutions ¹/₁₀.
+    Sample of mix. Dilutions ¹/₁₀,₀₀₀ and ¹/₁₀₀,₀₀₀.
+    Sample of ice cream from freezer. Dilutions ¹/₁₀,₀₀₀ and ¹/₁₀₀,₀₀₀.
+    Sample of ice cream after it has remained in the hardening room one
+           week. Make dilutions of ¹/₁₀,₀₀₀ and ¹/₁₀₀,₀₀₀.
+
+Report results on the blank page opposite.
+
+EXERCISE XXVIII REPORT
+
+
+
+
+EXERCISE NUMBER XXIX
+
+TESTING SAMPLES OF GELATIN
+
+
+Weigh 5 gram samples of gelatin into 100 cc. of cold water in beakers
+or jelly glasses. Allow it to soak over night. Then heat slowly, with
+stirring, to 80 degrees C.
+
+Subject to the following tests and make report on opposite blank page.
+
+    1. Note the odor.
+
+    2. Determine the time required for 50 cc. to run from
+       a pipette.
+
+    3. Determine the time required for the sample to
+       gelatinize.
+
+    4. Turn the jelly out on to a plate and determine the
+       relative resistance of the different samples to
+       pressure by the finger.
+
+Two or more students should be assigned to this exercise at a time,
+each having a different sample of gelatin. They should perform the
+tests together.
+
+EXERCISE XXIX REPORT
+
+
+
+
+EXERCISE NUMBER XXX
+
+TRIP TO COMMERCIAL PLANTS
+
+
+Visit at least one large commercial plant some time during the term and
+report on the following points.
+
+Points to be observed in an ice cream plant.
+
+    1. Method of securing the raw product.
+    2. Is cream pasteurized?
+    3. If possible, amounts and materials used in mix.
+    4. Is condensed milk used?
+    5. What stabilizer is used?
+    6. Time of aging cream or mix.
+    7. Kinds of freezer and ice machine.
+    8. Temperature of brine to freeze.
+    9. Composition of ice cream.
+    10. Sketch of arrangement of plant.
+    11. Power used for delivering.
+    12. Method of checking up drivers.
+    13. Any other points of interest.
+
+EXERCISE XXX REPORT
+
+
+
+
+EXERCISE NUMBER XXXI
+
+STUDENTS’ RECEIPTS
+
+
+Each student should hand in one receipt for ice cream. This receipt
+should be one which has been previously tried, preferably at home.
+
+During the term these receipts will be made.
+
+Note the quality of the ice cream.
+
+Is the ice cream a good commercial ice cream?
+
+Could it be made on a commercial basis profitably?
+
+EXERCISE XXXI REPORT
+
+EXERCISE XXI REPORT
+
+PART II
+
+    LEGEND:
+          A = Student’s Score
+          B = Corrected Score
+          C = Body and Texture
+          D = Color and Appearance
+          E = CRITICISMS
+    Score card used______________________  Date_________________________
+
+    ===+=====+==========================================================
+       |     |                                 SCORE
+       |     +------+-----+-----+--------+-----+-------+-----+-----+----
+       |     |      |     |     |        |     |       |     |     |
+       |Rec’t|Flavor|  C  |Rich-|Bacteria|  D  |Package|Total|Place|  E
+       |  #  |      |     | ness|        |     |       |Score|     |
+    ---+-----+------+-----+-----+--------+-----+-------+-----+-----+----
+     A |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+     +------+-----+-----+--------+-----+-------+-----+-----+
+     B |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+-----+------+-----+-----+--------+-----+-------+-----+-----+----
+     A |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+     +------+-----+-----+--------+-----+-------+-----+-----+
+     B |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+-----+------+-----+-----+--------+-----+-------+-----+-----+----
+     A |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+     +------+-----+-----+--------+-----+-------+-----+-----+
+     B |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+-----+------+-----+-----+--------+-----+-------+-----+-----+----
+     A |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+     +------+-----+-----+--------+-----+-------+-----+-----+
+     B |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+-----+------+-----+-----+--------+-----+-------+-----+-----+----
+     A |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+     +------+-----+-----+--------+-----+-------+-----+-----+
+     B |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+-----+------+-----+-----+--------+-----+-------+-----+-----+----
+     A |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+     +------+-----+-----+--------+-----+-------+-----+-----+
+     B |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+-----+------+-----+-----+--------+-----+-------+-----+-----+----
+
+EXERCISE XXII REPORT
+
+PART II
+
+    LEGEND:
+          A = Student’s Score
+          B = Corrected Score
+          C = Body and Texture
+          D = Color and Appearance
+          E = CRITICISMS
+    Score card used______________________  Date_________________________
+
+    ===+=====+==========================================================
+       |     |                                 SCORE
+       |     +------+-----+-----+--------+-----+-------+-----+-----+----
+       |     |      |     |     |        |     |       |     |     |
+       |Rec’t|Flavor|  C  |Rich-|Bacteria|  D  |Package|Total|Place|  E
+       |  #  |      |     | ness|        |     |       |Score|     |
+    ---+-----+------+-----+-----+--------+-----+-------+-----+-----+----
+     A |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+     +------+-----+-----+--------+-----+-------+-----+-----+
+     B |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+-----+------+-----+-----+--------+-----+-------+-----+-----+----
+     A |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+     +------+-----+-----+--------+-----+-------+-----+-----+
+     B |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+-----+------+-----+-----+--------+-----+-------+-----+-----+----
+     A |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+     +------+-----+-----+--------+-----+-------+-----+-----+
+     B |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+-----+------+-----+-----+--------+-----+-------+-----+-----+----
+     A |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+     +------+-----+-----+--------+-----+-------+-----+-----+
+     B |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+-----+------+-----+-----+--------+-----+-------+-----+-----+----
+     A |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+     +------+-----+-----+--------+-----+-------+-----+-----+
+     B |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+-----+------+-----+-----+--------+-----+-------+-----+-----+----
+     A |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+     +------+-----+-----+--------+-----+-------+-----+-----+
+     B |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+-----+------+-----+-----+--------+-----+-------+-----+-----+----
+
+EXERCISE XXIII REPORT
+
+PART II
+
+    LEGEND:
+          A = Student’s Score
+          B = Corrected Score
+          C = Body and Texture
+          D = Color and Appearance
+          E = CRITICISMS
+    Score card used______________________  Date_________________________
+
+    ===+=====+==========================================================
+       |     |                                 SCORE
+       |     +------+-----+-----+--------+-----+-------+-----+-----+----
+       |     |      |     |     |        |     |       |     |     |
+       |Rec’t|Flavor|  C  |Rich-|Bacteria|  D  |Package|Total|Place|  E
+       |  #  |      |     | ness|        |     |       |Score|     |
+    ---+-----+------+-----+-----+--------+-----+-------+-----+-----+----
+     A |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+     +------+-----+-----+--------+-----+-------+-----+-----+
+     B |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+-----+------+-----+-----+--------+-----+-------+-----+-----+----
+     A |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+     +------+-----+-----+--------+-----+-------+-----+-----+
+     B |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+-----+------+-----+-----+--------+-----+-------+-----+-----+----
+     A |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+     +------+-----+-----+--------+-----+-------+-----+-----+
+     B |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+-----+------+-----+-----+--------+-----+-------+-----+-----+----
+     A |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+     +------+-----+-----+--------+-----+-------+-----+-----+
+     B |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+-----+------+-----+-----+--------+-----+-------+-----+-----+----
+     A |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+     +------+-----+-----+--------+-----+-------+-----+-----+
+     B |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+-----+------+-----+-----+--------+-----+-------+-----+-----+----
+     A |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+     +------+-----+-----+--------+-----+-------+-----+-----+
+     B |     |      |     |     |        |     |       |     |     |
+       |     |      |     |     |        |     |       |     |     |
+    ---+-----+------+-----+-----+--------+-----+-------+-----+-----+----
+
+
+
+
+
+*** END OF THE PROJECT GUTENBERG EBOOK AN ICE CREAM LABORATORY GUIDE ***
+
+
+    
+
+Updated editions will replace the previous one—the old editions will
+be renamed.
+
+Creating the works from print editions not protected by U.S. copyright
+law means that no one owns a United States copyright in these works,
+so the Foundation (and you!) can copy and distribute it in the United
+States without permission and without paying copyright
+royalties. Special rules, set forth in the General Terms of Use part
+of this license, apply to copying and distributing Project
+Gutenberg™ electronic works to protect the PROJECT GUTENBERG™
+concept and trademark. Project Gutenberg is a registered trademark,
+and may not be used if you charge for an eBook, except by following
+the terms of the trademark license, including paying royalties for use
+of the Project Gutenberg trademark. If you do not charge anything for
+copies of this eBook, complying with the trademark license is very
+easy. You may use this eBook for nearly any purpose such as creation
+of derivative works, reports, performances and research. Project
+Gutenberg eBooks may be modified and printed and given away—you may
+do practically ANYTHING in the United States with eBooks not protected
+by U.S. copyright law. Redistribution is subject to the trademark
+license, especially commercial redistribution.
+
+
+START: FULL LICENSE
+
+THE FULL PROJECT GUTENBERG LICENSE
+
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg™ mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase “Project
+Gutenberg”), you agree to comply with all the terms of the Full
+Project Gutenberg™ License available with this file or online at
+www.gutenberg.org/license.
+
+Section 1. General Terms of Use and Redistributing Project Gutenberg™
+electronic works
+
+1.A. By reading or using any part of this Project Gutenberg™
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement. If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or
+destroy all copies of Project Gutenberg™ electronic works in your
+possession. If you paid a fee for obtaining a copy of or access to a
+Project Gutenberg™ electronic work and you do not agree to be bound
+by the terms of this agreement, you may obtain a refund from the person
+or entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B. “Project Gutenberg” is a registered trademark. It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement. There are a few
+things that you can do with most Project Gutenberg™ electronic works
+even without complying with the full terms of this agreement. See
+paragraph 1.C below. There are a lot of things you can do with Project
+Gutenberg™ electronic works if you follow the terms of this
+agreement and help preserve free future access to Project Gutenberg™
+electronic works. See paragraph 1.E below.
+
+1.C. The Project Gutenberg Literary Archive Foundation (“the
+Foundation” or PGLAF), owns a compilation copyright in the collection
+of Project Gutenberg™ electronic works. Nearly all the individual
+works in the collection are in the public domain in the United
+States. If an individual work is unprotected by copyright law in the
+United States and you are located in the United States, we do not
+claim a right to prevent you from copying, distributing, performing,
+displaying or creating derivative works based on the work as long as
+all references to Project Gutenberg are removed. Of course, we hope
+that you will support the Project Gutenberg™ mission of promoting
+free access to electronic works by freely sharing Project Gutenberg™
+works in compliance with the terms of this agreement for keeping the
+Project Gutenberg™ name associated with the work. You can easily
+comply with the terms of this agreement by keeping this work in the
+same format with its attached full Project Gutenberg™ License when
+you share it without charge with others.
+
+1.D. The copyright laws of the place where you are located also govern
+what you can do with this work. Copyright laws in most countries are
+in a constant state of change. If you are outside the United States,
+check the laws of your country in addition to the terms of this
+agreement before downloading, copying, displaying, performing,
+distributing or creating derivative works based on this work or any
+other Project Gutenberg™ work. The Foundation makes no
+representations concerning the copyright status of any work in any
+country other than the United States.
+
+1.E. Unless you have removed all references to Project Gutenberg:
+
+1.E.1. The following sentence, with active links to, or other
+immediate access to, the full Project Gutenberg™ License must appear
+prominently whenever any copy of a Project Gutenberg™ work (any work
+on which the phrase “Project Gutenberg” appears, or with which the
+phrase “Project Gutenberg” is associated) is accessed, displayed,
+performed, viewed, copied or distributed:
+
+    This eBook is for the use of anyone anywhere in the United States and most
+    other parts of the world at no cost and with almost no restrictions
+    whatsoever. You may copy it, give it away or re-use it under the terms
+    of the Project Gutenberg License included with this eBook or online
+    at www.gutenberg.org. If you
+    are not located in the United States, you will have to check the laws
+    of the country where you are located before using this eBook.
+  
+1.E.2. If an individual Project Gutenberg™ electronic work is
+derived from texts not protected by U.S. copyright law (does not
+contain a notice indicating that it is posted with permission of the
+copyright holder), the work can be copied and distributed to anyone in
+the United States without paying any fees or charges. If you are
+redistributing or providing access to a work with the phrase “Project
+Gutenberg” associated with or appearing on the work, you must comply
+either with the requirements of paragraphs 1.E.1 through 1.E.7 or
+obtain permission for the use of the work and the Project Gutenberg™
+trademark as set forth in paragraphs 1.E.8 or 1.E.9.
+
+1.E.3. If an individual Project Gutenberg™ electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any
+additional terms imposed by the copyright holder. Additional terms
+will be linked to the Project Gutenberg™ License for all works
+posted with the permission of the copyright holder found at the
+beginning of this work.
+
+1.E.4. Do not unlink or detach or remove the full Project Gutenberg™
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg™.
+
+1.E.5. Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg™ License.
+
+1.E.6. You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including
+any word processing or hypertext form. However, if you provide access
+to or distribute copies of a Project Gutenberg™ work in a format
+other than “Plain Vanilla ASCII” or other format used in the official
+version posted on the official Project Gutenberg™ website
+(www.gutenberg.org), you must, at no additional cost, fee or expense
+to the user, provide a copy, a means of exporting a copy, or a means
+of obtaining a copy upon request, of the work in its original “Plain
+Vanilla ASCII” or other form. Any alternate format must include the
+full Project Gutenberg™ License as specified in paragraph 1.E.1.
+
+1.E.7. Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg™ works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8. You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg™ electronic works
+provided that:
+
+    • You pay a royalty fee of 20% of the gross profits you derive from
+        the use of Project Gutenberg™ works calculated using the method
+        you already use to calculate your applicable taxes. The fee is owed
+        to the owner of the Project Gutenberg™ trademark, but he has
+        agreed to donate royalties under this paragraph to the Project
+        Gutenberg Literary Archive Foundation. Royalty payments must be paid
+        within 60 days following each date on which you prepare (or are
+        legally required to prepare) your periodic tax returns. Royalty
+        payments should be clearly marked as such and sent to the Project
+        Gutenberg Literary Archive Foundation at the address specified in
+        Section 4, “Information about donations to the Project Gutenberg
+        Literary Archive Foundation.”
+    
+    • You provide a full refund of any money paid by a user who notifies
+        you in writing (or by e-mail) within 30 days of receipt that s/he
+        does not agree to the terms of the full Project Gutenberg™
+        License. You must require such a user to return or destroy all
+        copies of the works possessed in a physical medium and discontinue
+        all use of and all access to other copies of Project Gutenberg™
+        works.
+    
+    • You provide, in accordance with paragraph 1.F.3, a full refund of
+        any money paid for a work or a replacement copy, if a defect in the
+        electronic work is discovered and reported to you within 90 days of
+        receipt of the work.
+    
+    • You comply with all other terms of this agreement for free
+        distribution of Project Gutenberg™ works.
+    
+
+1.E.9. If you wish to charge a fee or distribute a Project
+Gutenberg™ electronic work or group of works on different terms than
+are set forth in this agreement, you must obtain permission in writing
+from the Project Gutenberg Literary Archive Foundation, the manager of
+the Project Gutenberg™ trademark. Contact the Foundation as set
+forth in Section 3 below.
+
+1.F.
+
+1.F.1. Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+works not protected by U.S. copyright law in creating the Project
+Gutenberg™ collection. Despite these efforts, Project Gutenberg™
+electronic works, and the medium on which they may be stored, may
+contain “Defects,” such as, but not limited to, incomplete, inaccurate
+or corrupt data, transcription errors, a copyright or other
+intellectual property infringement, a defective or damaged disk or
+other medium, a computer virus, or computer codes that damage or
+cannot be read by your equipment.
+
+1.F.2. LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the “Right
+of Replacement or Refund” described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg™ trademark, and any other party distributing a Project
+Gutenberg™ electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees. YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH 1.F.3. YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3. LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from. If you
+received the work on a physical medium, you must return the medium
+with your written explanation. The person or entity that provided you
+with the defective work may elect to provide a replacement copy in
+lieu of a refund. If you received the work electronically, the person
+or entity providing it to you may choose to give you a second
+opportunity to receive the work electronically in lieu of a refund. If
+the second copy is also defective, you may demand a refund in writing
+without further opportunities to fix the problem.
+
+1.F.4. Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you ‘AS-IS’, WITH NO
+OTHER WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5. Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of
+damages. If any disclaimer or limitation set forth in this agreement
+violates the law of the state applicable to this agreement, the
+agreement shall be interpreted to make the maximum disclaimer or
+limitation permitted by the applicable state law. The invalidity or
+unenforceability of any provision of this agreement shall not void the
+remaining provisions.
+
+1.F.6. INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg™ electronic works in
+accordance with this agreement, and any volunteers associated with the
+production, promotion and distribution of Project Gutenberg™
+electronic works, harmless from all liability, costs and expenses,
+including legal fees, that arise directly or indirectly from any of
+the following which you do or cause to occur: (a) distribution of this
+or any Project Gutenberg™ work, (b) alteration, modification, or
+additions or deletions to any Project Gutenberg™ work, and (c) any
+Defect you cause.
+
+Section 2. Information about the Mission of Project Gutenberg™
+
+Project Gutenberg™ is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of
+computers including obsolete, old, middle-aged and new computers. It
+exists because of the efforts of hundreds of volunteers and donations
+from people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching Project Gutenberg™’s
+goals and ensuring that the Project Gutenberg™ collection will
+remain freely available for generations to come. In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg™ and future
+generations. To learn more about the Project Gutenberg Literary
+Archive Foundation and how your efforts and donations can help, see
+Sections 3 and 4 and the Foundation information page at www.gutenberg.org.
+
+Section 3. Information about the Project Gutenberg Literary Archive Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non-profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service. The Foundation’s EIN or federal tax identification
+number is 64-6221541. Contributions to the Project Gutenberg Literary
+Archive Foundation are tax deductible to the full extent permitted by
+U.S. federal laws and your state’s laws.
+
+The Foundation’s business office is located at 809 North 1500 West,
+Salt Lake City, UT 84116, (801) 596-1887. Email contact links and up
+to date contact information can be found at the Foundation’s website
+and official page at www.gutenberg.org/contact
+
+Section 4. Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg™ depends upon and cannot survive without widespread
+public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine-readable form accessible by the widest
+array of equipment including outdated equipment. Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States. Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements. We do not solicit donations in locations
+where we have not received written confirmation of compliance. To SEND
+DONATIONS or determine the status of compliance for any particular state
+visit www.gutenberg.org/donate.
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States. U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg web pages for current donation
+methods and addresses. Donations are accepted in a number of other
+ways including checks, online payments and credit card donations. To
+donate, please visit: www.gutenberg.org/donate.
+
+Section 5. General Information About Project Gutenberg™ electronic works
+
+Professor Michael S. Hart was the originator of the Project
+Gutenberg™ concept of a library of electronic works that could be
+freely shared with anyone. For forty years, he produced and
+distributed Project Gutenberg™ eBooks with only a loose network of
+volunteer support.
+
+Project Gutenberg™ eBooks are often created from several printed
+editions, all of which are confirmed as not protected by copyright in
+the U.S. unless a copyright notice is included. Thus, we do not
+necessarily keep eBooks in compliance with any particular paper
+edition.
+
+Most people start at our website which has the main PG search
+facility: www.gutenberg.org.
+
+This website includes information about Project Gutenberg™,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
+
+

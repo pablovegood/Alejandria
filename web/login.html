@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <title>Iniciar sesión · Alejandría</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="login.css"/>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const form = document.getElementById("loginForm");
+
+      form.addEventListener("submit", async (e) => {
+        e.preventDefault();
+
+        const username = document.getElementById("username").value.trim();
+        const password = document.getElementById("password").value.trim();
+
+        if (!username || !password) {
+          alert("⚠️ Por favor, completa todos los campos.");
+          return;
+        }
+
+        try {
+          const res = await fetch("http://127.0.0.1:5030/auth/login", {
+            method: "POST",
+            headers: {
+              "Accept": "application/json",
+              "Content-Type": "application/json"
+            },
+            body: JSON.stringify({ username, password }),
+          });
+
+          const data = await res.json();
+
+          if (!res.ok) {
+            const msg = Array.isArray(data.detail)
+              ? data.detail.map(e => e.msg).join(", ")
+              : data.detail || "Error al iniciar sesión";
+            throw new Error(msg);
+          }
+
+          localStorage.setItem("username", data.username);
+          alert(`✅ Bienvenido, ${data.username}`);
+          window.location.href = "/static/index.html";
+        } catch (err) {
+          alert(`⚠️ ${err.message}`);
+        }
+      });
+    });
+  </script>
+</head>
+<body>
+  <main>
+    <h1>Iniciar sesión</h1>
+    <form id="loginForm" class="auth-form">
+      <label>Usuario
+        <input id="username" name="username" type="text" required/>
+      </label>
+      <label>Contraseña
+        <input id="password" name="password" type="password" required/>
+      </label>
+      <button type="submit">Entrar</button>
+    </form>
+    <p>¿No tienes cuenta? <a href="/static/signup.html">Regístrate</a></p>
+  </main>
+</body>
+</html>
