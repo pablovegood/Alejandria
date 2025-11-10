@@ -99,10 +99,6 @@ def test_03_search_catalog():
 
 Seguimos haciendo uso de **GitHub Actions** y de ***invoke test*** como venía sucediendo en el Hito 2.
 
-## Otros aspectos a tener en cuenta
-
-Se han descargado los libros de la biblioteca Gutenberg que es un proyecto sin ánimo de lucro donde se almacenan libros sin derechos de autor que pertenecen al dominio público. En un principio mi intención era que Aljandría fuese un visor de Gutendex, la API del proyecto Gutenberg, pero no se podía hacer de forma directa sin que descargara los libros antes, por lo que importé una gran cantidad de libros (se pueden importar más sin problema alguno) y ya desde local mi aplicación permite a los usuarios tomar prestados los libros y abrirlos. Tengo que limitar todavía que solo puedan tener 5 usuarios (se podría aumentar en caso de que más usuarios usen mi aplicación de forma simultánea) un libro al mismo tiempo. Esto en realidad no hace falta, pero creo que es un detalle gracioso, simular el funcionamiento de una biblioteca real.
-
 ## Ejecución y testeo de la aplicación
 
 Para poder probar la versión actual de la aplicación, he implementado un humilde frontend para no depender del terminal para realizar las peticiones (aunque también se podría hacer así). Para poder verlo en nuestra máquina local basta con ejecutar server.py y acceder a la dirección IP indicada en el terminal. Esto nos llevará a la página de inicio de sesión, nos creamos un usuario si no tenemos ninguno e introducimos nuestras credenciales, entonces podremos pedir libros prestados, leerlos, devolverlos y escribir una reseña si nos apetece. Dentro del visor del libro se podrá ajustar el tamaño de la letra, cambiar a modo oscuro y cambiar la fuente de la letra (más funcionalidad en camino).
@@ -115,6 +111,17 @@ Para poder probar la versión actual de la aplicación, he implementado un humil
 ![img_5.png](img_5.png)
 
 Aunque en este hito no haya implementado las funcionalidades de bibliotecarios y admins, los usuarios ya tienen un campo que dictamina su rol dentro del sistema.
+
+## Single Source of Truth (SSoT)
+
+Cada microservicio de Alejandría mantiene su propia ***Single Source of Truth***, centralizando la gestión de datos y la lógica de negocio en una capa de servicio (`*Service`).  
+Los routers de la API nunca acceden directamente a los datos, sino que delegan las operaciones a estos servicios especializados.  
+De este modo, se evita la duplicación de código, se garantiza la coherencia de la información y se facilita el mantenimiento del sistema. EL microservicio de autenticación gestiona la BBDD de usuarios, el de catalogo la de libros, etc.
+
+## Otros aspectos a tener en cuenta
+
+Se han descargado los libros de la biblioteca Gutenberg que es un proyecto sin ánimo de lucro donde se almacenan libros sin derechos de autor que pertenecen al dominio público. En un principio mi intención era que Aljandría fuese un visor de Gutendex, la API del proyecto Gutenberg, pero no se podía hacer de forma directa sin que descargara los libros antes, por lo que importé una gran cantidad de libros (se pueden importar más sin problema alguno) y ya desde local mi aplicación permite a los usuarios tomar prestados los libros y abrirlos. Tengo que limitar todavía que solo puedan tener 5 usuarios (se podría aumentar en caso de que más usuarios usen mi aplicación de forma simultánea) un libro al mismo tiempo. Esto en realidad no hace falta, pero creo que es un detalle gracioso, simular el funcionamiento de una biblioteca real.
+
 
 ## Conclusión
 
