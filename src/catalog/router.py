@@ -3,8 +3,6 @@ from fastapi import APIRouter, Query, HTTPException
 from fastapi.responses import PlainTextResponse
 from pathlib import Path
 import logging
-
-from loan.service import LoanService
 from src.catalog.service import CatalogService
 
 logger = logging.getLogger("alejandria_api")

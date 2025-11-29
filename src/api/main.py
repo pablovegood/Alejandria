@@ -10,6 +10,8 @@ from src.auth.router import router as auth_router
 from src.catalog.router import router as catalog_router
 from src.loan.router import router as loans_router
 from src.review.router import router as review_router
+from fastapi.middleware.cors import CORSMiddleware
+
 
 os.makedirs("logs", exist_ok=True)
 
@@ -25,6 +27,21 @@ logging.basicConfig(
 logger = logging.getLogger("alejandria_api")
 
 app = FastAPI(title="Alejandría API")
+
+# CORS para permite llamadas desde el frontend en 8080
+origins = [
+    "http://localhost:8000",
+    "http://127.0.0.1:8000",
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],      # permitir todos los orígenes en desarrollo
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 
 @app.middleware("http")
 async def log_requests(request: Request, call_next):
