@@ -1,7 +1,6 @@
 import os
 import subprocess
 import time
-import shutil
 
 import pytest
 import requests
@@ -9,9 +8,10 @@ import requests
 HERE = os.path.dirname(__file__)
 COMPOSE_FILE = os.path.join(HERE, "..", "compose.yaml")
 
-if shutil.which("docker") is None:
+# 👇 Solo ejecutamos este test en CI (GitHub Actions)
+if os.environ.get("CI") != "true":
     pytest.skip(
-        "Docker no está disponible en este entorno de pruebas",
+        "Test de integración con Docker Compose: solo se ejecuta en CI (entorno CI=true)",
         allow_module_level=True,
     )
 
@@ -29,23 +29,19 @@ def wait_for(url: str, timeout: int = 40):
 
 
 def test_compose_cluster_serves_catalog():
-    # Arrancamos el clúster en segundo plano
     subprocess.run(
         ["docker", "compose", "-f", COMPOSE_FILE, "up", "-d", "--build"],
         check=True,
     )
 
     try:
-        # Esperamos a que el backend esté listo
         wait_for("http://localhost:8000/openapi.json")
 
-        # Hacemos una petición al catálogo
         r = requests.get("http://localhost:8000/catalog/search?q=", timeout=5)
         assert r.status_code == 200
         data = r.json()
         assert "results" in data
     finally:
-        # Paramos el clúster y limpiamos volúmenes
         subprocess.run(
             ["docker", "compose", "-f", COMPOSE_FILE, "down", "-v"],
             check=True,

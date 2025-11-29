@@ -7,9 +7,10 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_API: ${{ github.repository }}-api
-  IMAGE_WEB: ${{ github.repository }}-web
-  IMAGE_DATA: ${{ github.repository }}-data
+  # 👇 Forzamos a minúsculas para que Docker no se queje
+  IMAGE_API: ${{ toLower(github.repository) }}-api
+  IMAGE_WEB: ${{ toLower(github.repository) }}-web
+  IMAGE_DATA: ${{ toLower(github.repository) }}-data
 
 jobs:
   build-and-push:
