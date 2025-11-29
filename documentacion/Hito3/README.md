@@ -1,5 +1,7 @@
 # 🧩 HITO 3: Diseño de microservicios
 
+[![GitHub Actions](https://github.com/pablovegood/Alejandria/actions/workflows/ci.yml/badge.svg)](https://github.com/pablovegood/Alejandria/actions)
+
 ## FastAPI como framework elegido para crear microservcios
 
 En un principio pensé en utilizar Django para crear los microservicios de mi aplciación Alejandría, pero la curva de aprendizaje resultó ser algo más elevada de lo que estimé en un primer momento.Es por eso que buscando en internet, encontré este foro de Reddit donde este usuario hablaba maravillas sobre FastAPI https://www.reddit.com/r/FastAPI/comments/1bs889k/why_i_chose_fastapi_how_was_my_experience_and/
