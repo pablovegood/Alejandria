@@ -1,0 +1,12 @@
+FROM busybox:1.37
+
+WORKDIR /data
+
+# Copiamos los textos iniciales dentro de la imagen
+COPY data/texts ./texts
+
+# Declaramos el volumen donde se guardarán los textos
+VOLUME ["/data/texts"]
+
+# El contenedor no hace nada, solo mantiene el volumen vivo
+CMD ["sh", "-c", "ls -R /data && sleep infinity"]

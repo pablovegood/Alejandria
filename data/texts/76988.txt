@@ -1,0 +1,2819 @@
+﻿The Project Gutenberg eBook of Aeolus; or, the future of the flying machine
+    
+This ebook is for the use of anyone anywhere in the United States and
+most other parts of the world at no cost and with almost no restrictions
+whatsoever. You may copy it, give it away or re-use it under the terms
+of the Project Gutenberg License included with this ebook or online
+at www.gutenberg.org. If you are not located in the United States,
+you will have to check the laws of the country where you are located
+before using this eBook.
+
+Title: Aeolus; or, the future of the flying machine
+
+Author: Major Oliver Stewart
+
+Release date: October 5, 2025 [eBook #76988]
+
+Language: English
+
+Original publication: London: Kegan Paul, Trench, Trubner & Co, 1927
+
+Credits: Tim Lindell, Quentin Campbell, Thiers Halliwell (cover image restoration) and the Online Distributed Proofreading Team at https://www.pgdp.net (This book was produced from images made available by the HathiTrust Digital Library.)
+
+
+*** START OF THE PROJECT GUTENBERG EBOOK AEOLUS; OR, THE FUTURE OF THE FLYING MACHINE ***
+
+
+                           Transcriber’s Note
+
+In this transcription, italic text is denoted by _underscores_ while
+bold text is denoted by =equal signs=. Small capitals in the original
+text have been transcribed as ALL CAPITALS.
+
+                                  ————
+
+See the end of this document for details of corrections and other
+changes.
+
+                         —————————————————————
+
+
+
+
+                                 AEOLUS
+
+
+
+
+                          TO-DAY AND TO-MORROW
+
+            _For the Contents of this Series see the end of
+                               the Book_
+
+
+
+
+                                 AEOLUS
+
+                                   OR
+
+                           THE FUTURE OF THE
+                             FLYING MACHINE
+
+
+                                   BY
+
+                             OLIVER STEWART
+
+                _Author of ‘The Strategy and Tactics of
+                          Air Fighting,’ etc._
+
+
+                                 LONDON
+                KEGAN PAUL, TRENCH, TRUBNER & Co., LTD.
+                      NEW YORK: E. P. DUTTON & CO.
+
+
+
+
+      ————————————————————————————————————————————————————————————
+                  Made and Printed in Great Britain by
+      M. F. Robinson & Co., Ltd., at The Library Press, Lowestoft.
+
+
+
+
+                                 AEOLUS
+
+                           THE FUTURE OF THE
+                             FLYING-MACHINE
+
+                              INTRODUCTION
+
+
+The aeroplane is an aerial sailing-ship, its wings are the sails, its
+source of power the wind. It can claim to be a direct descendant of the
+family of sailing ships whose father was AEOLUS, god of the winds and
+the inventor of sails.
+
+Aeroplane, helicopter, ornithopter, rotorplane, and autogiro are
+sailing-ships because they all derive lift from sails or aerofoils.
+An aerofoil is a structure so shaped as to obtain a reaction from the
+wind—a sail is nothing more and nothing less. Whether the wind is
+natural or is artificially raised by an engine does not affect the
+function of aerofoil or sail.
+
+The heavier-than-air flying-machine, either engineless glider or
+power-driven craft, is the true aerial sailing-ship. The prolate
+gasbag which is called an airship resembles only one kind of ship,
+a sinking ship, because it is totally immersed in the fluid which
+supports it. If a sea parallel to the airship is required, that
+parallel may justly be said to be the submarine, which is suspended in
+the water as the airship is suspended in the air.
+
+Before I deal with the future of the aerial sailing-ship I must define
+three aeronautical terms. No excuse is needed for introducing these
+apparently elementary definitions since aeronautical terms are almost
+as well misunderstood by aviators as by laymen. The three terms are:
+
+  Wing
+  Airscrew
+  Propeller
+
+The definitions I advance are supported by the Royal Aeronautical
+Society’s _Glossary of Aeronautical Terms_ and by the British
+Engineering Standards Association’s _Glossary of Aeronautical Terms_
+although they are often departed from in official forms and in speech.
+
+_Wing._ A few days ago I read in a newspaper of a “single-winged
+airplane”. Accustomed as I am to the aircraft which appear between the
+drapers’ advertisements in the daily newspapers, I was startled at the
+notion of a “single-winged airplane”. A bird has wings. A single-winged
+bird would be a queer creature and would be incapable of flying. A
+“single-winged airplane” would be equally queer and equally earth-bound.
+
+The reporter, in trying to hack out an explanatory synonym for
+monoplane, docked the aeroplane of one of its wings.
+
+_Airscrew and Propeller._ An aeroplane can have an airscrew yet no
+propeller. Most aeroplanes, in fact, are without propellers. In the
+interests of differentiation it is worth endeavouring to confine the
+word propeller to the thing that propels or pushes the machine, to
+use airscrew as a general term, and tractor airscrew when a precise
+definition is required for the thing that pulls the machine. The
+colloquialism “prop’” may perhaps be allowed to stand for both tractor
+airscrew and propeller.
+
+In the following pages I make no attempt to hit upon any sudden
+invention which may revolutionize flight. I confine myself to
+developing lines of progress which have already given some proof of
+practicability. For determining the general trend of progress I rely
+upon a utilitarian review of the aeronautical situation. I have avoided
+leaping into the distant future. Readers will be disappointed to learn
+that things like inter-planetary voyaging are not dealt with in this
+booklet.
+
+I am aware that scientists have demonstrated that some of the things
+I do mention are impossible. But scientists have demonstrated that
+the world is flat, that it is round, and that it is oblong. In the
+future they will demonstrate that it is rectangular. It was Mr W. N.
+Sullivan, I think, who said that “To judge from the history of science,
+the scientific method is excellent as a means of obtaining plausible
+conclusions which are always wrong, but hardly as a means of reaching
+the truth.” While a few generations can still witness wide variations
+of opinion among those who know, I incline to the Pyrrhonic doctrine.
+It is impossible to know with certainty what is impossible, and in
+attempting a forecast the best that can be done is to take the trend
+of contemporary thought and, with that, to build a future upon the
+principles of the present.
+
+I deal with the future of three kinds of flying-machine, the civil,
+the service, and the lighter-than-air or airship. The type of machine
+I say will become popular for short distance air-transport may seem at
+first to be too unconventional. But I think the whole trend of advanced
+thought (slotted wings, wingflaps, anti-stall gears and differential
+ailerons are manifestations of it) is towards the result I suggest.
+
+
+
+
+                                   I
+
+
+The future of the aerial sailing-ship or heavier-than-air
+flying-machine will be affected more by the attitude which the
+world adopts towards it than by technical achievement. In England
+the national attitude towards machinery is moulded by statesmen and
+financiers. Under the guise of preserving the liberty of the individual
+that attitude strangles the life out of the machine; it may be
+described in the words of the schoolboy who said that _Habeas Corpus_
+was a phrase used during the great plague of London meaning ‘Bring out
+your dead’.
+
+The statesman has helped to mould the national attitude towards
+the motor-car through the medium of laws and the manner of their
+enforcement by his servants the police, and the Courts. The history of
+the cause and effect of the national attitude towards the motor-car is
+being repeated with the flying-machine, and the parallel is close.
+
+Having the safety of the public for its ostensible object, the
+Motor-Car Act limits the speed of motor-vehicles to twenty miles per
+hour, proclaims it an offence to drive to the common danger and to be
+drunk while in charge of a motor-car.
+
+Of the last-mentioned provision I will say nothing beyond mentioning
+that there are motorists who are incapable of driving safely except
+when they are drunk. Of the other two, the 20 m.p.h. speed-limit for
+many years has been generally recognized as having no bearing on safety
+or danger, whereas for many years motorists have been condemning
+certain manoeuvres on the road as constituting, legally as well as in
+truth, driving to the common danger.
+
+The English police, with the connivance of magistrates and Home
+Secretaries, have concentrated on enforcing the speed-limit and have
+ignored the dangerous manoeuvres.
+
+This pass has been brought about by the statesman, who has no direct
+interest in motor-cars or other new-fangled machines (except when
+there is a general strike). As a consequence, the car built as a car
+for speed and control is becoming an object of general dislike. The
+continued insistence that speed of itself is dangerous and the pompous
+tyranny of the police (who find motorists tamer and more plastic than
+thieves) are gradually engendering in the public fear of and dislike
+for the machine-entity. Instead the wheeled furniture-shop is gaining
+in popularity. The doctrine of Safety First is threatening initiative
+and killing the spirit of adventure, while there is ignorance of how
+to attain safety. Road-racing, the only sure means of increasing
+car-safety, is prohibited because it is not safe. The result is the
+dismal, abysmal mess described as the modern British motor-car, which
+is chiefly remarkable for not containing a single original idea.
+
+Now the result of statesmen moulding a similar attitude towards the
+flying-machine will be equally dismal. Yet they are already exerting
+their influence in that direction.
+
+Instead of employing policemen and Courts to harry and hunt the herd of
+aeronauts, designers, and constructors, however, the statesman employs
+an army of air-officials. In the world of aeronautics these officials
+are all-mighty. The private person has no control over them and no
+reply to them. If he goes to Court against them he will lose. If he
+appeals against the decision of the Court he will lose again. If he
+appeals to public opinion he will lose for the third time. The official
+tells the airman what he may not do, warns the designer of the manner
+in which he may not design, and informs the constructor how he is
+forbidden to construct.
+
+The result of this official attitude towards the flying-machine is
+already faintly visible.
+
+At the time I write Britain holds no world’s air-records. For seven
+years she has made no great flight. She has three or four commercial
+air-lines against Germany’s forty-three. Her fastest aircraft is about
+50 m.p.h., slower than the fastest foreign aircraft. Her highest
+climbing aircraft cannot attain within thousands of feet of the
+altitude attained by foreign aircraft. Her longest range aircraft
+can accomplish little more than half the distance covered by foreign
+aircraft. Her Air Force can put fewer effective war-machines in the air
+than any one of three other countries.
+
+One of our pilots has succeeded in proving that, in an English
+aeroplane, you can go from London to anywhere else more slowly, and in
+more acute discomfort, than by boat and train.
+
+In one thing only does England excel. She spends more on aviation than
+any other country in the world.
+
+I am familiar with the excuses for England’s aeronautical failings. I
+know that the House of Commons has been told that there is no object
+in England attempting to obtain world’s air-records. I have heard the
+claim that the Royal Air Force flies more than any other air force, and
+I have heard the Air Ministry refuse to supply any figures in support
+of the claim. I know that the French are said to obtain their high
+speeds and great distances by cutting down the load-factor of their
+machines. I have been told about the theory that we _could_ gain
+world’s records, run air-lines, win air-races, and have an effective
+Air Force but that we do not want to do so. I am familiar with these
+excuses, and, having mentioned some of them, I think I can proceed to
+indicate a cure for the failings in British aviation. For some cure
+is the essential preliminary to any future for the flying-machine in
+England.
+
+The cause of England’s aerial impotence is chiefly official
+interference leading to a wrong national attitude towards the aeroplane.
+
+The cure is to give English aviation the freedom of the air.
+
+If the official is given powers to make vehicular transport safe, he
+will, as we have seen in the motor-car analogy, infallibly not make
+vehicular transport safe and he will stop any mechanical development
+in the vehicle itself. Freedom, then, is the essential condition of
+aeronautical development.
+
+I said at the beginning of this essay that the financier, as well
+as the statesman, helped to mould the public’s attitude towards
+the machine. I speak only of the pure financier or business-man who
+uses aeroplanes, motor-cars or tin cans with equal indifference
+as money-making tools; who has no direct interest in any material
+creation; who repeats that honesty is the best policy and hopes the
+other man will believe it.
+
+All such business-men in England are humble imitators of American
+business men. In their advertisements, offices, talk, and indigestion
+they endeavour as closely as possible to copy the Americans. They
+therefore believe that, if English people are to produce cars or
+aeroplanes, they must produce them in the American way—that is cheaply
+and in mass. Standardization has, in their view, taken the place of
+craftsmanship and mass-production of hard work.
+
+Already events have shown that the English are incapable of imitating
+the Americans well. The reason is that the American mechanic regards
+his work as an unpleasant necessity, to be got through as quickly as
+possible and to be paid for at as high a rate as possible in order that
+he may have time and money for the real purpose of life—doing nothing.
+The English mechanic, although the statesman is trying to knock such
+foolishness out of him, still expects to find something satisfying in
+his work. He still seeks a measure of contentment in the exercise of
+skill.
+
+Mass-production fits in well with the American workman’s ideas: it does
+not fit in with the English workman’s ideas. The English do not and
+will not produce cheap motor-cars or cheap aeroplanes as quickly and as
+well as the Americans.
+
+If English flying-machines are to be made capable of competing with
+American and others, the English, after being freed from official
+interference, must leave standardization and mass-production to
+people who are temperamentally suited to them, and instil into
+these flying-machines some of the idiosyncrasy of their race. Their
+flying-machines must be creations expressive of the characters of those
+who design and construct them.
+
+The only English cars having any success in America (and elsewhere) are
+those few in which perfection of craftsmanship and idealism in design
+are notable. They are the kind of cars English designers and mechanics
+are temperamentally able to produce. The mass-produced cheap English
+car or flying-machine will remain a feeble imitation of the American.
+But the idealistic creation, the machine-entity of the English
+artist-scientist in car or flying-machine has a place to itself in the
+scheme of things. In its best form it is unique.
+
+The financier’s influence in aviation is not yet so noticeable as
+in motoring, but it is becoming stronger. Should the aeroplane pass
+entirely into his hands, it will cease to progress as a flying-machine
+and will start progressing as a bank-note churn. With the future of
+such an instrument I am unable to deal, since I have no personal
+experience of either churns or bank-notes.
+
+If it is to make headway as an individual creation the flying-machine
+must receive the freedom of the air. It must develop its own
+individuality as a machine-entity. Freedom of the air and the
+complementary institution of mechanical craftsmanship are the essential
+conditions for development of the flying-machine. Without those
+conditions I have nothing to write of its future. With those conditions
+the flying-machine presents possibilities of development in high-speed
+transport that will warrant future generations describing the present
+age as the static age.
+
+But I must insist that, for the forecast I am now to make, I postulate
+the gagging and binding or otherwise bottling-up of the statesman and
+financier.
+
+Only then will this machine-entity, the creation of the
+artist-scientist, grow. And that the machine-entity, the car or
+aeroplane as a real and living thing exists will be accepted by all who
+have spent much time in controlling and looking after high-performance
+aeroplanes or racing-cars. These machines, built with a single purpose,
+are sensitive to the treatment they receive as the stone is sensitive
+to the sculptor’s chisel or the violin-strings to the musician’s bow.
+
+Turn for one moment from the standard cars, the wheeled furniture-shops
+“replete with every comfort including cigarette lighter and flower
+vase” which make hideous our streets to the other extreme and regard
+the finely-wrought, aesthetically satisfying racing-car which is to
+be seen in the American and Continental road-races and occasionally
+at Brooklands. I do not suggest that racing-cars should be used for
+transport even in these “most brisk and giddy paced times”; I merely
+refer to the racing-car as indicative of a certain attitude towards
+the machine. The makers of flying-machines should be free, if such is
+their desire, to aim at the fineness, craftsmanship, and originality in
+design exemplified in the racing-car.
+
+
+
+
+                                   II
+
+
+The civil flying-machine, when it is examined in the light of
+contemporary aeronautical research-work, seems rich in possibilities.
+
+Apart from electrical repulsion, there are five different ways
+of flying, of which only two are at present in general use,
+lighter-than-air flight and fixed-wing heavier-than-air flight. I
+think that a third method is about to be widely adopted, and that this
+third method will, in time, profoundly influence the whole future of
+aeronautics.
+
+A comparison between the present system of artificial flight and
+natural flight will suggest what that third method is.
+
+Let us go to Croydon, the airport of London, and examine a typical
+three-engined passenger-carrying aeroplane.
+
+The three engines are running, for the machine is about to take off.
+The coffin-shaped thing whose sides flap in the wind from the airscrews
+is the fuselage. The machine shows signs of malnutrition, for its bones
+are prominent in the form of wires and struts. As the engines are run
+up, the tail shakes and sneezes and coughs until it seems that the
+fuselage will be ruptured. Now the machine taxis over the aerodrome,
+its engines open up with a roar, it labours over the ground, and then,
+looking a little fatigued, it rises into the air.
+
+It passes overhead making a noise like a thunderstorm, shivering and
+quaking, barging its way along with a clumsy ineffectualness which
+gives it the appearance of flying through treacle.
+
+When it is out of sight, go to Waterloo Bridge and watch the gulls.
+
+A gull is a hopelessly uncommercial flying machine. It does not pay,
+it has no ground organization, it is not fitted with wireless, no
+control-tower informs it when it may land, no books are kept of its
+mileage or hours flown, no managers, assistant-managers, clerks,
+secretaries, typists, accountants, ministers, directors, officials,
+or meteorologists concern themselves in its safety. No offices,
+search-lights, flood-lights, neon-lights, leader-cables, or directional
+wireless stations are set aside for its control and supervision. No
+treatises are written about its future. A gull is not “a commercial
+proposition”. It is, however, a good machine for flying.
+
+Neither the superficial nor the fundamental defects of the
+passenger-carrying aeroplane are present in the gull. The gull is a
+coherent, unified structure without exposed bracing-wires, struts,
+or engines. It gets off quickly, flies at a great pace (for its
+power-loading), is fairly silent and very manoeuvrable, can defeat fog,
+rain, hail, snow, and gale, and can alight anywhere.
+
+As a flying-machine it owes its basic superiority over the aeroplane
+to a single, ingenious trick: a trick which looks easy, but which, for
+many years, the scientist found it impossible to reproduce in practical
+mechanics.
+
+When flying was first thought about this trick engaged much attention.
+The mechanical difficulties in reproducing it, however, refused to be
+conquered, and about 1680, Borelli, having this trick in mind, wrote:
+“The Icarian invention is entirely mythical because impossible”, a view
+which, according to Mr J. E. Hodgson’s _History of Aeronautics_, was
+supported by Leibnitz. Afterwards and until just recently the trick has
+been almost entirely neglected. I think it probable that it will regain
+its old importance, and that it will become the pivot upon which the
+whole future of the heavier-than-air land-going flying-machine will
+turn.
+
+What is this trick which for centuries baffled the mechanician, yet
+which the gull finds so simple? What is the one fundamental difference
+between the means employed by the gull for flying and the means
+employed by the aeroplane?—It is the difference between the fixed wing
+and the moving wing.
+
+The gull has the trick of being able to move its wings relative to
+its body. The gull is a moving-wing flying-machine. The conventional
+aeroplane is a fixed-wing-flying-machine.
+
+Almost every important advantage which the gull (and any other bird)
+has over the type of aeroplane which has so far been most popular may
+be traced to the gull’s ability to move its wings. For that reason
+alone it can get off without a long run, defeat fog and gale, and
+alight anywhere.
+
+Since the time of the artificial “flying pigeon” of Archytas in the
+5th. cent. B.C. the manner of whose flight seems obscure, attempts have
+been made to build machines which imitate the gull by flapping their
+wings. Several people, including Bladud, the legendary flying King of
+Britain, found out in an unpleasant manner that the muscles were not
+strong enough to actuate man-lifting wings. And in the construction
+of engine-driven ornithopters the mechanical difficulties invariably
+proved insuperable. The natural flapping wing has never been exactly
+imitated by mechanical means in a flying-machine, nor have the leg and
+foot been exactly imitated by mechanical means in a motor-car.
+
+The motor-mechanician, in using the wheel in place of the leg and foot,
+imitated the principle employed by nature for land-locomotion but
+not the means. Will the aeroplane-mechanician imitate the principle
+employed by nature for flight but not the means?
+
+The aeroplane-mechanician has already accomplished this feat in a
+rudimentary form in the Cierva Autogiro, which is commonly (and
+accurately) called the windmill aircraft.
+
+The helicopter has never achieved much success and, for the present
+purpose, it may be classed with the ornithopter as obsolete. The
+autogiro, therefore, is the first practical moving-wing aircraft. It
+accomplishes that which generation after generation of mechanicians
+found it impossible to accomplish. It has seized on the bird-principle
+of flight and translated it into practical mechanics.
+
+
+
+
+                                  III
+
+
+The existing autogiro, although it may not resemble the more developed
+types which will eventually appear, is the most successful moving-wing
+flying-machine yet produced. Señor de la Cierva’s work was described
+by an aeronautical engineer as being of secondary importance only
+to that of the Wright brothers. That first flush of enthusiasm may
+be over, but there seems little doubt that future generations will
+regard Señor de la Cierva as the inventor of moving-wing flight. And
+I believe that there will be a fierce battle, more prolonged and more
+vigorous than has ever been fought between two machines, the battle
+between moving-wing flight and fixed-wing flight. The struggle between
+reciprocating engine and turbine, broad gauge and narrow gauge,
+lighter-than-air and heavier-than-air, water-cooling and air-cooling
+will be as nothing compared with the imminent struggle between
+fixed-wing and moving-wing.
+
+The autogiro obtains lift from a _free_, four-bladed windmill. Each
+blade of the windmill is a wing and is articulated at the root so
+that its tip can rise and fall. The autogiro is drawn forward by an
+ordinary aero-engine and airscrew which are entirely separated from the
+windmill. As the machine is drawn through the air the relative wind,
+blowing on the blades or wings, rotates the windmill and it lifts the
+machine. The wings rise and fall, and this beating motion gives the
+machine a measure of stability.
+
+To exert lift a wing must move through the air.
+
+The moving-wing aircraft derives lift from wings which can move through
+the air even though the body of the machine be stationary or nearly
+stationary. In the fixed-wing aeroplane both body and wings must move
+if the wings are to exert lift.
+
+[Illustration:
+
+  Fig. 1.—Diagrammatic representation of moving-wing and fixed-wing
+  flight. The wings of both machines have travelled equal distances
+  AA and BB but the body of the moving wing machine has remained
+  stationary relative to the ground.
+]
+
+The difference between moving-wing and fixed-wing aircraft is so
+important to this discussion that I shall venture to describe it again
+in different words. A fixed-wing aircraft is like a bird with its wings
+paralysed or in splints. A moving-wing aircraft is like a bird having
+the full use of all its faculties. (Fig. 1).
+
+Perhaps the most important advantage which the moving-wing aircraft has
+over the fixed-wing aircraft is that it can virtually land on one spot.
+The conventional aeroplane must move forward in still air if it is to
+keep up; it must still move forward while landing, and afterwards allow
+its impetus to be dissipated during a run along the ground.
+
+In addition to this ability to land on a spot, the moving wing aircraft
+is less likely to become uncontrollable while it is in the air. The
+fixed-wing aircraft must become uncontrollable in the air if its speed
+drops below a certain point. This point was called by airmen “the
+stalling speed”. It has needed the mathematician to produce the phrase:
+“control of stalled aeroplanes”. In current English a stalled aeroplane
+is an aeroplane which is uncontrollable, even if the speed must drop to
+zero before this condition arises. If any fixed stalling-_angle_ can be
+said to exist outside technical reports, it is the angle at which the
+lift of the wings is so reduced that the machine must fall to a nearly
+vertical position before recovering.
+
+The moving-wing aircraft in the rudimentary form we know it to-day
+could stall, but it would need a major structural failure or violent
+and prolonged misuse of the controls to make it do so.
+
+And now one of the weapons which will be used in the battle which I
+predict between the two main types of heavier-than-air flying machines
+will be recognized. The weapon of the spot-landing.
+
+Taking advantage of its special characteristics, the moving-wing
+flying-machine within fifteen years will open hostilities by carrying
+passengers into and from the hearts of cities and by running safely
+through fog thick enough to stop other transport services. Up till
+then the fixed-wing machine with its aerodromes on the outskirts of
+cities will have held the field almost unchallenged. But whereas the
+fixed-wing aircraft has now had twenty-two years development, the
+moving-wing aircraft has had only about three years.
+
+At first, even when it has matured, people will be shy of the
+moving-wing machine, and only gradually will it begin to attract
+passengers used to the other type.
+
+Travellers will begin to realize that, when they go by fixed-wing
+machines, they waste so much time and suffer so much discomfort in the
+terminal communications that the advantages of the air-passage are
+largely neutralized.
+
+At present the air-traveller going from Paris to London spends one
+and a half hours covering the few miles to and from the aerodromes to
+the centres of the two cities and only two to two and a half hours
+covering the 225 miles of the air-journey. Moreover, he changes
+vehicles twice, at Croydon and at Le Bourget, as he does by boat and
+train at Dover and at Calais. The aircraft’s ability to fly over land
+and sea alike, therefore, has not given the traveller the advantage of
+a through-journey. He must taxi from his hôtel in Paris to the place
+where the air-company’s car starts, change from car to aeroplane at Le
+Bourget, change from aeroplane to car at Croydon, and taxi from the
+car’s stopping place to his home. (Fig. 2).
+
+[Illustration:
+
+  Fig. 2.—Diagrammatic representation of the advantage in flexibility
+  of an aircraft capable of making spot landings and so of using small
+  aerodromes. Alone among vehicles it could provide a through journey
+  to the centres of cities.
+]
+
+The aeroplane dare not risk attempting the journey in thick fog or
+heavy snow or hail because, in order to support itself, it must move
+forward through the air at a minimum of say 60 miles per hour. At
+this speed the pilot, even if aided by a leader-cable, has difficulty
+in finding the aerodrome in thick weather; as much difficulty as a
+motor-car-driver unable to go slower than 20 miles per hour would have
+in crossing London in a dense fog.
+
+If he thinks he catches a glimpse of a landmark, the pilot cannot stop
+or slow down and look again to confirm his impression; he must continue
+to travel at 60 m.p.h. And if he fail to find the aerodrome he must
+endeavour to put down his machine—still travelling at 60 m.p.h.—on
+an area of ground which he cannot see clearly and which he does not
+know. If a house, ditch, hedge, tree, chimney, shed, road, telegraph
+wire, pole, or other obstruction is in the way the result is a serious
+accident.
+
+The disadvantages under which the fixed-wing aircraft suffers when
+landing and when flying during bad visibility are inherent in the
+principle of flight it employs. The moving-wing machine will therefore
+concentrate its attack at these very points. Since it is able to fly
+slowly, and virtually to hover, it can feel its way through fairly
+thick fog. Even if the pilot cannot find the aerodrome, comparatively
+little danger attaches to a forced landing on unknown ground, because
+the descent can be made vertically or almost vertically and there is
+almost no run after touching the ground.
+
+Aerodromes on the roofs of buildings have been foretold with tiresome
+persistence. A Frenchman succeeded in landing a fixed-wing aeroplane
+on a roof in Paris. Even so I cannot foresee roof-aerodromes for
+fixed-wing aircraft, which is the purpose for which former prophets
+have foreseen them; but I emphatically can foresee roof-aerodromes for
+slow-landing, moving-wing aircraft.
+
+Travellers going by future air-lines will take a taxi from their homes
+to Charing Cross, step into a moving-wing machine on a roof-aerodrome,
+fly to Paris, land on another roof-aerodrome near the Place de l’Opéra,
+and take a taxi to their hotel.
+
+I think it likely that, by the time it reaches maturity, the full
+speed of the moving-wing aircraft will be below that of the fixed-wing
+aircraft. But it will make up for this disadvantage by offering
+travellers the advantages of eliminating terminal communications and
+changes of vehicle. Part of the time it loses between Croydon and Le
+Bourget it will regain between Croydon and Charing Cross and between Le
+Bourget and the Place de l’Opéra. Moreover, on days when, through fog,
+the fixed-wing aircraft-service is suspended, the moving-wing aircraft
+will still operate.
+
+By these means the moving-wing aircraft will become a formidable
+competitor of the fixed-wing aircraft. How will the fixed-wing aircraft
+reply to the attack?
+
+It will make a supreme effort to increase its speed to such an extent
+that it will offer to travellers a journey taking from door to door
+only about two-thirds of the time occupied by the other type. To do
+this the time lost in terminal communications by motor-car will, at
+first, be partly recovered by extremely high flying speeds. The 250
+miles per hour air-express will make its appearance. The wing-loading
+of these machines will be high. Dr Rohrbach the German designer,
+believes that great advantages accrue through high wing-loadings, and
+in lectures and papers he has described at length the reasons for his
+belief. In order to get these highly loaded machines off quickly and to
+land them within an aerodrome of reasonable size, a form of catapult
+launching apparatus and an arrester will be employed.
+
+Catapult-launching has been proved, in England, America, Italy, and
+France, to be practicable with fairly large aircraft. There is no
+reason to suppose that its development will not continue.
+
+An aircraft-arrester was described by Mr G. H. Dowty in a paper read
+before the Institution of Aeronautical Engineers in October 1926.
+It consisted in a drum having wound round it a length of cable. The
+aeroplane, by some hook and line device similar to that used by Army
+co-operation machines in picking up messages, will connect itself to
+the end of the cable. The cable will rotate the drum against a brake,
+and the aeroplane will be arrested. Mr Dowty calculates that a machine
+travelling at 90 m.p.h. could by this means, be brought to a standstill
+in 100 yards without an excessive strain being put on the machine’s
+structure.
+
+The chances of forced landings in these highly loaded fixed-wing
+machines will be reduced to a negligible quantity by big reserves of
+power and by providing that power through many engines.
+
+In spite of the acceleration of the fixed-wing services made possible
+by the use of these express-aeroplanes, the popularity of the
+moving-wing services will continue to grow. The public will count time
+well lost against the discomfort of changing twice and motoring long
+distances through roads as inadequate for the traffic of that day as
+the existing ones are for the traffic of this. They will continue to
+take taxis to the Charing Cross roof-aerodrome when they want to travel
+by air to Paris, York, Manchester, Glasgow, or Dublin.
+
+The drifting of passengers to the moving-wing services will spur
+the supporters of the fixed-wing services to devise another reply.
+They will build motor speedways from Croydon reaching into the heart
+of London and from all the other big aerodromes into the hearts of
+the cities they serve. These speedways will have no side-turnings
+or cross-roads. They will be forbidden to pedestrians, bicyclists,
+lorries, ’buses, and similar vehicles. They will be hedged in on either
+side like railway lines. The flat-footed influence of policeman and
+politician will be excluded and along these tracks cars will carry
+passengers to and from the aerodromes at 100 miles per hour. Assisted
+by these tracks, the great speed of the fixed-wing services will
+temporarily prevail, and a fair supply of passengers will be assured
+although the moving-wing services will still flourish.
+
+The position at this stage of the battle might be described as a
+deadlock. The next stage will perhaps be the most remarkable of all.
+
+It may have been noticed that, unlike most prophets, I have been
+exceedingly modest in naming the distances over which these
+future services will operate. While discussing the battle between
+fixed-wing and moving-wing, instead of speaking of Empire services,
+Globe-circling airlines, or non-stop hemispherical flying expresses,
+I have spoken of trivial routes like London-Paris and London-Glasgow.
+I have not even mentioned London-Karachi, London-Melbourne, or
+London-Montreal.
+
+My modesty was only temporarily assumed. I am now about to throw it
+off in order to describe what I believe will be the most important
+development of the flying machine. This development will begin during
+the latter part of the fixed-wing, _v._ moving-wing battle.
+
+
+
+
+                                   IV
+
+
+I have spoken, in describing the fixed-wing versus moving-wing battle,
+only of short air-lines, because I think the establishment of the
+successful short line will precede the establishment of the long.
+
+It is argued that the saving in time effected by the flying-machine
+becomes valuable only in long journeys, so that no one would bother
+to go to an aerodrome and take an aeroplane in order to save half an
+hour or so, and that the train-service in England is so good that the
+aeroplane-service would be incapable of competing with it successfully.
+And, while the disadvantages of short air-services are magnified, the
+disadvantages of long air-services are forgotten or not appreciated.
+
+At present a short journey of three or four hours by aeroplane is all
+that the average passenger can stand in comfort. There is no room for
+him to move about much in the present cabins, and the noise of the
+engines, wires, and airscrews is fatiguing to anyone not used to it.
+Moreover, the time-basis is not the only basis on which the traveller
+compares the merits of the means of travel at his disposal. The ship
+provides its passengers with social intercourse and a high degree of
+comfort. A long journey by sea is usually a pleasant, invigorating
+experience. On a journey by air, on the other hand, the passengers
+get no fresh air, they have no opportunity for making friends,
+for conversation, dancing, games, or any other of the fascinating
+trivialities which flavour life on board a passenger-steamer. The
+traveller offered the use of a long distance air-line, therefore, is
+invited to choose between, perhaps, three days discomfort and isolation
+in the cramped cabin of an aeroplane and three weeks social pleasure
+and invigorating laziness on board ship.
+
+Now the disadvantages which attend long-distance air-travel in modern
+type machines are due almost entirely to the small size of passenger
+aircraft when compared with ships. The aeroplane will not be successful
+as a long-distance vehicle until it can give its passengers most of the
+pleasures they would get on board ship. It will not be able to give
+its passengers even a small fraction of those pleasures until it is as
+large as or nearly as large as the ship.
+
+The pleasures of long-distance travel vary almost directly as the
+size of the vehicle. Can the aeroplane ever be made so large that it
+can offer its passengers the space and freedom of even a small-sized
+passenger-boat?
+
+I do not think the aeroplane can ever become sufficiently big, but I do
+think the seaplane or the flying-boat can and will become sufficiently
+big to offer that degree of space and freedom.
+
+I believe that aircraft will begin to compete successfully with boat
+and train in carrying the merchandize and passengers of the world only
+after the coming of the era of the hydro-aeroplane (I use this word to
+include both seaplane and flying-boat).
+
+The longest flight ever made in one machine was made in a
+hydro-aeroplane. The largest machines ever built are hydro-aeroplanes.
+The heavier-than-air machines carrying the greatest weight are
+hydro-aeroplanes. I am confident that the era of the hydro-aeroplane
+will come, and that, until it comes, aircraft will not compete
+successfully with boat and train.
+
+I have based my first conclusion, that the moving-wing aeroplane
+will become a powerful competitor of the fixed-wing aeroplane for
+short-distance air-transport, on flexibility. The moving-wing machine
+can go from door to door, no matter if the journey is partly over the
+sea and partly over the land. I base my second conclusion, that the
+hydro-aeroplane will become the pre-eminent vehicle for long-distance
+air-transport, on size. The hydro-aeroplane can be built as large as
+may be required.
+
+If people are to journey even for one day in the same vehicle, they
+need space and freedom of movement. They need wide promenade decks,
+lounges, restaurants, cabins, smoking-rooms. They cannot be confined to
+a single basket chair.
+
+For long-distance air-transport the sardine-theory so popular with our
+London transport controllers must be abandoned. The sardine-theory must
+be recognized for what it is, a system of getting more money out of
+the passenger by increasing his discomfort. The more you squeeze the
+passenger, the more the money oozes out of him.
+
+The aeroplane cannot, I think, become very much larger than the largest
+machines of to-day because the support of much greater weights on the
+landing-wheels becomes difficult. At present there are machines in
+which each landing-wheel must carry 6 tons. If the weight were much
+increased, the three-point suspension on wheels and tail-skid would
+become impracticable. The provision of a caterpillar landing-gear and
+of aerodromes with prepared surfaces might be possible and might assist
+matters if machines, say eight or nine times the size of the present,
+were contemplated. But, to obtain the comfort required (and given by
+the ship) on a long voyage, the machines would need to be some fifty
+or a hundred times the size of the largest existing types. When those
+sizes were reached, the problems of supporting the weight on the ground
+and of manoeuvring on the ground, taking off, and landing would become
+exceedingly difficult to solve.
+
+Yet these problems are comparatively easy to solve in the large
+hydro-aeroplane. A large hydro-aeroplane with a high wing-loading
+could, if necessary, use the open sea as its aerodrome. Since the
+problem of the forced landing would definitely have been overcome by
+the power-unit arrangement, the large hydro-aeroplane would fly over
+land or sea. Its stations would be sea ports, lakes, or wide rivers.
+
+The aeroplane both with moving and fixed wing will certainly grow
+in size; but nothing seems to me to indicate that it will be able
+to keep pace with the growth of the hydro-aeroplane. The growth
+of the hydro-aeroplane is foreshadowed in a French machine and a
+German machine which have appeared recently. The hundred-passenger
+hydro-aeroplane is a proven possibility. I can see no insuperable
+obstacle to the eventual arrival of the 1,000-passenger or the
+2,000-passenger hydro-aeroplane. Moreover, the fog-landing problem
+is easier to solve in the sea-going than in the land-going fixed-wing
+aircraft. Good automatic landing devices are more easily designed for
+hydro-aeroplanes than for aeroplanes.
+
+Mr O. E. Simmonds, of the design staff of a firm of British flying-boat
+constructors, said: “The largest successful flying-boats yet built have
+weighed about 30,000 lbs. I shall certainly feel that progress has been
+inordinately slow if we have not constructed a boat of 100,000 lbs.
+gross weight _by the end of the next decade_.”
+
+The first real air-liner, carrying some five or six hundred passengers,
+will probably appear after or towards the end of the battle between
+fixed and moving-wing machines. And it will be a flying-boat. The
+unsolved problems attending high-altitude air-transport seem to be so
+difficult that I am inclined to believe that high altitude transport
+will not become a regular method in this generation.
+
+The possibilities of machines capable of travelling at immense speeds
+in the rarefied air at a height of 15 miles or so from the ground are
+attractive. But, if a forecast is to be based on research-work actually
+accomplished at the time, it is made, then high-altitude flying must be
+excluded.
+
+Among the problems which high-altitude flying involves and which seem
+to postpone its arrival to the distant future are: the infinitely
+variable pitch airscrew, the light, positive, infinitely variable gear
+(without ratchet final drive), the sealed cabin with self-contained
+ventilating system, the engine altitude supercharger, and the variable
+camber-wing. Among these the Leitner automatic infinitely variable
+pitch airscrew is one of the most interesting inventions ever made
+in airscrew design, but it is at present in its earliest stages. The
+Constantinesco torque-converter, which is an automatic infinitely
+variable gear, might be adaptable to aircraft. The sealed cabin
+presents great practical difficulties, as does the variable camber-wing.
+
+From this brief parenthesis the difficulties of high-altitude
+transport will be apparent. It is almost certain to come, but its day
+is likely to be distant, and for that reason I have concentrated on
+possibilities less remote.
+
+Now that the long and short distance air-liners have been dealt with, I
+will give a brief sketch of how the traveller will use these vehicles.
+If Mr X, who lives at Hampstead, desires to go to Melbourne, Australia,
+he will first pile his luggage onto a taxi and drive to the terminus
+of some moving-wing aircraft line. This terminus will be close to the
+centre of London: A highly developed moving-wing aircraft will take him
+to the coast. The machine will land on the quay beside which will float
+a flying-boat express. This machine will be a fixed-wing flying-boat of
+about 1,000 tons. It will be a monoplane, the wings growing from the
+hull at a sharp dihedral angle and then curving down until they are
+horizontal.
+
+The engines will be particularly interesting. Most designers, even now,
+are endeavouring to eliminate reciprocating motion in petrol-engines.
+The trend of thought is towards substituting the sleeve-valve for the
+poppet-valve and towards increasing the number of cylinders. More and
+more inventors “invent” gas-turbines. Their engines have had varying
+degrees of failure, although a few, the Jean Mély turbine among
+them, are reported to have gained a measure of success. One of these
+inventors will soon be completely successful. The movement towards the
+rotary gas-engine is too vigorous and too general to remain for ever
+unfruitful. The gas-turbine will be the aero-engine of the future. It
+will be cooled by an evaporative system.
+
+One pound of water carries only 20 B.T.U., whereas 1 lb. of steam
+carries 966 B.T.U. Wing Commander Cave-Browne-Cave, in a paper read
+before the Royal Aeronautical Society, drew attention to the advantages
+for aircraft of evaporative engine cooling. He said: “By far the
+lightest way of conveying heat is as the latent heat of steam.” On test
+a standard aero-engine gave the same power and fuel-consumption with
+evaporative as with water-cooling. The greatest advantage will accrue
+in reduction of resistance. Panels in the aircraft surface will receive
+heat in the steam and thus the drag caused by water-radiators even of
+the wing or strut type, or air-cooled cylinders will be eliminated.
+The evaporative cooling system will not freeze up at the highest
+altitudes: it will probably maintain the engine at a more even working
+temperature than an air-cooling system, and the steam will provide a
+suitable means of heating the passenger cabins and pilot’s cockpit and
+of cooking.
+
+The flying-boat to which Mr X is now having his luggage transferred
+then, has twelve evaporative-cooled gas-turbines housed in the
+wings, six on the starboard and six on the port side. Eight of them
+will drive tractor airscrews and four will drive propellers through
+torque-converters. There may be a system of concentrating the whole
+engine-power at three or four airscrews.
+
+The entire machine, including the wing-coverings, will be built of
+metal. “I cannot conceive”, said M. Dewoitine, the French designer,
+“that the ultimate aeroplane can be in anything else but metal, in the
+same way that metal ships to-day completely replace the wooden ships
+of days gone by.” The living quarters in the hull would be arranged
+on labour-saving lines. The passengers would have drawing-room,
+dining-saloon, lounge, and promenade deck. The promenade deck on a
+long-distance air-express will be different from the promenade deck
+on a liner. It will be enclosed in the hull and will be lighted by a
+transparent roof and sides.
+
+Mr X finds his cabin arranged in much the same way as in a ship, and,
+having settled his things, he goes up to the lounge, where the other
+passengers are congregating. A few minutes later, with a faint hum, two
+of the tractor-airscrews begin to revolve, and the flying-boat moves
+slowly away from the quay. Two more airscrews start revolving, and the
+machine, having taxied out, turns into wind. It pauses a moment as
+if it were taking breath, then the twelve air-screws spin faster and
+faster until they appear as discs of light. The machine moves forward
+heavily, a solid mass of metal, with the passengers watching from the
+windows of the promenade deck. It lumbers through the water, but throws
+up but little spray. Then it seems to stretch itself, throw back its
+head, and to rise bodily out of the water until it runs on the surface
+of—instead of in—the water. Already it appears lighter and less clumsy.
+Finally, after giving the water two or three parting pats, it takes to
+the air and, in spite of its great mass, instantly becomes an agile,
+graceful flying-machine.
+
+The usual amusements, the usual eating, drinking, reading, and talking
+will employ the passengers’ time in the air. For the daily round goes
+on in much the same way ashore, afloat or aflight. The night flying is
+exhilarating, although there is, of course, almost no sense of speed.
+Though the sea is rough, the machine, at 4,000 ft. is as steady as a
+rock. As the first stopping place rushes towards the machine, the hum
+of the engines alters note and the machine dips in a gentle glide.
+The mouth of a river, with shipping on it and two more flying-boat
+expresses lying at a quay a short way up the river, comes into view.
+The machine wheels round and glides closer and closer to the water.
+Four of the airscrews give a short burst of speed, and then the hull
+rips the surface of the water with a hiss.
+
+Soon afterwards Mr X has said good-bye to his voyage acquaintances who
+are disembarking, and the machine is off on the next stage.
+
+The success of the large, long-distance flying-boat will mark the
+beginning of the concentration of fixed-wing machines on long-distance
+routes and the concentration of moving-wing machines on short, distance
+routes. The fixed-wing machine, finding it has no rival in the large
+flying-boat type and finding that it has a strong rival in the
+comparatively small land-going type (that rival being the moving-wing
+machine) will gradually remove itself from the short air-lines. The
+position will then be that all short air-lines are run by moving-wing
+land-going aircraft while all long air-lines are run by fixed-wing
+sea-going aircraft.
+
+The real air-liner, as distinct from the commercial flying soap-box
+of to-day, will be an immense sea-going air-vessel. It will be a
+self-contained town offering greater attractions to the pleasure-seeker
+than any other kind of small town. When that machine makes its
+appearance the Air Age will have begun.
+
+
+
+
+                                   V
+
+
+Before I described the passenger-carrying flying-machine towards which
+contemporary research-work seems directed, I postulated the freedom
+of the air for that machine. I stipulated that the statesman and the
+financier should be gagged and bound. Now that I come to private-flying
+and air-racing, however, the imagination jibs at the notion of a
+similar freedom of the air. If the statesman were prevented from
+meddling with the technical development of the passenger-carrying
+flying-machine, he would most likely turn with redoubled vigour to
+the task of controlling, organizing, watching over, regulating, and
+generally bleeding the private, the record-breaking, and the racing
+aircraft.
+
+I can, therefore, sketch the future of those machines only as the
+statesman will direct it.
+
+The small fixed-wing private flying-machine, especially in the
+amphibian form, will gradually become more and more popular and, as it
+grows more popular, so the statesman will take more notice of it. His
+first opportunity for direct action will come when a few people get
+killed in an accident involving a private aircraft.
+
+Taking advantage of the Press outcry, of the screams of the Safety
+First societies and of the opportunity for personal aggrandizement,
+Members of Parliament will pass a Flying-Machine Act.
+
+Among the provisions of this Act will be a 40-miles per hour minimum
+speed-limit. No heavier-than-air craft will be permitted to fly at a
+speed of less than 40 miles per hour. It is easy to follow the workings
+of the official mind in setting this speed-limit. A fixed-wing aircraft
+crashes not because it goes too fast but because it goes too slowly.
+Therefore, the statesman will reason, if it is illegal to go too
+slowly, there will be no more accidents.
+
+Another provision will make it illegal for anyone suffering from
+nicotine-poisoning to be in charge of a flying-machine. (Prohibition
+will be established in England by this time, so that no clause about
+“drunk in charge of a flying-machine” will be necessary.)
+
+Further regulations will make it necessary for every private pilot to
+pass a medical examination once a month as a condition of his having a
+pilot’s licence. Having passed this examination, he will be required
+to wear, while in charge of an aeroplane, two 8-inch metal discs, with
+a number stamped upon them. One disc will be worn on the left shoulder
+and the other on the top of the flying-helmet.
+
+The aeroplane, in addition to its letter markings on wings and
+fuselage, will be required to exhibit three plaques bearing
+identification-numbers. One will be on the centre section, one on the
+undercarriage, and one on the port side of the fuselage. The aeroplane
+will also carry metropolitan or county police markings on four tablets
+of given size, besides markings of the appropriate local council on
+plates of certain specified dimensions, and small circular pieces of
+paper contained in approved holders on the rear port interplane-strut
+(or wing-tip in the case of a monoplane), the rear starboard
+interplane-strut (or wing-tip) the undercarriage port forward-strut,
+the tail-fin, the fuselage, and the top plane gravity-tank (if any).
+
+In addition to the pilot’s logbook, machine logbook, engine logbook,
+pilot’s licence, and airworthiness certificate, there will be a
+registration-book, travel-triptych, flight-permit, landing-permit, and
+housing-pass.
+
+These items are, of course, extra to the navigation-lights, wing-tip
+flares, cockpit-illuminants, parachute-flares, fire-extinguishers,
+silencers, life-saving parachutes, and other obligatory equipment, such
+as lifebelts, fire-proof bulkheads, stall-indicators, warning-signals,
+and Very lights.
+
+These regulations will provide the police with the opportunity of
+displaying their keen sense of duty. They will ignore the old-fashioned
+and mundane murders, and will say with Horace Walpole: “Do not wonder
+that we do not entirely attend to the things of earth; fashion has
+ascended to a higher element.”
+
+Conceive the vigour and elegance with which they will uphold the 40
+m.p.h. minimum speed-limit. What their stopwatches (for they will still
+use them) and observation lacks in accuracy, they will make up for by
+the free imagery and sweeping poetic fancy of their evidence in Court.
+
+The pilot who flies while suffering from nicotine-poisoning will be
+the object of universal opprobrium. His social doom will be sealed
+when the witness says that his breath _smelt of tobacco_ and that he
+must have been smoking the same morning. The pilot’s statement that he
+only had two cigarettes during the previous month will be completely
+discountenanced.
+
+But the best chance for the police will come when the private
+moving-wing machine begins to make an appearance. Then will dawn the
+true constabulary millennium.
+
+The moving-wing machine, as it has been shown, can almost hover and can
+fly comfortably at five or ten miles per hour. One day a moving-wing
+machine will pass through a police-trap while its pilot is admiring the
+countryside or inquiring from his companion where they will stop for
+lunch.
+
+The pilot will appear in Court charged with flying at less than 40
+miles per hour, and there will be a sensation when the detectives
+disclose that defendant’s speed, which he did not deny, was 8 miles per
+hour over a measured furlong.
+
+The magistrate will say that, although he had been on that bench for
+thirty-five years, never in his whole experience, never from the
+moment that he had accepted those duties, never since the time when he
+devoted himself to the administration of justice, _never_ had he heard
+of such a flagrant disregard for the safety of the public. Here was a
+flying-machine, over a populous area, travelling at 8 miles per hour
+when everyone knew that a flying-machine gained its lift by virtue of
+its speed through the air, and that if it travelled at less than forty
+miles per hour it was liable at any moment to fall upon the heads of
+the people below.
+
+The pilot might endeavour to explain the technical points in the case.
+If he did so, his fine would be greater than if he merely pleaded
+guilty and said no more.
+
+That case will be the signal for a wholesale persecution of moving-wing
+aircraft-owners. The Home Secretary will issue warnings, magistrates
+will wish that they could send pilots to prison—in fact there will be
+the usual process of departmental browbeating which we know so well.
+The theory that the private flyer will not be summoned for slow flying
+because there will be moving-wing passenger aircraft also capable
+of slow flying, does not bear investigation. There are now lorries,
+motor-buses, charabancs, steam-wagons, and trams which persistently
+exceed the 20-miles per hour speed limit. They are not prosecuted, nor
+will the passenger aircraft of the future be prosecuted.
+
+Having given some idea of the delightful future which lies before the
+private flyer, I will add a few remarks upon air-racing.
+
+After motor-road racing, air-racing is the finest sport yet invented. I
+give it ten more years life in England.
+
+Before the War air-racing at Hendon was highly successful in that it
+attracted many entries and large crowds of spectators. Since the War
+air-racing has been unsuccessful. There are signs, however, that there
+will soon be a revival of it. Larger and larger crowds will collect to
+watch it. Special machines will be constructed, the number of entries
+will increase, continental firms will take part.
+
+Then the statesman will step in and play his part, as he always must
+when anything becomes popular.
+
+Air-racing is and will remain dangerous. Statesmen and newspapers
+will discover this and talk about it. Now I am informed upon the best
+authority that in England no one is allowed to face danger of any
+kind, whether he wants to or not. The State arranges that all dangers,
+physical and moral, are kept away from the individual. He may not do,
+see, hear smell, or taste anything calculated to arouse him from
+the suety state of mind so highly esteemed by the politician. The
+Englishman is nursed from birth to death by an army of officials. He is
+permitted to risk his life only in war.
+
+Air-racing, since it is dangerous, will gradually be stamped out of
+existence. Air-racing improves the aircraft as a machine-entity; it
+would have a good effect upon the private flyer’s machine and upon the
+war-machine. When air-racing has been stopped, therefore, a decline in
+the quality of the private flying-machine and the service-machine will
+result.
+
+Air-racing (with which I include record-breaking) is as important to
+pure aeronautical development as anything else. The history of the
+Schneider Cup seaplane-race is some indication of the technical advance
+racing achieves. In 1913 at Monaco the Schnieder Cup, was won by France
+at 45.4 m.p.h. In 1914 (England) at 86.4 m.p.h., in 1919 (Italy) at
+124.9 m.p.h. (This race was declared void). In 1920 (Italy) at 107.2
+m.p.h. In 1921 (Italy) at 111.4 m.p.h., in 1922 (England) at 146.1
+m.p.h., in 1923 (America) 177.4 m.p.h., in 1925 (America) 234.4 m.p.h.
+and in 1926 (Italy) at 246.5 m.p.h. (Fig. 3).
+
+[Illustration: _Fig. 3 Schneider Cup_]
+
+The Schneider Cup figures show that the much boasted rapidity of
+progress in the performance of high-speed aircraft during the War
+is a myth. During the War, progress was almost completely stopped.
+Even if the Italian win of 1919 at 124.9 m.p.h. be accepted (and the
+race was declared void because Janello was not observed at one of the
+turning-points) the rate of progress compares unfavourably with the
+rates before and after the War. If, on the other hand, the rate be
+judged by the accepted wins of 1914 and 1920 then the top speed of
+seaplanes rose only 20.8 m.p.h. in 6 years against 139.3 m.p.h. in 6
+years after the War.
+
+Up to 1926 there has been little sign of a falling off in the rate of
+progress in high-speed seaplane-design, and a rough estimate, puts the
+probable speed of the winner in 1928 at 290 m.p.h. and in 1930 at 320
+m.p.h.
+
+Record-breaking has a similar effect to racing upon technical
+development. In 1919 Sir John Alcock and Sir A. Whitten Brown flew the
+Atlantic non-stop for the first time in a heavier-than-air machine.
+They covered 1,890 miles in about 16 hours. In 1926 M. Dieudonné Coste
+and Capitaine Rignot covered 3,400 miles non-stop in 32 hours.
+
+Whatever country takes up and encourages private flying, air-racing
+and record-breaking will play a big part in the future of the
+flying-machine.
+
+
+
+
+                                   VI
+
+
+I see no reason to depart from the forecast of the future military
+flying-machine which I make in my _Strategy and Tactics of Air
+Fighting_.
+
+Since the fixed-wing machine will probably retain a slightly superior
+performance over the moving-wing machine (although it is fair to
+Señor de la Cierva to add that some of the best mathematicians find
+on theoretical calculation that the moving-wing aircraft should be
+equal in all-round performance to the fixed-wing type), it is likely
+that, excepting a proportion of army co-operation machines and a small
+proportion of night-bombers the moving-wing machine will not in the
+future be used in large numbers for war purposes.
+
+Before constructing the machine of the future, let us go to the
+R.A.F. annual Display, and refusing to be fascinated by the intricate
+shape of the breeches worn by officers and men, let us examine an
+experimental single-seater fighter of the present. When in the air the
+machine is remarkable only for the undercarriage-struts and wheels
+which hang below the fuselage. They look like a labourer’s hands in the
+drawing-room, they are sturdy but, in the air, they do not seem to know
+what to do with themselves, they are in unaccustomed surroundings.
+
+Let this machine be compared with the gull. I use the gull for these
+comparisons because it is common and easily observed and so provides
+an accessible model. Indeed, it was the gull which instructed Mr A.
+V. Roe and helped him to become, on June 8th, 1908, the first man to
+fly over British soil. The experimental single-seater fighter at the
+R.A.F. Display has very few characteristics of which any bird need be
+ashamed. One of these characteristics, however, is undoubtedly its
+undercarriage. The gull folds up its undercarriage when it is in the
+air; it lets it down only when it is about to land.
+
+But now compare the experimental machine with one of the standard
+machines in an R.A.F. squadron. The standard service-machine looks as
+if it has got into the hands of an accessory fiend, one of those who
+believe that the part is greater than the whole. It is so cluttered
+up with odds and ends, so cut about, modified, added to, and altered
+that it resembles no other flying-machine, animal or artificial. It
+is a sort of winged Air Ministry, a receptacle full of interesting
+information about everything but the air.
+
+Since this mania for encumbering service-machines is only a superficial
+failing, it is possible, after remarking it, to go direct to the
+service-machine of the future.
+
+There is first a new type to be noted, the aerial artillery-machine.
+This will be a large multi-engined monoplane carrying a single
+medium-sized gun and a few rounds of ammunition. It will be able to
+direct close range gunfire from the air at important ground-objectives.
+The advantage of the aerial big gun over the bomb will be in accuracy,
+the advantage of the bomb over the aerial big gun will be in the
+great weight of projectile made possible by the absence of any heavy
+launching-apparatus like a gun. The height of the aeroplane acts on
+the bomb as the explosive charge on the projectile. But at long ranges
+the bomb, with the newest sights and under the best conditions, is
+inaccurate, and at short ranges its velocity is low. The aerial big gun
+permits ground-objectives and ships to be attacked at short range with
+projectiles travelling at a high velocity.
+
+The success of low-flying attacks by machine-guns in the late War was
+a sufficient demonstration of the potentialities of the low-altitude
+gun-attack from the air. Experiments were made long ago in mounting
+small guns in aeroplanes and in arranging for the absorption of the
+recoil. Against other aircraft the aerial big gun would not be used. In
+aerial fighting weight of projectile is of less importance than rate of
+fire.
+
+The night-bombing machine of the future will be an immense flying-boat.
+It is likely that this type will also be used for day bombing. If so,
+it will be heavily armed with machine-guns and will not go out without
+a strong screen and escort of fighting machines.
+
+The fighting aeroplane will be particularly interesting. It will be
+a small monoplane without external bracing-wires or struts and the
+undercarriage will be retractable. It will carry one man, and will be
+an all-metal machine mounting a gas-turbine of some 1,000 h.p.
+
+Performance-figures must be the wildest guess work, because the closest
+examination of the trend of research gives but small information on
+the probable rates of progress in speed and climb. Mr A. V. Roe has
+frequently stated his belief that the future flying-machine will attain
+1,000 miles per hour. I will, therefore, give my fighter of this
+generation 400 miles per hour, 800 miles per hour in the dive, a climb
+to 20,000 feet in 4 minutes, and a service-ceiling (the height at which
+the rate of climb falls below 100 feet per minute) of 60,000 feet.
+
+In order that the fighter may operate at high altitudes, and in order
+that it may be able to change height suddenly by diving or climbing
+steeply, the pilot will be housed in a pressure-cockpit, from which he
+will look through a streamline conning-tower made in some transparent
+material. Unless he were enclosed in some such pressure-chamber or
+pressure-suit, the pilot would be unable to withstand the cold and
+the reduced pressure of extreme altitudes, and the sudden changes in
+temperature and pressure, when the machine was climbing or diving.
+Pressure-suits are now being experimented with in France and probably
+elsewhere.
+
+Oxygen would be supplied to the pressure-chamber and an emergency
+oxygen-apparatus would provide against the chamber being pierced by
+a bullet. Some form of dessicating apparatus would be essential to
+prevent the transparent conning-tower from fogging up. The fewest
+accessories would be carried by these fighters of the future.
+
+In general military aircraft will be more specialized than they are
+to-day, there will be no many-purpose machines. Instead, the number of
+specialist machines will steadily increase. In addition to the aerial
+big guns, there will be flying-tanks or lightly armoured low-flying
+machines for attacks on ground-targets. These will be developed from
+the “Salamander”, “Vampire”, and other armoured aircraft introduced
+during the late War.
+
+Armour for fighting and bombing-aircraft will not be employed for many
+years. The gunners on the large flying-boat bombers, however, will be
+provided with small shields.
+
+Perhaps a general idea of the future of the flying-machine in war may
+best be given by quoting a newspaper report of a day air-attack on
+London in the next war.
+
+I cut the headlines and start with Our Special Correspondent, who, with
+the printer’s assistance, has, if I may be permitted to say so, trodden
+on it through all four gears:
+
+  “The greatest air-raid in history was launched on London yesterday
+  evening by a formation estimated at between six and seven hundred
+  aeroplanes.
+
+  “For nearly two hours the earth shook to the thunder of the guns,
+  while far up in the blue vault of Heaven there was the flash of
+  wheeling wings, as the heroic pilots of the Royal Air Force plunged
+  again and again to the attack.
+
+    “Never before has the heart of the Empire been the objective of
+    so powerful and so determined an offensive, never before have the
+    British air-forces so covered themselves with glory.
+
+  “Owing to the vigorous defence which met the raiders as they neared
+  London, casualties are low. Official figures have not yet been
+  issued, but it is thought that fewer than 1,000 people were killed
+  while only some 7,000 were wounded.
+
+                            “FIRST WARNING.
+
+  “The raiders were first reported by the ‘concrete ears’ or wireless
+  disc and super-sensitive microphone sentries which encircle
+  the coast. A large formation (there was much doubt as to the
+  number of machines) was said to be approaching Southampton, and
+  with the exception of three emergency squadrons, every R.A.F.
+  fighting-aeroplane rushed to the attack.
+
+  “As our machines, sweeping through the freezing blue of the great
+  altitudes, approached the raiders, the raiders turned and made off
+  at full speed. Our machines bent on reaching the enemy, tore after
+  them.
+
+  “It was at this moment that ominous news came through. A second
+  hostile formation, far larger than the first, had been detected
+  approaching the East coast south of Harwich.
+
+    “Nearly the whole of the defending airforce was far away: London’s
+    bosom was bared to the attack.
+
+  “The new formation—first given as 400 machines but later corrected to
+  600—was in four great layers and flying at 170 miles per hour.
+
+  “The three emergency R.A.F. squadrons, numbering 54 machines of an
+  old type with five or six experimental machines from Martlesham Heath
+  and Farnborough, went up at once and hurled themselves at the vast
+  enemy formation.
+
+
+                          “THREE TO ONE ODDS.
+
+  “The second layer of the hostile formation, which consisted of
+  about 150 long-distance fighters, engaged them. A furious battle
+  ensued, while the remainder of the hostile fleet, aerial big guns,
+  flying-boat bombers, and, at an extreme altitude, a further batch of
+  long-distance fighters, continued on their way towards London.
+
+  “The old R.A.F. machines were literally butchered by the whip-lashes
+  of lead which cracked and curled from the small-calibre stream-fire
+  enemy guns. One of our machines had both its wings cut off and fell
+  to the ground with such force that the airscrew-boss was buried 18
+  feet in the earth.
+
+  “Meanwhile wireless messages had reached the R.A.F. formation, which
+  had been drawn off by the feint attack on Southampton. _They had
+  turned and were tearing to the rescue at 350 miles per hour._
+
+  “The two big formations were in sight of each other when the enemy
+  was about 20 miles south west of Chelmsford. At this time there
+  was no active opposition to the invaders in the air. Anti-aircraft
+  batteries, however, were blackening the sky with shells, and had
+  succeeded in bringing down two enemy machines.
+
+  “There seemed now no hope that London would escape the full force
+  of the attack. Already two ten-ton wireless-controlled flying-bombs
+  had struck the city. Even so there was little panic. The gas-mask
+  distribution had worked well, and no one was unprovided. The usual
+  shelters were made full use of, but many people, against the orders
+  of the police, remained in the streets anxiously looking skywards and
+  listening to the almost continuous tear and roar of the guns.
+
+
+                           “ANXIOUS MOMENTS.
+
+  “For some reason the news that the first hostile formation had
+  retired had not come through on the wireless. And, since no one knew
+  that far the greater part of the R.A.F. defending forces had gone in
+  pursuit of that formation or that the emergency squadrons had been
+  cut to pieces, a good deal of uneasiness prevailed among the watchers.
+
+  “Where are the R.A.F. fighters? was the question uppermost in
+  everyone’s mind.
+
+  “As the noise of the guns grew louder and seemed to vibrate and echo
+  among the houses, considerable alarm was displayed. There were one or
+  two ugly scenes, and some women and children were trampled to death
+  in raid shelters at Hoxton and Liverpool Street.
+
+  “A quarter of an hour before dusk the two lower layers of the hostile
+  formation were sighted by some people who had been foolish enough to
+  take up positions on the roof of the _Daily Post_ offices in Fleet
+  Street. Only the trained eyes of the anti-aircraft spotters aided
+  by the new visual detection instruments could distinguish the upper
+  layers.
+
+  “Still there was no sign of our aeroplanes. The stories of those
+  irresponsible alarmists who, in books and articles, have prophesied
+  as far back as 1927 that London would be wiped out by aerial attack,
+  seemed likely to prove too true. Excitement among the watchers gave
+  way to a certain grimness. Then came a change in the situation.
+
+  “‘What’s that?’
+
+
+                          “THE BATTLE JOINED.
+
+  “Someone was pointing immediately overhead. Nothing could at first be
+  distinguished in the blue sky; then someone else waved excitedly.
+
+  “‘Yes, I caught a glimpse.’
+
+  “Just then the light of the setting sun glinted momentarily on some
+  infinitesimal speck like a minute silver fish, rushing through the
+  air at a great height. No one dared to express the hopes which they
+  felt.
+
+  “A moment later what looked at first like a small red rose sprang
+  into being high up over the enemy, high over the smoke-blackened sky
+  where the anti-aircraft shells were bursting. Then it fell, like a
+  flaming bomb. There was fighting going on up there, out of sight, in
+  the upper air.
+
+  “Still the lower hostile layers came on through the roar and shock
+  of the anti-aircraft fire. They were already over the outskirts of
+  London. Something else fell from above twisting horribly. The white
+  of parachutes drifting fantastically could be observed through
+  high-powered glasses.
+
+  “Quite suddenly the continuous thunder of the anti-aircraft
+  fire ceased. It was succeeded by an uncanny calm, and then by a
+  high-pitched metallic scream which grew in an ear-piercing crescendo.
+  _The R.A.F. aerial destroyers were engaging the lower enemy layers._
+
+  “The R.A.F. arrows of the upper air plunged into the very heart of
+  the raiders, streaming fire and lead. They wheeled and turned among
+  them with a swift, purposeful agility.
+
+
+                            “RAIN OF BOMBS.
+
+  “The hostile formation began to split up, and simultaneously the
+  enemy commander gave by wireless the order to bomb. On the outskirts
+  of London huge factories and houses were suddenly transformed into
+  pillars of white dust. The shriek and thump of the falling bombs was
+  heard clearly in Central London.
+
+  “‘It was as if the ground were being torn up under your feet’, said a
+  postman eyewitness. ‘The people in the shelters came out and began
+  to run. They didn’t stop to think; they just ran like wild beasts,
+  trampling on each other, and hitting out at anyone who got in the
+  way, whether man, woman or child.
+
+  “‘The rain of bombs was so continuous that for as far as you could
+  see earth and buildings were spouting up in the air with human limbs
+  mixed up in them. The sound of the bombs falling was what knocked
+  people’s nerves up as much as anything.
+
+  “‘The gas-bombs didn’t seem so bad, but the incendiary bombs were a
+  nasty sight, at one time it looked as if the whole air had caught
+  fire.’
+
+  “According to official information, damage was small. Only the aerial
+  artillery-machines attained an objective of military importance. They
+  completely destroyed the F.E. aircraft factory at Finsbury Park.
+
+  “The raiders had timed their attack so as to escape in the dark, and,
+  although the new night detection flood-lights worked well, there is
+  no doubt that the hostile casualties were so few because our fighters
+  were hampered by the darkness.
+
+  “According to figures supplied by the Air Department of the War
+  Ministry, 37 hostile machines were brought down while only eighteen
+  of our own aerial destroyers were lost. The three emergency R.A.F.
+  squadrons which first attacked lost 39 machines and had several more
+  severely damaged.
+
+  “The raid is regarded by experts as a decisive victory for the
+  British Air-arm and a complete and convincing justification of the
+  policy of the Air-staff. It is pointed out that the raiders were
+  prevented from reaching their objective, and that, apart from the
+  old-type R.A.F. machines, our casualties are smaller than those of
+  the enemy.”
+
+In another part of the same paper was this insignificant paragraph.
+
+  “A late Central News message, delayed owing to the disorganization
+  caused by yesterday’s air-raid, states that the hostile formation
+  which made a feint attack on Southampton and was driven off by our
+  machines, later returned to the same place and bombed it continuously
+  for half an hour, causing many casualties and much material damage.”
+
+In the stop-press news was this:
+
+  “One a.m. Large hostile formation of aircraft reported approaching
+  mouth of Thames.”
+
+In the above skit I have not dwelt on the terrible side of air-warfare
+in the future. Yet I feel that that is the side upon which all who are
+competent to do so, and who wish to prevent future wars should dwell.
+Several novels have given pictures of future aerial warfare, but I have
+not seen its inevitable horrors realistically portrayed. Unless those
+horrors are portrayed frequently and in their true and shocking form,
+people will soon forget the unpleasant side of air-war and think only
+of its romantic and glorious side.
+
+In the interests of humanity it would be a good thing if some able
+novelist or film-producer would give us a statement of the crude
+horrors of air-war. If such a one arises, he will have the satisfaction
+of having helped the cause of peace and of having his work banned by
+the Censor.
+
+
+
+
+                                  VII
+
+
+So far I have spoken only of heavier-than-air flying-machines. There
+is also the airship to which many people pin their faith for future
+long-distance air-transport.
+
+The airship was neglected in England after the War because experience
+seemed to show that it was incapable of playing a useful part in
+warfare. Its revival was chiefly due to Commander Burney, who
+continually drew attention to his conviction that the airship could be
+made a safe and successful long-distance air-transport vehicle.
+
+Most airship advocates believe in the bigger the better theory. If
+the gas-capacity of an airship is doubled, the disposable lift may
+be quadrupled, and the size will be only about 1.3 times that of the
+smaller vessel. For this reason the two English airships now being
+built are each of 5,000,000 cu. ft. gas-capacity. One is being built
+by the Government, the other for the Government to Commander Burney’s
+general design.
+
+These airships have provided matter for many speeches on Empire
+air-ship-routes of the future. At the recent Imperial Conference
+airships were spoken of as the right vessels for long-distance
+air-lines. These forecasts are based on slender foundations.
+
+Since 1914 only one successful commercial airship-service has been
+run. The ‘Bodensee’ in 1919 made 103 trips between Berlin and
+Friedrichshafen and carried 2450 passengers. Those 103 trips seem to
+be an insecure basis upon which to build calculations about voyages
+halfway round the world. The new airships may go from England to Egypt
+in 2½ days, and from England to Melbourne in 12½ days, but nothing
+has occurred in airship-development to strengthen the probability of
+such events. The two new airships are nothing more than a gigantic
+experiment.
+
+I must make some unpleasant remarks about airships, but, before
+doing so, it is necessary to record admiration of the English
+airship policy. I do not agree with the man with a genius for mixed
+metaphor who described the airship scheme as the “thin edge of the
+white elephant”. On the contrary, in initiating this experiment the
+Government has shown imagination and daring. Airship enthusiasts are
+to have an opportunity of testing their theories. If the experiment
+is a hopeless failure no money and no time will have been wasted, for
+the knowledge gained will be of value in directing future aeronautical
+development.
+
+But to the question: Will the airship become the long-distance air
+vehicle of the future? I answer No.
+
+I base my view on an examination of airship history and on the opinions
+of airship pilots. Upon that basis the probable future of the 5,000,000
+cu. ft. vessels will be this:
+
+The first one to be completed will make a first flight, and come to its
+200 ft. mooring mast successfully. For several months it will cruise
+periodically, and minor structural modifications will be made. It will
+fly to India and back. Paying passengers will be accepted, and after
+considerable delay the first long-distance passenger-flight will be
+flown. Some two or three years after the airship comes from its shed,
+it will meet with disaster.
+
+More airships will be designed and built, larger still than those now
+building. There will be another disaster.
+
+By then the heavier-than-air machine in the moving-wing and fixed-wing
+forms, will have proved itself capable of doing all that airships can
+do and doing it more safely, more quickly, more regularly, and more
+cheaply. The airship will gradually disappear, and its place will
+be taken by the heavier-than-air craft, as the balloon is gradually
+disappearing and its place being taken by the airship.
+
+There is only one major difference between balloon and airship, a
+difference in the amount of control exercised by the airman. The same
+difference exists between airship and aeroplane. The aeroplane is
+the more controllable. It can rise and descend with less preliminary
+juggling; it can turn more quickly; and it can land more quickly.
+
+In support of my pessimistic forecast I append a brief outline of
+air-ship-history.
+
+Lighter-than-air man-carrying flight started in 1783 when Pilâtre de
+Rozier, the world’s first aeronaut, went up in a Montgolfier balloon.
+In the same year a hydrogen filled balloon flew from Paris to Nesle. In
+the following year an oblong balloon propelled by parasols as oars was
+made by the Duc de Chartres.
+
+In 1852 a small airship propelled by a steam engine was made. In 1882
+Tissandier’s airship worked by an electric motor was flown, and in
+1884 the airship ‘La France’ was flown. Count Zeppelin built his first
+airship in 1900. Santos Dumont constructed an airship, and, in 1902,
+flew it round the Eiffel Tower.
+
+It will be seen that the airship has passed through a longer period of
+development than the heavier-than-air flying-machine, even if the claim
+that Clement Ader flew in 1897 be accepted. Lighter-than-air flight,
+indeed, dates back to 1783.
+
+The result of that longer development period is not such as to warrant
+too sanguine a belief in the airship’s future. The accidents to
+non-rigids and rigids have been many in proportion to the number of
+vessels actually flown.
+
+The last type of non-rigid built in England was the North Sea type,
+one of which was destroyed by lightning soon after the War. Nine
+people were killed. Among the rigids, R.34, which made the double
+Atlantic crossing, was damaged beyond repair in 1921. R.33 has had many
+adventures, among them being her break-away from the mooring-mast in
+1925. This was hailed as a proof of the safety of airships. R.33 is
+still alive, though she is treated with the respect due to her age.
+
+R.36, the first British airship to be adapted for commercial purposes,
+is still in existence though not in service. R.38 broke up over the
+Humber in 1921 and forty-four people were killed.
+
+The U.S.A. have the ‘Los Angeles’, which is the name now given to the
+German designed and built ZR.3. The ‘Shenandoah’ broke away from
+her mast in 1924, and was destroyed in 1926. According to survivors’
+stories, the ‘Shenandoah’ was wrecked by the same kind of vertical
+air-currents that wrecked an early Zeppelin in 1913. In all, nine
+American airships have perished violently since the War.
+
+The French ‘Dixmude’ was the ex-Zeppelin L.72. She created a world’s
+record in 1923, and then disappeared off Sicily with all hands (54
+people).
+
+Considering how few large airships have been built, and how short a
+time they are, on the average, kept in service, the proportion of
+serious accidents is high. In war that proportion is prohibitively high.
+
+The Zeppelin works have turned out more rigid airships than any factory
+in the world. The fate of every Zeppelin airship completed since 1915
+was recently given in a French technical paper. I do not vouch for
+the figures, but they come from a fairly reliable source. Out of 76
+airships no fewer than 37 (or nearly 50%) were put out of service
+before they had completed one year’s work. Only four airships were
+kept in service for more than three years. This is the record of the
+firm which knows more about airships than any other firm in the world.
+Yet airships have had longer to develop than aeroplanes.
+
+How can an airship be said to be superior to a fixed-wing aeroplane?
+It can hover, it has a longer range, it provides a higher degree
+of comfort for its passengers. How is it inferior to a fixed-wing
+aeroplane? It is slower, it requires more elaborate ground
+organization, it is less controllable. Since the moving-wing aircraft
+is, as yet, far from fully developed, I leave it out of discussion.
+
+The argument that an aeroplane is always using a part of its power for
+lifting is counterbalanced by the argument that an airship is always
+using a part of its power for driving its bulk against the wind. An
+airship cannot stand still and use no power. There is always some wind
+at a height, and the airship must either use power or drift. An airship
+with all its engines stopped is as helpless as an aeroplane with all
+its engines stopped. The aeroplane, while gliding, still retains a
+large measure of controllability, and the pilot can select its landing
+ground within 50 yards. The airship has less controllability when its
+engines are stopped. Its commander would be lucky if he could select
+its landing ground within 50 miles.
+
+It is right that the airship should have every chance to develop. If
+it prove successful, so much the better. I do not think it will prove
+successful. If it is made to work, it will be at more than ten times
+the cost in money and lives, at which heavier-than-air machines have
+been made to work.
+
+Sometimes it seems regrettable that even a small part of the sums
+spent on developing airships cannot be spent on developing the
+passenger-carrying aeroplane.
+
+I will give airships the last word by recalling that Sir George Cayley
+in 1816 expressed his belief that airships would eventually prove
+the most efficient and safest means of air travel, and by quoting Dr
+Eckener:
+
+“A modern airship”, said Dr Eckener, “is at least as capable in heavy
+weather as a modern aeroplane. A storm will never have more effect than
+delaying or speeding a trip, and it can become directly dangerous only
+inasmuch as it may delay the voyage beyond the reach of fuel supply.”
+
+
+
+
+                                  VIII
+
+
+“_Sans nul doute, l’avenir est a la bête de métal._” People regret the
+age of the machine: I cannot do so. A well-made machine, in which are
+struck into life the dreams of its designer, is a vital, individual
+creation.
+
+A flying machine designed by a man with a sense of flight is more
+faithful and far more intelligent than a horse or a dog. Thoughts are
+reflected in it, the careful skill of the executant is expressed in
+its every component. It is sensitive and quick to feel roughness or
+gentleness in the hand of him who controls it. Its moods are without
+number, and it can surprise, please, and irritate. It is susceptible to
+being coaxed, and it enjoys obeying one whose orders are firmly given.
+But it can be treacherous to the weak or to one who does not try to
+understand it or who is persistently cruel to it.
+
+At present there is a tendency to knock the life out of the machine,
+to subdue it to the level of tooth paste and tin cans. If that
+tendency makes headway, the flying-machine of the future must lose its
+individuality, and the age of the machine may eventually prove to be a
+dark age.
+
+
+
+
+           +——————————————————————————————————————————————————+
+           |                                                  |
+           |        _SIXTY VOLUMES ARE NOW PUBLISHED_         |
+           |                                                  |
+           |                    TO-DAY AND                    |
+           |                    TO-MORROW                     |
+           |                                                  |
+           |        _Each, pott 8vo, boards, 2/6 net_         |
+           |                                                  |
+           |                                                  |
+           |       This series of books, by some of the       |
+           |       most distinguished English thinkers,       |
+           |        scientists, philosophers, doctors,        |
+           |        critics, and artists, was at once         |
+           |        recognized as a noteworthy event.         |
+           |     Written from various points of view, one     |
+           |      book frequently opposing the argument       |
+           |       of another, they provide the reader        |
+           |      with a stimulating survey of the most       |
+           |      modern thought in many departments of       |
+           |     life. Several volumes are devoted to the     |
+           |     future trend of Civilization, conceived      |
+           |        as a whole; while others deal with        |
+           |     particular provinces. It is interesting      |
+           |       to see in these neat little volumes,       |
+           |     issued at a low price, the revival of a      |
+           |     form of literature, the Pamphlet, which      |
+           |        has been in disuse for many years.        |
+           |                                                  |
+           |                  _Published by_                  |
+           |     KEGAN PAUL, TRENCH, TRUBNER & CO., LTD.      |
+           | Broadway House: 68–74 Carter Lane, London, E.C.4 |
+           |                                                  |
+           +——————————————————————————————————————————————————+
+
+
+
+
+                           _FROM THE REVIEWS_
+
+
+  _Times Literary Supplement_: “An entertaining series of vivacious
+      and stimulating studies of modern tendencies.”
+
+  _Spectator_: “Scintillating monographs ... that very lively and
+      courageous series.”
+
+  _Observer_: “There seems no reason why the brilliant To-day and
+      To-morrow Series should come to an end for a century of
+      to-morrows. At first it seemed impossible for the publishers
+      to keep up the sport through a dozen volumes, but the series
+      already runs to more than two score. A remarkable series....”
+
+  _Daily Telegraph_: “This admirable series of essays, provocative
+      and brilliant.”
+
+  _Nation_: “We are able to peer into the future by means of that
+      brilliant series [which] will constitute a precious document
+      upon the present time.”—_T. S. Eliot._
+
+  _Manchester Dispatch_: “The more one reads of these pamphlets, the
+      more avid becomes the appetite. We hope the list is endless.”
+
+  _Irish Statesman_: “Full of lively controversy.”
+
+  _Daily Herald_: “This series has given us many monographs of
+      brilliance and discernment.... The stylistic excellencies of
+      this provocative series.”
+
+  _Field_: “We have long desired to express the deep admiration
+      felt by every thinking scholar and worker at the present day
+      for this series. We must pay tribute to the high standard of
+      thought and expression they maintain. As small gift-books,
+      austerely yet prettily produced, they remain unequalled of
+      their kind. We can give but the briefest suggestions of their
+      value to the student, the politician, and the voter....”
+
+  _New York World_: “Holds the palm in the speculative and
+      interpretative thought of the age.”
+
+
+
+
+                            _VOLUMES READY_
+
+
+  =Daedalus=, or Science and the Future. By J. B. S. HALDANE, Reader
+      in Biochemistry, University of Cambridge. _Seventh impression._
+
+      “A fascinating and daring little book.”—_Westminster Gazette._
+      “The essay is brilliant, sparkling with wit and bristling with
+      challenges.”—_British Medical Journal._ “Predicts the most
+      startling changes.”—_Morning Post._
+
+  =Callinicus=, a Defence of Chemical Warfare. By J. B. S. HALDANE.
+      _Second impression._
+
+      “Mr Haldane’s brilliant study.”—_Times Leading Article._ “A
+      book to be read by every intelligent adult.”—_Spectator._ “This
+      brilliant little monograph.”—_Daily News._
+
+  =Icarus=, or the Future of Science. By BERTRAND RUSSELL, F.R.S.
+      _Fourth impression._
+
+      “Utter pessimism.”—_Observer._ “Mr Russell refuses to
+      believe that the progress of Science must be a boon to
+      mankind.”—_Morning Post._ “A stimulating book, that leaves one
+      not at all discouraged.”—_Daily Herald._
+
+  =What I Believe.= By BERTRAND RUSSELL, F.R.S. _Third impression._
+
+      “One of the most brilliant and thought-stimulating little
+      books I have read—a better book even than _Icarus_.”—_Nation._
+      “Simply and brilliantly written.”—_Nature._ “In stabbing
+      sentences he punctures the bubble of cruelty, envy, narrowness,
+      and ill-will which those in authority call their morals.”—_New
+      Leader._
+
+  =Tantalus=, or the Future of Man. By F. C. S. SCHILLER, D.SC.,
+      Fellow of Corpus Christi College, Oxford. _Second impression._
+
+      “They are all (_Daedalus_, _Icarus_, and _Tantalus_)
+      brilliantly clever, and they supplement or correct one
+      another.”—_Dean Inge_, in _Morning Post_. “Immensely valuable
+      and infinitely readable.”—_Daily News._ “The book of the
+      week.”—_Spectator._
+
+  =Cassandra=, or the Future of the British Empire. By F. C. S.
+      SCHILLER, D.SC.
+
+      “We commend it to the complacent of all parties.”—_Saturday
+      Review._ “The book is small, but very, very weighty;
+      brilliantly written, it ought to be read by all shades of
+      politicians and students of politics.”—_Yorkshire Post._
+      “Yet another addition to that bright constellation of
+      pamphlets.”—_Spectator._
+
+  =Quo Vadimus?= Glimpses of the Future. By E. E. FOURNIER D’ALBE,
+      D.SC. _Second Impression._
+
+      “A wonderful vision of the future. A book that will be talked
+      about.”—_Daily Graphic._ “A remarkable contribution to a
+      remarkable series.”—_Manchester Dispatch._ “Interesting and
+      singularly plausible.”—_Daily Telegraph._
+
+  =Thrasymachus=, the Future of Morals. By C. E. M. JOAD, author of
+      “The Babbitt Warren,” etc. _Second impression._
+
+      “His provocative book.”—_Graphic._ “Written in a style of
+      deliberate brilliance.”—_Times Literary Supplement._ “As
+      outspoken and unequivocal a contribution as could well be
+      imagined. Even those readers who dissent will be forced to
+      recognize the admirable clarity with which he states his case.
+      A book that will startle.”—_Daily Chronicle._
+
+  =Lysistrata=, or Woman’s Future and Future Woman. By ANTHONY M.
+      LUDOVICI, author of “A Defence of Aristocracy,” etc. _Second
+      Impression._
+
+      “A stimulating book. Volumes would be needed to
+      deal, in the fullness his work provokes, with all
+      the problems raised.”—_Sunday Times._ “Pro-feminine
+      but anti-feministic.”—_Scotsman._ “Full of brilliant
+      common-sense.”—_Observer._
+
+  =Hypatia=, or Woman and Knowledge. By MRS BERTRAND RUSSELL. With a
+      frontispiece. _Third impression._
+
+      An answer to _Lysistrata_. “A passionate vindication of the
+      rights of woman.”—_Manchester Guardian._ “Says a number of
+      things that sensible women have been wanting publicly said for
+      a long time.”—_Daily Herald._
+
+  =Hephaestus=, the Soul of the Machine. By E. E. FOURNIER D’ALBE,
+      D.SC.
+
+      “A worthy contribution to this interesting series. A delightful
+      and thought-provoking essay.”—_Birmingham Post._ “There is a
+      special pleasure in meeting with a book like _Hephaestus_.
+      The author has the merit of really understanding what he is
+      talking about.”—_Engineering._ “An exceedingly clever defence
+      of machinery.”—_Architects’ Journal._
+
+  =The Passing of the Phantoms=: a Study of Evolutionary Psychology
+      and Morals. By C. J. PATTEN, Professor of Anatomy, Sheffield
+      University. With 4 Plates.
+
+      “Readers of _Daedalus_, _Icarus_ and _Tantalus_, will be
+      grateful for an excellent presentation of yet another point
+      of view.”—_Yorkshire Post._ “This bright and bracing little
+      book.”—_Literary Guide._ “Interesting and original.”—_Medical
+      Times._
+
+  =The Mongol in our Midst=: a Study of Man and his Three Faces.
+      By F. G. CROOKSHANK, M.D., F.R.C.P. With 28 Plates. _Second
+      Edition, revised._
+
+      “A brilliant piece of speculative induction.”—_Saturday
+      Review._ “An extremely interesting and suggestive book, which
+      will reward careful reading.”—_Sunday Times._ “The pictures
+      carry fearful conviction.”—_Daily Herald._
+
+  =The Conquest of Cancer.= By H. W. S. WRIGHT, M.S., F.R.C.S.
+      Introduction by F. G. CROOKSHANK, M.D.
+
+      “Eminently suitable for general reading. The problem is fairly
+      and lucidly presented. One merit of Mr Wright’s plan is that he
+      tells people what, in his judgment, they can best do, _here and
+      now_.”—From the _Introduction_.
+
+  =Pygmalion=, or the Doctor of the Future. By R. MCNAIR WILSON, M.B.
+
+      “Dr Wilson has added a brilliant essay to this series.”—_Times
+      Literary Supplement._ “This is a very little book, but there is
+      much wisdom in it.”—_Evening Standard._ “No doctor worth his
+      salt would venture to say that Dr Wilson was wrong.”—_Daily
+      Herald._
+
+  =Prometheus=, or Biology and the Advancement of Man. By H. S.
+      JENNINGS, Professor of Zoology, Johns Hopkins University.
+      _Second Impression._
+
+      “This volume is one of the most remarkable that has yet
+      appeared in this series. Certainly the information it contains
+      will be new to most educated laymen. It is essentially a
+      discussion of ... heredity and environment, and it clearly
+      establishes the fact that the current use of these terms has
+      no scientific justification.”—_Times Literary Supplement._ “An
+      exceedingly brilliant book.”—_New Leader._
+
+  =Narcissus=: an Anatomy of Clothes. By GERALD HEARD. With 19
+      illustrations.
+
+      “A most suggestive book.”—_Nation._ “Irresistible. Reading
+      it is like a switchback journey. Starting from prehistoric
+      times we rocket down the ages.”—_Daily News._ “Interesting,
+      provocative, and entertaining.”—_Queen._
+
+  =Thamyris=, or Is There a Future for Poetry? By R. C. TREVELYAN.
+
+      “Learned, sensible, and very well-written.”—_Affable Hawk_,
+      in _New Statesman_. “Very suggestive.”—_J. C. Squire_, in
+      _Observer_. “A very charming piece of work, I agree with
+      all, or at any rate, almost all its conclusions.”—_J. St Loe
+      Strachey_, in _Spectator_.
+
+  =Proteus=, or the Future of Intelligence. By VERNON LEE, author of
+      “Satan the Waster,” etc.
+
+      “We should like to follow the author’s suggestions as to the
+      effect of intelligence on the future of Ethics, Aesthetics,
+      and Manners. Her book is profoundly stimulating and should be
+      read by everyone.”—_Outlook._ “A concise, suggestive piece of
+      work.”—_Saturday Review._
+
+  =Timotheus=, the Future of the Theatre. By BONAMY DOBRÉE, author of
+      “Restoration Drama,” etc.
+
+      “A witty, mischievous little book, to be read with
+      delight.”—_Times Literary Supplement._ “This is a delightfully
+      witty book.”—_Scotsman._ “In a subtly satirical vein he
+      visualizes various kinds of theatres in 200 years’ time. His
+      gay little book makes delightful reading.”—_Nation._
+
+  =Paris=, or the Future of War. By Captain B. H. LIDDELL HART.
+
+      “A companion volume to _Callinicus_. A gem of close thinking
+      and deduction.”—_Observer._ “A noteworthy contribution to a
+      problem of concern to every citizen in this country.”—_Daily
+      Chronicle._ “There is some lively thinking about the future of
+      war in Paris, just added to this set of live-wire pamphlets on
+      big subjects.”—_Manchester Guardian._
+
+  =Wireless Possibilities.= By Professor A. M. LOW. With 4 diagrams.
+
+      “As might be expected from an inventor who is always so fresh,
+      he has many interesting things to say.”—_Evening Standard._
+      “The mantle of Blake has fallen upon the physicists. To them
+      we look for visions, and we find them in this book.”—_New
+      Statesman._
+
+  =Perseus=: of Dragons. By H. F. SCOTT STOKES. With 2 illustrations.
+
+      “A diverting little book, chock-full of ideas, Mr Stokes’
+      dragon-lore is both quaint and various.”—_Morning Post._ “Very
+      amusingly written, and a mine of curious knowledge for which
+      the discerning reader will find many uses.”—_Glasgow Herald._
+
+  =Lycurgus=, or the Future of Law. By E. S. P. HAYNES, author of
+      “Concerning Solicitors,” etc.
+
+      “An interesting and concisely written book.”—_Yorkshire Post._
+      “He roundly declares that English criminal law is a blend of
+      barbaric violence, medieval prejudices and modern fallacies....
+      A humane and conscientious investigation.”—_T.P.’s Weekly._ “A
+      thoughtful book—deserves careful reading.”—_Law Times._
+
+  =Euterpe=, or the Future of Art. By LIONEL R. MCCOLVIN, author of
+      “The Theory of Book-Selection.”
+
+      “Discusses briefly, but very suggestively, the problem of the
+      future of art in relation to the public.”—_Saturday Review._
+      “Another indictment of machinery as a soul-destroyer ... Mr
+      McColvin has the courage to suggest solutions.”—_Westminster
+      Gazette._ “This is altogether a much-needed book.”—_New Leader._
+
+  =Pegasus=, or Problems of Transport. By Colonel J. F. C. FULLER,
+      author of “The Reformation of War,” etc. With 8 Plates.
+
+      “The foremost military prophet of the day propounds a solution
+      for industrial and unemployment problems. It is a bold
+      essay ... and calls for the attention of all concerned with
+      imperial problems.”—_Daily Telegraph._ “Practical, timely,
+      very interesting and very important.”—_J. St Loe Strachey_, in
+      _Spectator_.
+
+  =Atlantis=, or America and the Future. By Colonel J. F. C. FULLER.
+
+      “Candid and caustic.”—_Observer._ “Many hard things have been
+      said about America, but few quite so bitter and caustic as
+      these.”—_Daily Sketch._ “He can conjure up possibilities of a
+      new Atlantis.”—_Clarion._
+
+  =Midas=, or the United States and the Future. By C. H. BRETHERTON,
+      author of “The Real Ireland,” etc.
+
+      A companion volume to _Atlantis_. “Full of astute observations
+      and acute reflections ... this wise and witty pamphlet, a
+      provocation to the thought that is creative.”—_Morning Post._
+      “A punch in every paragraph. One could hardly ask for more
+      ‘meat.’”—_Spectator._
+
+  =Nuntius=, or Advertising and its Future. By GILBERT RUSSELL.
+
+      “Expresses the philosophy of advertising concisely and
+      well.”—_Observer._ “It is doubtful if a more straightforward
+      exposition of the part advertising plays in our public and
+      private life has been written.”—_Manchester Guardian._
+
+  =Birth Control and the State=: a Plea and a Forecast. By C. P.
+      BLACKER, M.C., M.A., M.R.C.S., L.R.C.P.
+
+      “A very careful summary.”—_Times Literary Supplement._ “A
+      temperate and scholarly survey of the arguments for and against
+      the encouragement of the practice of birth control.”—_Lancet._
+      “He writes lucidly, moderately, and from wide knowledge; his
+      book undoubtedly gives a better understanding of the subject
+      than any other brief account we know. It also suggests a
+      policy.”—_Saturday Review._
+
+  =Ouroboros=, or the Mechanical Extension of Mankind. By GARET
+      GARRETT.
+
+      “This brilliant and provoking little book.”—_Observer._ “A
+      significant and thoughtful essay, calculated in parts to make
+      our flesh creep.”—_Spectator._ “A brilliant writer, Mr Garrett
+      is a remarkable man. He explains something of the enormous
+      change the machine has made in life.”—_Daily Express._
+
+  =Artifex=, or the Future of Craftsmanship. By JOHN GLOAG, author of
+      “Time, Taste, and Furniture.”
+
+      “An able and interesting summary of the history of
+      craftsmanship in the past, a direct criticism of the present,
+      and at the end his hopes for the future. Mr Gloag’s real
+      contribution to the future of craftsmanship is his discussion
+      of the uses of machinery.”—_Times Literary Supplement._
+
+  =Plato’s American Republic.= By J. DOUGLAS WOODRUFF. _Fourth
+      impression._
+
+      “Uses the form of the Socratic dialogue with devastating
+      success. A gently malicious wit sparkles in every
+      page.”—_Sunday Times._ “Having deliberately set himself an
+      almost impossible task, has succeeded beyond belief.”—_Saturday
+      Review._ “Quite the liveliest even of this spirited
+      series.”—_Observer._
+
+  =Orpheus=, or the Music of the Future. By W. J. TURNER, author of
+      “Music and Life.” _Second impression._
+
+      “A book on music that we can read not merely once, but
+      twice or thrice. Mr Turner has given us some of the finest
+      thinking upon Beethoven that I have ever met with.”—_Ernest
+      Newman_ in _Sunday Times_. “A brilliant essay in contemporary
+      philosophy.”—_Outlook._ “The fruit of real knowledge and
+      understanding.”—_New Statesman._
+
+  =Terpander=, or Music and the Future. By E. J. DENT, author of
+      “Mozart’s Operas.”
+
+      “In _Orpheus_ Mr Turner made a brilliant voyage in search of
+      first principles. Mr Dent’s book is a skilful review of the
+      development of music. It is the most succinct and stimulating
+      essay on music I have found....”—_Musical News._ “Remarkably
+      able and stimulating.”—_Times Literary Supplement._ “There
+      is hardly another critic alive who could sum up contemporary
+      tendencies so neatly.”—_Spectator._
+
+  =Sibylla=, or the Revival of Prophecy. By C. A. MACE, University of
+      St. Andrew’s.
+
+      “An entertaining and instructive pamphlet.”—_Morning
+      Post._ “Places a nightmare before us very ably and
+      wittily.”—_Spectator._ “Passages in it are excellent
+      satire, but on the whole Mr Mace’s speculations may be
+      taken as a trustworthy guide ... to modern scientific
+      thought.”—_Birmingham Post._
+
+  =Lucullus=, or the Food of the Future. By OLGA HARTLEY and MRS C.
+      F. LEYEL, authors of “The Gentle Art of Cookery.”
+
+      “This is a clever and witty little volume in an entertaining
+      series, and it makes enchanting reading.”—_Times Literary
+      Supplement._ “Opens with a brilliant picture of modern man,
+      living in a vacuum-cleaned, steam-heated, credit-furnished
+      suburban mansion ‘with a wolf in the basement’—the wolf of
+      hunger. This banquet of epigrams.”—_Spectator._
+
+  =Procrustes=, or the Future of English Education. By M. ALDERTON
+      PINK.
+
+      “Undoubtedly he makes out a very good case.”—_Daily Herald._
+      “This interesting addition to the series.”—_Times Educational
+      Supplement._ “Intends to be challenging and succeeds in being
+      so. All fit readers will find it stimulating.”—_Northern Echo._
+
+  =The Future of Futurism.= By JOHN RODKER.
+
+      “Mr Rodker is up-to-the-minute, and he has accomplished a
+      considerable feat in writing on such a vague subject, 92
+      extremely interesting pages.”—_T. S. Eliot_, in _Nation_.
+      “There are a good many things in this book which are of
+      interest.”—_Times Literary Supplement._
+
+  =Pomona=, or the Future of English. By BASIL DE SÉLINCOURT, author
+      of “The English Secret”, etc.
+
+      “The future of English is discussed fully and with fascinating
+      interest.”—_Morning Post._ “Full of wise thoughts and happy
+      words.”—_Times Literary Supplement._ “His later pages must
+      stir the blood of any man who loves his country and her
+      poetry.”—_J. C. Squire_, in _Observer_. “His finely-conceived
+      essay.”—_Manchester Guardian._
+
+  =Balbus=, or the Future of Architecture. By CHRISTIAN BARMAN.
+
+      “A really brilliant addition to this already distinguished
+      series. The reading of _Balbus_ will give much data for
+      intelligent prophecy, and incidentally, an hour or so of
+      excellent entertainment.”—_Spectator._ “Most readable and
+      reasonable. We can recommend it warmly.”—_New Statesman._ “This
+      intriguing little book.”—_Connoisseur._
+
+  =Apella=, or the Future of the Jews. By A QUARTERLY REVIEWER.
+
+      “Cogent, because of brevity and a magnificent prose style,
+      this book wins our quiet praise. It is a fine pamphlet,
+      adding to the value of the series, and should not be
+      missed.”—_Spectator._ “A notable addition to this excellent
+      series. His arguments are a provocation to fruitful
+      thinking.”—_Morning Post._
+
+  =The Dance of Çiva=, or Life’s Unity and Rhythm. By COLLUM.
+
+      “It has substance and thought in it. The author is very much
+      alive and responsive to the movements of to-day.”—_Spectator._
+      “A very interesting account of the work of Sir Jagadis
+      Bose.”—_Oxford Magazine._ “Has caught the spirit of the Eastern
+      conception of world movements.”—_Calcutta Statesman._
+
+  =Lars Porsena=, or the Future of Swearing and Improper Language. By
+      ROBERT GRAVES. _Third impression._
+
+      “Goes uncommonly well, and deserves to.”—_Observer._ “Not for
+      squeamish readers.”—_Spectator._ “No more amusingly unexpected
+      contribution has been made to this series. A deliciously
+      ironical affair.”—_Bystander._ “His highly entertaining essay
+      is as full as the current standard of printers and police
+      will allow.”—_New Statesman._ “Humour and style are beyond
+      criticism.”—_Irish Statesman._
+
+  =Socrates=, or the Emancipation of Mankind. By H. F. CARLILL.
+
+      “Devotes a specially lively section to the herd
+      instinct.”—_Times._ “Clearly, and with a balance that is almost
+      Aristotelian, he reveals what modern psychology is going to
+      accomplish.”—_New Statesman._ “One of the most brilliant and
+      important of a remarkable series.”—_Westminster Gazette._
+
+  =Delphos=, or the Future of International Language. By E. SYLVIA
+      PANKHURST.
+
+      “Equal to anything yet produced in this brilliant series. Miss
+      Pankhurst states very clearly what all thinking people must
+      soon come to believe, that an international language would
+      be one of the greatest assets of civilization.”—_Spectator._
+      “A most readable book, full of enthusiasm, an important
+      contribution to this subject.”—_International Language._
+
+  =Gallio=, or the Tyranny of Science. By J. W. N. SULLIVAN, author
+      of “A History of Mathematics.”
+
+      “So packed with ideas that it is not possible to give
+      any adequate _résumé_ of its contents.”—_Times Literary
+      Supplement._ “His remarkable monograph, his devastating summary
+      of materialism, this pocket _Novum Organum_.”—_Spectator._
+      “Possesses a real distinction of thought and manner. It must be
+      read.”—_New Statesman._
+
+  =Apollonius=, or the Future of Psychical Research. By E. N.
+      BENNETT, author of “Problems of Village Life,” etc.
+
+      “A sane, temperate and suggestive survey of a field of inquiry
+      which is slowly but surely pushing to the front.”—_Times
+      Literary Supplement._ “His exposition of the case for
+      psychic research is lucid and interesting.”—_Scotsman._
+      “Displays the right temper, admirably conceived, skilfully
+      executed.”—_Liverpool Post._
+
+  =Aeolus=, or the Future of the Flying Machine. By OLIVER STEWART.
+
+      “Both his wit and his expertness save him from the
+      nonsensical-fantastic. There is nothing vague or sloppy in
+      these imaginative forecasts.”—_Daily News._ “He is to be
+      congratulated. His book is small, but it is so delightfully
+      funny that it is well worth the price, and there really are
+      sensible ideas behind the jesting.”—_Aeroplane._
+
+  =Stentor=, or the Press of To-Day and To-Morrow. By DAVID OCKHAM.
+
+      “A valuable and exceedingly interesting commentary on a vital
+      phase of modern development.”—_Daily Herald._ “Vigorous and
+      well-written, eminently readable.”—_Yorkshire Post._ “He has
+      said what one expects any sensible person to say about the
+      ‘trustification’ of the Press.”—_Spectator._
+
+  =Rusticus=, or the Future of the Countryside. By MARTIN S. BRIGGS,
+      F.R.I.B.A.
+
+      “Few of the 50 volumes, provocative and brilliant as most
+      of them have been, capture our imagination as does this
+      one.”—_Daily Telegraph._ “The historical part is as brilliant a
+      piece of packed writing as could be desired.”—_Daily Herald._
+      “Serves a national end. The book is in essence a pamphlet,
+      though it has the form and charm of a book.”—_Spectator._
+
+  =Janus=, or the Conquest of War. By WILLIAM MCDOUGALL, M.B., F.R.S.
+
+      “Among all the booklets of this brilliant series, none, I
+      think is so weighty and impressive as this. It contains
+      thrice as much matter as the other volumes and is profoundly
+      serious.”—_Dean Inge_, in _Evening Standard_. “A deeply
+      interesting and fair-minded study of the causes of war
+      and the possibilities of their prevention. Every word is
+      sound.”—_Spectator._
+
+  =Vulcan=, or the Future of Labour. By CECIL CHISHOLM.
+
+      “Of absorbing interest.”—_Daily Herald._ “No one, perhaps,
+      has ever condensed so many hard facts into the appearance of
+      agreeable fiction, nor held the balance so nicely between
+      technicalities and flights of fancy, as the author of this
+      excellent book in a brilliant series. _Vulcan_ is a little
+      book, but between its covers knowledge and vision are pressed
+      down and brimming over.”—_Spectator._
+
+  =Hymen=, or the Future of Marriage. By NORMAN HAIRE.
+
+      This candid and unprejudiced survey inquires why the majority
+      of marriages to-day seem to be so unsatisfactory, and finds
+      the answer in the sexual ethic of our civilization which is
+      ill adapted to our social and economic needs. The problems
+      of sex-morality, sex-education, prostitution, in-breeding,
+      birth-control, trial-marriage, and polygamy are all touched
+      upon.
+
+  =The Next Chapter=: the War against the Moon. By ANDRÉ MAUROIS,
+      author of ‘Ariel’, etc.
+
+      This imaginary chapter of world-history (1951–64) from the pen
+      of one of the most brilliant living French authors mixes satire
+      and fancy in just proportions. It tells how the press of the
+      world is controlled by five men, how world interest is focussed
+      on an attack on the moon, how thus the threat of world-war is
+      averted. But when the moon retaliates....
+
+  =Galatea=, or the Future of Darwinism. By W. RUSSELL BRAIN.
+
+      This non-technical but closely-reasoned book is a challenge
+      to the orthodox teaching on evolution known as Neo-Darwinism.
+      The author claims that, although Neo-Darwinian theories can
+      possibly account for the evolution of forms, they are quite
+      inadequate to explain the evolution of functions.
+
+  =Scheherazade=, or the Future of the English Novel. By JOHN
+      CARRUTHERS.
+
+      A survey of contemporary fiction in England and America
+      lends to the conclusion that the literary and scientific
+      influences of the last fifty years have combined to make the
+      novel of to-day predominantly analytic. It has thus gained in
+      psychological subtlety, but lost its form. How this may be
+      regained is put forward in the conclusion.
+
+  =Caledonia=, or the Future of the Scots. By G. M. THOMSON.
+
+      Exit the Scot! Under this heading the Scottish people are
+      revealed as a leaderless mob in whom national pride has been
+      strangled. They regard, unmoved, the spectacle of their
+      monstrous slum-evil, the decay of their industries, the
+      devastation of their countryside. This is the most compact and
+      mordant indictment of Scottish policy that has yet been written.
+
+  =Albyn=, or Scotland and the Future. By C. M. GRIEVE, author of
+      ‘Contemporary Scottish Studies’, etc.
+
+      A vigorous answer, explicit and implicit, to _Caledonia_,
+      tracing the movements of a real Scottish revival, in music,
+      art, literature, and politics, and coming to the conclusion
+      that there is a chance even now for the regeneration of the
+      Scottish people.
+
+  =Lares et Penates=, or the Future of the Home. By H. J. BIRNSTINGL.
+
+      All the many forces at work to-day are influencing the
+      planning, appearance, and equipment of the home. This is
+      the main thesis of this stimulating volume, which considers
+      also the labour-saving movement, the ‘ideal’ house, the
+      influence of women, the servant problem, and the relegation
+      of aesthetic considerations to the background. Disconcerting
+      prognostications follow.
+
+
+                             _NEARLY READY_
+
+  =Archon=, or the Future of Government. By HAMILTON FYFE.
+
+      A survey of the methods of government in the past leads the
+      author to a consideration of conditions in the world of to-day.
+      He then indicates the lines along which progress may develop.
+
+  =Hermes=, or the Future of Chemistry. By T. W. JONES, B.SC., F.C.S.
+
+      Chemistry as the means of human emancipation is the subject
+      of this book. To-day chemistry is one of the master factors
+      of our existence; to-morrow it will dominate every phase of
+      life, winning for man the goal of all his endeavour, economic
+      freedom. It may also effect a startling change in man himself.
+
+  =The Future of Physics.= By L. L. WHYTE.
+
+      The last few years have been a critical period in the
+      development of physics. We stand on the eve of a new epoch.
+      Physics, biology, and psychology are converging towards
+      a scientific synthesis of unprecedented importance whose
+      influence on thought and social custom will be so profound as
+      to mark a stage in human evolution. This book interprets these
+      events and should be read in connexion with _Gallio_, by J. W.
+      N. Sullivan, in this series.
+
+  =Ikonoclastes=, or the Future of Shakespeare. By HUBERT GRIFFITHS.
+
+      Taking as text the recent productions of classical plays in
+      modern dress, the author, a distinguished dramatic critic,
+      suggests that this is the proper way of reviving Shakespeare
+      and other great dramatists of the past, and that their
+      successful revival in modern dress may perhaps be taken as an
+      indication of their value.
+
+
+                            _IN PREPARATION_
+
+  =Bacchus=, or the Future of Wine. By P. MORTON SHAND.
+
+  =Mercurius=, or the World on Wings. By C. THOMPSON WALKER.
+
+  =The Future of Sport.= By G. S. SANDILANDS.
+
+  =The Future of India.= By T. EARLE WELBY.
+
+  =The Future of Films.= By ERNEST BETTS.
+
+                         —————————————————————
+
+
+                     Transcriber’s Note (continued)
+
+Errors in punctuation and simple typos have been corrected without note.
+Archaic or variant spelling, inconsistent hyphenation, etc., has been
+left as it appears in the original publication unless as noted in the
+following:
+
+  Page 12 – “insistance” changed to “insistence” (The continued insistence
+             that speed)
+
+  Page 35 – “persistance” changed to “persistence” (foretold with tiresome
+             persistence)
+
+  End matter page 17 – “montrous” changed to “monstrous” (their monstrous
+                        slum-evil)
+
+
+
+
+
+
+*** END OF THE PROJECT GUTENBERG EBOOK AEOLUS; OR, THE FUTURE OF THE FLYING MACHINE ***
+
+
+    
+
+Updated editions will replace the previous one—the old editions will
+be renamed.
+
+Creating the works from print editions not protected by U.S. copyright
+law means that no one owns a United States copyright in these works,
+so the Foundation (and you!) can copy and distribute it in the United
+States without permission and without paying copyright
+royalties. Special rules, set forth in the General Terms of Use part
+of this license, apply to copying and distributing Project
+Gutenberg™ electronic works to protect the PROJECT GUTENBERG™
+concept and trademark. Project Gutenberg is a registered trademark,
+and may not be used if you charge for an eBook, except by following
+the terms of the trademark license, including paying royalties for use
+of the Project Gutenberg trademark. If you do not charge anything for
+copies of this eBook, complying with the trademark license is very
+easy. You may use this eBook for nearly any purpose such as creation
+of derivative works, reports, performances and research. Project
+Gutenberg eBooks may be modified and printed and given away—you may
+do practically ANYTHING in the United States with eBooks not protected
+by U.S. copyright law. Redistribution is subject to the trademark
+license, especially commercial redistribution.
+
+
+START: FULL LICENSE
+
+THE FULL PROJECT GUTENBERG LICENSE
+
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg™ mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase “Project
+Gutenberg”), you agree to comply with all the terms of the Full
+Project Gutenberg™ License available with this file or online at
+www.gutenberg.org/license.
+
+Section 1. General Terms of Use and Redistributing Project Gutenberg™
+electronic works
+
+1.A. By reading or using any part of this Project Gutenberg™
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement. If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or
+destroy all copies of Project Gutenberg™ electronic works in your
+possession. If you paid a fee for obtaining a copy of or access to a
+Project Gutenberg™ electronic work and you do not agree to be bound
+by the terms of this agreement, you may obtain a refund from the person
+or entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B. “Project Gutenberg” is a registered trademark. It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement. There are a few
+things that you can do with most Project Gutenberg™ electronic works
+even without complying with the full terms of this agreement. See
+paragraph 1.C below. There are a lot of things you can do with Project
+Gutenberg™ electronic works if you follow the terms of this
+agreement and help preserve free future access to Project Gutenberg™
+electronic works. See paragraph 1.E below.
+
+1.C. The Project Gutenberg Literary Archive Foundation (“the
+Foundation” or PGLAF), owns a compilation copyright in the collection
+of Project Gutenberg™ electronic works. Nearly all the individual
+works in the collection are in the public domain in the United
+States. If an individual work is unprotected by copyright law in the
+United States and you are located in the United States, we do not
+claim a right to prevent you from copying, distributing, performing,
+displaying or creating derivative works based on the work as long as
+all references to Project Gutenberg are removed. Of course, we hope
+that you will support the Project Gutenberg™ mission of promoting
+free access to electronic works by freely sharing Project Gutenberg™
+works in compliance with the terms of this agreement for keeping the
+Project Gutenberg™ name associated with the work. You can easily
+comply with the terms of this agreement by keeping this work in the
+same format with its attached full Project Gutenberg™ License when
+you share it without charge with others.
+
+1.D. The copyright laws of the place where you are located also govern
+what you can do with this work. Copyright laws in most countries are
+in a constant state of change. If you are outside the United States,
+check the laws of your country in addition to the terms of this
+agreement before downloading, copying, displaying, performing,
+distributing or creating derivative works based on this work or any
+other Project Gutenberg™ work. The Foundation makes no
+representations concerning the copyright status of any work in any
+country other than the United States.
+
+1.E. Unless you have removed all references to Project Gutenberg:
+
+1.E.1. The following sentence, with active links to, or other
+immediate access to, the full Project Gutenberg™ License must appear
+prominently whenever any copy of a Project Gutenberg™ work (any work
+on which the phrase “Project Gutenberg” appears, or with which the
+phrase “Project Gutenberg” is associated) is accessed, displayed,
+performed, viewed, copied or distributed:
+
+    This eBook is for the use of anyone anywhere in the United States and most
+    other parts of the world at no cost and with almost no restrictions
+    whatsoever. You may copy it, give it away or re-use it under the terms
+    of the Project Gutenberg License included with this eBook or online
+    at www.gutenberg.org. If you
+    are not located in the United States, you will have to check the laws
+    of the country where you are located before using this eBook.
+  
+1.E.2. If an individual Project Gutenberg™ electronic work is
+derived from texts not protected by U.S. copyright law (does not
+contain a notice indicating that it is posted with permission of the
+copyright holder), the work can be copied and distributed to anyone in
+the United States without paying any fees or charges. If you are
+redistributing or providing access to a work with the phrase “Project
+Gutenberg” associated with or appearing on the work, you must comply
+either with the requirements of paragraphs 1.E.1 through 1.E.7 or
+obtain permission for the use of the work and the Project Gutenberg™
+trademark as set forth in paragraphs 1.E.8 or 1.E.9.
+
+1.E.3. If an individual Project Gutenberg™ electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any
+additional terms imposed by the copyright holder. Additional terms
+will be linked to the Project Gutenberg™ License for all works
+posted with the permission of the copyright holder found at the
+beginning of this work.
+
+1.E.4. Do not unlink or detach or remove the full Project Gutenberg™
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg™.
+
+1.E.5. Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg™ License.
+
+1.E.6. You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including
+any word processing or hypertext form. However, if you provide access
+to or distribute copies of a Project Gutenberg™ work in a format
+other than “Plain Vanilla ASCII” or other format used in the official
+version posted on the official Project Gutenberg™ website
+(www.gutenberg.org), you must, at no additional cost, fee or expense
+to the user, provide a copy, a means of exporting a copy, or a means
+of obtaining a copy upon request, of the work in its original “Plain
+Vanilla ASCII” or other form. Any alternate format must include the
+full Project Gutenberg™ License as specified in paragraph 1.E.1.
+
+1.E.7. Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg™ works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8. You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg™ electronic works
+provided that:
+
+    • You pay a royalty fee of 20% of the gross profits you derive from
+        the use of Project Gutenberg™ works calculated using the method
+        you already use to calculate your applicable taxes. The fee is owed
+        to the owner of the Project Gutenberg™ trademark, but he has
+        agreed to donate royalties under this paragraph to the Project
+        Gutenberg Literary Archive Foundation. Royalty payments must be paid
+        within 60 days following each date on which you prepare (or are
+        legally required to prepare) your periodic tax returns. Royalty
+        payments should be clearly marked as such and sent to the Project
+        Gutenberg Literary Archive Foundation at the address specified in
+        Section 4, “Information about donations to the Project Gutenberg
+        Literary Archive Foundation.”
+    
+    • You provide a full refund of any money paid by a user who notifies
+        you in writing (or by e-mail) within 30 days of receipt that s/he
+        does not agree to the terms of the full Project Gutenberg™
+        License. You must require such a user to return or destroy all
+        copies of the works possessed in a physical medium and discontinue
+        all use of and all access to other copies of Project Gutenberg™
+        works.
+    
+    • You provide, in accordance with paragraph 1.F.3, a full refund of
+        any money paid for a work or a replacement copy, if a defect in the
+        electronic work is discovered and reported to you within 90 days of
+        receipt of the work.
+    
+    • You comply with all other terms of this agreement for free
+        distribution of Project Gutenberg™ works.
+    
+
+1.E.9. If you wish to charge a fee or distribute a Project
+Gutenberg™ electronic work or group of works on different terms than
+are set forth in this agreement, you must obtain permission in writing
+from the Project Gutenberg Literary Archive Foundation, the manager of
+the Project Gutenberg™ trademark. Contact the Foundation as set
+forth in Section 3 below.
+
+1.F.
+
+1.F.1. Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+works not protected by U.S. copyright law in creating the Project
+Gutenberg™ collection. Despite these efforts, Project Gutenberg™
+electronic works, and the medium on which they may be stored, may
+contain “Defects,” such as, but not limited to, incomplete, inaccurate
+or corrupt data, transcription errors, a copyright or other
+intellectual property infringement, a defective or damaged disk or
+other medium, a computer virus, or computer codes that damage or
+cannot be read by your equipment.
+
+1.F.2. LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the “Right
+of Replacement or Refund” described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg™ trademark, and any other party distributing a Project
+Gutenberg™ electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees. YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH 1.F.3. YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3. LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from. If you
+received the work on a physical medium, you must return the medium
+with your written explanation. The person or entity that provided you
+with the defective work may elect to provide a replacement copy in
+lieu of a refund. If you received the work electronically, the person
+or entity providing it to you may choose to give you a second
+opportunity to receive the work electronically in lieu of a refund. If
+the second copy is also defective, you may demand a refund in writing
+without further opportunities to fix the problem.
+
+1.F.4. Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you ‘AS-IS’, WITH NO
+OTHER WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5. Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of
+damages. If any disclaimer or limitation set forth in this agreement
+violates the law of the state applicable to this agreement, the
+agreement shall be interpreted to make the maximum disclaimer or
+limitation permitted by the applicable state law. The invalidity or
+unenforceability of any provision of this agreement shall not void the
+remaining provisions.
+
+1.F.6. INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg™ electronic works in
+accordance with this agreement, and any volunteers associated with the
+production, promotion and distribution of Project Gutenberg™
+electronic works, harmless from all liability, costs and expenses,
+including legal fees, that arise directly or indirectly from any of
+the following which you do or cause to occur: (a) distribution of this
+or any Project Gutenberg™ work, (b) alteration, modification, or
+additions or deletions to any Project Gutenberg™ work, and (c) any
+Defect you cause.
+
+Section 2. Information about the Mission of Project Gutenberg™
+
+Project Gutenberg™ is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of
+computers including obsolete, old, middle-aged and new computers. It
+exists because of the efforts of hundreds of volunteers and donations
+from people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching Project Gutenberg™’s
+goals and ensuring that the Project Gutenberg™ collection will
+remain freely available for generations to come. In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg™ and future
+generations. To learn more about the Project Gutenberg Literary
+Archive Foundation and how your efforts and donations can help, see
+Sections 3 and 4 and the Foundation information page at www.gutenberg.org.
+
+Section 3. Information about the Project Gutenberg Literary Archive Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non-profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service. The Foundation’s EIN or federal tax identification
+number is 64-6221541. Contributions to the Project Gutenberg Literary
+Archive Foundation are tax deductible to the full extent permitted by
+U.S. federal laws and your state’s laws.
+
+The Foundation’s business office is located at 809 North 1500 West,
+Salt Lake City, UT 84116, (801) 596-1887. Email contact links and up
+to date contact information can be found at the Foundation’s website
+and official page at www.gutenberg.org/contact
+
+Section 4. Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg™ depends upon and cannot survive without widespread
+public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine-readable form accessible by the widest
+array of equipment including outdated equipment. Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States. Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements. We do not solicit donations in locations
+where we have not received written confirmation of compliance. To SEND
+DONATIONS or determine the status of compliance for any particular state
+visit www.gutenberg.org/donate.
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States. U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg web pages for current donation
+methods and addresses. Donations are accepted in a number of other
+ways including checks, online payments and credit card donations. To
+donate, please visit: www.gutenberg.org/donate.
+
+Section 5. General Information About Project Gutenberg™ electronic works
+
+Professor Michael S. Hart was the originator of the Project
+Gutenberg™ concept of a library of electronic works that could be
+freely shared with anyone. For forty years, he produced and
+distributed Project Gutenberg™ eBooks with only a loose network of
+volunteer support.
+
+Project Gutenberg™ eBooks are often created from several printed
+editions, all of which are confirmed as not protected by copyright in
+the U.S. unless a copyright notice is included. Thus, we do not
+necessarily keep eBooks in compliance with any particular paper
+edition.
+
+Most people start at our website which has the main PG search
+facility: www.gutenberg.org.
+
+This website includes information about Project Gutenberg™,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
+
+

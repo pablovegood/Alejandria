@@ -1,0 +1,9 @@
+FROM nginx:alpine
+
+# Borramos la config por defecto y ponemos la nuestra
+RUN rm /etc/nginx/conf.d/default.conf
+
+COPY web /usr/share/nginx/html
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+EXPOSE 80

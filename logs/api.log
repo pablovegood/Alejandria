@@ -1,0 +1,865 @@
+2025-11-09 22:00:44 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 22:05:13 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 22:05:23 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-09 22:05:23 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-09 22:05:24 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 22:05:25 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:05:43 | INFO | alejandria | 127.0.0.1 | GET /static/signup.html -> 304 34ms size=- ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:05:51 | INFO | alejandria | 127.0.0.1 | GET /static/index.html -> 304 2ms size=- ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/signup.html' user='-'
+2025-11-09 22:05:51 | INFO | alejandria | 127.0.0.1 | GET /static/index.css -> 200 1ms size=5553 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/index.html' user='-'
+2025-11-09 22:05:51 | INFO | alejandria | 127.0.0.1 | GET /static/app.js -> 304 2ms size=- ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/index.html' user='-'
+2025-11-09 22:05:54 | INFO | alejandria | 127.0.0.1 | Logout
+2025-11-09 22:05:54 | INFO | alejandria | 127.0.0.1 | POST /auth/logout -> 200 1ms size=11 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/index.html' user='-'
+2025-11-09 22:15:18 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 22:15:23 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 22:15:25 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 22:19:30 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 22:19:30 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 22:19:38 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 22:19:40 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-09 22:19:40 | INFO | alejandria | 127.0.0.1 | GET / -> 307 3ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:19:40 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-09 22:19:40 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 83ms size=1482 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:19:40 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:19:40 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:19:48 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-09 22:19:48 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 2ms size=1482 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:19:48 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:19:48 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:19:54 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 22:19:59 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 22:20:17 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-09 22:20:17 | INFO | alejandria | 127.0.0.1 | GET / -> 307 2ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:20:17 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:20:27 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-09 22:20:27 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 2ms size=1482 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:20:27 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:20:27 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:20:35 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-09 22:20:35 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 3ms size=1482 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:20:35 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:20:35 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:20:40 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 22:20:44 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 22:20:46 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-09 22:20:46 | INFO | alejandria | 127.0.0.1 | GET / -> 307 1ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:20:46 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:20:54 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-09 22:20:54 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 2ms size=1482 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:20:54 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:20:54 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:20:59 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-09 22:20:59 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 3ms size=1482 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:20:59 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:20:59 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:21:15 | INFO | alejandria | 127.0.0.1 | GET /static/login.html -> 304 3ms size=- ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:21:15 | INFO | alejandria | 127.0.0.1 | GET /static/login.css -> 304 3ms size=- ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/login.html' user='-'
+2025-11-09 22:22:25 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 22:22:29 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 22:22:31 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-09 22:22:31 | INFO | alejandria | 127.0.0.1 | GET / -> 307 1ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:22:31 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:22:35 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-09 22:22:35 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 2ms size=1482 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:22:35 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:22:35 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:24:30 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 22:27:24 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 22:27:26 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-09 22:27:26 | INFO | alejandria | 127.0.0.1 | GET / -> 307 4ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:27:26 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-09 22:27:26 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:27:26 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 83ms size=1482 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:27:27 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 22:27:28 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 4ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:27:28 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-09 22:27:28 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 73ms size=1482 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:27:28 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 200 2ms size=2882 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:27:28 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 1ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:27:31 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-09 22:27:31 | INFO | alejandria | 127.0.0.1 | GET / -> 307 2ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:27:35 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-09 22:27:35 | INFO | alejandria | 127.0.0.1 | GET / -> 307 1ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:27:40 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 22:27:42 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-09 22:27:42 | INFO | alejandria | 127.0.0.1 | GET / -> 307 2ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:27:44 | INFO | alejandria | 127.0.0.1 | GET /static/signup.html -> 404 3ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:27:44 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 2ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/signup.html' user='-'
+2025-11-09 22:27:52 | INFO | alejandria | 127.0.0.1 | GET /static/index.html -> 404 2ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:27:52 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 1ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/index.html' user='-'
+2025-11-09 22:28:18 | INFO | alejandria | 127.0.0.1 | Serve /signup.html
+2025-11-09 22:28:18 | INFO | alejandria | 127.0.0.1 | GET /signup.html -> 200 2ms size=2139 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:28:18 | INFO | alejandria | 127.0.0.1 | GET /signup.css -> 200 3ms size=2881 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-09 22:28:18 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 2ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-09 22:28:40 | INFO | alejandria | 127.0.0.1 | Serve /signup.html
+2025-11-09 22:28:40 | INFO | alejandria | 127.0.0.1 | GET /signup.html -> 200 2ms size=2139 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:28:40 | INFO | alejandria | 127.0.0.1 | GET /signup.css -> 200 2ms size=2881 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-09 22:28:40 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 1ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-09 22:28:42 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-09 22:28:42 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 2ms size=1468 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-09 22:28:42 | INFO | alejandria | 127.0.0.1 | GET /static/signup.html -> 404 3ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:28:42 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 1ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/signup.html' user='-'
+2025-11-09 22:29:32 | INFO | alejandria | 127.0.0.1 | GET /static/signup.html -> 404 3ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:29:32 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 2ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/signup.html' user='-'
+2025-11-09 22:29:37 | INFO | alejandria | 127.0.0.1 | GET /static/signup.html -> 404 2ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:29:37 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 2ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/signup.html' user='-'
+2025-11-09 22:29:45 | INFO | alejandria | 127.0.0.1 | GET /static/signup.html -> 404 3ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:29:45 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 1ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/signup.html' user='-'
+2025-11-09 22:30:51 | INFO | alejandria | 127.0.0.1 | GET /static/signup.html -> 404 2ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:30:51 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 1ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/signup.html' user='-'
+2025-11-09 22:30:56 | INFO | alejandria | 127.0.0.1 | GET /static/signup.html -> 404 2ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:30:56 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 1ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/signup.html' user='-'
+2025-11-09 22:32:27 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 22:32:40 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 22:36:30 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 22:36:33 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 22:36:35 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-09 22:36:35 | INFO | alejandria | 127.0.0.1 | GET / -> 307 4ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:36:37 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 22:36:37 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-09 22:36:37 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 87ms size=1468 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:36:37 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 200 4ms size=2882 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:36:45 | INFO | alejandria | 127.0.0.1 | Serve /index.html
+2025-11-09 22:36:45 | INFO | alejandria | 127.0.0.1 | GET /index.html -> 200 2ms size=1359 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:36:46 | INFO | alejandria | 127.0.0.1 | GET /index.css -> 200 2ms size=5553 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:36:46 | INFO | alejandria | 127.0.0.1 | GET /app.js -> 200 4ms size=4606 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:36:48 | INFO | alejandria | 127.0.0.1 | GET /remote/search -> 404 4ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:36:52 | INFO | alejandria | 127.0.0.1 | GET /remote/search -> 404 2ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:36:53 | INFO | alejandria | 127.0.0.1 | GET /remote/search -> 404 2ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:36:53 | INFO | alejandria | 127.0.0.1 | GET /remote/search -> 404 2ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:36:56 | INFO | alejandria | 127.0.0.1 | Serve /index.html
+2025-11-09 22:36:56 | INFO | alejandria | 127.0.0.1 | GET /index.html -> 200 3ms size=1359 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:36:56 | INFO | alejandria | 127.0.0.1 | GET /index.css -> 200 4ms size=5553 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:36:56 | INFO | alejandria | 127.0.0.1 | GET /app.js -> 200 5ms size=4606 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:36:56 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 1ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:36:59 | INFO | alejandria | 127.0.0.1 | GET /remote/search -> 404 4ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:37:09 | INFO | alejandria | 127.0.0.1 | GET /remote/search -> 404 3ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:37:10 | INFO | alejandria | 127.0.0.1 | GET /remote/search -> 404 3ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:37:10 | INFO | alejandria | 127.0.0.1 | GET /remote/search -> 404 2ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:37:10 | INFO | alejandria | 127.0.0.1 | GET /remote/search -> 404 3ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:37:22 | INFO | alejandria | 127.0.0.1 | POST /auth/logout -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:37:35 | INFO | alejandria | 127.0.0.1 | POST /auth/logout -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:37:35 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-09 22:37:35 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 2ms size=1468 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:41:27 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-09 22:41:27 | INFO | alejandria | 127.0.0.1 | GET / -> 307 1ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:41:27 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-09 22:41:27 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 1ms size=1468 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:41:41 | INFO | alejandria | 127.0.0.1 | GET /app.js -> 304 0ms size=- ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:41:47 | INFO | alejandria | 127.0.0.1 | POST /auth/logout -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:42:30 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-09 22:42:30 | INFO | alejandria | 127.0.0.1 | GET / -> 307 1ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:42:31 | INFO | alejandria | 127.0.0.1 | Serve /signup.html
+2025-11-09 22:42:31 | INFO | alejandria | 127.0.0.1 | GET /signup.html -> 200 1ms size=2139 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:42:34 | INFO | alejandria | 127.0.0.1 | Serve /index.html
+2025-11-09 22:42:34 | INFO | alejandria | 127.0.0.1 | GET /index.html -> 200 1ms size=1359 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-09 22:42:34 | INFO | alejandria | 127.0.0.1 | GET /index.css -> 304 1ms size=- ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:42:36 | INFO | alejandria | 127.0.0.1 | POST /auth/logout -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:42:40 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 22:42:42 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-09 22:42:42 | INFO | alejandria | 127.0.0.1 | GET / -> 307 0ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:42:47 | INFO | alejandria | 127.0.0.1 | POST /auth/logout -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:42:47 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-09 22:42:47 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 0ms size=1468 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:42:58 | INFO | alejandria | 127.0.0.1 | POST /auth/logout -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:44:08 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 22:44:11 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-09 22:44:11 | INFO | alejandria | 127.0.0.1 | GET / -> 307 1ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:44:17 | INFO | alejandria | 127.0.0.1 | POST /auth/logout -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:44:17 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-09 22:44:17 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 1ms size=1468 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:44:53 | INFO | alejandria | 127.0.0.1 | POST /auth/logout -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:45:02 | INFO | alejandria | 127.0.0.1 | POST /auth/logout -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:46:36 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 22:48:00 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 22:48:02 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-09 22:48:02 | INFO | alejandria | 127.0.0.1 | GET / -> 307 1ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:48:02 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-09 22:48:02 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 50ms size=1468 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:48:07 | INFO | alejandria | 127.0.0.1 | GET /app.js -> 200 1ms size=7808 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:48:07 | INFO | alejandria | 127.0.0.1 | GET /auth/me -> 404 1ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:48:07 | INFO | alejandria | 127.0.0.1 | GET /remote/search -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:48:27 | INFO | alejandria | 127.0.0.1 | Serve /index.html
+2025-11-09 22:48:27 | INFO | alejandria | 127.0.0.1 | GET /index.html -> 200 2ms size=1359 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-09 22:48:27 | INFO | alejandria | 127.0.0.1 | GET /index.css -> 200 0ms size=5553 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:48:27 | INFO | alejandria | 127.0.0.1 | GET /app.js -> 200 1ms size=7808 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:48:27 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 1ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:48:27 | INFO | alejandria | 127.0.0.1 | GET /auth/me -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:48:27 | INFO | alejandria | 127.0.0.1 | GET /remote/search -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:48:32 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-09 22:48:32 | INFO | alejandria | 127.0.0.1 | GET / -> 307 1ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:55:13 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 22:55:15 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-09 22:55:15 | INFO | alejandria | 127.0.0.1 | GET / -> 307 2ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:55:15 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-09 22:55:15 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 2ms size=1468 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:55:16 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-09 22:55:16 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 1ms size=1468 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 22:55:16 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 200 1ms size=2882 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:55:16 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:55:18 | INFO | alejandria | 127.0.0.1 | Serve /signup.html
+2025-11-09 22:55:18 | INFO | alejandria | 127.0.0.1 | GET /signup.html -> 200 1ms size=1958 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:55:18 | INFO | alejandria | 127.0.0.1 | GET /signup.css -> 200 0ms size=2881 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-09 22:55:18 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-09 22:55:25 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-09 22:55:29 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-09 22:55:30 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-09 22:55:31 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-09 22:55:31 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-09 22:55:33 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-09 22:55:37 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-09 22:55:37 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-09 22:55:37 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-09 22:55:37 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-09 22:55:51 | INFO | alejandria | 127.0.0.1 | Serve /index.html
+2025-11-09 22:55:51 | INFO | alejandria | 127.0.0.1 | GET /index.html -> 200 1ms size=1359 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:55:51 | INFO | alejandria | 127.0.0.1 | GET /index.css -> 304 2ms size=- ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:55:51 | INFO | alejandria | 127.0.0.1 | GET /app.js -> 304 2ms size=- ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:55:51 | INFO | alejandria | 127.0.0.1 | GET /auth/me -> 404 2ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:55:51 | INFO | alejandria | 127.0.0.1 | GET /remote/search -> 404 4ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:56:21 | INFO | alejandria | 127.0.0.1 | GET /remote/search -> 404 1ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 22:56:24 | INFO | alejandria | 127.0.0.1 | Serve /signup.html
+2025-11-09 22:56:24 | INFO | alejandria | 127.0.0.1 | GET /signup.html -> 200 1ms size=1958 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 22:56:28 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-09 23:00:33 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 23:00:45 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 23:00:50 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-09 23:00:50 | INFO | alejandria | 127.0.0.1 | GET / -> 307 1ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 23:00:50 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-09 23:00:50 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 1ms size=1468 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 23:00:52 | INFO | alejandria | 127.0.0.1 | Serve /signup.html
+2025-11-09 23:00:52 | INFO | alejandria | 127.0.0.1 | GET /signup.html -> 200 1ms size=1958 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 23:00:53 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-09 23:00:58 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-09 23:00:59 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-09 23:00:59 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-09 23:00:59 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-09 23:01:16 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 23:01:20 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 23:01:24 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-09 23:01:24 | INFO | alejandria | 127.0.0.1 | GET / -> 307 1ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 23:01:29 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-09 23:49:03 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 23:54:04 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 23:56:06 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-09 23:56:08 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-09 23:56:08 | INFO | alejandria | 127.0.0.1 | GET / -> 307 5ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 23:56:08 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-09 23:56:08 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 2ms size=1468 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-09 23:56:08 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 200 2ms size=2882 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 23:56:08 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 2ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 23:56:12 | INFO | alejandria | 127.0.0.1 | Serve /index.html
+2025-11-09 23:56:12 | INFO | alejandria | 127.0.0.1 | GET /index.html -> 200 3ms size=1359 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 23:56:12 | INFO | alejandria | 127.0.0.1 | GET /index.css -> 200 1ms size=5553 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 23:56:12 | INFO | alejandria | 127.0.0.1 | GET /app.js -> 200 1ms size=7808 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 23:56:12 | INFO | alejandria | 127.0.0.1 | GET /auth/me -> 404 1ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 23:56:12 | INFO | alejandria | 127.0.0.1 | GET /remote/search -> 404 1ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-09 23:56:16 | INFO | alejandria | 127.0.0.1 | Serve /signup.html
+2025-11-09 23:56:16 | INFO | alejandria | 127.0.0.1 | GET /signup.html -> 200 2ms size=1958 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-09 23:56:16 | INFO | alejandria | 127.0.0.1 | GET /signup.css -> 200 1ms size=2881 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-09 23:56:19 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:00:26 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 00:02:34 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 00:02:34 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 00:02:36 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 00:02:36 | INFO | alejandria | 127.0.0.1 | GET / -> 307 1ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 00:02:41 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 1ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:04:01 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 00:04:20 | INFO | alejandria | 127.0.0.1 | GET / -> 422 6ms size=93 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 00:04:21 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 4ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:8000/' user='-'
+2025-11-10 00:04:35 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 00:04:38 | INFO | alejandria | 127.0.0.1 | GET / -> 422 0ms size=93 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 00:04:39 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 2ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:8000/' user='-'
+2025-11-10 00:05:54 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 00:07:35 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 00:13:40 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 00:14:46 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 00:14:47 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 00:14:47 | INFO | alejandria | 127.0.0.1 | GET / -> 307 1ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 00:14:47 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 00:14:47 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 2ms size=1468 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 00:14:49 | INFO | alejandria | 127.0.0.1 | Serve /signup.html
+2025-11-10 00:14:49 | INFO | alejandria | 127.0.0.1 | GET /signup.html -> 200 1ms size=1958 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 00:14:51 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:14:52 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 1ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:14:56 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 1ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:14:56 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:14:57 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:14:57 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:14:57 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:15:22 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:15:22 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:15:22 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:15:27 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 1ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:15:28 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 1ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:15:28 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:15:28 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 3ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:15:30 | INFO | alejandria | 127.0.0.1 | Serve /signup.html
+2025-11-10 00:15:30 | INFO | alejandria | 127.0.0.1 | GET /signup.html -> 200 2ms size=1958 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 00:15:34 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:15:35 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:31:31 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 00:31:33 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 00:31:33 | INFO | alejandria | 127.0.0.1 | GET / -> 307 3ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 00:31:33 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 00:31:33 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 3ms size=1468 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 00:31:33 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 2ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 00:31:35 | INFO | alejandria | 127.0.0.1 | Serve /signup.html
+2025-11-10 00:31:35 | INFO | alejandria | 127.0.0.1 | GET /signup.html -> 200 2ms size=1958 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 00:31:38 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 1ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:31:41 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:31:42 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:31:42 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:31:56 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 1ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:31:56 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:33:36 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 00:33:38 | INFO | alejandria | 127.0.0.1 | GET / -> 422 1ms size=93 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 00:33:38 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 2ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:8000/' user='-'
+2025-11-10 00:33:50 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 422 1ms size=93 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 00:33:50 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 5ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:8000/login.html' user='-'
+2025-11-10 00:34:32 | INFO | alejandria | 127.0.0.1 | GET /docs -> 200 0ms size=939 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 00:34:32 | INFO | alejandria | 127.0.0.1 | GET /openapi.json -> 200 63ms size=6625 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:8000/docs' user='-'
+2025-11-10 00:35:45 | INFO | alejandria | 127.0.0.1 | GET /signup.html -> 422 1ms size=93 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 00:35:45 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 4ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:8000/signup.html' user='-'
+2025-11-10 00:36:17 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 00:36:29 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 00:36:30 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 00:36:34 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 00:36:35 | INFO | alejandria | 127.0.0.1 | GET / -> 422 1ms size=93 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 00:37:14 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 00:37:29 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 00:38:02 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 00:38:34 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 00:39:23 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 00:40:47 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 00:44:31 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 00:44:32 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 00:44:35 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 00:45:09 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 00:45:17 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 00:45:34 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 00:45:52 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 00:46:21 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 00:46:23 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 00:46:23 | INFO | alejandria | 127.0.0.1 | GET / -> 307 2ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 00:46:23 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 00:46:23 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 4ms size=1468 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 00:46:23 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 200 3ms size=2882 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 00:46:25 | INFO | alejandria | 127.0.0.1 | Serve /signup.html
+2025-11-10 00:46:25 | INFO | alejandria | 127.0.0.1 | GET /signup.html -> 200 3ms size=1958 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 00:46:25 | INFO | alejandria | 127.0.0.1 | GET /signup.css -> 200 2ms size=2881 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:46:27 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 1ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:46:48 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 00:47:13 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:47:13 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 1ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:47:13 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:47:16 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:47:16 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:47:16 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:47:16 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:47:25 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:47:25 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:47:25 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:49:34 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 00:49:36 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 00:49:36 | INFO | alejandria | 127.0.0.1 | GET / -> 307 5ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 00:49:36 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 00:49:36 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 1ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 00:49:49 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 00:49:50 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 1ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 00:49:50 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 344ms size=1468 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 00:49:50 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 1ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 00:50:00 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 00:50:00 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 4ms size=1468 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:50:00 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 1ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 00:50:00 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 1ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 00:50:02 | INFO | alejandria | 127.0.0.1 | Serve /signup.html
+2025-11-10 00:50:02 | INFO | alejandria | 127.0.0.1 | GET /signup.html -> 200 4ms size=1958 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 00:50:03 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 00:50:03 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 4ms size=1468 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:50:04 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 00:50:07 | INFO | alejandria | 127.0.0.1 | Serve /signup.html
+2025-11-10 00:50:07 | INFO | alejandria | 127.0.0.1 | GET /signup.html -> 200 6ms size=1958 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 00:50:09 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 00:50:09 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 4ms size=1468 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:50:10 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 00:50:11 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 00:50:11 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 2ms size=1468 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:50:11 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 00:50:11 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 00:50:13 | INFO | alejandria | 127.0.0.1 | Serve /signup.html
+2025-11-10 00:50:13 | INFO | alejandria | 127.0.0.1 | GET /signup.html -> 200 2ms size=1958 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 00:50:13 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:50:15 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 200 38ms size=30 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:50:16 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 00:50:23 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 200 3ms size=30 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 00:50:24 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 00:51:05 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 00:51:05 | INFO | alejandria | 127.0.0.1 | GET / -> 307 2ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 00:51:05 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 00:51:05 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 2ms size=1468 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 00:51:05 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 00:51:36 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 00:51:41 | INFO | alejandria | 127.0.0.1 | Serve /index.html
+2025-11-10 00:51:41 | INFO | alejandria | 127.0.0.1 | GET /index.html -> 200 1ms size=1359 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 00:51:41 | INFO | alejandria | 127.0.0.1 | GET /index.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-10 00:51:41 | INFO | alejandria | 127.0.0.1 | GET /app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-10 00:51:43 | INFO | alejandria | 127.0.0.1 | Serve /index.html
+2025-11-10 00:51:43 | INFO | alejandria | 127.0.0.1 | GET /index.html -> 200 1ms size=1359 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html' user='-'
+2025-11-10 00:51:44 | INFO | alejandria | 127.0.0.1 | GET /app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html?q=' user='-'
+2025-11-10 00:51:44 | INFO | alejandria | 127.0.0.1 | GET /index.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html?q=' user='-'
+2025-11-10 00:51:44 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html?q=' user='-'
+2025-11-10 00:51:53 | INFO | alejandria | 127.0.0.1 | Serve /index.html
+2025-11-10 00:51:53 | INFO | alejandria | 127.0.0.1 | GET /index.html -> 200 2ms size=1359 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html?q=' user='-'
+2025-11-10 00:51:53 | INFO | alejandria | 127.0.0.1 | GET /index.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html?q=hola' user='-'
+2025-11-10 00:51:53 | INFO | alejandria | 127.0.0.1 | GET /app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html?q=hola' user='-'
+2025-11-10 00:52:36 | INFO | alejandria | 127.0.0.1 | Serve /index.html
+2025-11-10 00:52:36 | INFO | alejandria | 127.0.0.1 | GET /index.html -> 200 1ms size=1359 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html?q=' user='-'
+2025-11-10 00:52:36 | INFO | alejandria | 127.0.0.1 | GET /index.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html?q=hola' user='-'
+2025-11-10 00:52:36 | INFO | alejandria | 127.0.0.1 | GET /app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html?q=hola' user='-'
+2025-11-10 00:52:36 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/index.html?q=hola' user='-'
+2025-11-10 00:52:42 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 00:52:43 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 00:52:43 | INFO | alejandria | 127.0.0.1 | GET / -> 307 1ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 00:52:43 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 00:53:00 | INFO | alejandria | 127.0.0.1 | GET /docs -> 200 0ms size=939 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 00:53:00 | INFO | alejandria | 127.0.0.1 | GET /openapi.json -> 200 8ms size=2274 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/docs' user='-'
+2025-11-10 00:54:07 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 00:59:10 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 00:59:10 | INFO | alejandria | 127.0.0.1 | GET / -> 307 1ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 00:59:10 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 00:59:10 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:01:30 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 01:01:33 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 01:01:37 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 01:01:38 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 01:01:38 | INFO | alejandria | 127.0.0.1 | GET / -> 307 2ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:01:38 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:01:42 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 01:01:42 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 47ms size=2508 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:01:42 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:01:42 | INFO | alejandria | 127.0.0.1 | GET /static/app.js -> 200 1ms size=1463 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:01:42 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:01:50 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 01:02:00 | INFO | alejandria | 127.0.0.1 | GET /static/login.html -> 200 44ms size=2508 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:02:00 | INFO | alejandria | 127.0.0.1 | GET /static/login.css -> 200 1ms size=2882 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/login.html' user='-'
+2025-11-10 01:02:10 | INFO | alejandria | 127.0.0.1 | Serve /signup.html
+2025-11-10 01:02:10 | INFO | alejandria | 127.0.0.1 | GET /signup.html -> 200 1ms size=1958 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/login.html' user='-'
+2025-11-10 01:02:10 | INFO | alejandria | 127.0.0.1 | GET /signup.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:02:10 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:02:17 | INFO | alejandria | 127.0.0.1 | GET /static/signup.html -> 200 1ms size=1958 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:02:17 | INFO | alejandria | 127.0.0.1 | GET /static/signup.css -> 200 1ms size=2881 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/signup.html' user='-'
+2025-11-10 01:02:21 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 200 1ms size=30 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/signup.html' user='-'
+2025-11-10 01:02:22 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 01:02:22 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 1ms size=2508 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/signup.html' user='-'
+2025-11-10 01:02:22 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:02:22 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:04:06 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 01:04:14 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 01:04:15 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 01:04:15 | INFO | alejandria | 127.0.0.1 | GET / -> 307 1ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:04:15 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 01:04:15 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 48ms size=2508 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:04:15 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:04:15 | INFO | alejandria | 127.0.0.1 | GET /static/app.js -> 200 1ms size=1463 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:04:15 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:04:54 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 01:04:56 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 01:05:00 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 01:05:02 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 01:05:02 | INFO | alejandria | 127.0.0.1 | GET / -> 307 1ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:05:02 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 01:05:02 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 46ms size=2508 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:05:02 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:05:02 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:05:46 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 01:05:48 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 01:05:48 | INFO | alejandria | 127.0.0.1 | GET / -> 307 2ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:05:48 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 01:05:48 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 44ms size=2508 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:05:48 | INFO | alejandria | 127.0.0.1 | GET /static/app.js -> 304 2ms size=- ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:05:48 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:05:48 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:06:59 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 01:07:02 | INFO | alejandria | 127.0.0.1 | GET /static/login.html -> 200 1ms size=2508 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:07:02 | INFO | alejandria | 127.0.0.1 | GET /static/login.css -> 200 1ms size=2882 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/login.html' user='-'
+2025-11-10 01:07:02 | INFO | alejandria | 127.0.0.1 | GET /static/app.js -> 200 1ms size=1463 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/login.html' user='-'
+2025-11-10 01:07:02 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/login.html' user='-'
+2025-11-10 01:07:12 | INFO | alejandria | 127.0.0.1 | GET /static/app.js -> 200 1ms size=1463 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:07:54 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 01:07:57 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 01:09:09 | INFO | alejandria | 127.0.0.1 | GET /health -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:09:09 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/health' user='-'
+2025-11-10 01:09:27 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 01:09:28 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 01:09:38 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 01:09:40 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 01:09:42 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 01:09:42 | INFO | alejandria | 127.0.0.1 | GET / -> 307 1ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:09:42 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 01:09:42 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 44ms size=2508 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:09:42 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:09:42 | INFO | alejandria | 127.0.0.1 | GET /static/app.js -> 200 1ms size=1463 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:09:42 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:09:59 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 01:12:02 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 01:12:08 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 01:12:10 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 01:12:10 | INFO | alejandria | 127.0.0.1 | GET / -> 307 2ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:12:10 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 01:12:10 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 46ms size=2508 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:12:10 | INFO | alejandria | 127.0.0.1 | GET /static/app.js -> 304 2ms size=- ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:12:10 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:12:10 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:14:24 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 01:14:33 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 01:14:34 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 01:14:34 | INFO | alejandria | 127.0.0.1 | GET / -> 307 2ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:14:34 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 01:14:34 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 41ms size=2508 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:14:34 | INFO | alejandria | 127.0.0.1 | GET /static/app.js -> 304 1ms size=- ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:14:34 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:14:34 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:14:45 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 01:16:15 | INFO | alejandria | 127.0.0.1 | GET /static/login.html -> 200 52ms size=2508 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:16:15 | INFO | alejandria | 127.0.0.1 | GET /static/login.css -> 200 1ms size=2882 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/login.html' user='-'
+2025-11-10 01:16:15 | INFO | alejandria | 127.0.0.1 | GET /static/app.js -> 200 2ms size=1463 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/login.html' user='-'
+2025-11-10 01:16:15 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/login.html' user='-'
+2025-11-10 01:19:12 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 01:19:12 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 01:22:43 | INFO | alejandria | - | Aplicación Alejandría iniciada
+2025-11-10 01:22:50 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 01:22:50 | INFO | alejandria | 127.0.0.1 | GET / -> 307 1ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:22:50 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 01:22:50 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 43ms size=2508 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:22:50 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:22:50 | INFO | alejandria | 127.0.0.1 | GET /static/app.js -> 200 1ms size=1463 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:22:50 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:24:00 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 01:24:00 | INFO | alejandria | 127.0.0.1 | GET / -> 307 1ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:24:00 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:24:00 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:24:03 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 01:24:03 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 1ms size=2508 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:24:03 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:24:03 | INFO | alejandria | 127.0.0.1 | GET /static/app.js -> 200 1ms size=1463 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:24:03 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:31:19 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 01:31:19 | INFO | alejandria | 127.0.0.1 | GET / -> 307 1ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:31:19 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 01:31:19 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 1ms size=2508 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:31:19 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:31:19 | INFO | alejandria | 127.0.0.1 | GET /static/app.js -> 304 1ms size=- ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:32:01 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 01:32:01 | INFO | alejandria | 127.0.0.1 | GET / -> 307 1ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:32:02 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:32:02 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:32:43 | INFO | alejandria | 127.0.0.1 | Serve /signup.html
+2025-11-10 01:32:43 | INFO | alejandria | 127.0.0.1 | GET /signup.html -> 200 1ms size=1958 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:32:43 | INFO | alejandria | 127.0.0.1 | GET /signup.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:32:46 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:32:48 | INFO | alejandria | 127.0.0.1 | POST /auth/login -> 401 2ms size=37 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:32:54 | INFO | alejandria | 127.0.0.1 | POST /auth/login -> 401 2ms size=37 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:32:55 | INFO | alejandria | 127.0.0.1 | GET /signup.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:32:57 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 200 3ms size=30 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:32:57 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:33:00 | INFO | alejandria | 127.0.0.1 | POST /auth/login -> 401 1ms size=37 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:33:14 | INFO | alejandria | 127.0.0.1 | GET /static/login.html -> 304 1ms size=- ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:33:18 | INFO | alejandria | 127.0.0.1 | POST /auth/login -> 401 1ms size=37 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/login.html' user='-'
+2025-11-10 01:33:20 | INFO | alejandria | 127.0.0.1 | POST /auth/login -> 401 2ms size=37 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/login.html' user='-'
+2025-11-10 01:33:20 | INFO | alejandria | 127.0.0.1 | POST /auth/login -> 401 1ms size=37 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/login.html' user='-'
+2025-11-10 01:33:21 | INFO | alejandria | 127.0.0.1 | POST /auth/login -> 401 1ms size=37 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/login.html' user='-'
+2025-11-10 01:33:22 | INFO | alejandria | 127.0.0.1 | GET /signup.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:34:05 | INFO | alejandria | 127.0.0.1 | Serve /signup.html
+2025-11-10 01:34:05 | INFO | alejandria | 127.0.0.1 | GET /signup.html -> 200 2ms size=1958 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/login.html' user='-'
+2025-11-10 01:34:05 | INFO | alejandria | 127.0.0.1 | GET /signup.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:34:05 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:34:07 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:34:33 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 01:34:33 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 1ms size=2510 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:34:33 | INFO | alejandria | 127.0.0.1 | GET /web/login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:34:33 | INFO | alejandria | 127.0.0.1 | GET /static/app.js -> 200 1ms size=1463 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:34:33 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:35:39 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 01:35:39 | INFO | alejandria | 127.0.0.1 | GET / -> 307 1ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:35:39 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 01:35:39 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 1ms size=1843 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:35:39 | INFO | alejandria | 127.0.0.1 | GET /web/app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:35:39 | INFO | alejandria | 127.0.0.1 | GET /web/login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:35:39 | INFO | alejandria | 127.0.0.1 | GET /web/app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:35:39 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:35:59 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 01:35:59 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 1ms size=1843 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:36:17 | INFO | alejandria | 127.0.0.1 | GET /web/signup.html -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:36:18 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/web/signup.html' user='-'
+2025-11-10 01:40:44 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 01:40:44 | INFO | alejandria | 127.0.0.1 | GET / -> 307 1ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:40:44 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 01:40:44 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 1ms size=1089 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:40:44 | INFO | alejandria | 127.0.0.1 | GET /web/login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:40:44 | INFO | alejandria | 127.0.0.1 | GET /web/app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:40:44 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:41:10 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 01:41:10 | INFO | alejandria | 127.0.0.1 | GET / -> 307 1ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:41:10 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 01:41:10 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 1ms size=1089 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:41:10 | INFO | alejandria | 127.0.0.1 | GET /web/app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:41:10 | INFO | alejandria | 127.0.0.1 | GET /web/login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:41:10 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:41:38 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 01:41:38 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 1ms size=1089 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:41:38 | INFO | alejandria | 127.0.0.1 | GET /web/app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:41:38 | INFO | alejandria | 127.0.0.1 | GET /web/login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:41:38 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:41:41 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 01:41:41 | INFO | alejandria | 127.0.0.1 | GET / -> 307 1ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:41:41 | INFO | alejandria | 127.0.0.1 | GET /web/app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:41:41 | INFO | alejandria | 127.0.0.1 | GET /web/login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:41:41 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:41:46 | INFO | alejandria | 127.0.0.1 | GET /web/login.html -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:41:46 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/web/login.html' user='-'
+2025-11-10 01:41:52 | INFO | alejandria | 127.0.0.1 | GET /static/login.html -> 200 1ms size=1089 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:41:52 | INFO | alejandria | 127.0.0.1 | GET /web/app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/login.html' user='-'
+2025-11-10 01:41:52 | INFO | alejandria | 127.0.0.1 | GET /web/login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/login.html' user='-'
+2025-11-10 01:41:52 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/login.html' user='-'
+2025-11-10 01:41:56 | INFO | alejandria | 127.0.0.1 | GET /web/app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/login.html' user='-'
+2025-11-10 01:41:56 | INFO | alejandria | 127.0.0.1 | GET /web/login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/login.html' user='-'
+2025-11-10 01:41:56 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/login.html' user='-'
+2025-11-10 01:41:58 | INFO | alejandria | 127.0.0.1 | GET /static/login.html -> 200 1ms size=1089 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:41:58 | INFO | alejandria | 127.0.0.1 | GET /web/login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/login.html' user='-'
+2025-11-10 01:41:58 | INFO | alejandria | 127.0.0.1 | GET /web/app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/login.html' user='-'
+2025-11-10 01:41:58 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/login.html' user='-'
+2025-11-10 01:42:02 | INFO | alejandria | 127.0.0.1 | GET /static/login.html -> 200 1ms size=1089 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:42:02 | INFO | alejandria | 127.0.0.1 | GET /web/login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/login.html' user='-'
+2025-11-10 01:42:02 | INFO | alejandria | 127.0.0.1 | GET /web/app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/login.html' user='-'
+2025-11-10 01:42:02 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/login.html' user='-'
+2025-11-10 01:42:06 | INFO | alejandria | 127.0.0.1 | GET /static/login.html -> 200 1ms size=1089 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:42:06 | INFO | alejandria | 127.0.0.1 | GET /web/login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/login.html' user='-'
+2025-11-10 01:42:06 | INFO | alejandria | 127.0.0.1 | GET /web/app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/login.html' user='-'
+2025-11-10 01:42:06 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/login.html' user='-'
+2025-11-10 01:42:13 | INFO | alejandria | 127.0.0.1 | GET /web/login.html -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:42:13 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/web/login.html' user='-'
+2025-11-10 01:42:55 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 01:42:55 | INFO | alejandria | 127.0.0.1 | GET / -> 307 1ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:42:55 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 01:42:55 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 1ms size=1089 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:42:55 | INFO | alejandria | 127.0.0.1 | GET /web/login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:42:55 | INFO | alejandria | 127.0.0.1 | GET /web/app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:42:55 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:42:58 | INFO | alejandria | 127.0.0.1 | POST /login.html -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:42:58 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:46:44 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 01:46:44 | INFO | alejandria | 127.0.0.1 | GET / -> 307 1ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:46:44 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 01:46:44 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 1ms size=1089 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:46:44 | INFO | alejandria | 127.0.0.1 | GET /web/login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:46:44 | INFO | alejandria | 127.0.0.1 | GET /web/app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:46:44 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:46:50 | INFO | alejandria | 127.0.0.1 | POST /login.html -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:46:50 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:48:36 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 01:48:36 | INFO | alejandria | 127.0.0.1 | GET / -> 307 2ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:48:36 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 01:48:36 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 1ms size=1089 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:48:36 | INFO | alejandria | 127.0.0.1 | GET /web/app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:48:36 | INFO | alejandria | 127.0.0.1 | GET /web/login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:48:36 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:48:39 | INFO | alejandria | 127.0.0.1 | POST /login.html -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:48:39 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:50:38 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 01:50:38 | INFO | alejandria | 127.0.0.1 | GET / -> 307 1ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:50:38 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 01:50:38 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 1ms size=1089 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:50:38 | INFO | alejandria | 127.0.0.1 | GET /web/app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:50:38 | INFO | alejandria | 127.0.0.1 | GET /web/login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:50:38 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:50:39 | INFO | alejandria | 127.0.0.1 | GET /web/signup.html -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:50:39 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/web/signup.html' user='-'
+2025-11-10 01:51:44 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 01:51:44 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 1ms size=1089 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:51:44 | INFO | alejandria | 127.0.0.1 | GET /web/login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:51:44 | INFO | alejandria | 127.0.0.1 | GET /web/app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:51:44 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:51:48 | INFO | alejandria | 127.0.0.1 | GET /web/signup.html -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:51:48 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/web/signup.html' user='-'
+2025-11-10 01:52:01 | INFO | alejandria | 127.0.0.1 | Serve /signup.html
+2025-11-10 01:52:01 | INFO | alejandria | 127.0.0.1 | GET /signup.html -> 200 1ms size=1958 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:52:01 | INFO | alejandria | 127.0.0.1 | GET /signup.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:52:01 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:52:05 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 01:52:05 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 1ms size=1089 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:52:05 | INFO | alejandria | 127.0.0.1 | GET /web/login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:52:05 | INFO | alejandria | 127.0.0.1 | GET /web/app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:52:05 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:52:07 | INFO | alejandria | 127.0.0.1 | GET /web/signup.html -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:52:07 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/web/signup.html' user='-'
+2025-11-10 01:52:12 | INFO | alejandria | 127.0.0.1 | GET /signup.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:52:12 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:52:16 | INFO | alejandria | 127.0.0.1 | POST /auth/signup -> 200 1ms size=30 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:52:17 | INFO | alejandria | 127.0.0.1 | GET /web/app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:52:17 | INFO | alejandria | 127.0.0.1 | GET /web/login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:52:40 | INFO | alejandria | 127.0.0.1 | GET /web/app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:52:41 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/web/app.js' user='-'
+2025-11-10 01:55:49 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 01:55:49 | INFO | alejandria | 127.0.0.1 | GET / -> 307 2ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:55:49 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 01:55:49 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 2ms size=1084 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:55:49 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:55:49 | INFO | alejandria | 127.0.0.1 | GET /web/app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:55:50 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 1ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:55:52 | INFO | alejandria | 127.0.0.1 | GET /web/signup.html -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:55:52 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 2ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/web/signup.html' user='-'
+2025-11-10 01:56:07 | INFO | alejandria | 127.0.0.1 | Serve /signup.html
+2025-11-10 01:56:07 | INFO | alejandria | 127.0.0.1 | GET /signup.html -> 200 2ms size=1999 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:56:07 | INFO | alejandria | 127.0.0.1 | GET /signup.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:56:07 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:56:38 | INFO | alejandria | 127.0.0.1 | Serve /signup.html
+2025-11-10 01:56:38 | INFO | alejandria | 127.0.0.1 | GET /signup.html -> 200 2ms size=1999 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:56:38 | INFO | alejandria | 127.0.0.1 | GET /signup.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:56:38 | INFO | alejandria | 127.0.0.1 | GET /app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:56:38 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:56:40 | INFO | alejandria | 127.0.0.1 | Serve /signup.html
+2025-11-10 01:56:40 | INFO | alejandria | 127.0.0.1 | GET /signup.html -> 200 2ms size=1999 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:56:40 | INFO | alejandria | 127.0.0.1 | GET /signup.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:56:40 | INFO | alejandria | 127.0.0.1 | GET /app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:56:41 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:56:42 | INFO | alejandria | 127.0.0.1 | Serve /signup.html
+2025-11-10 01:56:42 | INFO | alejandria | 127.0.0.1 | GET /signup.html -> 200 2ms size=1999 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:56:42 | INFO | alejandria | 127.0.0.1 | GET /signup.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:56:42 | INFO | alejandria | 127.0.0.1 | GET /app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:56:42 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:56:45 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 01:56:45 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 3ms size=1084 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:56:45 | INFO | alejandria | 127.0.0.1 | GET /web/app.js -> 404 1ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:56:45 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:56:45 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:56:46 | INFO | alejandria | 127.0.0.1 | GET /web/signup.html -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:56:46 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 1ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/web/signup.html' user='-'
+2025-11-10 01:59:01 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 01:59:01 | INFO | alejandria | 127.0.0.1 | GET / -> 307 2ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:59:01 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 01:59:01 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 2ms size=738 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:59:01 | INFO | alejandria | 127.0.0.1 | GET /app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:59:01 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:59:03 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 01:59:03 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 3ms size=738 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 01:59:03 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:59:03 | INFO | alejandria | 127.0.0.1 | GET /app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:59:03 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:59:04 | INFO | alejandria | 127.0.0.1 | Serve /signup.html
+2025-11-10 01:59:04 | INFO | alejandria | 127.0.0.1 | GET /signup.html -> 200 3ms size=655 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:59:04 | INFO | alejandria | 127.0.0.1 | GET /app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:59:04 | INFO | alejandria | 127.0.0.1 | GET /signup.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:59:06 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:59:06 | INFO | alejandria | 127.0.0.1 | GET /app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:59:09 | INFO | alejandria | 127.0.0.1 | Serve /signup.html
+2025-11-10 01:59:09 | INFO | alejandria | 127.0.0.1 | GET /signup.html -> 200 2ms size=655 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:59:09 | INFO | alejandria | 127.0.0.1 | GET /app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:59:09 | INFO | alejandria | 127.0.0.1 | GET /signup.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:59:09 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:59:13 | INFO | alejandria | 127.0.0.1 | Serve /signup.html
+2025-11-10 01:59:13 | INFO | alejandria | 127.0.0.1 | GET /signup.html -> 200 3ms size=655 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 01:59:13 | INFO | alejandria | 127.0.0.1 | GET /signup.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html?username=pablo&password=123456' user='-'
+2025-11-10 01:59:13 | INFO | alejandria | 127.0.0.1 | GET /app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html?username=pablo&password=123456' user='-'
+2025-11-10 01:59:14 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 01:59:14 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 3ms size=738 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html?username=pablo&password=123456' user='-'
+2025-11-10 01:59:15 | INFO | alejandria | 127.0.0.1 | GET /app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:59:15 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:59:15 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 1ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:59:17 | INFO | alejandria | 127.0.0.1 | POST /login.html -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 01:59:18 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 02:00:02 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 02:00:02 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 3ms size=738 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 02:00:02 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 1ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 02:00:02 | INFO | alejandria | 127.0.0.1 | GET /app.js -> 404 1ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 02:00:02 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 1ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 02:00:07 | INFO | alejandria | 127.0.0.1 | GET /web/login.html -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 02:00:07 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 1ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/web/login.html' user='-'
+2025-11-10 02:00:13 | INFO | alejandria | 127.0.0.1 | GET /static/login.html -> 200 2ms size=738 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 02:00:13 | INFO | alejandria | 127.0.0.1 | GET /static/login.css -> 304 2ms size=- ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/login.html' user='-'
+2025-11-10 02:00:13 | INFO | alejandria | 127.0.0.1 | GET /static/app.js -> 200 2ms size=1463 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/static/login.html' user='-'
+2025-11-10 02:05:32 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 02:05:32 | INFO | alejandria | 127.0.0.1 | GET / -> 307 2ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 02:05:32 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 02:05:32 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 3ms size=738 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 02:05:32 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 02:05:32 | INFO | alejandria | 127.0.0.1 | GET /app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 02:05:32 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 02:05:35 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 02:05:35 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 2ms size=738 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 02:05:35 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 02:05:35 | INFO | alejandria | 127.0.0.1 | GET /app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 02:05:35 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 02:05:39 | INFO | alejandria | 127.0.0.1 | POST /login.html -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 02:05:39 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 02:05:42 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 02:05:42 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 3ms size=738 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 02:05:42 | INFO | alejandria | 127.0.0.1 | GET /app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 02:05:42 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 02:05:44 | INFO | alejandria | 127.0.0.1 | Serve /signup.html
+2025-11-10 02:05:44 | INFO | alejandria | 127.0.0.1 | GET /signup.html -> 200 3ms size=655 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 02:05:44 | INFO | alejandria | 127.0.0.1 | GET /app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 02:05:44 | INFO | alejandria | 127.0.0.1 | GET /signup.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 02:05:46 | INFO | alejandria | 127.0.0.1 | Serve /signup.html
+2025-11-10 02:05:46 | INFO | alejandria | 127.0.0.1 | GET /signup.html -> 200 2ms size=655 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 02:05:46 | INFO | alejandria | 127.0.0.1 | GET /app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html?username=pablo&password=123456' user='-'
+2025-11-10 02:05:46 | INFO | alejandria | 127.0.0.1 | GET /signup.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html?username=pablo&password=123456' user='-'
+2025-11-10 02:05:46 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html?username=pablo&password=123456' user='-'
+2025-11-10 02:05:48 | INFO | alejandria | 127.0.0.1 | GET /app.js -> 404 1ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 02:05:48 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 02:05:50 | INFO | alejandria | 127.0.0.1 | POST /login.html -> 405 0ms size=31 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 02:05:50 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 02:09:54 | INFO | alejandria | 127.0.0.1 | Serve /login.html
+2025-11-10 02:09:54 | INFO | alejandria | 127.0.0.1 | GET /login.html -> 200 4ms size=738 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 02:09:54 | INFO | alejandria | 127.0.0.1 | GET /app.js -> 404 1ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 02:09:54 | INFO | alejandria | 127.0.0.1 | GET /login.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 02:09:57 | INFO | alejandria | 127.0.0.1 | Serve /signup.html
+2025-11-10 02:09:57 | INFO | alejandria | 127.0.0.1 | GET /signup.html -> 200 2ms size=655 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/login.html' user='-'
+2025-11-10 02:09:57 | INFO | alejandria | 127.0.0.1 | GET /app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 02:09:57 | INFO | alejandria | 127.0.0.1 | GET /signup.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 02:10:03 | INFO | alejandria | 127.0.0.1 | Serve /signup.html
+2025-11-10 02:10:03 | INFO | alejandria | 127.0.0.1 | GET /signup.html -> 200 2ms size=655 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html' user='-'
+2025-11-10 02:10:03 | INFO | alejandria | 127.0.0.1 | GET /app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html?username=pablo&password=123456' user='-'
+2025-11-10 02:10:03 | INFO | alejandria | 127.0.0.1 | GET /signup.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html?username=pablo&password=123456' user='-'
+2025-11-10 02:10:03 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 1ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html?username=pablo&password=123456' user='-'
+2025-11-10 02:10:22 | INFO | alejandria | 127.0.0.1 | GET /signup.css -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html?username=pablo&password=123456' user='-'
+2025-11-10 02:10:22 | INFO | alejandria | 127.0.0.1 | GET /app.js -> 404 0ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:5000/signup.html?username=pablo&password=123456' user='-'
+2025-11-10 13:39:33 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 13:39:33 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 13:39:33 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 13:39:33 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 13:39:34 | INFO | alejandria | 127.0.0.1 | GET / -> /login.html
+2025-11-10 13:39:34 | INFO | alejandria | 127.0.0.1 | GET / -> 307 67ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 13:39:34 | INFO | alejandria | 127.0.0.1 | GET / -> 307 65ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 13:39:34 | INFO | alejandria | 127.0.0.1 | GET / -> 307 66ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 13:39:34 | INFO | alejandria | 127.0.0.1 | GET / -> 307 66ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 13:39:34 | INFO | alejandria | 127.0.0.1 | GET / -> 307 68ms size=0 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 13:39:34 | INFO | alejandria | 127.0.0.1 | GET / -> 422 65ms size=93 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 13:39:34 | INFO | alejandria | 127.0.0.1 | GET /docs -> 200 65ms size=939 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 13:39:34 | INFO | alejandria | 127.0.0.1 | GET /signup.html -> 422 66ms size=93 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 13:39:34 | INFO | alejandria | 12.0.0.1 | GET / -> 422 66ms size=93 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 13:39:34 | INFO | alejandria | 127.0.0.1 | GET / -> 422 67ms size=93 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 13:39:34 | INFO | alejandria | 127.0.0.1 | GET / -> 422 67ms size=93 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 13:39:34 | INFO | alejandria | 127.0.0.1 | GET / -> 422 67ms size=93 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 13:39:34 | INFO | alejandria | 127.0.0.1 | GET /docs -> 200 67ms size=939 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 13:39:34 | INFO | alejandria | 127.0.0.1 | GET / -> 422 67ms size=93 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 13:39:34 | INFO | alejandria | 127.0.0.1 | GET / -> 422 68ms size=93 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 13:39:34 | INFO | alejandria | 127.0.0.1 | GET / -> 422 68ms size=93 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 13:39:34 | INFO | alejandria | 127.0.0.1 | GET / -> 422 68ms size=93 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-10 13:39:34 | INFO | alejandria | 127.0.0.1 | GET /docs -> 200 68ms size=939 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-12 12:37:23 | INFO | alejandria | 127.0.0.1 | POST /analytics/data -> 405 23ms size=31 ua='curl/8.12.1' ref='-' user='-'
+2025-11-12 12:38:59 | INFO | alejandria | 127.0.0.1 | GET /analytics/data -> 404 42ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-12 12:38:59 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 5ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:8000/analytics/data' user='-'
+2025-11-12 12:39:13 | INFO | alejandria | 127.0.0.1 | GET / -> 422 22ms size=93 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-12 12:39:13 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 2ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:8000/' user='-'
+2025-11-12 12:39:49 | INFO | alejandria | 127.0.0.1 | POST /analytics/data -> 405 0ms size=31 ua='curl/8.12.1' ref='-' user='-'
+2025-11-12 12:41:21 | INFO | alejandria | 127.0.0.1 | GET /docs -> 200 7ms size=939 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-12 12:41:21 | INFO | alejandria | 127.0.0.1 | GET /openapi.json -> 200 12ms size=6625 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:8000/docs' user='-'
+2025-11-12 12:47:39 | INFO | alejandria | 127.0.0.1 | GET / -> 422 1ms size=93 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-12 12:47:39 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 2ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:8000/' user='-'
+2025-11-12 12:47:47 | INFO | alejandria | 127.0.0.1 | GET /docs -> 200 13ms size=939 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-12 12:47:48 | INFO | alejandria | 127.0.0.1 | GET /openapi.json -> 200 0ms size=6625 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:8000/docs' user='-'
+2025-11-12 12:47:51 | INFO | alejandria | 127.0.0.1 | GET / -> 422 25ms size=93 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-12 12:47:51 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 3ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:8000/' user='-'
+2025-11-12 12:48:01 | INFO | alejandria | 127.0.0.1 | GET /index.html -> 422 1ms size=93 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='-' user='-'
+2025-11-12 12:48:01 | INFO | alejandria | 127.0.0.1 | GET /favicon.ico -> 404 1ms size=22 ua='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0' ref='http://127.0.0.1:8000/index.html' user='-'

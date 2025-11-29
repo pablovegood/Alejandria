@@ -1,0 +1,150 @@
+body {
+  font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: radial-gradient(circle at top, #2c1810, #0a0604);
+  background-attachment: fixed;
+  color: #fdf6e3;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* === CONTENEDOR PRINCIPAL === */
+.auth-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* === TARJETA === */
+.auth-card {
+  background: rgba(30, 25, 18, 0.9);
+  border-radius: 18px;
+  padding: 32px 36px;
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.7);
+  width: 100%;
+  max-width: 420px;
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  backdrop-filter: blur(10px);
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+/* === TÍTULO === */
+h1 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 1.9rem;
+  color: #facc15;
+  text-shadow: 0 0 8px rgba(250, 204, 21, 0.3);
+}
+
+/* === SUBTÍTULO === */
+.subtitle {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #e7dec8;
+  margin-bottom: 20px;
+}
+
+/* === FORMULARIO === */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 0.85rem;
+  color: #fefce8;
+  margin-bottom: 4px;
+}
+
+/* === CAMPOS DE TEXTO === */
+input {
+  padding: 10px 12px;
+  margin-bottom: 14px;
+  border-radius: 10px;
+  border: 1px solid #a67c52;
+  background: rgba(20, 16, 10, 0.85);
+  color: #fdf6e3;
+  font-size: 0.95rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+input::placeholder {
+  color: #c9b47e;
+  opacity: 0.8;
+}
+
+input:focus {
+  outline: none;
+  border-color: #facc15;
+  box-shadow: 0 0 0 1px rgba(250, 204, 21, 0.6);
+}
+
+/* === BOTÓN === */
+button {
+  background: linear-gradient(90deg, #facc15, #f59e0b);
+  color: #1a1205;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: 0 6px 18px rgba(250, 204, 21, 0.2);
+}
+
+button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(250, 204, 21, 0.35);
+}
+
+/* === MENSAJES === */
+.message {
+  text-align: center;
+  font-size: 0.9rem;
+  min-height: 22px;
+  margin-top: 8px;
+}
+
+.message.error {
+  color: #f87171;
+}
+
+.message.ok {
+  color: #4ade80;
+}
+
+/* === ENLACE AL SIGNUP === */
+.toggle {
+  margin-top: 18px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #d4c9a1;
+}
+
+.toggle a {
+  color: #facc15;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.toggle a:hover {
+  text-decoration: underline;
+  text-shadow: 0 0 6px rgba(250, 204, 21, 0.4);
+}
+
+/* === ANIMACIÓN === */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

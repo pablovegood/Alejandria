@@ -1,0 +1,42 @@
+version: "3.9"
+
+services:
+  data:
+    build:
+      context: .
+      dockerfile: Dockerfile.data
+    container_name: alejandria-data
+    volumes:
+      - alejandria_texts:/data/texts
+    restart: unless-stopped
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    container_name: alejandria-api
+    depends_on:
+      - data
+    # Montamos el volumen de textos en la ruta que usa tu código:
+    # src/catalog/router.py usa .../data/texts :contentReference[oaicite:2]{index=2}
+    volumes:
+      - alejandria_texts:/app/data/texts:ro
+    ports:
+      - "8000:8000"
+    environment:
+      # ejemplo de config-como-código
+      - LOG_LEVEL=info
+
+  web:
+    build:
+      context: .
+    # Docker usa por defecto Dockerfile.web si lo indicamos aquí:
+      dockerfile: Dockerfile.web
+    container_name: alejandria-web
+    depends_on:
+      - api
+    ports:
+      - "8080:80"
+
+volumes:
+  alejandria_texts:

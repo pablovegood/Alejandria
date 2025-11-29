@@ -1,25 +1,14 @@
-import pytest
-from services.library_service import LibraryService
+from src.loan.service import LoanService
 
-@pytest.fixture
-def library(tmp_path):
-    from services import storage
-    storage.DATA_FILE = tmp_path / "test_data.json"
-    lib = LibraryService()
-    return lib
+def test_create_and_delete_loan(tmp_path):
+    db_path = tmp_path / "loan_test.db"
+    service = LoanService()
+    service.db = service.db  # usar la conexión interna
 
-def test_register_user_success(library):
-    msg = library.register_user("Cleopatra")
-    assert hasattr(msg, "username")
-    assert msg.username == "Cleopatra"
+    service.create_loan("pablo", 123, "Libro test", "Autor X")
+    loans = service.list_loans("pablo")
+    assert any(l["guten_id"] == 123 for l in loans)
 
-def test_register_user_duplicate(library):
-    library.register_user("Ramsés")
-    msg = library.register_user("ramsés")
-    assert "ya está registrado" in msg
-
-def test_find_user(library):
-    library.register_user("Imhotep")
-    user = library.find_user("imhotep")
-    assert user is not None
-    assert user.username == "Imhotep"
+    service.delete_loan("pablo", 123)
+    loans_after = service.list_loans("pablo")
+    assert not any(l["guten_id"] == 123 for l in loans_after)
