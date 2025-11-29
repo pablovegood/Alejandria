@@ -39,7 +39,7 @@ Como puerto interno tiene el 80 y en compose.yaml se mapea como 8080:80, de form
 
 - [`Dockerfile.data`](https://github.com/pablovegood/Alejandria/blob/main/Dockerfile.data)
 
-La imagen base es **busybox**, ya que es una imagen mínima, ideal para contenedores de datos. Hace una copia de todos los archivos con extensión .txt y declara el volumen **VOLUME ["/data/texts"]**. Tiene un comando final que permite mantener el contenedor activo e inspeccionar los datos. El contenedor no exponepuertos ni ejecuta lógica de negocio.
+La imagen base es **busybox**, ya que es una imagen mínima, ideal para contenedores de datos. Hace una copia de todos los archivos con extensión .txt y declara el volumen **VOLUME ["/data/texts"]**. Tiene un comando final que permite mantener el contenedor activo e inspeccionar los datos. El contenedor no expone puertos ni ejecuta lógica de negocio.
 
 ## GitHub Packages y actualización automática
 
