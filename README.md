@@ -32,6 +32,7 @@ puede **ayudar a autores** que estén empezando en el mundo editorial a usar la 
 |----|------|--------------|---------|
 | 1️⃣ | **Hito 1** | Configuración de Git, selección de licencia y planteamiento del servicio a desplegar. | [Ver Hito 1](https://github.com/pablovegood/Alejandria/tree/main/documentacion/Hito1) |
 | 2️⃣ | **Hito 2** | Implementación de Integración Continua (CI) con pytest, Invoke y GitHub Actions. | [Ver Hito 2](https://github.com/pablovegood/Alejandria/tree/main/documentacion/Hito2) |
+| 3️⃣ | **Hito 3** | Diseño de microservicios. | [Ver Hito 3](https://github.com/pablovegood/Alejandria/blob/Hito3/documentacion/Hito3/README.md) |
 
 ---
 

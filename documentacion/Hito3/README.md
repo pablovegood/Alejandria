@@ -4,7 +4,7 @@
 
 ## FastAPI como framework elegido para crear microservcios
 
-En un principio pensé en utilizar Django para crear los microservicios de mi aplciación Alejandría, pero la curva de aprendizaje resultó ser algo más elevada de lo que estimé en un primer momento.Es por eso que buscando en internet, encontré este foro de Reddit donde este usuario hablaba maravillas sobre FastAPI https://www.reddit.com/r/FastAPI/comments/1bs889k/why_i_chose_fastapi_how_was_my_experience_and/
+En un principio pensé en utilizar Django para crear los microservicios de mi aplicación Alejandría, pero la curva de aprendizaje resultó ser algo más elevada de lo que estimé en un primer momento, además, no está optimizado para APIs modernas. Es por eso que buscando en internet, encontré este foro de Reddit donde este usuario hablaba maravillas sobre FastAPI [[fuente]( https://www.reddit.com/r/FastAPI/comments/1bs889k/why_i_chose_fastapi_how_was_my_experience_and/)].
 Los motivos por los que FastAPI es un framework tan querido es porque permite llevar a cabo APIs de forma rápida y efectiva al estar montada por encima de bibliotecas de Python bien diseñadas como Starlette and Pydantic. Por otro lado, he aprovechado la documentación automática generada por Swagger UI (/docs) y ReDoc (/redoc), que permite probar y validar los endpoints de cada microservicio sin necesidad de herramientas externas.
 
 ![img.png](img.png)
@@ -49,6 +49,19 @@ def create_loan(req: LoanRequest):
     except Exception as e:
         logger.exception(f"❌ Error al crear préstamo: {e}")
         raise HTTPException(status_code=500, detail="Error interno del servidor")
+```
+
+```
+    # Fragmento de /loan/service.py
+    def list_loans(self, username: str):
+        cur = self.db.execute("""
+            SELECT * FROM loans
+            WHERE user_id=?
+            ORDER BY created_at DESC;
+        """, (username,))
+        loans = [dict(row) for row in cur.fetchall()]
+        logger.info(f"📚 {len(loans)} préstamos encontrados para {username}")
+        return loans
 ```
 
 ## Uso de logs para registrar la actividad de la API
@@ -104,3 +117,18 @@ Para poder probar la versión actual de la aplicación, he implementado un humil
 ![img_5.png](img_5.png)
 
 Aunque en este hito no haya implementado las funcionalidades de bibliotecarios y admins, los usuarios ya tienen un campo que dictamina su rol dentro del sistema.
+
+## Single Source of Truth (SSoT)
+
+Cada microservicio de Alejandría mantiene su propia ***Single Source of Truth***, centralizando la gestión de datos y la lógica de negocio en una capa de servicio (***Service***).  
+Los routers de la API nunca acceden directamente a los datos, sino que delegan las operaciones a estos servicios especializados.  
+De este modo, se evita la duplicación de código, se garantiza la coherencia de la información y se facilita el mantenimiento del sistema. EL microservicio de autenticación gestiona la BBDD de usuarios, el de catalogo la de libros, etc.
+
+## Otros aspectos a tener en cuenta
+
+Se han descargado los libros de la biblioteca Gutenberg que es un proyecto sin ánimo de lucro donde se almacenan libros sin derechos de autor que pertenecen al dominio público. En un principio mi intención era que Aljandría fuese un visor de Gutendex, la API del proyecto Gutenberg, pero no se podía hacer de forma directa sin que descargara los libros antes, por lo que importé una gran cantidad de libros (se pueden importar más sin problema alguno) y ya desde local mi aplicación permite a los usuarios tomar prestados los libros y abrirlos. Tengo que limitar todavía que solo puedan tener 5 usuarios (se podría aumentar en caso de que más usuarios usen mi aplicación de forma simultánea) un libro al mismo tiempo. Esto en realidad no hace falta, pero creo que es un detalle gracioso, simular el funcionamiento de una biblioteca real.
+
+
+## Conclusión
+
+Poco más que decir para este hito, la verdad es que está siendo satisfactorio ver como va tomando forma el proyecto y como cada vez se ve más claro la forma final que tendrá Alejandría cuando la aplicación vaya a ser desplegada en la nube. Para el próximo Hito, además de integrar correctamente los contenedores con Docker, espero tener toda la funcionalidad base imprescindible acabada.
