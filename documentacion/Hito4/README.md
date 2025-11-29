@@ -19,7 +19,7 @@ Visto de forma más clara y mostrando ya los nombres:
 
 ### Dockerfile.api
 
-- [`Dockerfile.api`](./Dockerfile.api)
+- [`Dockerfile.api`](https://github.com/pablovegood/Alejandria/blob/main/Dockerfile.api)
 
 La imagen base es python:3.12-slim ya que es una imagen oficial y mantenida, además he usado la variante slim para reducir tamaño de la imagen.
 
@@ -29,7 +29,7 @@ La API gestiona las bases de datos SQLite (book.db, loan.db...) y accede al cont
 
 ### Dockerfile.web
 
-- [`Dockerfile.web`](./Dockerfile.web)
+- [`Dockerfile.web`](https://github.com/pablovegood/Alejandria/blob/main/Dockerfile.web)
 
 La imagen base de este contenedor es nginx:alpine, es ideal para servir estáticos. Realiza una copia de la carpeta /web en /usr/share/nginx/html. Ajusta y modifica la configuración por defecto de nginx, haciendo uso del archivo **nginx.conf**. 
 
@@ -37,7 +37,7 @@ Como puerto interno tiene el 80 y en compose.yaml se mapea como 8080:80, de form
 
 ### Dockerfile.data
 
-- [`Dockerfile.data`](./Dockerfile.data)
+- [`Dockerfile.data`](https://github.com/pablovegood/Alejandria/blob/main/Dockerfile.data)
 
 La imagen base es **busybox**, ya que es una imagen mínima, ideal para contenedores de datos. Hace una copia de todos los archivos con extensión .txt y declara el volumen **VOLUME ["/data/texts"]**. Tiene un comando final que permite mantener el contenedor activo e inspeccionar los datos. El contenedor no exponepuertos ni ejecuta lógica de negocio.
 
@@ -96,6 +96,8 @@ docker pull ghcr.io/pablovegood/alejandria-api:latest
 docker pull ghcr.io/pablovegood/alejandria-web:latest
 docker pull ghcr.io/pablovegood/alejandria-data:latest
 ```
+
+Las imágenes aparecen publicadas en la sección Packages del repositorio de GitHub, asociadas a ghcr.io/pablovegood/alejandria-api, alejandria-web y alejandria-data.
 
 ## Fichero de composición (compose.yaml)
 
