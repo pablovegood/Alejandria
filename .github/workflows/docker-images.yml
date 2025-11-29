@@ -7,10 +7,6 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  # 👇 Forzamos a minúsculas para que Docker no se queje
-  IMAGE_API: ${{ toLower(github.repository) }}-api
-  IMAGE_WEB: ${{ toLower(github.repository) }}-web
-  IMAGE_DATA: ${{ toLower(github.repository) }}-data
 
 jobs:
   build-and-push:
@@ -22,6 +18,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Set image names (lowercase)
+        run: |
+          IMAGE_REPO_LOWER=${GITHUB_REPOSITORY,,}
+          echo "IMAGE_API=${IMAGE_REPO_LOWER}-api" >> $GITHUB_ENV
+          echo "IMAGE_WEB=${IMAGE_REPO_LOWER}-web" >> $GITHUB_ENV
+          echo "IMAGE_DATA=${IMAGE_REPO_LOWER}-data" >> $GITHUB_ENV
 
       - name: Log in to GitHub Container Registry
         uses: docker/login-action@v3
