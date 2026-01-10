@@ -7,10 +7,11 @@ primary_region = "fra"
 [env]
   ENV = "prod"
   PORT = "8000"
+  TEXTS_PATH = "/texts"
 
 [[mounts]]
   source = "alejandria_texts"
-  destination = "/app/data/texts"
+  destination = "/texts"
 
 [http_service]
   internal_port = 8000
