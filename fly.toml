@@ -1,4 +1,4 @@
-app = "alejandria-pablo"  # cámbialo
+app = "alejandria"
 primary_region = "fra"
 
 [build]

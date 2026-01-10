@@ -2,7 +2,7 @@ name: Deploy (Fly.io)
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "Hito5" ]
 
 jobs:
   deploy:
