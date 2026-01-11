@@ -12,7 +12,7 @@ También pensé en opciones como **Google Cloud Run**, **AWS App Runner** y **Az
 
 Finalmente, y aunque la opción elegida es también una empresa americana, esta es mucho más pequeña que las opciones previamente mencionadas.
 
-Fly es una opción que encaja muy bien con Docker y contenedores en general. Además, Fly expone de por sí ciertos logs y facilita la integración de métricas, lo cual era necesario para este Hito. Por otro lado, Fly hace uso de multi-regio para baja latencia, es decir sigue una filosofía *run apps close to users*.
+Fly es una opción que encaja muy bien con Docker y contenedores en general. Además, Fly expone de por sí ciertos logs y facilita la integración de métricas, lo cual era necesario para este Hito. Por otro lado, Fly hace uso de multi-región para baja latencia, es decir sigue una filosofía *run apps close to users*.
 
 ## Herramientas usadas para desplegar Alejandría en Fly.io
 
@@ -38,7 +38,7 @@ La opción --remote-only implica que el build del contenedor se hace en infraest
 
 Como medida de robustez, el workflow incorpora concurrency para evitar despliegues simultáneos: si se hacen varios pushes seguidos, se cancela el despliegue anterior y se deja solo el último (reduce estados intermedios y fallos por colisiones).
 
-## Configuración de las herramientas de observabilidad implementadas para monotorización
+## Configuración de las herramientas de observabilidad implementadas para monitorización
 
 Fly.io proporciona observabilidad integrada a nivel de plataforma para cada aplicación desplegada, accesible desde el panel de métricas. Esta observabilidad resulta especialmente adecuada para el hito porque permite monitorizar el estado del servicio sin desplegar infraestructura adicional (por ejemplo, un Prometheus propio) y ofrece información en tiempo real sobre el funcionamiento del despliegue desde el primer momento. Al estar incluida en el PaaS, reduce la complejidad del sistema y evita puntos extra de fallo, manteniendo el despliegue más sencillo y reproducible.
 
