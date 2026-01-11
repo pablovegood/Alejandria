@@ -68,6 +68,11 @@ Para evaluar el rendimiento del despliegue se ha realizado una prueba de carga l
 
 Durante la ejecución del test se han recogido dos tipos de evidencias: (1) el resultado de k6, donde se observan los tiempos de respuesta agregados y la ausencia (o presencia) de fallos, y (2) la correlación con el panel de métricas de Fly.io, comprobando que no aparecen picos de errores HTTP y que los percentiles de latencia (p95/p99) se mantienen en valores estables. Adicionalmente, se observa el consumo de memoria y carga de la instancia para verificar que, bajo carga, el servicio no entra en saturación ni presenta crecimiento anómalo. Este enfoque permite justificar las prestaciones con datos objetivos, en lugar de basarse únicamente en una comprobación manual.
 
+<img width="1210" height="900" alt="image" src="https://github.com/user-attachments/assets/f126ccfa-3059-4fb5-acba-c97ce23d281f" />
+
+<img width="1206" height="469" alt="image" src="https://github.com/user-attachments/assets/8716dea3-63b4-4ca7-bb15-e849fa7b3c60" />
+
+
 ## ¿Dónde utilizar Alejandría?
 
 Para poder acceder a la aplicación, basta con acceder al siguiente enlace desde su navegador de confianza: https://alejandria.fly.dev 
