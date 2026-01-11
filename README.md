@@ -34,6 +34,7 @@ puede **ayudar a autores** que estén empezando en el mundo editorial a usar la 
 | 2️⃣ | **Hito 2** | Implementación de Integración Continua (CI) con pytest, Invoke y GitHub Actions. | [Ver Hito 2](https://github.com/pablovegood/Alejandria/tree/main/documentacion/Hito2) |
 | 3️⃣ | **Hito 3** | Diseño de microservicios. | [Ver Hito 3](https://github.com/pablovegood/Alejandria/blob/Hito3/documentacion/Hito3/README.md) |
 | 4️⃣ | **Hito 4** | Composición de servicios. | [Ver Hito 4](https://github.com/pablovegood/Alejandria/blob/main/documentacion/Hito4/README.md) |
+| 5️⃣ | **Hito 5** | Despliegue de la aplicación en un IaaS o PaaS. | [Ver Hito 5](https://github.com/pablovegood/Alejandria/blob/Hito5/documentacion/Hito5/README.md) |
 
 ---
 
