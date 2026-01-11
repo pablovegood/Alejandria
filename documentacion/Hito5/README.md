@@ -38,7 +38,7 @@ La opción --remote-only implica que el build del contenedor se hace en infraest
 
 Como medida de robustez, el workflow incorpora concurrency para evitar despliegues simultáneos: si se hacen varios pushes seguidos, se cancela el despliegue anterior y se deja solo el último (reduce estados intermedios y fallos por colisiones).
 
-## Configuración de las herramientas de observabilidad implementadas para monotorización y pruebas de las prestaciones
+## Configuración de las herramientas de observabilidad implementadas para monotorización
 
 Fly.io proporciona observabilidad integrada a nivel de plataforma para cada aplicación desplegada, accesible desde el panel de métricas. Esta observabilidad resulta especialmente adecuada para el hito porque permite monitorizar el estado del servicio sin desplegar infraestructura adicional (por ejemplo, un Prometheus propio) y ofrece información en tiempo real sobre el funcionamiento del despliegue desde el primer momento. Al estar incluida en el PaaS, reduce la complejidad del sistema y evita puntos extra de fallo, manteniendo el despliegue más sencillo y reproducible.
 
@@ -62,6 +62,22 @@ Adicionalmente, como complemento a las métricas del PaaS, la aplicación expone
 
 Esto permite disponer también de observabilidad a nivel de aplicación (por ejemplo, latencias por endpoint, número de peticiones o métricas internas del runtime), aportando mayor detalle cuando se necesita diagnóstico. En conjunto, el enfoque elegido combina una primera capa de observabilidad “lista para usar” (Fly.io) con una segunda capa opcional de métricas propias de la API, logrando una solución completa y adecuada para monitorización en tiempo real.
 
+## Pruebas de las prestaciones de Alejandría
+
+Para evaluar el rendimiento del despliegue se ha realizado una prueba de carga ligera (smoke test) contra el servicio publicado, con el objetivo de medir latencia y estabilidad bajo concurrencia moderada. Para ello se ha utilizado k6, una herramienta de benchmarking que permite definir escenarios reproducibles y obtener métricas como tiempo de respuesta, tasa de peticiones por segundo y porcentaje de errores. La prueba se ejecuta contra el endpoint /healthz (y/o endpoints representativos), ya que es un punto de verificación estable que permite medir el overhead del servicio y su capacidad de respuesta sin introducir variabilidad adicional.
+
+Durante la ejecución del test se han recogido dos tipos de evidencias: (1) el resultado de k6, donde se observan los tiempos de respuesta agregados y la ausencia (o presencia) de fallos, y (2) la correlación con el panel de métricas de Fly.io, comprobando que no aparecen picos de errores HTTP y que los percentiles de latencia (p95/p99) se mantienen en valores estables. Adicionalmente, se observa el consumo de memoria y carga de la instancia para verificar que, bajo carga, el servicio no entra en saturación ni presenta crecimiento anómalo. Este enfoque permite justificar las prestaciones con datos objetivos, en lugar de basarse únicamente en una comprobación manual.
+
 ## ¿Dónde utilizar Alejandría?
 
 Para poder acceder a la aplicación, basta con acceder al siguiente enlace desde su navegador de confianza: https://alejandria.fly.dev 
+
+La aplicación permite iniciar sesión, crear un usuario, tomar libros en préstamo y leer aquellos libros que han sido tomados en préstamos, devolver los libros y escribir reseñas de cualquier libro.
+
+<img width="1915" height="1074" alt="image" src="https://github.com/user-attachments/assets/6fc69b78-2c2e-4e0c-836c-18b6b3bfb813" />
+
+Si se abre un libro tomado en préstamo se abre este mostrado a través de un visor que permite ponerse en modo oscuro, modificar el tamaño de la letra y la fuente de la letra.
+
+<img width="1919" height="973" alt="image" src="https://github.com/user-attachments/assets/c05716b5-40ad-4ecb-a312-6831e5ab2667" />
+
+Me hubiera gustado dedicarle más tiempo a pulir detalles del frontend, pero al no ser el objetivo principal de la asignatura, lo dejo planteado como trabajo futuro.
