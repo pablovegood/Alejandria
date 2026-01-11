@@ -66,7 +66,7 @@ Esto permite disponer también de observabilidad a nivel de aplicación (por eje
 
 Para evaluar el rendimiento del despliegue se ha realizado una prueba de carga ligera (smoke test) contra el servicio publicado, con el objetivo de medir latencia y estabilidad bajo concurrencia moderada. Para ello se ha utilizado k6, una herramienta de benchmarking que permite definir escenarios reproducibles y obtener métricas como tiempo de respuesta, tasa de peticiones por segundo y porcentaje de errores. La prueba se ejecuta contra el endpoint /healthz (y/o endpoints representativos), ya que es un punto de verificación estable que permite medir el overhead del servicio y su capacidad de respuesta sin introducir variabilidad adicional.
 
-Durante la ejecución del test se han recogido dos tipos de evidencias: (1) el resultado de k6, donde se observan los tiempos de respuesta agregados y la ausencia (o presencia) de fallos, y (2) la correlación con el panel de métricas de Fly.io, comprobando que no aparecen picos de errores HTTP y que los percentiles de latencia (p95/p99) se mantienen en valores estables. Adicionalmente, se observa el consumo de memoria y carga de la instancia para verificar que, bajo carga, el servicio no entra en saturación ni presenta crecimiento anómalo. Este enfoque permite justificar las prestaciones con datos objetivos, en lugar de basarse únicamente en una comprobación manual.
+En la prueba ejecutada se simularon 20 VUs durante 30s, completando 1918 iteraciones (≈ 63.28 iter/s) y con 0% de fallos (http_req_failed = 0.00%). La latencia observada se mantuvo en valores estables, con p95 ≈ 105.96 ms en http_req_duration (umbral cumplido) y sin aparición de códigos 5xx en la métrica de estado HTTP de Fly.io durante el intervalo del test. Estos resultados indican que, para una concurrencia moderada, el despliegue mantiene un comportamiento estable y tiempos de respuesta razonables.
 
 <img width="1210" height="900" alt="image" src="https://github.com/user-attachments/assets/f126ccfa-3059-4fb5-acba-c97ce23d281f" />
 
@@ -77,11 +77,11 @@ Durante la ejecución del test se han recogido dos tipos de evidencias: (1) el r
 
 Para poder acceder a la aplicación, basta con acceder al siguiente enlace desde su navegador de confianza: https://alejandria.fly.dev 
 
-La aplicación permite iniciar sesión, crear un usuario, tomar libros en préstamo y leer aquellos libros que han sido tomados en préstamos, devolver los libros y escribir reseñas de cualquier libro.
+La aplicación funciona sin problemas, permitiendo iniciar sesión, crear un usuario, tomar libros en préstamo y leer aquellos libros que han sido tomados en préstamos, devolver los libros y escribir reseñas de cualquier libro.
 
 <img width="1915" height="1074" alt="image" src="https://github.com/user-attachments/assets/6fc69b78-2c2e-4e0c-836c-18b6b3bfb813" />
 
-Si se abre un libro tomado en préstamo se abre este mostrado a través de un visor que permite ponerse en modo oscuro, modificar el tamaño de la letra y la fuente de la letra.
+Si se abre un libro tomado en préstamo, este es mostrado a través de un visor que permite ponerse en modo oscuro, modificar el tamaño de la letra y la fuente de la letra.
 
 <img width="1919" height="973" alt="image" src="https://github.com/user-attachments/assets/c05716b5-40ad-4ecb-a312-6831e5ab2667" />
 
