@@ -1,8 +1,10 @@
+import os
 import sqlite3
 from pathlib import Path
 from datetime import datetime, timezone
 
-DB_PATH = Path(__file__).parent / "review.db"
+DATA_DIR = Path(os.getenv("ALEJANDRIA_DATA_DIR", Path(__file__).parent))
+DB_PATH = DATA_DIR / "review.db"
 
 class ReviewService:
     def __init__(self):
@@ -22,6 +24,7 @@ class ReviewService:
         );
         """)
         self.db.commit()
+
 
     def create_review(self, guten_id: int, username: str, rating: int, text: str):
         now = datetime.now(timezone.utc).isoformat()

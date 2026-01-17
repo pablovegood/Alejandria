@@ -1,4 +1,5 @@
 # src/auth/service.py
+import os
 import sqlite3
 from pathlib import Path
 import bcrypt
@@ -8,7 +9,11 @@ import logging
 
 logger = logging.getLogger("alejandria_api")
 
-DB_PATH = Path(__file__).parent / "auth.db"
+# ✅ Persistencia: si existe ALEJANDRIA_DATA_DIR (p.ej. /data en Fly), usamos esa carpeta
+DATA_DIR = Path(os.getenv("ALEJANDRIA_DATA_DIR", Path(__file__).parent))
+DATA_DIR.mkdir(parents=True, exist_ok=True)
+
+DB_PATH = DATA_DIR / "auth.db"
 
 
 class AuthService:
@@ -47,7 +52,10 @@ class AuthService:
         # Cifrar la contraseña antes de almacenarla
         hashed_pw = bcrypt.hashpw(password.encode("utf-8"), bcrypt.gensalt()).decode("utf-8")
 
-        self.db.execute("INSERT INTO users (username, password) VALUES (?, ?)", (username, hashed_pw))
+        self.db.execute(
+            "INSERT INTO users (username, password) VALUES (?, ?)",
+            (username, hashed_pw)
+        )
         self.db.commit()
 
         logger.info(f"✅ Usuario '{username}' creado correctamente.")
