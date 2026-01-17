@@ -4,7 +4,10 @@ from pathlib import Path
 from datetime import datetime, timezone
 
 DATA_DIR = Path(os.getenv("ALEJANDRIA_DATA_DIR", Path(__file__).parent))
+DATA_DIR.mkdir(parents=True, exist_ok=True)
+
 DB_PATH = DATA_DIR / "review.db"
+
 
 class ReviewService:
     def __init__(self):
@@ -25,7 +28,6 @@ class ReviewService:
         """)
         self.db.commit()
 
-
     def create_review(self, guten_id: int, username: str, rating: int, text: str):
         now = datetime.now(timezone.utc).isoformat()
         self.db.execute("""
@@ -33,7 +35,13 @@ class ReviewService:
             VALUES (?, ?, ?, ?, ?)
         """, (guten_id, username, rating, text, now))
         self.db.commit()
-        return {"guten_id": guten_id, "username": username, "rating": rating, "text": text, "created_at": now}
+        return {
+            "guten_id": guten_id,
+            "username": username,
+            "rating": rating,
+            "text": text,
+            "created_at": now
+        }
 
     def list_reviews(self, guten_id: int):
         cur = self.db.execute("""

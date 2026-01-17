@@ -7,7 +7,6 @@ import logging
 
 logger = logging.getLogger("alejandria_api")
 
-# ✅ Persistencia: si existe ALEJANDRIA_DATA_DIR (p.ej. /data en Fly), usamos esa carpeta
 DATA_DIR = Path(os.getenv("ALEJANDRIA_DATA_DIR", Path(__file__).parent))
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 
