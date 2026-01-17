@@ -491,3 +491,15 @@ html, body {
 
 .page-btn {
   height: 36px
+
+button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  filter: grayscale(1);
+}
+
+button.loan-btn:disabled {
+  background: rgba(255, 255, 255, 0.10) !important;
+  color: rgba(255, 255, 255, 0.65) !important;
+  box-shadow: none !important;
+}

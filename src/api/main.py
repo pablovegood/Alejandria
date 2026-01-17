@@ -165,7 +165,6 @@ async def log_requests(request: Request, call_next):
         response = await call_next(request)
     except Exception as e:
         logger.exception("❌ Error en %s: %s", request.url.path, str(e))
-        # En prod, evita filtrar detalles del error al cliente
         content = {"error": "internal_error"} if ENV == "prod" else {"error": str(e)}
         return JSONResponse(status_code=500, content=content)
 
@@ -186,12 +185,23 @@ async def healthz():
 # Static frontend
 # ============================================================
 BASE_DIR = Path(__file__).resolve().parents[2]
-STATIC_DIR = BASE_DIR / "web"
+
+# ✅ En despliegue, el frontend debe vivir en la carpeta "web" del repo
+# (Dockerfile.api hace COPY web ./web). Si necesitas cambiarlo, usa FRONTEND_DIR.
+STATIC_DIR = Path(os.getenv("FRONTEND_DIR", str(BASE_DIR / "web"))).resolve()
+
+if not STATIC_DIR.exists():
+    logger.warning("⚠️ STATIC_DIR no existe: %s", STATIC_DIR)
 
 @app.get("/", include_in_schema=False)
 async def root():
     logger.info("🏁 Redirigiendo al login del frontend (static/login.html)")
     return RedirectResponse(url="/static/login.html", status_code=302)
+
+# ✅ Página principal del catálogo (post-login)
+@app.get("/app", include_in_schema=False)
+async def app_home():
+    return RedirectResponse(url="/static/index.html", status_code=302)
 
 app.mount("/static", StaticFiles(directory=STATIC_DIR, html=True), name="static")
 
