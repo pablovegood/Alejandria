@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <title>Alejandría · Admin</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="admin.css"/>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="mark">⟁</div>
+      <div>
+        <div class="t">Alejandría</div>
+        <div class="s">Panel de administración</div>
+      </div>
+    </div>
+
+    <div class="actions">
+      <a class="btn" href="/static/index.html">Volver a la app</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="card">
+      <h2>Login admin</h2>
+      <p class="muted">Credenciales: <b>pablogalvarado</b> / <b>admin</b></p>
+
+      <form id="adminForm" class="form">
+        <input id="adminUser" placeholder="Usuario admin" value="pablogalvarado"/>
+        <input id="adminPass" placeholder="Contraseña" value="admin" type="password"/>
+        <button class="btn primary" type="submit">Entrar</button>
+      </form>
+
+      <div id="status" class="status muted"></div>
+    </section>
+
+    <section class="grid">
+      <section class="card">
+        <h3>Eliminar reseña</h3>
+        <p class="muted">Borra una reseña por su ID.</p>
+
+        <div class="row">
+          <input id="reviewId" placeholder="review_id (ej: 12)" />
+          <button class="btn danger" id="deleteReviewBtn">Eliminar</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <h3>Eliminar usuario</h3>
+        <p class="muted">Elimina el usuario y sus reseñas asociadas.</p>
+
+        <div class="row">
+          <input id="delUsername" placeholder="username" />
+          <button class="btn danger" id="deleteUserBtn">Eliminar</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <h3>Añadir libro (custom)</h3>
+        <p class="muted">Libro local adicional a tu biblioteca.</p>
+
+        <div class="stack">
+          <input id="bookTitle" placeholder="Título" />
+          <input id="bookAuthor" placeholder="Autor" />
+          <input id="bookLang" placeholder="Idioma (EN/ES...)" />
+          <input id="bookTextUrl" placeholder="text_url (opcional)" />
+          <input id="bookCoverUrl" placeholder="cover_url (opcional)" />
+          <button class="btn primary" id="addBookBtn">Añadir libro</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <h3>Libros añadidos</h3>
+        <div id="bookList" class="list muted">Inicia sesión admin para ver.</div>
+      </section>
+    </section>
+  </main>
+
+  <script src="admin.js" defer></script>
+</body>
+</html>

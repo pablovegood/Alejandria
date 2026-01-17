@@ -13,7 +13,7 @@ from src.auth.router import router as auth_router
 from src.catalog.router import router as catalog_router
 from src.loan.router import router as loans_router
 from src.review.router import router as review_router
-
+from src.admin.router import router as admin_router
 
 # ============================================================
 # Runtime config
@@ -213,7 +213,7 @@ app.include_router(auth_router)
 app.include_router(catalog_router)
 app.include_router(loans_router)
 app.include_router(review_router)
-
+app.include_router(admin_router)
 
 # ============================================================
 # Debug: list routes (only in dev)

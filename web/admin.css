@@ -1,0 +1,91 @@
+:root{
+  --red:#ce1126;
+  --gold:#c9a227;
+  --bg:#070708;
+  --text:rgba(248,248,248,.92);
+  --muted:rgba(248,248,248,.62);
+  --stroke:rgba(255,255,255,.10);
+  --panel:rgba(20,20,26,.78);
+  --r:18px;
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:linear-gradient(180deg,#050506,#070708);
+  color:var(--text);
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;
+}
+
+.topbar{
+  position:sticky;top:0;
+  padding:14px 18px;
+  display:flex;justify-content:space-between;align-items:center;
+  background:rgba(12,12,15,.78);
+  border-bottom:1px solid var(--stroke);
+  backdrop-filter: blur(10px);
+}
+
+.brand{display:flex;gap:12px;align-items:center}
+.mark{
+  width:44px;height:44px;border-radius:14px;
+  display:grid;place-items:center;
+  font-weight:900;color:#0b0b0d;
+  background:linear-gradient(135deg,var(--gold),#f4d35e);
+}
+.t{font-weight:950}
+.s{color:var(--muted);font-size:.9rem;margin-top:2px}
+
+.wrap{max-width:1100px;margin:0 auto;padding:18px;display:flex;flex-direction:column;gap:14px}
+.card{
+  background:var(--panel);
+  border:1px solid var(--stroke);
+  border-radius:var(--r);
+  padding:16px;
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:14px;
+}
+
+.btn{
+  height:42px;padding:0 14px;border-radius:999px;
+  border:1px solid var(--stroke);
+  background:rgba(255,255,255,.04);
+  color:var(--text);
+  cursor:pointer;
+  font-weight:900;
+  text-decoration:none;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+}
+.btn.primary{
+  border:0;
+  color:#0b0b0d;
+  background:linear-gradient(135deg,var(--gold),#f4d35e);
+}
+.btn.danger{
+  border-color:rgba(206,17,38,.35);
+  background:rgba(206,17,38,.12);
+}
+.muted{color:var(--muted)}
+
+.form{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+input{
+  height:42px;
+  border-radius:999px;
+  border:1px solid var(--stroke);
+  background:rgba(18,18,24,.75);
+  color:var(--text);
+  padding:0 12px;
+  outline:none;
+  flex:1;
+  min-width:200px;
+}
+
+.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:10px}
+.stack{display:flex;flex-direction:column;gap:10px;margin-top:10px}
+.list{margin-top:10px}
+.status{margin-top:10px}
