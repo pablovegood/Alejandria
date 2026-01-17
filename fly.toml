@@ -7,12 +7,12 @@ primary_region = "fra"
 [env]
   ENV = "prod"
   PORT = "8000"
-  TEXTS_PATH = "/texts"
-  ALEJANDRIA_DATA_DIR = "/data"
 
-[[mounts]]
-  source = "alejandria_texts"
-  destination = "/texts"
+  # ✅ Textos dentro de la imagen (no volumen)
+  TEXTS_PATH = "/app/data/texts"
+
+  # ✅ TODA persistencia aquí (SQLite, users, reviews, etc)
+  ALEJANDRIA_DATA_DIR = "/data"
 
 [[mounts]]
   source = "alejandria_data"

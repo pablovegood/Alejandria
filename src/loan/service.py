@@ -7,7 +7,10 @@ import logging
 
 logger = logging.getLogger("alejandria_api")
 
-DATA_DIR = Path(os.getenv("ALEJANDRIA_DATA_DIR", Path(__file__).parent))
+# ✅ CAMBIO CLAVE:
+# Antes: si no había env var, guardaba loan.db junto al código (efímero en Fly)
+# Ahora: por defecto usamos /data (persistente con Fly Volume mount)
+DATA_DIR = Path(os.getenv("ALEJANDRIA_DATA_DIR", "/data"))
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 DB_PATH = DATA_DIR / "loan.db"

@@ -5,5 +5,5 @@ class LoanRequest(BaseModel):
 
     username: str
     guten_id: int
-    title: str
-    author: str
+    title: str = ""
+    author: str = ""
