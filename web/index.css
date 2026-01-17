@@ -11,7 +11,7 @@
 
   /* UI neutrales */
   --bg: #070708;
-  --panel: #0f0f13;
+  --panel: rgba(20, 20, 26, 0.78);
   --panel2: #14141a;
   --stroke: rgba(255, 255, 255, 0.08);
   --stroke2: rgba(201, 162, 39, 0.25);
@@ -50,7 +50,7 @@ html, body {
   padding: 14px 18px;
   background: rgba(12, 12, 15, 0.78);
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid var(--stroke);
+  border-bottom: 1px solid rgba(255,255,255,0.10);
 }
 
 .brand {
@@ -95,7 +95,7 @@ html, body {
   width: 100%;
   height: 42px;
   border-radius: 999px;
-  border: 1px solid var(--stroke);
+  border: 1px solid rgba(255,255,255,0.10);
   background: rgba(18, 18, 24, 0.75);
   color: var(--text);
   padding: 0 14px;
@@ -112,6 +112,7 @@ html, body {
   justify-content: flex-end;
   align-items: center;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 /* Buttons */
@@ -119,7 +120,7 @@ html, body {
   height: 42px;
   padding: 0 14px;
   border-radius: 999px;
-  border: 1px solid var(--stroke);
+  border: 1px solid rgba(255,255,255,0.10);
   background: rgba(255,255,255,0.04);
   color: var(--text);
   cursor: pointer;
@@ -127,7 +128,7 @@ html, body {
   letter-spacing: 0.1px;
 }
 
-.btn:hover { border-color: rgba(255,255,255,0.14); }
+.btn:hover { border-color: rgba(255,255,255,0.16); }
 
 .btn-primary {
   border: 0;
@@ -136,9 +137,7 @@ html, body {
   box-shadow: 0 18px 40px rgba(201, 162, 39, 0.18);
 }
 
-.btn-primary:hover {
-  filter: brightness(1.04);
-}
+.btn-primary:hover { filter: brightness(1.04); }
 
 .btn-outline {
   background: transparent;
@@ -147,7 +146,7 @@ html, body {
 
 .btn-ghost {
   background: transparent;
-  border: 1px solid rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.10);
   color: var(--muted);
 }
 
@@ -159,7 +158,7 @@ html, body {
   padding: 0 14px;
   height: 42px;
   border-radius: 999px;
-  border: 1px solid var(--stroke);
+  border: 1px solid rgba(255,255,255,0.10);
   background: rgba(255,255,255,0.03);
   color: var(--text);
 }
@@ -187,7 +186,7 @@ html, body {
 
 .card {
   background: rgba(20, 20, 26, 0.75);
-  border: 1px solid var(--stroke);
+  border: 1px solid rgba(255,255,255,0.10);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   padding: 16px;
@@ -207,7 +206,7 @@ html, body {
 
 .muted { color: var(--muted); }
 
-/* Toast (messages) */
+/* Toast */
 .toast {
   margin-top: 10px;
   min-height: 18px;
@@ -231,11 +230,7 @@ html, body {
 }
 
 /* Counter */
-.counter-row {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 10px;
-}
+.counter-row { display: grid; grid-template-columns: 1fr; gap: 10px; }
 
 .counter {
   display: flex;
@@ -243,30 +238,22 @@ html, body {
   align-items: baseline;
   padding: 12px 14px;
   border-radius: 14px;
-  border: 1px solid var(--stroke);
+  border: 1px solid rgba(255,255,255,0.10);
   background: rgba(255,255,255,0.03);
 }
 
 .counter-label { color: var(--muted); font-weight: 650; }
 .counter-value { font-size: 1.1rem; font-weight: 900; color: var(--egypt-gold); }
-.counter-value.full { color: #fff; }
 
-.counter-help {
-  color: var(--muted);
-  font-size: 0.92rem;
-}
+.counter-help { color: var(--muted); font-size: 0.92rem; }
 
-/* Loans list */
-.loan-list {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
+/* Loans */
+.loan-list { display: flex; flex-direction: column; gap: 10px; }
 
 .loan-item {
   padding: 12px 12px;
   border-radius: 14px;
-  border: 1px solid var(--stroke);
+  border: 1px solid rgba(255,255,255,0.10);
   background: rgba(255,255,255,0.02);
   display: grid;
   grid-template-columns: 1fr auto;
@@ -274,33 +261,17 @@ html, body {
   align-items: center;
 }
 
-.loan-title {
-  font-weight: 800;
-  color: rgba(248, 248, 248, 0.92);
-}
+.loan-title { font-weight: 800; }
+.loan-author { color: var(--muted); font-size: 0.92rem; margin-top: 2px; }
+.loan-meta { color: rgba(248,248,248,0.45); font-size: 0.82rem; margin-top: 6px; }
 
-.loan-author {
-  color: var(--muted);
-  font-size: 0.92rem;
-  margin-top: 2px;
-}
-
-.loan-meta {
-  color: rgba(248,248,248,0.45);
-  font-size: 0.82rem;
-  margin-top: 6px;
-}
-
-.loan-actions {
-  display: flex;
-  gap: 8px;
-}
+.loan-actions { display: flex; gap: 8px; flex-wrap: wrap; }
 
 .btn-mini {
   height: 34px;
   padding: 0 10px;
   border-radius: 999px;
-  border: 1px solid var(--stroke);
+  border: 1px solid rgba(255,255,255,0.10);
   background: rgba(255,255,255,0.04);
   color: var(--text);
   cursor: pointer;
@@ -324,6 +295,7 @@ html, body {
   justify-content: space-between;
   align-items: flex-end;
   gap: 14px;
+  flex-wrap: wrap;
 }
 
 .page-title {
@@ -343,12 +315,13 @@ html, body {
   display: flex;
   gap: 10px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .select {
   height: 42px;
   border-radius: 999px;
-  border: 1px solid var(--stroke);
+  border: 1px solid rgba(255,255,255,0.10);
   background: rgba(18, 18, 24, 0.75);
   color: var(--text);
   padding: 0 12px;
@@ -370,10 +343,10 @@ html, body {
   gap: 14px;
 }
 
-/* Book cards (NO animaciones raras) */
+/* Book cards */
 .book-card {
   border-radius: 16px;
-  border: 1px solid var(--stroke);
+  border: 1px solid rgba(255,255,255,0.10);
   background: rgba(255,255,255,0.02);
   padding: 14px;
   display: flex;
@@ -403,16 +376,12 @@ html, body {
 
 .book-title {
   font-weight: 900;
-  letter-spacing: 0.2px;
   margin: 0;
   line-height: 1.15;
   font-size: 1.02rem;
 }
 
-.book-author {
-  color: var(--muted);
-  font-size: 0.92rem;
-}
+.book-author { color: var(--muted); font-size: 0.92rem; }
 
 .book-desc {
   color: rgba(248,248,248,0.70);
@@ -438,7 +407,7 @@ html, body {
   width: 100%;
   height: 36px;
   border-radius: 12px;
-  border: 1px solid rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.10);
   background: rgba(255,255,255,0.02);
   color: var(--text);
   cursor: pointer;
@@ -477,9 +446,10 @@ html, body {
 .review-text {
   margin: 0;
   color: rgba(248,248,248,0.80);
+  overflow-wrap: anywhere;
 }
 
-/* Pagination — completa */
+/* Pagination — COMPLETA */
 .pagination {
   margin-top: 16px;
   display: flex;
@@ -490,16 +460,65 @@ html, body {
 }
 
 .page-btn {
-  height: 36px
+  height: 36px;
+  padding: 0 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.03);
+  color: var(--text);
+  cursor: pointer;
+  font-weight: 800;
+}
 
-button:disabled {
+.page-btn.active {
+  border: 0;
+  color: #0b0b0d;
+  background: linear-gradient(135deg, var(--egypt-gold), #f4d35e);
+}
+
+.page-btn:disabled {
   opacity: 0.45;
   cursor: not-allowed;
   filter: grayscale(1);
 }
 
+/* Desactivar botón de préstamo si tiene 4 */
 button.loan-btn:disabled {
   background: rgba(255, 255, 255, 0.10) !important;
   color: rgba(255, 255, 255, 0.65) !important;
   box-shadow: none !important;
+}
+
+/* Footer */
+.footer { text-align: center; color: var(--muted); padding: 10px 0 4px; }
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 980px) {
+  .topbar {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .brand { min-width: 0; }
+  .top-actions { justify-content: flex-start; }
+  .layout { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 560px) {
+  .layout { padding: 12px; gap: 12px; }
+  .card { padding: 14px; }
+  .top-search { flex-direction: column; align-items: stretch; }
+  .top-search input { height: 46px; }
+  .btn { height: 46px; }
+  .user-pill { height: 46px; width: 100%; justify-content: center; }
+  .top-actions { width: 100%; }
+  .top-actions .btn, .top-actions a.btn { width: 100%; justify-content: center; }
+
+  .loan-item { grid-template-columns: 1fr; }
+  .loan-actions { width: 100%; }
+  .btn-mini { flex: 1; }
+
+  .grid { grid-template-columns: 1fr; }
 }

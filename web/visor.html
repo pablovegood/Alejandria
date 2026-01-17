@@ -17,6 +17,8 @@
       --stroke: rgba(255, 255, 255, 0.10);
       --text: rgba(248, 248, 248, 0.92);
       --muted: rgba(248, 248, 248, 0.62);
+
+      --reader-font: ui-serif, Georgia, "Times New Roman", serif;
     }
 
     * { box-sizing: border-box; }
@@ -27,7 +29,7 @@
                   radial-gradient(1000px 700px at 90% 10%, rgba(206, 17, 38, 0.10), transparent 55%),
                   linear-gradient(180deg, #050506 0%, #070708 100%);
       color: var(--text);
-      font-family: ui-serif, Georgia, "Times New Roman", serif;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI;
     }
 
     header {
@@ -48,6 +50,7 @@
       display: flex;
       flex-direction: column;
       gap: 3px;
+      min-width: 0;
     }
 
     .title h1 {
@@ -55,6 +58,9 @@
       font-size: 1.05rem;
       font-weight: 900;
       letter-spacing: 0.2px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
 
     .title small {
@@ -80,6 +86,7 @@
       cursor: pointer;
       font-weight: 800;
       font-family: ui-sans-serif, system-ui;
+      -webkit-tap-highlight-color: transparent;
     }
 
     .btn.primary {
@@ -88,7 +95,7 @@
       background: linear-gradient(135deg, var(--egypt-gold), #f4d35e);
     }
 
-    .input {
+    .input, .select {
       height: 38px;
       border-radius: 999px;
       border: 1px solid var(--stroke);
@@ -96,9 +103,11 @@
       color: var(--text);
       padding: 0 12px;
       outline: none;
-      width: 220px;
       font-family: ui-sans-serif, system-ui;
     }
+
+    .input { width: 220px; }
+    .select { width: 170px; }
 
     .progress {
       height: 3px;
@@ -126,11 +135,21 @@
       padding: 18px;
       line-height: 1.7;
       font-size: 1.12rem;
-      white-space: pre-wrap;
       word-break: break-word;
+      font-family: var(--reader-font);
     }
 
-    .sepia body {}
+    /* Cuando reflow está ON, usamos texto fluido en párrafos */
+    .reader.reflow {
+      white-space: normal;
+    }
+    .reader.no-reflow {
+      white-space: pre-wrap;
+    }
+    .p {
+      margin: 0 0 14px 0;
+    }
+
     body.sepia {
       background: #f4ecd8;
       color: #1a1205;
@@ -139,7 +158,7 @@
       background: rgba(244, 236, 216, 0.92);
       border-bottom: 1px solid rgba(0,0,0,0.10);
     }
-    body.sepia .btn, body.sepia .input {
+    body.sepia .btn, body.sepia .input, body.sepia .select {
       background: rgba(0,0,0,0.03);
       border-color: rgba(0,0,0,0.15);
       color: #1a1205;
@@ -155,6 +174,24 @@
       padding: 0 2px;
       border-radius: 4px;
     }
+
+    /* ===== Mobile ===== */
+    @media (max-width: 640px){
+      header{
+        grid-template-columns: 1fr;
+        align-items: stretch;
+      }
+      .controls{
+        justify-content: flex-start;
+      }
+      .btn{height:44px;}
+      .input, .select{
+        height:44px;
+        width:100%;
+      }
+      main{padding: 14px 12px 90px;}
+      .reader{padding: 14px;}
+    }
   </style>
 </head>
 
@@ -168,6 +205,14 @@
     <div class="controls">
       <button id="decreaseFont" class="btn">A-</button>
       <button id="increaseFont" class="btn">A+</button>
+
+      <select id="fontSelect" class="select" title="Fuente">
+        <option value="serif">Serif</option>
+        <option value="sans">Sans</option>
+        <option value="mono">Monospace</option>
+      </select>
+
+      <button id="toggleReflow" class="btn" title="Reordenar texto (reflow)">Reflow</button>
       <button id="toggleTheme" class="btn">🌗</button>
 
       <input id="searchInside" class="input" placeholder="Buscar en el texto…"/>
@@ -180,7 +225,7 @@
   <div class="progress"><div id="bar"></div></div>
 
   <main>
-    <article class="reader" id="bookContent">Cargando texto…</article>
+    <article class="reader no-reflow" id="bookContent">Cargando texto…</article>
   </main>
 
   <script>
@@ -193,35 +238,110 @@
     const metaEl = document.getElementById("bookMeta");
     const bar = document.getElementById("bar");
 
+    let rawText = "";
     let fontSize = parseFloat(localStorage.getItem("fontSize")) || 1.12;
     let theme = localStorage.getItem("theme") || "dark";
+    let fontMode = localStorage.getItem("fontMode") || "serif";
+    let reflow = localStorage.getItem("reflow") === "1";
 
     titleEl.textContent = title;
     metaEl.textContent = `ID ${id} · Ajustes guardados`;
 
-    function applySettings() {
-      document.body.classList.toggle("sepia", theme === "sepia");
-      contentDiv.style.fontSize = fontSize + "rem";
+    function setReaderFont(mode){
+      if (mode === "sans") {
+        document.documentElement.style.setProperty("--reader-font", 'ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial');
+      } else if (mode === "mono") {
+        document.documentElement.style.setProperty("--reader-font", 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace');
+      } else {
+        document.documentElement.style.setProperty("--reader-font", 'ui-serif, Georgia, "Times New Roman", serif');
+      }
     }
 
-    applySettings();
+    function normalizeToParagraphs(text){
+      // Convierte saltos de línea duros en párrafos fluidos.
+      // - respeta doble salto como párrafo
+      // - une líneas dentro del mismo párrafo
+      const cleaned = String(text || "").replace(/\r\n/g, "\n").replace(/\r/g, "\n").trim();
+      if (!cleaned) return [];
+
+      const blocks = cleaned.split(/\n{2,}/g);
+      return blocks.map(b =>
+        b
+          .split("\n")
+          .map(line => line.trim())
+          .filter(Boolean)
+          .join(" ")
+          .replace(/\s{2,}/g, " ")
+          .trim()
+      ).filter(Boolean);
+    }
+
+    function renderText(){
+      if (!rawText) {
+        contentDiv.textContent = "⚠️ Texto vacío";
+        return;
+      }
+
+      // Limpia resaltados
+      contentDiv.innerHTML = "";
+
+      contentDiv.style.fontSize = fontSize + "rem";
+      document.body.classList.toggle("sepia", theme === "sepia");
+      setReaderFont(fontMode);
+
+      if (!reflow){
+        contentDiv.classList.remove("reflow");
+        contentDiv.classList.add("no-reflow");
+        contentDiv.textContent = rawText;
+        return;
+      }
+
+      // reflow ON: renderiza párrafos en HTML (se adapta al ancho)
+      contentDiv.classList.remove("no-reflow");
+      contentDiv.classList.add("reflow");
+
+      const paras = normalizeToParagraphs(rawText);
+      contentDiv.innerHTML = paras.map(p => `<p class="p">${escapeHTML(p)}</p>`).join("");
+    }
+
+    function escapeHTML(s){
+      return String(s ?? "")
+        .replaceAll("&","&amp;")
+        .replaceAll("<","&lt;")
+        .replaceAll(">","&gt;")
+        .replaceAll('"',"&quot;")
+        .replaceAll("'","&#039;");
+    }
 
     document.getElementById("increaseFont").onclick = () => {
       fontSize = Math.min(fontSize + 0.08, 2.2);
       localStorage.setItem("fontSize", fontSize);
-      applySettings();
+      renderText();
     };
 
     document.getElementById("decreaseFont").onclick = () => {
       fontSize = Math.max(fontSize - 0.08, 0.9);
       localStorage.setItem("fontSize", fontSize);
-      applySettings();
+      renderText();
     };
 
     document.getElementById("toggleTheme").onclick = () => {
       theme = theme === "dark" ? "sepia" : "dark";
       localStorage.setItem("theme", theme);
-      applySettings();
+      renderText();
+    };
+
+    document.getElementById("toggleReflow").onclick = () => {
+      reflow = !reflow;
+      localStorage.setItem("reflow", reflow ? "1" : "0");
+      document.getElementById("toggleReflow").textContent = reflow ? "Reflow ✓" : "Reflow";
+      renderText();
+    };
+
+    document.getElementById("fontSelect").onchange = (e) => {
+      fontMode = e.target.value;
+      localStorage.setItem("fontMode", fontMode);
+      renderText();
     };
 
     document.getElementById("volver").onclick = () => {
@@ -234,24 +354,32 @@
       const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
       bar.style.width = pct.toFixed(1) + "%";
     }
-
     window.addEventListener("scroll", updateProgress);
 
-    // Buscar dentro del texto (simple)
-    function clearMarks() {
-      const raw = contentDiv.textContent;
-      contentDiv.textContent = raw;
+    // Buscar dentro del texto
+    function clearMarks(){
+      renderText();
     }
 
-    function highlight(term) {
-      const raw = contentDiv.textContent;
+    function highlight(term){
       if (!term) return;
 
+      // buscar en lo que esté renderizado (reflow o raw)
       const safe = term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
       const re = new RegExp(safe, "gi");
 
-      const html = raw.replace(re, (m) => `<mark>${m}</mark>`);
-      contentDiv.innerHTML = html;
+      if (!reflow){
+        const raw = contentDiv.textContent;
+        contentDiv.innerHTML = escapeHTML(raw).replace(re, (m) => `<mark>${m}</mark>`);
+        return;
+      }
+
+      // reflow: marcar dentro de cada <p>
+      const ps = contentDiv.querySelectorAll("p.p");
+      ps.forEach(p => {
+        const t = p.textContent;
+        p.innerHTML = escapeHTML(t).replace(re, (m) => `<mark>${m}</mark>`);
+      });
     }
 
     document.getElementById("searchBtn").onclick = () => {
@@ -261,14 +389,17 @@
     };
 
     // Cargar texto
-    async function loadBook() {
-      try {
+    async function loadBook(){
+      try{
         const res = await fetch(`/catalog/read/${id}`);
-        if (!res.ok) throw new Error("Texto no disponible");
-        const text = await res.text();
-        contentDiv.textContent = text;
+        if(!res.ok) throw new Error("Texto no disponible");
+        rawText = await res.text();
+        document.getElementById("toggleReflow").textContent = reflow ? "Reflow ✓" : "Reflow";
+        document.getElementById("fontSelect").value = fontMode;
+        renderText();
         updateProgress();
-      } catch {
+      }catch{
+        rawText = "";
         contentDiv.textContent = "⚠️ Error: Texto no disponible";
       }
     }
