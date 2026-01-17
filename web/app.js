@@ -1,27 +1,66 @@
 // ===========================
-// 📚 Alejandría - app.js
+// Alejandría — app.js (PRO)
 // ===========================
 
 const username = localStorage.getItem("username");
 const usernameSpan = document.getElementById("usernameSpan");
+
 const resultsDiv = document.getElementById("results");
+const resultsMeta = document.getElementById("resultsMeta");
 const paginationDiv = document.getElementById("pagination");
+
 const loansDiv = document.getElementById("userLoans");
-const messageDiv = document.getElementById("message");
 const noLoansMsg = document.getElementById("noLoansMsg");
-const loanCounter = document.getElementById("loanCounter");
 
+const toast = document.getElementById("message");
+const loanCounterEl = document.getElementById("loanCounter");
+
+const sortSelect = document.getElementById("sortSelect");
+const clearBtn = document.getElementById("clearBtn");
+
+const MAX_LOANS_DEFAULT = 4;
+
+// Estado
 let activeLoans = 0;
-let maxLoans = 4;
+let maxLoans = MAX_LOANS_DEFAULT;
 
+// Gutendex pagination
+let currentQuery = "";
 let currentPage = 1;
-const pageSize = 5;
+let totalPages = 1;
+let totalCount = 0;
 
-// ===========================
-// 🔐 Sesión
-// ===========================
+// Gutendex page size es 32 normalmente
+const GUTEN_PAGE_SIZE = 32;
+
+// ---------------------------
+// Utils UI
+// ---------------------------
+function showToast(msg, type = "ok") {
+  toast.textContent = msg;
+  toast.className = `toast ${type === "err" ? "err" : "ok"}`;
+  setTimeout(() => {
+    toast.textContent = "";
+    toast.className = "toast";
+  }, 3200);
+}
+
+function setLoanCounter() {
+  loanCounterEl.textContent = `${activeLoans}/${maxLoans}`;
+  loanCounterEl.classList.toggle("full", activeLoans >= maxLoans);
+}
+
+function disableBorrowButtons(disabled) {
+  document.querySelectorAll(".borrow-btn").forEach((btn) => {
+    btn.disabled = disabled;
+    btn.title = disabled ? `Has alcanzado el límite (${maxLoans})` : "Tomar en préstamo";
+  });
+}
+
+// ---------------------------
+// Sesión
+// ---------------------------
 if (!username) {
-  alert("⚠️ No hay sesión activa. Inicia sesión.");
   window.location.href = "/static/login.html";
 } else {
   usernameSpan.textContent = username;
@@ -32,35 +71,18 @@ document.getElementById("logoutBtn").addEventListener("click", () => {
   window.location.href = "/static/login.html";
 });
 
-// ===========================
-// 💬 Mensajes
-// ===========================
-function showMessage(text, error = false) {
-  messageDiv.textContent = text;
-  messageDiv.className = error ? "message error" : "message success";
-  setTimeout(() => {
-    messageDiv.textContent = "";
-  }, 3000);
-}
+clearBtn.addEventListener("click", () => {
+  document.getElementById("q").value = "";
+  currentQuery = "";
+  currentPage = 1;
+  resultsDiv.innerHTML = "";
+  paginationDiv.innerHTML = "";
+  resultsMeta.textContent = "Escribe algo y pulsa Buscar.";
+});
 
-function setLoanCounter() {
-  loanCounter.textContent = `${activeLoans}/${maxLoans}`;
-  loanCounter.classList.toggle("full", activeLoans >= maxLoans);
-}
-
-function updateBorrowButtons() {
-  const reachedLimit = activeLoans >= maxLoans;
-  document.querySelectorAll(".loan-btn").forEach((btn) => {
-    btn.disabled = reachedLimit;
-    btn.title = reachedLimit
-      ? `Has alcanzado el límite de ${maxLoans} préstamos activos`
-      : "Tomar en préstamo";
-  });
-}
-
-// ===========================
-// 📚 Préstamos
-// ===========================
+// ---------------------------
+// Préstamos
+// ---------------------------
 async function loadUserLoans() {
   loansDiv.innerHTML = "";
   try {
@@ -69,13 +91,13 @@ async function loadUserLoans() {
 
     const loans = data.loans || [];
     activeLoans = data.active ?? loans.length;
-    maxLoans = data.max ?? 4;
+    maxLoans = data.max ?? MAX_LOANS_DEFAULT;
 
     setLoanCounter();
 
     if (!loans.length) {
       noLoansMsg.style.display = "block";
-      updateBorrowButtons();
+      disableBorrowButtons(activeLoans >= maxLoans);
       return;
     }
 
@@ -83,196 +105,334 @@ async function loadUserLoans() {
 
     loans.forEach((loan) => {
       const item = document.createElement("div");
-      item.classList.add("loan-item");
+      item.className = "loan-item";
       item.innerHTML = `
-        <div class="loan-info">
-          <strong>${loan.title}</strong><br/>
-          <em>${loan.author}</em><br/>
-          <small>📅 ${new Date(loan.created_at).toLocaleDateString()}</small>
+        <div>
+          <div class="loan-title">${escapeHtml(loan.title || "Sin título")}</div>
+          <div class="loan-author">${escapeHtml(loan.author || "Autor desconocido")}</div>
+          <div class="loan-meta">📅 ${new Date(loan.created_at).toLocaleDateString()}</div>
         </div>
         <div class="loan-actions">
-          <button class="open-visor-btn" data-id="${loan.guten_id}" data-title="${loan.title}">
-            📖 Leer
+          <button class="btn-mini primary open-read" data-id="${loan.guten_id}" data-title="${escapeAttr(loan.title || "")}">
+            Leer
           </button>
-          <button class="return-btn" data-id="${loan.guten_id}">
-            ↩ Devolver
+          <button class="btn-mini danger return-loan" data-id="${loan.guten_id}">
+            Devolver
           </button>
         </div>
       `;
       loansDiv.appendChild(item);
     });
 
-    // Botón para abrir visor
-    document.querySelectorAll(".open-visor-btn").forEach((btn) => {
+    document.querySelectorAll(".open-read").forEach((btn) => {
       btn.addEventListener("click", (e) => {
-        const id = e.target.dataset.id;
-        const title = e.target.dataset.title;
+        const id = e.currentTarget.dataset.id;
+        const title = e.currentTarget.dataset.title || "Libro";
         window.location.href = `/static/visor.html?id=${id}&title=${encodeURIComponent(title)}`;
       });
     });
 
-    // Botón para devolver libro
-    document.querySelectorAll(".return-btn").forEach((btn) => {
+    document.querySelectorAll(".return-loan").forEach((btn) => {
       btn.addEventListener("click", async (e) => {
-        const id = e.target.dataset.id;
+        const id = e.currentTarget.dataset.id;
         const res = await fetch(`/loans/${username}/${id}`, { method: "DELETE" });
-        if (!res.ok) return showMessage("❌ Error al devolver el libro.", true);
-
-        showMessage("↩ Libro devuelto correctamente.");
+        if (!res.ok) return showToast("No se pudo devolver el libro.", "err");
+        showToast("Libro devuelto correctamente ✅");
         await loadUserLoans();
+        disableBorrowButtons(activeLoans >= maxLoans);
       });
     });
 
-    updateBorrowButtons();
+    disableBorrowButtons(activeLoans >= maxLoans);
   } catch (err) {
-    console.error("Error cargando préstamos:", err);
+    console.error(err);
   }
 }
 
-// ===========================
-// 🔍 Buscar libros
-// ===========================
-async function searchBooks(query = "", page = 1) {
-  resultsDiv.innerHTML = "<p>Buscando...</p>";
-  try {
-    const res = await fetch(`/catalog/search?q=${encodeURIComponent(query)}`);
-    const data = await res.json();
-    const books = data.results || data;
-    renderResults(books, page);
-  } catch {
-    resultsDiv.innerHTML = "<p>⚠️ Error al buscar libros.</p>";
-  }
+// ---------------------------
+// Catálogo — Gutendex (paginación REAL)
+// ---------------------------
+async function fetchGutendex(query, page) {
+  const q = query.trim();
+  const url = new URL("https://gutendex.com/books/");
+  if (q) url.searchParams.set("search", q);
+  url.searchParams.set("page", String(page));
+
+  const res = await fetch(url.toString());
+  if (!res.ok) throw new Error("Error consultando Gutendex");
+  return await res.json();
 }
 
-function renderResults(books, page = 1) {
+function normalizeBook(g) {
+  const author = (g.authors && g.authors.length)
+    ? g.authors.map(a => a.name).join(", ")
+    : "Desconocido";
+
+  const lang = (g.languages && g.languages.length)
+    ? g.languages.join(", ").toUpperCase()
+    : "?";
+
+  const downloads = g.download_count ?? 0;
+
+  // mini descripción (no siempre viene)
+  const subjects = (g.subjects && g.subjects.length) ? g.subjects.slice(0, 2).join(" · ") : "";
+
+  return {
+    guten_id: g.id,
+    title: g.title || "Sin título",
+    author,
+    language: lang,
+    downloads,
+    subjects,
+  };
+}
+
+function applySort(books, mode) {
+  const arr = [...books];
+  if (mode === "title") return arr.sort((a, b) => a.title.localeCompare(b.title));
+  if (mode === "author") return arr.sort((a, b) => a.author.localeCompare(b.author));
+  if (mode === "newest") return arr.sort((a, b) => (b.downloads ?? 0) - (a.downloads ?? 0));
+  return arr; // relevancia = lo que venga
+}
+
+function renderBooks(books) {
   resultsDiv.innerHTML = "";
-  paginationDiv.innerHTML = "";
 
-  if (!books.length) {
-    resultsDiv.innerHTML = "<p>No se encontraron resultados.</p>";
-    return;
-  }
+  books.forEach((b) => {
+    const card = document.createElement("article");
+    card.className = "book-card";
+    card.innerHTML = `
+      <div class="book-top">
+        <span class="badge">📖 ${escapeHtml(b.language)}</span>
+        <span class="badge">⬇ ${Number(b.downloads).toLocaleString()}</span>
+      </div>
 
-  const start = (page - 1) * pageSize;
-  const end = start + pageSize;
-  const pageBooks = books.slice(start, end);
+      <h3 class="book-title">${escapeHtml(b.title)}</h3>
+      <div class="book-author">${escapeHtml(b.author)}</div>
 
-  pageBooks.forEach((book) => {
-    const div = document.createElement("div");
-    div.className = "book-card";
-    div.innerHTML = `
-      <h3>${book.title}</h3>
-      <p><em>${book.author}</em></p>
-      <p>🌐 ${book.language || "?"}</p>
-      <div class="actions">
-        <button class="loan-btn" data-id="${book.guten_id}" data-title="${book.title}" data-author="${book.author}">
-          📚 Tomar en préstamo
+      <p class="book-desc">
+        ${b.subjects ? escapeHtml(b.subjects) : "Dominio público · Lectura inmediata · Sin registro extra"}
+      </p>
+
+      <div class="book-actions">
+        <button class="btn-mini primary borrow-btn"
+                data-id="${b.guten_id}"
+                data-title="${escapeAttr(b.title)}"
+                data-author="${escapeAttr(b.author)}">
+          Tomar en préstamo
         </button>
-        <button class="review-btn" data-id="${book.guten_id}" data-title="${book.title}">
-          📝 Reseñar
+
+        <button class="btn-mini open-btn"
+                data-id="${b.guten_id}"
+                data-title="${escapeAttr(b.title)}">
+          Abrir
+        </button>
+
+        <button class="btn-mini review-write"
+                data-id="${b.guten_id}"
+                data-title="${escapeAttr(b.title)}">
+          Reseñar
         </button>
       </div>
-      <div class="reviews-container" id="reviews-${book.guten_id}"></div>
+
+      <div class="accordion">
+        <button class="acc-btn" data-id="${b.guten_id}">
+          Reseñas
+          <span>▾</span>
+        </button>
+        <div class="acc-content" id="acc-${b.guten_id}">
+          <div class="muted">Pulsa para cargar reseñas…</div>
+        </div>
+      </div>
     `;
-    resultsDiv.appendChild(div);
-    loadReviews(book.guten_id);
+
+    resultsDiv.appendChild(card);
   });
 
-  // Paginación
-  const totalPages = Math.ceil(books.length / pageSize);
-  if (totalPages > 1) {
-    const prev = document.createElement("button");
-    prev.textContent = "⬅ Anterior";
-    prev.disabled = page === 1;
-    prev.onclick = () => renderResults(books, page - 1);
+  // Botones: abrir
+  document.querySelectorAll(".open-btn").forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      const id = e.currentTarget.dataset.id;
+      const title = e.currentTarget.dataset.title || "Libro";
+      window.location.href = `/static/visor.html?id=${id}&title=${encodeURIComponent(title)}`;
+    });
+  });
 
-    const next = document.createElement("button");
-    next.textContent = "Siguiente ➡";
-    next.disabled = page === totalPages;
-    next.onclick = () => renderResults(books, page + 1);
-
-    paginationDiv.append(prev);
-    paginationDiv.append(` Página ${page} de ${totalPages} `);
-    paginationDiv.append(next);
-  }
-
-  updateBorrowButtons();
-
-  // Acciones: préstamo
-  document.querySelectorAll(".loan-btn").forEach((btn) => {
+  // Botones: prestar
+  document.querySelectorAll(".borrow-btn").forEach((btn) => {
     btn.addEventListener("click", async (e) => {
-      const button = e.target;
-      const id = button.dataset.id;
-      const title = button.dataset.title;
-      const author = button.dataset.author;
+      const b = e.currentTarget;
 
-      // ✅ UX: bloqueo inmediato si ya estás en 4/4
       if (activeLoans >= maxLoans) {
-        return showMessage(`⛔ Límite alcanzado: máximo ${maxLoans} préstamos activos.`, true);
+        showToast(`Límite alcanzado: máximo ${maxLoans} préstamos.`, "err");
+        disableBorrowButtons(true);
+        return;
       }
 
-      // Evita double-click
-      button.disabled = true;
-      button.textContent = "⏳ Procesando...";
+      b.disabled = true;
+      const guten_id = b.dataset.id;
+      const title = b.dataset.title;
+      const author = b.dataset.author;
 
       try {
         const res = await fetch("/loans/", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ username, guten_id: id, title, author }),
+          body: JSON.stringify({ username, guten_id, title, author }),
         });
 
-        // Intentar leer el detail del backend
-        let detail = "";
-        try {
-          const body = await res.json();
-          detail = body?.detail || body?.message || "";
-        } catch {}
+        let body = {};
+        try { body = await res.json(); } catch {}
 
         if (res.status === 403) {
-          showMessage(detail || `⛔ No puedes tener más de ${maxLoans} libros.`, true);
+          showToast(body.detail || `No puedes tener más de ${maxLoans} libros.`, "err");
           await loadUserLoans();
           return;
         }
 
         if (res.status === 409) {
-          showMessage(detail || "⚠️ Este libro no está disponible o ya lo tienes.", true);
+          showToast(body.detail || "Este libro no está disponible o ya lo tienes.", "err");
           await loadUserLoans();
           return;
         }
 
         if (!res.ok) {
-          showMessage(detail || "❌ Error al tomar el préstamo.", true);
+          showToast(body.detail || "Error al tomar el préstamo.", "err");
           await loadUserLoans();
           return;
         }
 
-        showMessage(`✅ "${title}" añadido a tus préstamos.`);
+        showToast(`Añadido: "${title}" ✅`, "ok");
         await loadUserLoans();
       } finally {
-        // Se re-habilita según el estado final (si no estás en el límite)
-        button.textContent = "📚 Tomar en préstamo";
-        updateBorrowButtons();
+        disableBorrowButtons(activeLoans >= maxLoans);
       }
     });
   });
 
-  // Acciones: reseña
-  document.querySelectorAll(".review-btn").forEach((btn) => {
+  // Botones: reseñar
+  document.querySelectorAll(".review-write").forEach((btn) => {
     btn.addEventListener("click", (e) => {
-      const id = e.target.dataset.id;
-      const title = e.target.dataset.title;
+      const id = e.currentTarget.dataset.id;
+      const title = e.currentTarget.dataset.title || "Libro";
       writeReview(id, title);
     });
   });
+
+  // Accordion: reseñas (solo al click)
+  document.querySelectorAll(".acc-btn").forEach((btn) => {
+    btn.addEventListener("click", async (e) => {
+      const id = e.currentTarget.dataset.id;
+      const content = document.getElementById(`acc-${id}`);
+
+      const isOpen = content.classList.contains("open");
+      if (isOpen) {
+        content.classList.remove("open");
+        return;
+      }
+
+      content.classList.add("open");
+
+      // Si ya cargó reseñas antes, no repetir
+      if (content.dataset.loaded === "true") return;
+
+      content.innerHTML = `<div class="muted">Cargando reseñas…</div>`;
+      await loadReviews(id);
+    });
+  });
+
+  disableBorrowButtons(activeLoans >= maxLoans);
 }
 
-// ===========================
-// 📝 Reseñas
-// ===========================
+function renderPagination() {
+  paginationDiv.innerHTML = "";
+
+  const mkBtn = (label, page, disabled = false, active = false) => {
+    const b = document.createElement("button");
+    b.className = `page-btn ${active ? "active" : ""}`;
+    b.textContent = label;
+    b.disabled = disabled;
+    b.addEventListener("click", () => goToPage(page));
+    return b;
+  };
+
+  const addEllipsis = () => {
+    const s = document.createElement("span");
+    s.className = "page-ellipsis";
+    s.textContent = "…";
+    paginationDiv.appendChild(s);
+  };
+
+  // First / Prev
+  paginationDiv.appendChild(mkBtn("⟪", 1, currentPage === 1));
+  paginationDiv.appendChild(mkBtn("⟨", Math.max(1, currentPage - 1), currentPage === 1));
+
+  // Ventana de páginas
+  const windowSize = 7;
+  let start = Math.max(1, currentPage - Math.floor(windowSize / 2));
+  let end = Math.min(totalPages, start + windowSize - 1);
+  start = Math.max(1, end - windowSize + 1);
+
+  if (start > 1) addEllipsis();
+
+  for (let p = start; p <= end; p++) {
+    paginationDiv.appendChild(mkBtn(String(p), p, false, p === currentPage));
+  }
+
+  if (end < totalPages) addEllipsis();
+
+  // Next / Last
+  paginationDiv.appendChild(mkBtn("⟩", Math.min(totalPages, currentPage + 1), currentPage === totalPages));
+  paginationDiv.appendChild(mkBtn("⟫", totalPages, currentPage === totalPages));
+}
+
+async function goToPage(page) {
+  currentPage = page;
+  await searchBooks(currentQuery, currentPage);
+}
+
+async function searchBooks(query, page = 1) {
+  currentQuery = query.trim();
+  currentPage = page;
+
+  resultsMeta.textContent = "Buscando…";
+  resultsDiv.innerHTML = "";
+  paginationDiv.innerHTML = "";
+
+  try {
+    const json = await fetchGutendex(currentQuery, currentPage);
+
+    totalCount = json.count || 0;
+    totalPages = Math.max(1, Math.ceil(totalCount / GUTEN_PAGE_SIZE));
+
+    let books = (json.results || []).map(normalizeBook);
+
+    // Orden (solo en cliente)
+    books = applySort(books, sortSelect.value);
+
+    resultsMeta.textContent = totalCount
+      ? `Mostrando página ${currentPage} de ${totalPages} · ${totalCount.toLocaleString()} resultados`
+      : "Sin resultados.";
+
+    renderBooks(books);
+    renderPagination();
+  } catch (err) {
+    console.error(err);
+    resultsMeta.textContent = "No se pudieron cargar resultados.";
+  }
+}
+
+sortSelect.addEventListener("change", async () => {
+  await searchBooks(currentQuery, currentPage);
+});
+
+// ---------------------------
+// Reseñas (backend tuyo)
+// ---------------------------
 async function writeReview(guten_id, title) {
-  const rating = prompt(`Puntuación (1–5 estrellas) para "${title}":`);
+  const rating = prompt(`Puntuación (1–5) para "${title}":`);
   if (!rating || isNaN(rating) || rating < 1 || rating > 5) return;
+
   const text = prompt("Escribe tu reseña:") || "";
 
   const res = await fetch(`/reviews/${guten_id}`, {
@@ -281,45 +441,70 @@ async function writeReview(guten_id, title) {
     body: JSON.stringify({ username, rating: parseInt(rating), text }),
   });
 
-  if (!res.ok) return showMessage("❌ Error al enviar reseña.", true);
-  showMessage("📝 Reseña enviada.");
-  loadReviews(guten_id);
+  if (!res.ok) return showToast("Error al enviar reseña.", "err");
+
+  showToast("Reseña enviada ✅", "ok");
+
+  // Si el accordion estaba abierto, refrescamos
+  await loadReviews(guten_id, true);
 }
 
-async function loadReviews(guten_id) {
-  const container = document.getElementById(`reviews-${guten_id}`);
+async function loadReviews(guten_id, forceOpen = false) {
+  const content = document.getElementById(`acc-${guten_id}`);
+  if (!content) return;
+
+  if (forceOpen) content.classList.add("open");
+
   try {
     const res = await fetch(`/reviews/${guten_id}`);
     if (!res.ok) throw new Error("Error al cargar reseñas");
-    const data = await res.json();
-    const reviews = data || [];
+    const reviews = await res.json();
 
-    container.innerHTML = reviews.length
-      ? reviews
-          .map(
-            (r) => `
-          <div class="review-item">
-            <p class="review-meta">⭐${r.rating} — ${r.username} (${new Date(r.created_at).toLocaleDateString()})</p>
-            <p class="review-text">${r.text}</p>
-          </div>`
-          )
-          .join("")
-      : "<p class='no-reviews'>Sin reseñas aún.</p>";
+    if (!reviews || !reviews.length) {
+      content.innerHTML = `<div class="muted">Sin reseñas todavía.</div>`;
+      content.dataset.loaded = "true";
+      return;
+    }
+
+    content.innerHTML = reviews.map(r => `
+      <div class="review-item">
+        <p class="review-meta">⭐ ${r.rating} — ${escapeHtml(r.username)} · ${new Date(r.created_at).toLocaleDateString()}</p>
+        <p class="review-text">${escapeHtml(r.text || "")}</p>
+      </div>
+    `).join("");
+
+    content.dataset.loaded = "true";
   } catch {
-    container.innerHTML = "<p class='no-reviews'>No se pudieron cargar las reseñas.</p>";
+    content.innerHTML = `<div class="muted">No se pudieron cargar reseñas.</div>`;
   }
 }
 
-// ===========================
-// 🚀 Inicio
-// ===========================
+// ---------------------------
+// Seguridad (escape HTML)
+// ---------------------------
+function escapeHtml(s) {
+  return String(s)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+function escapeAttr(s) {
+  return escapeHtml(s).replaceAll("\n", " ");
+}
+
+// ---------------------------
+// Init
+// ---------------------------
 document.getElementById("searchForm").addEventListener("submit", (e) => {
   e.preventDefault();
   const q = document.getElementById("q").value.trim();
-  searchBooks(q);
+  searchBooks(q, 1);
 });
 
-window.onload = () => {
-  loadUserLoans();
-  searchBooks();
+window.onload = async () => {
+  await loadUserLoans();
+  // default: muestra algo bonito sin buscar
+  searchBooks("", 1);
 };

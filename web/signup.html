@@ -5,60 +5,105 @@
   <title>Registro · Alejandría</title>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <link rel="stylesheet" href="signup.css"/>
+</head>
+
+<body>
+  <main class="auth-shell">
+    <section class="auth-card">
+      <header class="auth-head">
+        <div class="auth-logo" aria-hidden="true">⟁</div>
+        <div>
+          <h1>Crea tu cuenta</h1>
+          <p>Guarda préstamos y reseñas en tu biblioteca personal.</p>
+        </div>
+      </header>
+
+      <form id="signupForm" class="auth-form" autocomplete="on">
+        <label>
+          Usuario
+          <input id="username" name="username" type="text" placeholder="tu_usuario" required autocomplete="username"/>
+        </label>
+
+        <label>
+          Contraseña
+          <div class="password-wrap">
+            <input id="password" name="password" type="password" placeholder="mínimo recomendado: 8 caracteres" required autocomplete="new-password"/>
+            <button type="button" id="togglePwd" class="pwd-toggle">👁</button>
+          </div>
+        </label>
+
+        <button type="submit" class="btn-primary">Crear cuenta</button>
+
+        <div id="msg" class="auth-msg" role="status" aria-live="polite"></div>
+      </form>
+
+      <div class="auth-foot">
+        ¿Ya tienes cuenta? <a href="/static/login.html">Entrar</a>
+      </div>
+    </section>
+
+    <aside class="auth-side">
+      <div class="side-card">
+        <h2>¿Qué obtienes?</h2>
+        <ul>
+          <li>📚 Préstamos con límite inteligente (4 activos).</li>
+          <li>📝 Reseñas organizadas por libro.</li>
+          <li>📖 Visor con progreso, modo sepia y búsqueda.</li>
+        </ul>
+      </div>
+    </aside>
+  </main>
+
   <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      const form = document.getElementById("signupForm");
+    const msg = document.getElementById("msg");
 
-      form.addEventListener("submit", async (e) => {
-        e.preventDefault(); // Evita recarga
-        const username = document.getElementById("username").value.trim();
-        const password = document.getElementById("password").value.trim();
+    document.getElementById("togglePwd").addEventListener("click", () => {
+      const pwd = document.getElementById("password");
+      pwd.type = pwd.type === "password" ? "text" : "password";
+    });
 
-        if (!username || !password) {
-          alert("⚠️ Por favor, completa todos los campos.");
+    document.getElementById("signupForm").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      msg.textContent = "";
+      msg.className = "auth-msg";
+
+      const username = document.getElementById("username").value.trim();
+      const password = document.getElementById("password").value.trim();
+
+      if (!username || !password) {
+        msg.textContent = "Completa usuario y contraseña.";
+        msg.classList.add("err");
+        return;
+      }
+
+      try {
+        const res = await fetch("/auth/signup", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ username, password })
+        });
+
+        const data = await res.json().catch(() => ({}));
+
+        if (!res.ok) {
+          msg.textContent = data.detail || "No se pudo crear la cuenta.";
+          msg.classList.add("err");
           return;
         }
 
-        try {
-         const res = await fetch("/auth/signup", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ username, password }),
-        });
+        localStorage.setItem("username", data.username);
+        msg.textContent = `Cuenta creada ✅ Bienvenido, ${data.username}`;
+        msg.classList.add("ok");
 
-          const data = await res.json();
-
-          if (!res.ok) {
-            // Mostrar mensajes claros del backend
-            const msg = Array.isArray(data.detail)
-              ? data.detail.map(e => e.msg).join(", ")
-              : data.detail || "Error al registrar usuario";
-            throw new Error(msg);
-          }
-
-          localStorage.setItem("username", data.username);
-          alert(`✅ Cuenta creada para ${data.username}`);
+        setTimeout(() => {
           window.location.href = "/static/index.html";
-        } catch (err) {
-          alert(`⚠️ ${err.message}`);
-        }
-      });
+        }, 700);
+
+      } catch {
+        msg.textContent = "Error de red. Inténtalo otra vez.";
+        msg.classList.add("err");
+      }
     });
   </script>
-</head>
-<body>
-  <main>
-    <h1>Registro</h1>
-    <form id="signupForm" class="auth-form">
-      <label>Usuario
-        <input id="username" name="username" type="text" required autocomplete="username"/>
-      </label>
-      <label>Contraseña
-        <input id="password" name="password" type="password" required autocomplete="new-password"/>
-      </label>
-      <button type="submit">Crear cuenta</button>
-    </form>
-    <p>¿Ya tienes cuenta? <a href="/static/login.html">Entrar</a></p>
-  </main>
 </body>
 </html>

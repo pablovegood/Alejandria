@@ -2,166 +2,222 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <title>Visor de libro</title>
+  <title>Visor · Alejandría</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <style>
     :root {
-      --fondo-oscuro: #1a0e08;
-      --fondo-sepia: #f4ecd8;
-      --texto-oscuro: #fdf6e3;
-      --texto-sepia: #1a1205;
+      --egypt-red: #ce1126;
+      --egypt-black: #0b0b0d;
+      --egypt-white: #f8f8f8;
+      --egypt-gold: #c9a227;
+
+      --bg: #070708;
+      --panel: rgba(20, 20, 26, 0.78);
+      --stroke: rgba(255, 255, 255, 0.10);
+      --text: rgba(248, 248, 248, 0.92);
+      --muted: rgba(248, 248, 248, 0.62);
     }
+
+    * { box-sizing: border-box; }
 
     body {
       margin: 0;
-      font-family: 'Georgia', serif;
-      background: var(--fondo-oscuro);
-      color: var(--texto-oscuro);
-      transition: background 0.4s, color 0.4s;
+      background: radial-gradient(1200px 800px at 20% 0%, rgba(201, 162, 39, 0.12), transparent 55%),
+                  radial-gradient(1000px 700px at 90% 10%, rgba(206, 17, 38, 0.10), transparent 55%),
+                  linear-gradient(180deg, #050506 0%, #070708 100%);
+      color: var(--text);
+      font-family: ui-serif, Georgia, "Times New Roman", serif;
     }
 
     header {
-      background: rgba(20, 15, 10, 0.95);
-      border-bottom: 1px solid rgba(212, 175, 55, 0.3);
-      padding: 1rem 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
       position: sticky;
       top: 0;
-      z-index: 10;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 1.5rem;
-      color: #facc15;
-      text-shadow: 0 0 8px rgba(250, 204, 21, 0.3);
-    }
-
-    #controls {
-      display: flex;
+      z-index: 50;
+      background: rgba(12, 12, 15, 0.78);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--stroke);
+      padding: 12px 14px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 12px;
       align-items: center;
-      gap: 0.5rem;
     }
 
-    #controls select,
-    #controls button {
-      background: rgba(250, 204, 21, 0.1);
-      border: 1px solid rgba(250, 204, 21, 0.4);
-      color: #facc15;
-      border-radius: 6px;
-      padding: 4px 8px;
+    .title {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+
+    .title h1 {
+      margin: 0;
+      font-size: 1.05rem;
+      font-weight: 900;
+      letter-spacing: 0.2px;
+    }
+
+    .title small {
+      color: var(--muted);
+      font-size: 0.86rem;
+    }
+
+    .controls {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .btn {
+      height: 38px;
+      padding: 0 12px;
+      border-radius: 999px;
+      border: 1px solid var(--stroke);
+      background: rgba(255,255,255,0.04);
+      color: var(--text);
       cursor: pointer;
-      transition: 0.2s;
+      font-weight: 800;
+      font-family: ui-sans-serif, system-ui;
     }
 
-    #controls button:hover,
-    #controls select:hover {
-      background: rgba(250, 204, 21, 0.2);
+    .btn.primary {
+      border: 0;
+      color: #0b0b0d;
+      background: linear-gradient(135deg, var(--egypt-gold), #f4d35e);
+    }
+
+    .input {
+      height: 38px;
+      border-radius: 999px;
+      border: 1px solid var(--stroke);
+      background: rgba(18, 18, 24, 0.75);
+      color: var(--text);
+      padding: 0 12px;
+      outline: none;
+      width: 220px;
+      font-family: ui-sans-serif, system-ui;
+    }
+
+    .progress {
+      height: 3px;
+      background: rgba(255,255,255,0.10);
+      position: relative;
+    }
+
+    .progress > div {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, var(--egypt-red), var(--egypt-gold));
     }
 
     main {
-      padding: 2rem 8vw;
+      padding: 18px 18px 70px;
+      display: grid;
+      place-items: center;
+    }
+
+    .reader {
+      width: min(920px, 100%);
+      background: rgba(255,255,255,0.02);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 18px;
+      padding: 18px;
       line-height: 1.7;
-      font-size: 1.2rem;
+      font-size: 1.12rem;
       white-space: pre-wrap;
       word-break: break-word;
-      transition: font-size 0.2s ease, font-family 0.2s ease;
     }
 
-    #volver {
-      background: linear-gradient(90deg, #facc15, #f59e0b);
-      color: #1a1205;
-      border: none;
-      border-radius: 8px;
-      padding: 0.4rem 0.8rem;
-      font-weight: 600;
-      cursor: pointer;
-      transition: 0.2s;
-    }
-
-    #volver:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 6px 18px rgba(250, 204, 21, 0.25);
-    }
-
-    /* Tema sepia */
+    .sepia body {}
     body.sepia {
-      background: var(--fondo-sepia);
-      color: var(--texto-sepia);
+      background: #f4ecd8;
+      color: #1a1205;
     }
     body.sepia header {
-      background: rgba(244, 236, 216, 0.9);
-      border-bottom: 1px solid rgba(100, 80, 50, 0.2);
+      background: rgba(244, 236, 216, 0.92);
+      border-bottom: 1px solid rgba(0,0,0,0.10);
     }
-    body.sepia h1 {
-      color: #8b6b1b;
+    body.sepia .btn, body.sepia .input {
+      background: rgba(0,0,0,0.03);
+      border-color: rgba(0,0,0,0.15);
+      color: #1a1205;
     }
-    body.sepia #controls select,
-    body.sepia #controls button {
-      color: #8b6b1b;
-      border-color: rgba(120, 90, 40, 0.4);
+    body.sepia .reader {
+      background: rgba(0,0,0,0.02);
+      border-color: rgba(0,0,0,0.10);
+    }
+
+    mark {
+      background: rgba(201, 162, 39, 0.35);
+      color: inherit;
+      padding: 0 2px;
+      border-radius: 4px;
     }
   </style>
 </head>
+
 <body>
   <header>
-    <h1 id="bookTitle">Cargando...</h1>
-    <div id="controls">
-      <button id="decreaseFont">A-</button>
-      <button id="increaseFont">A+</button>
-      <select id="fontSelect">
-        <option value="'Georgia', serif">Serif</option>
-        <option value="'Segoe UI', sans-serif">Sans</option>
-        <option value="'Courier New', monospace">Mono</option>
-      </select>
-      <button id="toggleTheme">🌗</button>
-      <button id="volver">↩ Volver</button>
+    <div class="title">
+      <h1 id="bookTitle">Cargando…</h1>
+      <small id="bookMeta">Visor de lectura · Alejandría</small>
+    </div>
+
+    <div class="controls">
+      <button id="decreaseFont" class="btn">A-</button>
+      <button id="increaseFont" class="btn">A+</button>
+      <button id="toggleTheme" class="btn">🌗</button>
+
+      <input id="searchInside" class="input" placeholder="Buscar en el texto…"/>
+      <button id="searchBtn" class="btn">Buscar</button>
+
+      <button id="volver" class="btn primary">Volver</button>
     </div>
   </header>
 
-  <main id="bookContent">
-    <p>Cargando texto...</p>
+  <div class="progress"><div id="bar"></div></div>
+
+  <main>
+    <article class="reader" id="bookContent">Cargando texto…</article>
   </main>
 
   <script>
     const params = new URLSearchParams(window.location.search);
     const id = params.get("id");
     const title = params.get("title") || "Libro";
+
     const contentDiv = document.getElementById("bookContent");
     const titleEl = document.getElementById("bookTitle");
+    const metaEl = document.getElementById("bookMeta");
+    const bar = document.getElementById("bar");
 
-    // Ajustes guardados
-    let fontSize = parseFloat(localStorage.getItem("fontSize")) || 1.2;
-    let fontFamily = localStorage.getItem("fontFamily") || "'Georgia', serif";
+    let fontSize = parseFloat(localStorage.getItem("fontSize")) || 1.12;
     let theme = localStorage.getItem("theme") || "dark";
 
-    const applySettings = () => {
+    titleEl.textContent = title;
+    metaEl.textContent = `ID ${id} · Ajustes guardados`;
+
+    function applySettings() {
       document.body.classList.toggle("sepia", theme === "sepia");
       contentDiv.style.fontSize = fontSize + "rem";
-      contentDiv.style.fontFamily = fontFamily;
-    };
+    }
 
-    titleEl.textContent = title;
     applySettings();
 
-    // Botones de control
     document.getElementById("increaseFont").onclick = () => {
-      fontSize = Math.min(fontSize + 0.1, 2.5);
+      fontSize = Math.min(fontSize + 0.08, 2.2);
       localStorage.setItem("fontSize", fontSize);
       applySettings();
     };
+
     document.getElementById("decreaseFont").onclick = () => {
-      fontSize = Math.max(fontSize - 0.1, 0.8);
+      fontSize = Math.max(fontSize - 0.08, 0.9);
       localStorage.setItem("fontSize", fontSize);
       applySettings();
     };
-    document.getElementById("fontSelect").onchange = (e) => {
-      fontFamily = e.target.value;
-      localStorage.setItem("fontFamily", fontFamily);
-      applySettings();
-    };
+
     document.getElementById("toggleTheme").onclick = () => {
       theme = theme === "dark" ? "sepia" : "dark";
       localStorage.setItem("theme", theme);
@@ -172,15 +228,48 @@
       window.location.href = "/static/index.html";
     };
 
-    // Cargar texto del servidor
+    function updateProgress() {
+      const scrollTop = window.scrollY || document.documentElement.scrollTop;
+      const docHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+      bar.style.width = pct.toFixed(1) + "%";
+    }
+
+    window.addEventListener("scroll", updateProgress);
+
+    // Buscar dentro del texto (simple)
+    function clearMarks() {
+      const raw = contentDiv.textContent;
+      contentDiv.textContent = raw;
+    }
+
+    function highlight(term) {
+      const raw = contentDiv.textContent;
+      if (!term) return;
+
+      const safe = term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      const re = new RegExp(safe, "gi");
+
+      const html = raw.replace(re, (m) => `<mark>${m}</mark>`);
+      contentDiv.innerHTML = html;
+    }
+
+    document.getElementById("searchBtn").onclick = () => {
+      const term = document.getElementById("searchInside").value.trim();
+      clearMarks();
+      highlight(term);
+    };
+
+    // Cargar texto
     async function loadBook() {
       try {
         const res = await fetch(`/catalog/read/${id}`);
         if (!res.ok) throw new Error("Texto no disponible");
         const text = await res.text();
         contentDiv.textContent = text;
+        updateProgress();
       } catch {
-        contentDiv.innerHTML = "<p style='text-align:center;color:#ffcc00;'>⚠️ Error: Texto no disponible</p>";
+        contentDiv.textContent = "⚠️ Error: Texto no disponible";
       }
     }
 

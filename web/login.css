@@ -1,150 +1,186 @@
+:root {
+  --egypt-red: #ce1126;
+  --egypt-black: #0b0b0d;
+  --egypt-white: #f8f8f8;
+  --egypt-gold: #c9a227;
+
+  --bg: #070708;
+  --panel: rgba(20, 20, 26, 0.78);
+  --stroke: rgba(255, 255, 255, 0.10);
+  --muted: rgba(248, 248, 248, 0.65);
+  --text: rgba(248, 248, 248, 0.92);
+  --shadow: 0 18px 55px rgba(0,0,0,0.55);
+  --radius: 18px;
+}
+
+* { box-sizing: border-box; }
+
 body {
-  font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  background: radial-gradient(circle at top, #2c1810, #0a0604);
-  background-attachment: fixed;
-  color: #fdf6e3;
   margin: 0;
   min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  color: var(--text);
+  background: radial-gradient(1200px 800px at 10% 0%, rgba(201, 162, 39, 0.12), transparent 55%),
+              radial-gradient(1000px 700px at 90% 10%, rgba(206, 17, 38, 0.10), transparent 55%),
+              linear-gradient(180deg, #050506 0%, #070708 100%);
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI;
+  display: grid;
+  place-items: center;
+  padding: 18px;
 }
 
-/* === CONTENEDOR PRINCIPAL === */
-.auth-container {
+.auth-shell {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  max-width: 1100px;
+  display: grid;
+  grid-template-columns: 420px 1fr;
+  gap: 16px;
+  align-items: stretch;
 }
 
-/* === TARJETA === */
 .auth-card {
-  background: rgba(30, 25, 18, 0.9);
-  border-radius: 18px;
-  padding: 32px 36px;
-  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.7);
-  width: 100%;
-  max-width: 420px;
-  border: 1px solid rgba(212, 175, 55, 0.25);
-  backdrop-filter: blur(10px);
-  animation: fadeIn 0.6s ease-in-out;
+  background: var(--panel);
+  border: 1px solid var(--stroke);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 18px;
 }
 
-/* === TÍTULO === */
+.auth-head {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.auth-logo {
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  color: #0b0b0d;
+  background: linear-gradient(135deg, var(--egypt-gold), #f4d35e);
+  font-weight: 900;
+}
+
 h1 {
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 8px;
-  font-size: 1.9rem;
-  color: #facc15;
-  text-shadow: 0 0 8px rgba(250, 204, 21, 0.3);
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 900;
 }
 
-/* === SUBTÍTULO === */
-.subtitle {
-  text-align: center;
-  font-size: 0.95rem;
-  color: #e7dec8;
-  margin-bottom: 20px;
+.auth-head p {
+  margin: 4px 0 0 0;
+  color: var(--muted);
+  font-size: 0.92rem;
 }
 
-/* === FORMULARIO === */
-form {
+.auth-form {
   display: flex;
   flex-direction: column;
+  gap: 12px;
+  margin-top: 10px;
 }
 
 label {
-  font-size: 0.85rem;
-  color: #fefce8;
-  margin-bottom: 4px;
+  display: grid;
+  gap: 6px;
+  font-weight: 750;
+  color: rgba(248,248,248,0.85);
 }
 
-/* === CAMPOS DE TEXTO === */
 input {
-  padding: 10px 12px;
-  margin-bottom: 14px;
-  border-radius: 10px;
-  border: 1px solid #a67c52;
-  background: rgba(20, 16, 10, 0.85);
-  color: #fdf6e3;
-  font-size: 0.95rem;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
-}
-
-input::placeholder {
-  color: #c9b47e;
-  opacity: 0.8;
+  height: 44px;
+  border-radius: 14px;
+  border: 1px solid var(--stroke);
+  background: rgba(18, 18, 24, 0.75);
+  color: var(--text);
+  padding: 0 12px;
+  outline: none;
 }
 
 input:focus {
-  outline: none;
-  border-color: #facc15;
-  box-shadow: 0 0 0 1px rgba(250, 204, 21, 0.6);
+  border-color: rgba(201, 162, 39, 0.55);
+  box-shadow: 0 0 0 3px rgba(201, 162, 39, 0.16);
 }
 
-/* === BOTÓN === */
-button {
-  background: linear-gradient(90deg, #facc15, #f59e0b);
-  color: #1a1205;
-  font-weight: 600;
-  border: none;
-  border-radius: 10px;
-  padding: 10px;
+.password-wrap {
+  display: grid;
+  grid-template-columns: 1fr 42px;
+  gap: 8px;
+  align-items: center;
+}
+
+.pwd-toggle {
+  height: 44px;
+  border-radius: 14px;
+  border: 1px solid var(--stroke);
+  background: rgba(255,255,255,0.03);
+  color: var(--text);
   cursor: pointer;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
-  box-shadow: 0 6px 18px rgba(250, 204, 21, 0.2);
 }
 
-button:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 10px 24px rgba(250, 204, 21, 0.35);
+.btn-primary {
+  height: 44px;
+  border-radius: 999px;
+  border: 0;
+  cursor: pointer;
+  font-weight: 900;
+  color: #0b0b0d;
+  background: linear-gradient(135deg, var(--egypt-gold), #f4d35e);
+  box-shadow: 0 18px 40px rgba(201, 162, 39, 0.18);
 }
 
-/* === MENSAJES === */
-.message {
-  text-align: center;
-  font-size: 0.9rem;
-  min-height: 22px;
-  margin-top: 8px;
+.auth-msg {
+  min-height: 18px;
+  font-size: 0.92rem;
+  color: var(--muted);
 }
 
-.message.error {
-  color: #f87171;
+.auth-msg.ok { color: rgba(74, 222, 128, 0.95); }
+.auth-msg.err { color: rgba(248, 113, 113, 0.95); }
+
+.auth-foot {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 0.92rem;
 }
 
-.message.ok {
-  color: #4ade80;
-}
-
-/* === ENLACE AL SIGNUP === */
-.toggle {
-  margin-top: 18px;
-  text-align: center;
-  font-size: 0.9rem;
-  color: #d4c9a1;
-}
-
-.toggle a {
-  color: #facc15;
+.auth-foot a {
+  color: rgba(201, 162, 39, 0.95);
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 900;
 }
 
-.toggle a:hover {
-  text-decoration: underline;
-  text-shadow: 0 0 6px rgba(250, 204, 21, 0.4);
+.auth-side {
+  display: grid;
+  place-items: center;
 }
 
-/* === ANIMACIÓN === */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.side-card {
+  width: 100%;
+  height: 100%;
+  border-radius: var(--radius);
+  border: 1px solid rgba(201, 162, 39, 0.20);
+  background: rgba(255,255,255,0.02);
+  box-shadow: var(--shadow);
+  padding: 18px;
+}
+
+.side-card h2 {
+  margin: 0 0 8px 0;
+  font-size: 1.05rem;
+  font-weight: 900;
+}
+
+.side-card p { color: var(--muted); margin: 0 0 10px 0; }
+
+.side-card ul {
+  padding-left: 18px;
+  margin: 0;
+  color: rgba(248,248,248,0.85);
+}
+
+@media (max-width: 920px) {
+  .auth-shell { grid-template-columns: 1fr; }
 }

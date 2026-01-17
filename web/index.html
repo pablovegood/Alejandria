@@ -2,58 +2,108 @@
 <html lang="es">
 <head>
   <meta charset="utf-8"/>
-  <title>Alejandría · Biblioteca remota</title>
+  <title>Alejandría · Biblioteca pública en la nube</title>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <link rel="stylesheet" href="index.css"/>
 </head>
 
 <body>
-  <header>
-    <h1>Alejandría</h1>
-    <nav>
-      <button id="logoutBtn" class="logout" title="Cerrar sesión">Cerrar sesión</button>
-    </nav>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true">⟁</div>
+      <div class="brand-text">
+        <div class="brand-title">Alejandría</div>
+        <div class="brand-subtitle">Biblioteca de dominio público</div>
+      </div>
+    </div>
+
+    <form id="searchForm" class="top-search" autocomplete="off">
+      <input id="q" name="q" placeholder="Busca por título, autor o tema… (ej: Borges, Egypt, Philosophy)" />
+      <button type="submit" class="btn btn-primary">Buscar</button>
+    </form>
+
+    <div class="top-actions">
+      <div class="user-pill" title="Sesión activa">
+        <span class="dot"></span>
+        <span>👤</span>
+        <span id="usernameSpan">anon</span>
+      </div>
+      <button id="logoutBtn" class="btn btn-outline" title="Cerrar sesión">
+        Cerrar sesión
+      </button>
+    </div>
   </header>
 
-  <main>
-    <!-- 🔹 Panel de usuario -->
-    <section class="user-panel">
-      <div id="userInfo">👤 Usuario: <span id="usernameSpan">anon</span></div>
-      <div id="message" class="message"></div>
-    </section>
+  <main class="layout">
+    <!-- 🟥 Panel lateral -->
+    <aside class="sidebar">
+      <section class="card card-tight">
+        <div class="card-title">Tus préstamos</div>
 
-    <!-- 🔹 Tus préstamos -->
-    <section id="loansSection">
-      <h2>
-        📚 Tus préstamos
-        <span id="loanCounter" class="loan-counter">0/4</span>
-      </h2>
+        <div class="counter-row">
+          <div class="counter">
+            <div class="counter-label">Activos</div>
+            <div class="counter-value">
+              <span id="loanCounter">0/4</span>
+            </div>
+          </div>
 
-      <div id="userLoans" class="user-loans"></div>
-      <p id="noLoansMsg" class="empty-msg">Aún no tienes préstamos activos.</p>
-    </section>
+          <div class="counter-help">
+            Máximo <strong>4</strong> préstamos a la vez.
+          </div>
+        </div>
 
-    <!-- 🔹 Buscador -->
-    <section>
-      <form id="searchForm" class="search">
-        <input id="q" name="q" placeholder="Buscar por título o autor..." autofocus />
-        <button type="submit">Buscar</button>
-      </form>
-    </section>
+        <div id="message" class="toast" role="status" aria-live="polite"></div>
+      </section>
 
-    <!-- 🔹 Resultados -->
-    <section id="resultsSection">
-      <h2>🔎 Resultados</h2>
-      <div id="results" class="results"></div>
-      <div id="pagination" class="pagination"></div>
+      <section class="card">
+        <div class="card-title">Préstamos actuales</div>
+        <div id="userLoans" class="loan-list"></div>
+        <div id="noLoansMsg" class="muted" style="display:none;">Aún no tienes préstamos activos.</div>
+      </section>
+
+      <section class="card card-soft">
+        <div class="card-title">Consejos</div>
+        <ul class="tips">
+          <li>Abre reseñas dentro de cada libro (desplegable).</li>
+          <li>Usa el visor para modo sepia + búsqueda + progreso.</li>
+          <li>Puedes navegar todas las páginas del catálogo.</li>
+        </ul>
+      </section>
+    </aside>
+
+    <!-- ⬛ Contenido principal -->
+    <section class="content">
+      <div class="content-head">
+        <div>
+          <h1 class="page-title">Explorar catálogo</h1>
+          <p class="page-subtitle">Resultados desde Gutendex + lectura desde tu servidor.</p>
+        </div>
+
+        <div class="filters">
+          <select id="sortSelect" class="select">
+            <option value="relevance">Orden: Relevancia</option>
+            <option value="title">Orden: Título</option>
+            <option value="author">Orden: Autor</option>
+            <option value="newest">Orden: Más descargados</option>
+          </select>
+
+          <button id="clearBtn" class="btn btn-ghost">Limpiar</button>
+        </div>
+      </div>
+
+      <section class="card">
+        <div id="resultsMeta" class="results-meta">Escribe algo y pulsa Buscar.</div>
+        <div id="results" class="grid"></div>
+        <div id="pagination" class="pagination"></div>
+      </section>
+
+      <footer class="footer">
+        <small>Catálogo: Gutendex · Lectura: tu backend (/catalog/read)</small>
+      </footer>
     </section>
   </main>
 
-  <footer>
-    <small>Catálogo vía Gutendex · Préstamos y reseñas locales</small>
-  </footer>
-
-  <!-- ✅ Ahora todo el JS vive aquí -->
   <script src="app.js" defer></script>
 </body>
 </html>
