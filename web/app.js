@@ -389,8 +389,18 @@ function buildBookCard(book) {
               data-title="${escapeAttr(book.title || "")}">
         📝 Reseñar
       </button>
-    </div>
 
+<button class="btn-mini"
+        data-action="open-visor"
+        data-id="${book.guten_id}"
+        data-title="${escapeAttr(book.title || "")}"
+        disabled
+        tabindex="-1"
+        aria-hidden="true"
+        style="visibility:hidden; pointer-events:none; width:0; padding:0; margin:0; border:0;">
+</button>
+
+    </div>
 
     <div class="accordion">
       <button class="acc-btn" data-action="toggle-reviews" data-id="${book.guten_id}">
