@@ -7,76 +7,95 @@
   <link rel="stylesheet" href="admin.css"/>
 </head>
 <body>
-  <header class="topbar">
-    <div class="brand">
-      <div class="mark">⟁</div>
-      <div>
-        <div class="t">Alejandría</div>
-        <div class="s">Panel de administración</div>
-      </div>
+<header class="topbar">
+  <div class="brand">
+    <div class="mark">⟁</div>
+    <div>
+      <div class="t">Alejandría</div>
+      <div class="s">Panel de administración</div>
     </div>
+  </div>
 
-    <div class="actions">
-      <a class="btn" href="/static/index.html">Volver a la app</a>
-    </div>
-  </header>
+  <div class="actions">
+    <a class="btn" href="/static/index.html">Volver a la app</a>
+  </div>
+</header>
 
-  <main class="wrap">
+<main class="wrap">
+  <section class="card">
+    <h2>Login admin</h2>
+    <p class="muted">Introduce credenciales configuradas en Fly Secrets (<b>ADMIN_USER</b> y <b>ADMIN_PASS</b>).</p>
+
+    <form id="adminForm" class="form">
+      <input id="adminUser" placeholder="Usuario admin" autocomplete="username"/>
+      <input id="adminPass" placeholder="Contraseña" type="password" autocomplete="current-password"/>
+      <button class="btn primary" type="submit">Entrar</button>
+    </form>
+
+    <div id="status" class="status muted"></div>
+  </section>
+
+  <section class="grid">
     <section class="card">
-      <h2>Login admin</h2>
-      <p class="muted">Credenciales: <b>pablogalvarado</b> / <b>admin</b></p>
+      <h3>Usuarios</h3>
+      <p class="muted">Busca por nombre de usuario y elimina con un clic.</p>
 
-      <form id="adminForm" class="form">
-        <input id="adminUser" placeholder="Usuario admin" value="pablogalvarado"/>
-        <input id="adminPass" placeholder="Contraseña" value="admin" type="password"/>
-        <button class="btn primary" type="submit">Entrar</button>
-      </form>
+      <div class="search-row">
+        <input id="userSearch" placeholder="Buscar usuario (ej: pablo…)" />
+        <button class="btn" id="reloadUsersBtn">Recargar</button>
+      </div>
 
-      <div id="status" class="status muted"></div>
+      <div class="list" id="usersList">Inicia sesión admin para ver.</div>
+
+      <div class="pager">
+        <button class="btn" id="usersPrev">⬅</button>
+        <div class="muted" id="usersPageInfo">—</div>
+        <button class="btn" id="usersNext">➡</button>
+      </div>
     </section>
 
-    <section class="grid">
-      <section class="card">
-        <h3>Eliminar reseña</h3>
-        <p class="muted">Borra una reseña por su ID.</p>
+    <section class="card">
+      <h3>Reseñas</h3>
+      <p class="muted">Busca por texto o por usuario y elimina reseñas.</p>
 
-        <div class="row">
-          <input id="reviewId" placeholder="review_id (ej: 12)" />
-          <button class="btn danger" id="deleteReviewBtn">Eliminar</button>
-        </div>
-      </section>
+      <div class="search-row">
+        <input id="reviewSearch" placeholder="Buscar reseña (texto o username…)" />
+        <button class="btn" id="reloadReviewsBtn">Recargar</button>
+      </div>
 
-      <section class="card">
-        <h3>Eliminar usuario</h3>
-        <p class="muted">Elimina el usuario y sus reseñas asociadas.</p>
+      <div class="list" id="reviewsList">Inicia sesión admin para ver.</div>
 
-        <div class="row">
-          <input id="delUsername" placeholder="username" />
-          <button class="btn danger" id="deleteUserBtn">Eliminar</button>
-        </div>
-      </section>
-
-      <section class="card">
-        <h3>Añadir libro (custom)</h3>
-        <p class="muted">Libro local adicional a tu biblioteca.</p>
-
-        <div class="stack">
-          <input id="bookTitle" placeholder="Título" />
-          <input id="bookAuthor" placeholder="Autor" />
-          <input id="bookLang" placeholder="Idioma (EN/ES...)" />
-          <input id="bookTextUrl" placeholder="text_url (opcional)" />
-          <input id="bookCoverUrl" placeholder="cover_url (opcional)" />
-          <button class="btn primary" id="addBookBtn">Añadir libro</button>
-        </div>
-      </section>
-
-      <section class="card">
-        <h3>Libros añadidos</h3>
-        <div id="bookList" class="list muted">Inicia sesión admin para ver.</div>
-      </section>
+      <div class="pager">
+        <button class="btn" id="reviewsPrev">⬅</button>
+        <div class="muted" id="reviewsPageInfo">—</div>
+        <button class="btn" id="reviewsNext">➡</button>
+      </div>
     </section>
-  </main>
 
-  <script src="admin.js" defer></script>
+    <section class="card">
+      <h3>Añadir libro (PDF → TXT)</h3>
+      <p class="muted">Sube un PDF. Alejandría generará un TXT para el visor.</p>
+
+      <div class="stack">
+        <input id="bookTitle" placeholder="Título" />
+        <input id="bookAuthor" placeholder="Autor" />
+        <input id="bookLang" placeholder="Idioma (EN/ES...)" />
+        <input id="bookPdf" type="file" accept="application/pdf" />
+        <button class="btn primary" id="uploadBookBtn">Subir PDF</button>
+      </div>
+
+      <div class="muted" style="margin-top:10px;">
+        Consejo: si el PDF está escaneado (imagen), no se podrá extraer texto.
+      </div>
+    </section>
+
+    <section class="card">
+      <h3>Libros añadidos</h3>
+      <div id="bookList" class="list muted">Inicia sesión admin para ver.</div>
+    </section>
+  </section>
+</main>
+
+<script src="admin.js" defer></script>
 </body>
 </html>

@@ -4,64 +4,85 @@ import sqlite3
 import secrets
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Optional
 
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, UploadFile, File, Form, Query
 from fastapi.security import HTTPBasic, HTTPBasicCredentials
-from pydantic import BaseModel, Field
 
 
 # ============================================================
-# Admin credentials (env override)
+# Admin credentials (ONLY env vars, NO hardcode)
 # ============================================================
-ADMIN_USER = os.getenv("ADMIN_USER", "pablogalvarado")
-ADMIN_PASS = os.getenv("ADMIN_PASS", "admin")
-
 security = HTTPBasic()
 
 
+def _get_admin_creds():
+    admin_user = os.getenv("ADMIN_USER")
+    admin_pass = os.getenv("ADMIN_PASS")
+
+    if not admin_user or not admin_pass:
+        raise HTTPException(
+            status_code=503,
+            detail="Admin disabled: set ADMIN_USER and ADMIN_PASS environment variables.",
+        )
+    return admin_user, admin_pass
+
+
 def require_admin(credentials: HTTPBasicCredentials = Depends(security)) -> str:
-    user_ok = secrets.compare_digest(credentials.username, ADMIN_USER)
-    pass_ok = secrets.compare_digest(credentials.password, ADMIN_PASS)
+    admin_user, admin_pass = _get_admin_creds()
+
+    user_ok = secrets.compare_digest(credentials.username, admin_user)
+    pass_ok = secrets.compare_digest(credentials.password, admin_pass)
+
     if not (user_ok and pass_ok):
         raise HTTPException(status_code=401, detail="Credenciales admin incorrectas.")
     return credentials.username
 
 
 # ============================================================
-# DB (persistente en /data)
+# Persistent storage (/data)
 # ============================================================
 DATA_DIR = Path(os.getenv("ALEJANDRIA_DATA_DIR", "/data"))
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 ADMIN_DB = DATA_DIR / "admin.db"
+BOOKS_DIR = DATA_DIR / "custom_books"
+BOOKS_DIR.mkdir(parents=True, exist_ok=True)
 
 
-def get_db():
-    db = sqlite3.connect(ADMIN_DB, check_same_thread=False)
+def get_db(db_path: Path):
+    db = sqlite3.connect(db_path, check_same_thread=False)
     db.row_factory = sqlite3.Row
     db.execute("PRAGMA journal_mode=WAL;")
     db.execute("PRAGMA busy_timeout=5000;")
     return db
 
 
-def init_admin_db():
-    db = get_db()
+def _ensure_column(db: sqlite3.Connection, table: str, col: str, ddl: str):
+    cur = db.execute(f"PRAGMA table_info({table});")
+    cols = {r["name"] for r in cur.fetchall()}
+    if col not in cols:
+        db.execute(ddl)
+        db.commit()
 
-    # Libros locales añadidos por admin
-    db.execute("""
+
+def init_admin_db():
+    db = get_db(ADMIN_DB)
+    db.execute(
+        """
     CREATE TABLE IF NOT EXISTS custom_books (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         title TEXT NOT NULL,
         author TEXT DEFAULT '',
         language TEXT DEFAULT '',
-        text_url TEXT DEFAULT '',
-        cover_url TEXT DEFAULT '',
         created_at TEXT NOT NULL
     );
-    """)
-
+    """
+    )
     db.commit()
+
+    _ensure_column(db, "custom_books", "pdf_path", "ALTER TABLE custom_books ADD COLUMN pdf_path TEXT DEFAULT ''")
+    _ensure_column(db, "custom_books", "txt_path", "ALTER TABLE custom_books ADD COLUMN txt_path TEXT DEFAULT ''")
+
     db.close()
 
 
@@ -69,14 +90,71 @@ init_admin_db()
 
 
 # ============================================================
-# Schemas
+# Helpers: detect DB tables/columns safely
 # ============================================================
-class AdminBookCreate(BaseModel):
-    title: str = Field(..., min_length=1)
-    author: str = ""
-    language: str = ""
-    text_url: str = ""     # opcional (url o path del visor)
-    cover_url: str = ""    # opcional
+def _find_existing_db(candidates: list[Path]) -> Path | None:
+    return next((p for p in candidates if p.exists()), None)
+
+
+def _list_tables(db: sqlite3.Connection) -> list[str]:
+    cur = db.execute("SELECT name FROM sqlite_master WHERE type='table';")
+    return [r[0] for r in cur.fetchall()]
+
+
+def _table_columns(db: sqlite3.Connection, table: str) -> set[str]:
+    cur = db.execute(f"PRAGMA table_info({table});")
+    return {r[1] for r in cur.fetchall()}  # (cid, name, type...)
+
+
+def _pick_table(db: sqlite3.Connection, table_candidates: list[str], required_cols: set[str]) -> str | None:
+    tables = set(_list_tables(db))
+    for t in table_candidates:
+        if t in tables:
+            cols = _table_columns(db, t)
+            if required_cols.issubset(cols):
+                return t
+    # fallback: try any table that has the required cols
+    for t in tables:
+        cols = _table_columns(db, t)
+        if required_cols.issubset(cols):
+            return t
+    return None
+
+
+# ============================================================
+# PDF -> TXT conversion
+# ============================================================
+def pdf_to_txt(pdf_path: Path, txt_path: Path) -> int:
+    text = ""
+
+    try:
+        import pdfplumber  # type: ignore
+
+        with pdfplumber.open(str(pdf_path)) as pdf:
+            pages = []
+            for p in pdf.pages:
+                pages.append(p.extract_text() or "")
+            text = "\n\n".join(pages).strip()
+    except Exception:
+        text = ""
+
+    if not text:
+        try:
+            from PyPDF2 import PdfReader  # type: ignore
+
+            reader = PdfReader(str(pdf_path))
+            pages = []
+            for p in reader.pages:
+                pages.append(p.extract_text() or "")
+            text = "\n\n".join(pages).strip()
+        except Exception as e:
+            raise HTTPException(status_code=500, detail=f"No se pudo extraer texto del PDF: {e}")
+
+    if not text:
+        raise HTTPException(status_code=422, detail="El PDF no contiene texto extraíble (puede ser escaneado).")
+
+    txt_path.write_text(text, encoding="utf-8")
+    return len(text)
 
 
 # ============================================================
@@ -85,98 +163,289 @@ class AdminBookCreate(BaseModel):
 router = APIRouter(prefix="/admin", tags=["admin"])
 
 
-# ---------------------------
-# Health check admin (opcional)
-# ---------------------------
 @router.get("/ping")
 def ping_admin(admin: str = Depends(require_admin)):
     return {"ok": True, "admin": admin}
 
 
 # ============================================================
-# ✅ BOOKS (custom)
+# ✅ CUSTOM BOOKS: upload PDF -> save pdf + txt
 # ============================================================
-@router.post("/books")
-def admin_add_book(payload: AdminBookCreate, admin: str = Depends(require_admin)):
-    db = get_db()
-    now = datetime.now(timezone.utc).isoformat()
-    cur = db.execute("""
-        INSERT INTO custom_books (title, author, language, text_url, cover_url, created_at)
-        VALUES (?, ?, ?, ?, ?, ?);
-    """, (payload.title, payload.author, payload.language, payload.text_url, payload.cover_url, now))
-    db.commit()
+@router.post("/books/upload")
+async def admin_upload_book(
+    title: str = Form(...),
+    author: str = Form(""),
+    language: str = Form(""),
+    pdf: UploadFile = File(...),
+    admin: str = Depends(require_admin),
+):
+    if not pdf.filename.lower().endswith(".pdf"):
+        raise HTTPException(status_code=400, detail="El archivo debe ser un PDF.")
 
-    book_id = cur.lastrowid
+    now = datetime.now(timezone.utc).isoformat()
+
+    db = get_db(ADMIN_DB)
+    cur = db.execute(
+        """
+        INSERT INTO custom_books (title, author, language, created_at, pdf_path, txt_path)
+        VALUES (?, ?, ?, ?, '', '');
+        """,
+        (title.strip(), author.strip(), language.strip(), now),
+    )
+    db.commit()
+    book_id = int(cur.lastrowid)
+
+    pdf_path = BOOKS_DIR / f"{book_id}.pdf"
+    txt_path = BOOKS_DIR / f"{book_id}.txt"
+
+    content = await pdf.read()
+    pdf_path.write_bytes(content)
+
+    extracted_chars = pdf_to_txt(pdf_path, txt_path)
+
+    db.execute(
+        "UPDATE custom_books SET pdf_path=?, txt_path=? WHERE id=?;",
+        (str(pdf_path), str(txt_path), book_id),
+    )
+    db.commit()
     db.close()
 
     return {
         "ok": True,
         "id": book_id,
-        "created_at": now
+        "created_at": now,
+        "extracted_chars": extracted_chars,
     }
 
 
 @router.get("/books")
 def admin_list_books(admin: str = Depends(require_admin)):
-    db = get_db()
-    cur = db.execute("""
-        SELECT id, title, author, language, text_url, cover_url, created_at
+    db = get_db(ADMIN_DB)
+    cur = db.execute(
+        """
+        SELECT id, title, author, language, created_at, pdf_path, txt_path
         FROM custom_books
         ORDER BY datetime(created_at) DESC;
-    """)
+        """
+    )
     rows = cur.fetchall()
     db.close()
-    return [dict(r) for r in rows]
+    return [
+        {
+            **dict(r),
+            "has_pdf": bool(r["pdf_path"]),
+            "has_txt": bool(r["txt_path"]),
+        }
+        for r in rows
+    ]
 
 
 @router.delete("/books/{book_id}")
 def admin_delete_book(book_id: int, admin: str = Depends(require_admin)):
-    db = get_db()
-    cur = db.execute("DELETE FROM custom_books WHERE id=?;", (book_id,))
+    db = get_db(ADMIN_DB)
+    cur = db.execute("SELECT pdf_path, txt_path FROM custom_books WHERE id=?;", (book_id,))
+    row = cur.fetchone()
+
+    if not row:
+        db.close()
+        raise HTTPException(status_code=404, detail="Libro no encontrado.")
+
+    db.execute("DELETE FROM custom_books WHERE id=?;", (book_id,))
     db.commit()
     db.close()
 
-    if cur.rowcount == 0:
-        raise HTTPException(status_code=404, detail="Libro no encontrado.")
+    for p in [row["pdf_path"], row["txt_path"]]:
+        if p:
+            try:
+                Path(p).unlink(missing_ok=True)
+            except Exception:
+                pass
+
     return {"ok": True, "detail": "Libro eliminado."}
 
 
 # ============================================================
-# ✅ REVIEWS (delete)
+# ✅ USERS: list + search
 # ============================================================
-@router.delete("/reviews/{review_id}")
-def admin_delete_review(review_id: int, admin: str = Depends(require_admin)):
-    """
-    ⚠️ IMPORTANTE:
-    Esto asume que tu tabla de reseñas se llama 'reviews'
-    y que tiene un campo 'id' (INTEGER PRIMARY KEY).
-    Si tu review service usa otro nombre, te adapto el query.
-    """
-    # Intento borrar en /data/reviews.db o donde lo tengas.
-    # Como no me has pasado review.service.py, lo hacemos "portable":
-    # buscamos una DB common por nombre dentro de /data:
+@router.get("/users")
+def admin_list_users(
+    q: str = Query("", description="Buscar por username"),
+    limit: int = Query(50, ge=1, le=200),
+    offset: int = Query(0, ge=0),
+    admin: str = Depends(require_admin),
+):
+    candidates = [
+        DATA_DIR / "users.db",
+        DATA_DIR / "auth.db",
+        DATA_DIR / "app.db",
+        DATA_DIR / "alejandria.db",
+    ]
+    db_path = _find_existing_db(candidates)
+    if not db_path:
+        raise HTTPException(status_code=500, detail="No encuentro la base de datos de usuarios en /data.")
+
+    db = get_db(db_path)
+
+    # detectar tabla usuarios
+    table = _pick_table(db, ["users", "usuario", "usuarios", "user"], {"username"})
+    if not table:
+        db.close()
+        raise HTTPException(status_code=500, detail="No encuentro tabla de usuarios compatible (username).")
+
+    like = f"%{q.strip()}%"
+    if q.strip():
+        cur = db.execute(
+            f"""
+            SELECT username
+            FROM {table}
+            WHERE username LIKE ?
+            ORDER BY username ASC
+            LIMIT ? OFFSET ?;
+            """,
+            (like, limit, offset),
+        )
+    else:
+        cur = db.execute(
+            f"""
+            SELECT username
+            FROM {table}
+            ORDER BY username ASC
+            LIMIT ? OFFSET ?;
+            """,
+            (limit, offset),
+        )
+
+    rows = cur.fetchall()
+
+    # total count
+    if q.strip():
+        tcur = db.execute(f"SELECT COUNT(*) AS total FROM {table} WHERE username LIKE ?;", (like,))
+    else:
+        tcur = db.execute(f"SELECT COUNT(*) AS total FROM {table};")
+
+    total = int(tcur.fetchone()["total"])
+    db.close()
+
+    return {
+        "items": [dict(r) for r in rows],
+        "total": total,
+        "limit": limit,
+        "offset": offset,
+    }
+
+
+# ============================================================
+# ✅ REVIEWS: list + search
+# ============================================================
+@router.get("/reviews")
+def admin_list_reviews(
+    q: str = Query("", description="Buscar texto de reseña / username"),
+    limit: int = Query(50, ge=1, le=200),
+    offset: int = Query(0, ge=0),
+    admin: str = Depends(require_admin),
+):
     candidates = [
         DATA_DIR / "reviews.db",
         DATA_DIR / "review.db",
         DATA_DIR / "app.db",
         DATA_DIR / "alejandria.db",
     ]
-
-    db_path = next((p for p in candidates if p.exists()), None)
+    db_path = _find_existing_db(candidates)
     if not db_path:
         raise HTTPException(status_code=500, detail="No encuentro la base de datos de reseñas en /data.")
 
-    db = sqlite3.connect(db_path, check_same_thread=False)
-    db.row_factory = sqlite3.Row
+    db = get_db(db_path)
 
-    # Probamos borrar por id en tabla reviews
-    try:
-        cur = db.execute("DELETE FROM reviews WHERE id=?;", (review_id,))
-        db.commit()
-    except sqlite3.Error as e:
+    # detectar tabla reviews
+    table = _pick_table(db, ["reviews", "review"], {"id", "username", "text"})
+    if not table:
         db.close()
-        raise HTTPException(status_code=500, detail=f"No se pudo borrar reseña: {e}")
+        raise HTTPException(status_code=500, detail="No encuentro tabla de reseñas compatible (id, username, text).")
 
+    cols = _table_columns(db, table)
+    has_guten = "guten_id" in cols
+    has_rating = "rating" in cols
+    has_created = "created_at" in cols
+
+    # construir select compatible
+    fields = ["id", "username", "text"]
+    if has_guten:
+        fields.append("guten_id")
+    if has_rating:
+        fields.append("rating")
+    if has_created:
+        fields.append("created_at")
+
+    select = ", ".join(fields)
+
+    like = f"%{q.strip()}%"
+    if q.strip():
+        cur = db.execute(
+            f"""
+            SELECT {select}
+            FROM {table}
+            WHERE text LIKE ? OR username LIKE ?
+            ORDER BY id DESC
+            LIMIT ? OFFSET ?;
+            """,
+            (like, like, limit, offset),
+        )
+        tcur = db.execute(
+            f"""
+            SELECT COUNT(*) AS total
+            FROM {table}
+            WHERE text LIKE ? OR username LIKE ?;
+            """,
+            (like, like),
+        )
+    else:
+        cur = db.execute(
+            f"""
+            SELECT {select}
+            FROM {table}
+            ORDER BY id DESC
+            LIMIT ? OFFSET ?;
+            """,
+            (limit, offset),
+        )
+        tcur = db.execute(f"SELECT COUNT(*) AS total FROM {table};")
+
+    rows = cur.fetchall()
+    total = int(tcur.fetchone()["total"])
+    db.close()
+
+    return {
+        "items": [dict(r) for r in rows],
+        "total": total,
+        "limit": limit,
+        "offset": offset,
+    }
+
+
+# ============================================================
+# ✅ REVIEWS delete
+# ============================================================
+@router.delete("/reviews/{review_id}")
+def admin_delete_review(review_id: int, admin: str = Depends(require_admin)):
+    candidates = [
+        DATA_DIR / "reviews.db",
+        DATA_DIR / "review.db",
+        DATA_DIR / "app.db",
+        DATA_DIR / "alejandria.db",
+    ]
+    db_path = _find_existing_db(candidates)
+    if not db_path:
+        raise HTTPException(status_code=500, detail="No encuentro la base de datos de reseñas en /data.")
+
+    db = get_db(db_path)
+
+    table = _pick_table(db, ["reviews", "review"], {"id"})
+    if not table:
+        db.close()
+        raise HTTPException(status_code=500, detail="No encuentro tabla de reseñas compatible (id).")
+
+    cur = db.execute(f"DELETE FROM {table} WHERE id=?;", (int(review_id),))
+    db.commit()
     db.close()
 
     if cur.rowcount == 0:
@@ -184,90 +453,89 @@ def admin_delete_review(review_id: int, admin: str = Depends(require_admin)):
     return {"ok": True, "detail": "Reseña eliminada."}
 
 
-@router.delete("/reviews/book/{guten_id}")
-def admin_delete_reviews_by_book(guten_id: int, admin: str = Depends(require_admin)):
-    """
-    Borra todas las reseñas de un libro por guten_id
-    """
+def _delete_reviews_for_user(username: str) -> int:
     candidates = [
         DATA_DIR / "reviews.db",
         DATA_DIR / "review.db",
         DATA_DIR / "app.db",
         DATA_DIR / "alejandria.db",
     ]
-
-    db_path = next((p for p in candidates if p.exists()), None)
+    db_path = _find_existing_db(candidates)
     if not db_path:
-        raise HTTPException(status_code=500, detail="No encuentro la base de datos de reseñas en /data.")
+        return 0
 
-    db = sqlite3.connect(db_path, check_same_thread=False)
-    db.row_factory = sqlite3.Row
-
-    try:
-        cur = db.execute("DELETE FROM reviews WHERE guten_id=?;", (int(guten_id),))
-        db.commit()
-    except sqlite3.Error as e:
+    db = get_db(db_path)
+    table = _pick_table(db, ["reviews", "review"], {"username"})
+    if not table:
         db.close()
-        raise HTTPException(status_code=500, detail=f"No se pudieron borrar reseñas: {e}")
+        return 0
 
+    cur = db.execute(f"DELETE FROM {table} WHERE username=?;", (username,))
+    db.commit()
     deleted = cur.rowcount
     db.close()
-
-    return {"ok": True, "deleted": deleted}
+    return deleted
 
 
 # ============================================================
-# ✅ USERS (delete)
+# ✅ USERS delete: deletes user + reviews + returns loans
 # ============================================================
-@router.delete("/users/{username}")
-def admin_delete_user(username: str, admin: str = Depends(require_admin)):
-    """
-    Elimina usuario + (opcional) sus reseñas.
-    Igual que antes: buscamos DB compatible en /data.
-    """
+def _delete_user_from_users_db(username: str) -> int:
     candidates = [
         DATA_DIR / "users.db",
         DATA_DIR / "auth.db",
         DATA_DIR / "app.db",
         DATA_DIR / "alejandria.db",
     ]
-
-    db_path = next((p for p in candidates if p.exists()), None)
+    db_path = _find_existing_db(candidates)
     if not db_path:
         raise HTTPException(status_code=500, detail="No encuentro la base de datos de usuarios en /data.")
 
-    db = sqlite3.connect(db_path, check_same_thread=False)
-    db.row_factory = sqlite3.Row
-
-    # Intento: tabla 'users' con campo 'username'
-    try:
-        cur = db.execute("DELETE FROM users WHERE username=?;", (username,))
-        db.commit()
-    except sqlite3.Error as e:
+    db = get_db(db_path)
+    table = _pick_table(db, ["users", "usuario", "usuarios", "user"], {"username"})
+    if not table:
         db.close()
-        raise HTTPException(status_code=500, detail=f"No se pudo borrar el usuario: {e}")
+        raise HTTPException(status_code=500, detail="No encuentro tabla usuarios compatible (username).")
 
+    cur = db.execute(f"DELETE FROM {table} WHERE username=?;", (username,))
+    db.commit()
     deleted = cur.rowcount
     db.close()
+    return deleted
 
-    if deleted == 0:
+
+def _return_loans_for_user(username: str) -> int:
+    loan_db = DATA_DIR / "loan.db"
+    if not loan_db.exists():
+        return 0
+
+    db = get_db(loan_db)
+    table = _pick_table(db, ["loans", "loan"], {"user_id"})
+    if not table:
+        db.close()
+        return 0
+
+    cur = db.execute(f"DELETE FROM {table} WHERE user_id=?;", (username,))
+    db.commit()
+    returned = cur.rowcount
+    db.close()
+    return returned
+
+
+@router.delete("/users/{username}")
+def admin_delete_user(username: str, admin: str = Depends(require_admin)):
+    username = username.strip()
+
+    returned = _return_loans_for_user(username)
+    deleted_reviews = _delete_reviews_for_user(username)
+
+    deleted_users = _delete_user_from_users_db(username)
+    if deleted_users == 0:
         raise HTTPException(status_code=404, detail="Usuario no encontrado.")
 
-    reviews_candidates = [
-        DATA_DIR / "reviews.db",
-        DATA_DIR / "review.db",
-        DATA_DIR / "app.db",
-        DATA_DIR / "alejandria.db",
-    ]
-    rdb_path = next((p for p in reviews_candidates if p.exists()), None)
-    if rdb_path:
-        rdb = sqlite3.connect(rdb_path, check_same_thread=False)
-        try:
-            rdb.execute("DELETE FROM reviews WHERE username=?;", (username,))
-            rdb.commit()
-        except Exception:
-            pass
-        finally:
-            rdb.close()
-
-    return {"ok": True, "detail": "Usuario eliminado."}
+    return {
+        "ok": True,
+        "detail": "Usuario eliminado. Préstamos devueltos y reseñas eliminadas.",
+        "returned_loans": returned,
+        "deleted_reviews": deleted_reviews,
+    }
