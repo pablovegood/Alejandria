@@ -1,168 +1,190 @@
-# src/loan/service.py
 import os
 import sqlite3
+import logging
 from datetime import datetime, timezone
 from pathlib import Path
-import logging
 
 logger = logging.getLogger("alejandria_api")
 
-# ✅ CAMBIO CLAVE:
-# Antes: si no había env var, guardaba loan.db junto al código (efímero en Fly)
-# Ahora: por defecto usamos /data (persistente con Fly Volume mount)
-DATA_DIR = Path(os.getenv("ALEJANDRIA_DATA_DIR", "/data"))
+# Carpeta donde se guardará loan.db
+DATA_DIR = Path(os.getenv("ALEJANDRIA_DATA_DIR", Path(__file__).parent))
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 DB_PATH = DATA_DIR / "loan.db"
-MAX_LOANS_PER_USER = 4  # límite real de préstamos activos
+MAX_LOANS_PER_USER = 4
 
 
 class LoanService:
-    def __init__(self):
-        self.db = sqlite3.connect(DB_PATH, check_same_thread=False)
-        self.db.row_factory = sqlite3.Row
-
-        # (Opcional pero recomendable para concurrencia)
-        self.db.execute("PRAGMA journal_mode=WAL;")
-        self.db.execute("PRAGMA busy_timeout=5000;")
-
-        self._init_db()
-        logger.info(f"📦 Base de datos de préstamos inicializada en {DB_PATH}")
-
-    def _init_db(self):
-        # Tabla de préstamos "activos" = filas existentes
-        self.db.execute("""
-        CREATE TABLE IF NOT EXISTS loans (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            user_id TEXT NOT NULL,
-            guten_id INTEGER NOT NULL,
-            title TEXT,
-            author TEXT,
-            created_at TEXT,
-            UNIQUE(user_id, guten_id)  -- evita duplicados usuario/libro
-        );
-        """)
-
-        # Un mismo libro NO puede estar prestado por 2 usuarios a la vez
-        self.db.execute("""
-        CREATE UNIQUE INDEX IF NOT EXISTS idx_unique_guten_id
-        ON loans(guten_id);
-        """)
-
-        self.db.commit()
-
-    # -------------------------------------------------------------------------
-    # AUX: contar préstamos activos por usuario
-    # -------------------------------------------------------------------------
-    def count_user_loans(self, username: str) -> int:
-        cur = self.db.execute("""
-            SELECT COUNT(*) AS total
-            FROM loans
-            WHERE user_id=?;
-        """, (username,))
-        return int(cur.fetchone()["total"])
-
-    # -------------------------------------------------------------------------
-    # LISTAR PRÉSTAMOS
-    # -------------------------------------------------------------------------
-    def list_loans(self, username: str):
-        cur = self.db.execute("""
-            SELECT user_id, guten_id, title, author, created_at
-            FROM loans
-            WHERE user_id=?
-            ORDER BY datetime(created_at) DESC;
-        """, (username,))
-        rows = cur.fetchall()
-        return [dict(r) for r in rows]
-
-    # -------------------------------------------------------------------------
-    # DEVOLVER LIBRO (eliminar préstamo)
-    # -------------------------------------------------------------------------
-    def delete_loan(self, username: str, guten_id: int):
-        cur = self.db.execute("""
-            DELETE FROM loans
-            WHERE user_id=? AND guten_id=?;
-        """, (username, int(guten_id)))
-        self.db.commit()
-
-        if cur.rowcount == 0:
-            return {"ok": False, "code": "NOT_FOUND", "detail": "Préstamo no encontrado."}
-
-        logger.info(f"↩ Préstamo devuelto: {username} → {guten_id}")
-        return {"ok": True, "detail": "Libro devuelto correctamente."}
-
-    # -------------------------------------------------------------------------
-    # CREAR PRÉSTAMO (con límite real + bloqueo)
-    # -------------------------------------------------------------------------
-    def create_loan(self, username: str, guten_id: int, title: str, author: str):
-        guten_id = int(guten_id)
-
-        # ✅ Bloqueo inmediato para que no se cuelen 2 préstamos a la vez
-        # (evita condición de carrera si haces clicks rápidos)
-        self.db.execute("BEGIN IMMEDIATE;")
+    def __init__(self, db_path: Path | str = DB_PATH) -> None:
+        self.db_path = Path(db_path)
         try:
-            # ✅ 1) Límite de préstamos por usuario
-            total_loans = self.count_user_loans(username)
-            if total_loans >= MAX_LOANS_PER_USER:
-                self.db.execute("ROLLBACK;")
-                logger.warning(f"⚠️ {username} intentó superar el límite ({MAX_LOANS_PER_USER})")
+            self._init_db()
+        except sqlite3.OperationalError as exc:
+            # En Fly debería poder escribir sin problema; este try/except
+            # es más por si ejecutas en modo solo-lectura.
+            logger.warning(
+                "No se pudo inicializar la base de datos de préstamos: %s", exc
+            )
+
+    # ---------- helpers internos ----------
+
+    def _get_conn(self) -> sqlite3.Connection:
+        conn = sqlite3.connect(self.db_path)
+        conn.row_factory = sqlite3.Row
+        return conn
+
+    def _init_db(self) -> None:
+        """Crea la tabla si no existe y el índice único."""
+        with self._get_conn() as conn:
+            conn.execute(
+                """
+                CREATE TABLE IF NOT EXISTS loans (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    user_id   TEXT    NOT NULL,
+                    guten_id  INTEGER NOT NULL,
+                    title     TEXT,
+                    author    TEXT,
+                    created_at TEXT
+                )
+                """
+            )
+
+            # Un mismo usuario no puede tener el mismo libro dos veces
+            conn.execute(
+                """
+                CREATE UNIQUE INDEX IF NOT EXISTS idx_loans_user_book
+                ON loans(user_id, guten_id)
+                """
+            )
+            conn.commit()
+
+        logger.info("📚 LoanService inicializado con DB %s", self.db_path)
+
+    # ---------- API pública usada por los routers ----------
+
+    def create_loan(self, username: str, guten_id: int, title: str, author: str) -> dict:
+        username = username.strip()
+        if not username:
+            return {"ok": False, "detail": "Nombre de usuario no válido."}
+
+        with self._get_conn() as conn:
+            cur = conn.cursor()
+
+            # 1) número de préstamos activos del usuario
+            cur.execute(
+                "SELECT COUNT(*) FROM loans WHERE user_id = ?",
+                (username,),
+            )
+            active_count = cur.fetchone()[0]
+            if active_count >= MAX_LOANS_PER_USER:
+                logger.info(
+                    "🚫 Límite de préstamos alcanzado para %s (%s/%s)",
+                    username,
+                    active_count,
+                    MAX_LOANS_PER_USER,
+                )
                 return {
                     "ok": False,
-                    "code": "LIMIT_REACHED",
-                    "detail": f"No puedes tener más de {MAX_LOANS_PER_USER} libros en préstamo."
+                    "detail": f"Has alcanzado el máximo de {MAX_LOANS_PER_USER} préstamos activos.",
+                    "active_count": active_count,
+                    "max_loans": MAX_LOANS_PER_USER,
                 }
 
-            # ✅ 2) Si el libro ya está prestado por cualquiera, no está disponible
-            cur = self.db.execute("""
-                SELECT user_id
-                FROM loans
-                WHERE guten_id=?;
-            """, (guten_id,))
-            row = cur.fetchone()
-
-            if row:
-                self.db.execute("ROLLBACK;")
-                if row["user_id"] == username:
-                    return {
-                        "ok": False,
-                        "code": "ALREADY_BORROWED",
-                        "detail": "El usuario ya tiene este libro en préstamo."
-                    }
-
-                logger.warning(f"⚠️ {username} intentó tomar un libro NO disponible (ID {guten_id})")
+            # 2) ¿ya tiene ese libro en préstamo?
+            cur.execute(
+                "SELECT id FROM loans WHERE user_id = ? AND guten_id = ?",
+                (username, guten_id),
+            )
+            if cur.fetchone():
                 return {
                     "ok": False,
-                    "code": "NOT_AVAILABLE",
-                    "detail": "Este libro no está disponible: ya está prestado por otro usuario."
+                    "detail": "Ya tienes este libro en préstamo.",
                 }
 
+            # 3) crear el préstamo
             now = datetime.now(timezone.utc).isoformat()
-
-            # ✅ 3) Insert
             try:
-                self.db.execute("""
+                cur.execute(
+                    """
                     INSERT INTO loans (user_id, guten_id, title, author, created_at)
-                    VALUES (?, ?, ?, ?, ?);
-                """, (username, guten_id, title, author, now))
-                self.db.commit()
-
+                    VALUES (?, ?, ?, ?, ?)
+                    """,
+                    (username, guten_id, title, author, now),
+                )
+                conn.commit()
             except sqlite3.IntegrityError:
-                self.db.execute("ROLLBACK;")
+                # por si el índice único salta en una carrera rara
                 return {
                     "ok": False,
-                    "code": "NOT_AVAILABLE",
-                    "detail": "Este libro no está disponible: ya está prestado."
+                    "detail": "Este libro no está disponible: ya está prestado.",
                 }
 
-            logger.info(f"✅ Préstamo creado: {username} → {title}")
+        logger.info("✅ Préstamo creado: %s → %s", username, title)
+        return {
+            "ok": True,
+            "user": username,
+            "book": {
+                "guten_id": guten_id,
+                "title": title,
+                "author": author,
+            },
+            "created_at": now,
+        }
+
+    def get_user_loans(self, username: str) -> dict:
+        """Devuelve todos los préstamos activos + resumen para el usuario."""
+        username = username.strip()
+        with self._get_conn() as conn:
+            cur = conn.cursor()
+            cur.execute(
+                """
+                SELECT id, user_id, guten_id, title, author, created_at
+                FROM loans
+                WHERE user_id = ?
+                ORDER BY created_at DESC
+                """,
+                (username,),
+            )
+            rows = [dict(row) for row in cur.fetchall()]
+
+        active_count = len(rows)
+        return {
+            "ok": True,
+            "user": username,
+            "active_count": active_count,
+            "max_loans": MAX_LOANS_PER_USER,
+            "loans": rows,
+        }
+
+    def get_all_loans(self) -> list[dict]:
+        """Solo por si algún día quieres listarlos en admin."""
+        with self._get_conn() as conn:
+            cur = conn.cursor()
+            cur.execute(
+                """
+                SELECT id, user_id, guten_id, title, author, created_at
+                FROM loans
+                ORDER BY created_at DESC
+                """
+            )
+            return [dict(row) for row in cur.fetchall()]
+
+    def delete_loan(self, username: str, guten_id: int) -> dict:
+        username = username.strip()
+        with self._get_conn() as conn:
+            cur = conn.cursor()
+            cur.execute(
+                "DELETE FROM loans WHERE user_id = ? AND guten_id = ?",
+                (username, guten_id),
+            )
+            deleted = cur.rowcount
+            conn.commit()
+
+        if not deleted:
             return {
-                "ok": True,
-                "user": username,
-                "book": {"guten_id": guten_id, "title": title, "author": author},
-                "created_at": now
+                "ok": False,
+                "detail": "No se encontró un préstamo activo para este usuario y libro.",
             }
 
-        except Exception as e:
-            self.db.execute("ROLLBACK;")
-            logger.exception(f"❌ Error en create_loan (rollback): {e}")
-            raise
+        logger.info("↩ Préstamo devuelto: %s, book %s", username, guten_id)
+        return {"ok": True}

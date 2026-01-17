@@ -1,72 +1,62 @@
-# src/loan/router.py
 from fastapi import APIRouter, HTTPException, Query
-from src.loan.schemas import LoanRequest
-from src.loan.service import LoanService, MAX_LOANS_PER_USER
-import logging
 
-logger = logging.getLogger("alejandria_api")
+from .schemas import LoanRequest
+from .service import LoanService
 
 router = APIRouter(prefix="/loans", tags=["loans"])
 service = LoanService()
 
-# -------------------------------------------------------------------------
-# CREAR PRÉSTAMO
-# -------------------------------------------------------------------------
-@router.post("/")
-def create_loan(req: LoanRequest):
-    try:
-        result = service.create_loan(req.username, req.guten_id, req.title, req.author)
 
-        if not result.get("ok", True):
-            code = result.get("code", "")
-            detail = result.get("detail", "Error al crear préstamo.")
+@router.post("/", summary="Crear un préstamo")
+def create_loan(payload: LoanRequest):
+    """
+    Crea un nuevo préstamo para un usuario.
 
-            # 403 = límite alcanzado
-            if code == "LIMIT_REACHED":
-                raise HTTPException(status_code=403, detail=detail)
+    Reglas:
+    - Máximo 4 préstamos activos por usuario.
+    - Un mismo usuario no puede tener duplicado el mismo libro.
+    """
+    result = service.create_loan(
+        username=payload.username,
+        guten_id=payload.guten_id,
+        title=payload.title,
+        author=payload.author,
+    )
+    if not result.get("ok"):
+        detail = result.get("detail", "No se pudo crear el préstamo.")
+        # 409 = conflicto lógico (límite, duplicado, etc.)
+        raise HTTPException(status_code=409, detail=detail)
+    return result
 
-            # 409 = conflicto (ya prestado / no disponible)
-            if code in ("ALREADY_BORROWED", "NOT_AVAILABLE"):
-                raise HTTPException(status_code=409, detail=detail)
 
-            raise HTTPException(status_code=400, detail=detail)
+@router.get("/", summary="Préstamos de un usuario")
+def list_user_loans(
+    username: str = Query(..., description="Nombre de usuario dueño de los préstamos"),
+):
+    """
+    Respuesta:
+    {
+      "ok": true,
+      "user": "pablo",
+      "active_count": 2,
+      "max_loans": 4,
+      "loans": [ ... ]
+    }
+    """
+    return service.get_user_loans(username=username)
 
-        return result
 
-    except HTTPException:
-        raise
-    except Exception as e:
-        logger.exception(f"❌ Error al crear préstamo: {e}")
-        raise HTTPException(status_code=500, detail="Error interno del servidor")
+@router.get("/{username}", summary="Préstamos de un usuario (alias por path)")
+def list_user_loans_by_path(username: str):
+    """Alias de GET /loans?username= para comodidad."""
+    return service.get_user_loans(username=username)
 
-# -------------------------------------------------------------------------
-# LISTAR PRÉSTAMOS (+ meta para el frontend)
-# -------------------------------------------------------------------------
-@router.get("/")
-def list_loans(username: str = Query(...)):
-    try:
-        loans = service.list_loans(username)
-        return {
-            "loans": loans,
-            "active": len(loans),
-            "max": MAX_LOANS_PER_USER
-        }
-    except Exception as e:
-        logger.exception(f"❌ Error al listar préstamos: {e}")
-        raise HTTPException(status_code=500, detail="Error interno del servidor")
 
-# -------------------------------------------------------------------------
-# DEVOLVER LIBRO
-# -------------------------------------------------------------------------
-@router.delete("/{username}/{guten_id}")
+@router.delete("/{username}/{guten_id}", summary="Devolver un libro")
 def delete_loan(username: str, guten_id: int):
-    try:
-        result = service.delete_loan(username, guten_id)
-        if not result.get("ok", True):
-            raise HTTPException(status_code=404, detail=result.get("detail", "No encontrado"))
-        return result
-    except HTTPException:
-        raise
-    except Exception as e:
-        logger.exception(f"❌ Error al eliminar préstamo: {e}")
-        raise HTTPException(status_code=500, detail="Error interno del servidor")
+    result = service.delete_loan(username=username, guten_id=guten_id)
+    if not result.get("ok"):
+        raise HTTPException(
+            status_code=404, detail=result.get("detail", "Préstamo no encontrado.")
+        )
+    return result
