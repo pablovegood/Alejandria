@@ -79,10 +79,18 @@ Para poder acceder a la aplicación, basta con acceder al siguiente enlace desde
 
 La aplicación funciona sin problemas, permitiendo iniciar sesión, crear un usuario, tomar libros en préstamo y leer aquellos libros que han sido tomados en préstamos, devolver los libros y escribir reseñas de cualquier libro.
 
-<img width="1915" height="1074" alt="image" src="https://github.com/user-attachments/assets/6fc69b78-2c2e-4e0c-836c-18b6b3bfb813" />
+<img width="1918" height="1072" alt="image" src="https://github.com/user-attachments/assets/0412adc0-aa2f-4d1a-945e-d53f48649a3a" />
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/3d364fe8-896a-4ac4-8634-fd47cf62b97e" />
 
 Si se abre un libro tomado en préstamo, este es mostrado a través de un visor que permite ponerse en modo oscuro, modificar el tamaño de la letra y la fuente de la letra.
 
-<img width="1919" height="973" alt="image" src="https://github.com/user-attachments/assets/c05716b5-40ad-4ecb-a312-6831e5ab2667" />
+<img width="1919" height="1078" alt="image" src="https://github.com/user-attachments/assets/1b19a98a-38cd-42b5-81d1-ca7c29d4de00" />
+
+
+Algo que tenía en el tintero, pero que he resuelto en este hito, era la implementación de roles, en este caso he separado usuarios normales del admin que puede eliminar usuarios, reseñas y añadir libros.
+
+<img width="1919" height="1083" alt="image" src="https://github.com/user-attachments/assets/ecb2fdb2-325a-4fc2-9cec-5da07c24cfc7" />
+
 
 Me hubiera gustado dedicarle más tiempo a pulir detalles del frontend, pero al no ser el objetivo principal de la asignatura, lo dejo planteado como trabajo futuro.
