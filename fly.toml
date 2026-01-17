@@ -8,10 +8,8 @@ primary_region = "fra"
   ENV = "prod"
   PORT = "8000"
 
-  # ✅ Textos dentro de la imagen (no volumen)
   TEXTS_PATH = "/app/data/texts"
 
-  # ✅ TODA persistencia aquí (SQLite, users, reviews, etc)
   ALEJANDRIA_DATA_DIR = "/data"
 
 [[mounts]]
