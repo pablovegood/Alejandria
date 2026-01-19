@@ -125,33 +125,57 @@ def _pick_table(db: sqlite3.Connection, table_candidates: list[str], required_co
 # PDF -> TXT conversion
 # ============================================================
 def pdf_to_txt(pdf_path: Path, txt_path: Path) -> int:
-    text = ""
+    """
+    Convierte PDF -> TXT si es posible.
+    - Intenta pdfplumber (si está instalado)
+    - Luego intenta pypdf / PyPDF2 (si están instalados)
+    - Si no se puede extraer texto, NO revienta: crea txt vacío y devuelve 0
+    """
+    extractors = []
+    last_err: Exception | None = None
 
+    # 1) pdfplumber (si existe)
     try:
         import pdfplumber  # type: ignore
 
-        with pdfplumber.open(str(pdf_path)) as pdf:
-            pages = []
-            for p in pdf.pages:
-                pages.append(p.extract_text() or "")
-            text = "\n\n".join(pages).strip()
-    except Exception:
-        text = ""
+        def _extract_pdfplumber() -> str:
+            with pdfplumber.open(str(pdf_path)) as pdf:
+                pages = [(p.extract_text() or "") for p in pdf.pages]
+            return "\n\n".join(pages).strip()
 
-    if not text:
+        extractors.append(_extract_pdfplumber)
+    except Exception as e:
+        last_err = e
+
+    # 2) pypdf o PyPDF2 (si existen)
+    try:
         try:
+            from pypdf import PdfReader  # type: ignore
+        except Exception:
             from PyPDF2 import PdfReader  # type: ignore
 
+        def _extract_pypdf() -> str:
             reader = PdfReader(str(pdf_path))
-            pages = []
-            for p in reader.pages:
-                pages.append(p.extract_text() or "")
-            text = "\n\n".join(pages).strip()
-        except Exception as e:
-            raise HTTPException(status_code=500, detail=f"No se pudo extraer texto del PDF: {e}")
+            pages = [(p.extract_text() or "") for p in reader.pages]
+            return "\n\n".join(pages).strip()
 
+        extractors.append(_extract_pypdf)
+    except Exception as e:
+        last_err = e
+
+    text = ""
+    for ex in extractors:
+        try:
+            text = ex()
+            if text:
+                break
+        except Exception as e:
+            last_err = e
+
+    # Si no se pudo extraer texto, NO petamos la subida
     if not text:
-        raise HTTPException(status_code=422, detail="El PDF no contiene texto extraíble (puede ser escaneado).")
+        txt_path.write_text("", encoding="utf-8")
+        return 0
 
     txt_path.write_text(text, encoding="utf-8")
     return len(text)

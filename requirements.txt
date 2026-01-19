@@ -13,4 +13,5 @@ opentelemetry-sdk>=1.29.0
 opentelemetry-exporter-otlp>=1.29.0
 opentelemetry-instrumentation-fastapi>=0.50b0
 opentelemetry-instrumentation-requests>=0.50b0
+pypdf>=4.0.0
 python-multipart==0.0.9
