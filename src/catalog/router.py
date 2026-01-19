@@ -42,11 +42,20 @@ def get_book(guten_id: int):
 # -------------------------------------------------------------------------
 @router.get("/read/{guten_id}")
 def read_book(guten_id: int):
-    from pathlib import Path
     import os
 
-    base_path = Path(__file__).resolve().parents[2] / "data" / "texts"
-    book_path = base_path / f"{guten_id}.txt"
+    DATA_DIR = Path(os.getenv("ALEJANDRIA_DATA_DIR", "/data"))
+    CUSTOM_BOOKS_DIR = DATA_DIR / "custom_books"
+    CUSTOM_ID_OFFSET = int(os.getenv("CUSTOM_ID_OFFSET", "1000000000"))
+
+    # Si es custom -> leer /data/custom_books/{real_id}.txt
+    if guten_id >= CUSTOM_ID_OFFSET:
+        real_id = guten_id - CUSTOM_ID_OFFSET
+        book_path = CUSTOM_BOOKS_DIR / f"{real_id}.txt"
+    else:
+        # normal -> leer data/texts/{guten_id}.txt
+        base_path = Path(__file__).resolve().parents[2] / "data" / "texts"
+        book_path = base_path / f"{guten_id}.txt"
 
     if not book_path.exists():
         raise HTTPException(status_code=404, detail="Texto no disponible")
